@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>FA3ECF42111B3AFE005C7946</string>
+						<string>FA03C1361145CD75007D1538</string>
 						<key>history</key>
 						<array>
-							<string>FAB7A9BA111B3AAC00910356</string>
+							<string>FA3ECF42111B3AFE005C7946</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -295,10 +295,12 @@
 						<dict>
 							<key>PBXSmartGroupTreeModuleColumnWidthsKey</key>
 							<array>
-								<real>186</real>
+								<real>22</real>
+								<real>164</real>
 							</array>
 							<key>PBXSmartGroupTreeModuleColumnsKey_v4</key>
 							<array>
+								<string>SCMStatusColumn</string>
 								<string>MainColumn</string>
 							</array>
 						</dict>
@@ -314,7 +316,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
+									<integer>7</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -334,11 +337,13 @@
 						<string>{{0, 0}, {203, 463}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
+							<string>SCMStatusColumn</string>
+							<real>22</real>
 							<string>MainColumn</string>
-							<real>186</real>
+							<real>164</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>258 153 788 504 0 0 1280 778 </string>
+						<string>258 155 788 504 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -354,7 +359,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>NavAppAppDelegate.m</string>
+								<string>ViewTwoController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -362,20 +367,20 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>NavAppAppDelegate.m</string>
+										<string>ViewTwoController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA3ECF3F111B3AFE005C7946</string>
+										<string>FA03C1331145CD75007D1538</string>
 										<key>history</key>
 										<array>
 											<string>FA9CCB06111ABB75008351DA</string>
-											<string>FA9CCB09111ABB75008351DA</string>
 											<string>FA9CCB0B111ABB75008351DA</string>
 											<string>FA9CCB0D111ABB75008351DA</string>
+											<string>FA03C12D1145CD75007D1538</string>
+											<string>FA03C12E1145CD75007D1538</string>
+											<string>FA03C12F1145CD75007D1538</string>
 											<string>FAB7A99B111B38C700910356</string>
-											<string>FAB7A99C111B38C700910356</string>
-											<string>FAB7A9B9111B3AAC00910356</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -386,6 +391,9 @@
 											<string>FA9CCB13111ABB75008351DA</string>
 											<string>FA9CCB14111ABB75008351DA</string>
 											<string>FA9CCB18111ABB75008351DA</string>
+											<string>FA03C1301145CD75007D1538</string>
+											<string>FA03C1311145CD75007D1538</string>
+											<string>FA03C1321145CD75007D1538</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -399,7 +407,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {580, 285}}</string>
 								<key>RubberWindowFrame</key>
-								<string>258 153 788 504 0 0 1280 778 </string>
+								<string>258 155 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -419,7 +427,7 @@
 								<key>Frame</key>
 								<string>{{0, 290}, {580, 173}}</string>
 								<key>RubberWindowFrame</key>
-								<string>258 153 788 504 0 0 1280 778 </string>
+								<string>258 155 788 504 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -443,9 +451,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA3ECF40111B3AFE005C7946</string>
+				<string>FA03C1341145CD75007D1538</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA3ECF41111B3AFE005C7946</string>
+				<string>FA03C1351145CD75007D1538</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -581,12 +589,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FAB7A9B1111B39E300910356</string>
-		<string>/Volumes/DATA/Iphone SDK project/NavApp 2/NavApp.xcodeproj</string>
+		<string>/Volumes/DATA/Iphone SDK project/iPool/NavApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>258 153 788 504 0 0 1280 778 </string>
+	<string>258 155 788 504 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
