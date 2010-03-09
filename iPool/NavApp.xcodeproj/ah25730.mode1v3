@@ -216,10 +216,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E039E2231145CD2300A70E96</string>
+						<string>E0CBF6D61145CDFF00037EDB</string>
 						<key>history</key>
 						<array>
-							<string>E061E51D1145CAE700DB087E</string>
+							<string>E039E2231145CD2300A70E96</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -256,10 +256,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E039E2241145CD2300A70E96</string>
+						<string>E0CBF6D71145CDFF00037EDB</string>
 						<key>history</key>
 						<array>
-							<string>E061E51E1145CAE700DB087E</string>
+							<string>E039E2241145CD2300A70E96</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -296,10 +296,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E039E2251145CD2300A70E96</string>
+						<string>E0CBF6D81145CDFF00037EDB</string>
 						<key>history</key>
 						<array>
-							<string>E061E51F1145CAE700DB087E</string>
+							<string>E039E2251145CD2300A70E96</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -336,10 +336,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E039E2261145CD2300A70E96</string>
+						<string>E0CBF6D91145CDFF00037EDB</string>
 						<key>history</key>
 						<array>
-							<string>E061E5201145CAE700DB087E</string>
+							<string>E039E2261145CD2300A70E96</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -376,10 +376,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E039E2271145CD2300A70E96</string>
+						<string>E0CBF6DA1145CDFF00037EDB</string>
 						<key>history</key>
 						<array>
-							<string>E061E5211145CAE700DB087E</string>
+							<string>E039E2271145CD2300A70E96</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -530,7 +530,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E039E2201145CD2300A70E96</string>
+										<string>E0CBF6D31145CDFF00037EDB</string>
 										<key>history</key>
 										<array>
 											<string>E0BBCF5C1117A5D000C1195B</string>
@@ -543,7 +543,7 @@
 											<string>E0BBD2B11117F42200C1195B</string>
 											<string>E0BBD366111802B300C1195B</string>
 											<string>E029CF921120D3520084658C</string>
-											<string>E061E51A1145CAE700DB087E</string>
+											<string>E039E2201145CD2300A70E96</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -555,14 +555,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1096, 620}}</string>
+								<string>{{0, 0}, {1096, 615}}</string>
 								<key>RubberWindowFrame</key>
 								<string>141 146 1406 869 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>620pt</string>
+							<string>615pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -575,14 +575,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 625}, {1096, 203}}</string>
+								<string>{{0, 620}, {1096, 208}}</string>
 								<key>RubberWindowFrame</key>
 								<string>141 146 1406 869 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>203pt</string>
+							<string>208pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -601,9 +601,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>E039E2211145CD2300A70E96</string>
+				<string>E0CBF6D41145CDFF00037EDB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>E039E2221145CD2300A70E96</string>
+				<string>E0CBF6D51145CDFF00037EDB</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -747,7 +747,7 @@
 		<string>E0BBD27A1117F2C600C1195B</string>
 		<string>E0BBD0581117CFAE00C1195B</string>
 		<string>E0BBD11D1117DB7A00C1195B</string>
-		<string>/Users/ah25730/Downloads/LOG350_Lab1/LOG 350/iPool/NavApp.xcodeproj</string>
+		<string>/Users/ah25730/Downloads/LOG350_Lab1/LOG 350/log 350 test/iPool/NavApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>141 146 1406 869 0 0 1680 1028 </string>
@@ -827,7 +827,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>E0BBCEED11179E1300C1195B</string>
-				<string>E039E2281145CD2300A70E96</string>
+				<string>E0CBF6DB1145CDFF00037EDB</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
