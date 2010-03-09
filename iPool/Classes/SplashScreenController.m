@@ -11,7 +11,7 @@
 
 @implementation SplashScreenController
 
-@synthesize viewTwoController;
+@synthesize MainMenuController;
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 -(IBAction)switchPage:(id)sender
@@ -19,16 +19,16 @@
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
 
-	if(self.viewTwoController == nil)
+	if(self.MainMenuController == nil)
 	{
-		MainMenuController *viewTwo = [[MainMenuController alloc]
-									  initWithNibName:@"View2" bundle:[NSBundle mainBundle]];
-		self.viewTwoController = viewTwo;
+		MainMenuController *mainMenu = [[MainMenuController alloc]
+									  initWithNibName:@"MainMenu" bundle:[NSBundle mainBundle]];
+		self.MainMenuController = mainMenu;
 		
 		
-		[viewTwo release];
+		[mainMenu release];
 	
-		[self.navigationController pushViewController:self.viewTwoController animated:YES];
+		[self.navigationController pushViewController:self.MainMenuController animated:YES];
 	}
 	
 }
