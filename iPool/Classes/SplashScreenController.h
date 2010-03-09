@@ -11,12 +11,12 @@
 #import "Delegate.h"
 
 @interface SplashScreenController : UIViewController {
-	MainMenuController *viewTwoController;
+	MainMenuController *mainMenuController;
 	Delegate *mainDelegate;
 	
 }
 
-@property (nonatomic, retain) MainMenuController *viewTwoController;
+@property (nonatomic, retain) MainMenuController *mainMenuController;
 
 -(IBAction)switchPage:(id)sender;
 
