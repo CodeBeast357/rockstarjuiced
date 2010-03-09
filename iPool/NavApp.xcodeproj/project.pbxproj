@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* NavAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NavAppAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Delegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		A90EFE2B0F77E16000AB789A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2A0F77E16000AB789A /* RootViewController.m */; };
-		A90EFE2E0F77E27800AB789A /* ViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2D0F77E27800AB789A /* ViewTwoController.m */; };
+		A90EFE2B0F77E16000AB789A /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */; };
+		A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */; };
 		A90EFE300F77E38C00AB789A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE2F0F77E38C00AB789A /* RootViewController.xib */; };
 		A90EFE320F77E39700AB789A /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE310F77E39700AB789A /* View2.xib */; };
 		E0BBCFD91117B4E800C1195B /* boxe_BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0BBCFD81117B4E800C1195B /* boxe_BG.jpg */; };
@@ -22,8 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* NavAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAppAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* NavAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAppAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* NavApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -31,10 +31,10 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NavApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavApp_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A90EFE290F77E16000AB789A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		A90EFE2A0F77E16000AB789A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		A90EFE2C0F77E27800AB789A /* ViewTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTwoController.h; sourceTree = "<group>"; };
-		A90EFE2D0F77E27800AB789A /* ViewTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTwoController.m; sourceTree = "<group>"; };
+		A90EFE290F77E16000AB789A /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
+		A90EFE2A0F77E16000AB789A /* SplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenController.m; sourceTree = "<group>"; };
+		A90EFE2C0F77E27800AB789A /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
+		A90EFE2D0F77E27800AB789A /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
 		A90EFE2F0F77E38C00AB789A /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		A90EFE310F77E39700AB789A /* View2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
 		E0BBCFD81117B4E800C1195B /* boxe_BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boxe_BG.jpg; sourceTree = "<group>"; };
@@ -57,12 +57,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D3623240D0F684500981E51 /* NavAppAppDelegate.h */,
-				1D3623250D0F684500981E51 /* NavAppAppDelegate.m */,
-				A90EFE290F77E16000AB789A /* RootViewController.h */,
-				A90EFE2A0F77E16000AB789A /* RootViewController.m */,
-				A90EFE2C0F77E27800AB789A /* ViewTwoController.h */,
-				A90EFE2D0F77E27800AB789A /* ViewTwoController.m */,
+				1D3623240D0F684500981E51 /* Delegate.h */,
+				1D3623250D0F684500981E51 /* Delegate.m */,
+				A90EFE290F77E16000AB789A /* SplashScreenController.h */,
+				A90EFE2A0F77E16000AB789A /* SplashScreenController.m */,
+				A90EFE2C0F77E27800AB789A /* MainMenuController.h */,
+				A90EFE2D0F77E27800AB789A /* MainMenuController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* NavAppAppDelegate.m in Sources */,
-				A90EFE2B0F77E16000AB789A /* RootViewController.m in Sources */,
-				A90EFE2E0F77E27800AB789A /* ViewTwoController.m in Sources */,
+				1D3623260D0F684500981E51 /* Delegate.m in Sources */,
+				A90EFE2B0F77E16000AB789A /* SplashScreenController.m in Sources */,
+				A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
