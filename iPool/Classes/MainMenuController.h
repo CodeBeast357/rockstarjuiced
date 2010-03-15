@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
+#import "SettingsController.h"
 
 @interface MainMenuController : UIViewController {
+	SettingsController *settingsController;
 	Delegate *mainDelegate;
 }
 
+-(IBAction)switchPageSettings:(id)sender;
+
+@property (nonatomic, retain) SettingsController *settingsController;
 
 @end

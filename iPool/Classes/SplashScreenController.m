@@ -7,7 +7,6 @@
 //
 
 #import "SplashScreenController.h"
-#import "MainMenuController.h"
 
 @implementation SplashScreenController
 

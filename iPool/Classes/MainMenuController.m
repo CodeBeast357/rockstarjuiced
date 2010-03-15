@@ -32,4 +32,27 @@
     [super dealloc];
 }
 
+//Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
+-(IBAction)switchPageSettings:(id)sender
+{
+	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+	
+	
+	if(self.settingsController == nil)
+	{
+		SettingsController *settings = [[SettingsController alloc]
+										initWithNibName:@"Settings" bundle:[NSBundle mainBundle]];
+		self.settingsController = settings;
+		
+		
+		[settings release];
+		
+		[self.navigationController pushViewController:self.settingsController animated:YES];
+	}
+	
+}
+
+
+
+
 @end
