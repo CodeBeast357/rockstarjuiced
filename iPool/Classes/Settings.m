@@ -35,6 +35,13 @@ static Settings *instance = nil;
     return nil; // on subsequent allocation attempts return nil
 }
 
+- (Settings*)init {
+	if (self = [super init]) {
+		// Initialisation
+	}
+	return self;
+}
+
 - (id)copyWithZone:(NSZone *)zone
 {
     return self;
