@@ -10,9 +10,37 @@
 
 
 @interface Settings : NSObject {
+	
+	int poolName;
+	int offencePlayerTotal;
+	int defencePlayerTotal;
+	int goaliePlayerTotal;
+	//int numberOfPlayers (= offence + defence + goalie)
+	int offencePointsPerGoal;
+	int offencePointsPerAssist;
+	int offenceDifferentialActivated; // (<0 || >0)
+	int defencePointsPerGoal;
+	int defencePointsPerAssist;
+	int defenceDifferentialActivated; // (<0 || >0)
+	int goalerPointsPerWin;
+	int goalerPointsPerOTLoss;
 
 }
 
-+ (Settings *)instance;
++ (Settings*)getInstance;
+
+- (int)poolName;
+- (int)offencePlayerTotal;
+- (int)defencePlayerTotal;
+- (int)goaliePlayerTotal;
+- (int)numberOfPlayers; // (= offence + defence + goalie)
+- (int)offencePointsPerGoal;
+- (int)offencePointsPerAssist;
+- (int)offenceDifferentialActivated; // (<0 || >0)
+- (int)defencePointsPerGoal;
+- (int)defencePointsPerAssist;
+- (int)defenceDifferentialActivated; // (<0 || >0)
+- (int)goalerPointsPerWin;
+- (int)goalerPointsPerOTLoss;
 
 @end
