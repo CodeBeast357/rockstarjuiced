@@ -11,7 +11,7 @@
 
 @interface Settings : NSObject {
 	
-	int poolName;
+	NSString* poolName;
 	int offencePlayerTotal;
 	int defencePlayerTotal;
 	int goaliePlayerTotal;
@@ -29,7 +29,7 @@
 
 + (Settings*)getInstance;
 
-- (int)poolName;
+- (NSString*)poolName;
 - (int)offencePlayerTotal;
 - (int)defencePlayerTotal;
 - (int)goaliePlayerTotal;

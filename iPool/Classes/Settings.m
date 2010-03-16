@@ -56,7 +56,7 @@ static Settings *instance = nil;
     return self;
 }
 
-- (int)poolName {
+- (NSString*)poolName {
 	return poolName;
 }
 
