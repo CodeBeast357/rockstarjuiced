@@ -33,14 +33,28 @@
 - (int)offencePlayerTotal;
 - (int)defencePlayerTotal;
 - (int)goaliePlayerTotal;
-- (int)numberOfPlayers; // (= offence + defence + goalie)
+- (int)numberOfPlayers;
 - (int)offencePointsPerGoal;
 - (int)offencePointsPerAssist;
-- (int)offenceDifferentialActivated; // (<0 || >0)
+- (int)offenceDifferentialActivated;
 - (int)defencePointsPerGoal;
 - (int)defencePointsPerAssist;
-- (int)defenceDifferentialActivated; // (<0 || >0)
+- (int)defenceDifferentialActivated;
 - (int)goalerPointsPerWin;
 - (int)goalerPointsPerOTLoss;
+
+- (NSString*)setPoolName;
+- (int)setOffencePlayerTotal;
+- (int)setDefencePlayerTotal;
+- (int)setGoaliePlayerTotal;
+//- (int)setNumberOfPlayers;
+- (int)setOffencePointsPerGoal;
+- (int)setOffencePointsPerAssist;
+- (int)setOffenceDifferentialActivated;
+- (int)setDefencePointsPerGoal;
+- (int)setDefencePointsPerAssist;
+- (int)setDefenceDifferentialActivated;
+- (int)setGoalerPointsPerWin;
+- (int)setGoalerPointsPerOTLoss;
 
 @end

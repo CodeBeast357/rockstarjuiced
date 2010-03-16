@@ -108,4 +108,53 @@ static Settings *instance = nil;
 	return goalerPointsPerOTLoss;
 }
 
+- (NSString*)setPoolName:(NSString*)newName {
+	poolName = newName;
+}
+
+- (int)setOffencePlayerTotal:(int)nOff {
+	offencePlayerTotal = nOff;
+}
+
+- (int)setDefencePlayerTotal:(int)nDef {
+	defencePlayerTotal = nDef;
+}
+
+- (int)setGoaliePlayerTotal:(int)nGoal {
+	goaliePlayerTotal = nGoal;
+}
+
+//- (int)setNumberOfPlayers:(int)n
+- (int)setOffencePointsPerGoal:(int)nOff {
+	offencePointsPerGoal = nOff;
+}
+
+- (int)setOffencePointsPerAssist:(int)nOff {
+	offencePointsPerAssist = nOff;
+}
+
+- (int)setOffenceDifferentialActivated(int)nOff {
+	offenceDifferentialActivated = nOff;
+}
+
+- (int)setDefencePointsPerGoal:(int)nDef {
+	defencePointsPerGoal = nDef;
+}
+
+- (int)setDefencePointsPerAssist:(int)nDef {
+	defencePointsPerAssist = nDef;
+}
+
+- (int)setDefenceDifferentialActivated:(int)nDef {
+	defenceDifferentialActivated = nDef;
+}
+
+- (int)setGoalerPointsPerWin:(int)nGoal {
+	goalerPointsPerWin = nGoal;
+}
+
+- (int)setGoalerPointsPerOTLoss:(int)nGoal {
+	goalerPointsPerOTLoss = nGoal;
+}
+
 @end
