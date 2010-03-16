@@ -8,7 +8,6 @@
 
 #import "SettingsController.h"
 
-
 @implementation SettingsController
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called

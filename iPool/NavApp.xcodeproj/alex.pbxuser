@@ -10,9 +10,9 @@
 	};
 	1D3623250D0F684500981E51 /* Delegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {534, 1246}}";
-			sepNavSelRange = "{1099, 0}";
-			sepNavVisRange = "{993, 303}";
+			sepNavIntBoundsRect = "{{0, 0}, {534, 490}}";
+			sepNavSelRange = "{671, 0}";
+			sepNavVisRange = "{41, 624}";
 			sepNavWindowFrame = "{{481, 41}, {750, 705}}";
 		};
 	};
@@ -118,8 +118,8 @@
 	};
 	A90EFE290F77E16000AB789A /* SplashScreenController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
-			sepNavSelRange = "{344, 69}";
+			sepNavIntBoundsRect = "{{0, 0}, {532, 388}}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 455}";
 			sepNavWindowFrame = "{{273, 45}, {750, 705}}";
 		};
@@ -136,16 +136,23 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {435, 322}}";
 			sepNavSelRange = "{457, 0}";
-			sepNavVisRange = "{0, 381}";
+			sepNavVisRange = "{41, 416}";
 			sepNavWindowFrame = "{{573, 35}, {750, 705}}";
 		};
 	};
 	A90EFE2D0F77E27800AB789A /* MainMenuController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {702, 826}}";
-			sepNavSelRange = "{715, 0}";
-			sepNavVisRange = "{940, 454}";
+			sepNavSelRange = "{210, 613}";
+			sepNavVisRange = "{210, 890}";
 			sepNavWindowFrame = "{{402, 178}, {750, 558}}";
+		};
+	};
+	C2858C2C1145E87D004A4E7D /* Settings.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {532, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
 		};
 	};
 	FA03C12E1145CD75007D1538 /* PBXTextBookmark */ = {
@@ -163,10 +170,10 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "NavAppAppDelegate.m: 73";
 		rLen = 0;
-		rLoc = 1099;
+		rLoc = 671;
 		rType = 0;
-		vrLen = 303;
-		vrLoc = 993;
+		vrLen = 0;
+		vrLoc = 671;
 	};
 	FA252A0A1145E789000E66C7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -193,7 +200,7 @@
 		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
 		name = "ViewTwoController.m: 168";
 		rLen = 0;
-		rLoc = 829;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 829;
@@ -223,7 +230,7 @@
 		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
 		name = "ViewTwoController.m: 168";
 		rLen = 0;
-		rLoc = 829;
+		rLoc = 1402;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 829;
@@ -431,5 +438,19 @@
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 0;
+	};
+	FAD4E453114EFFA5003A1BB5 /* SettingsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {532, 388}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 268}";
+		};
+	};
+	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {636, 518}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{169, 658}";
+		};
 	};
 }
