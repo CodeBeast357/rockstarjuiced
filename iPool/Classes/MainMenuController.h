@@ -9,14 +9,18 @@
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
 #import "SettingsController.h"
+#import "ViewStatisticsController.h"
 
 @interface MainMenuController : UIViewController {
 	SettingsController *settingsController;
+	ViewStatisticsController *viewStatisticsController;
 	Delegate *mainDelegate;
 }
 
 -(IBAction)switchPageSettings:(id)sender;
+-(IBAction)switchPageViewStatistics:(id)sender;
 
 @property (nonatomic, retain) SettingsController *settingsController;
+@property (nonatomic, retain) ViewStatisticsController *viewStatisticsController;
 
 @end

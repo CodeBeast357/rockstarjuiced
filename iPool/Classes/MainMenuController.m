@@ -54,6 +54,26 @@
 	
 }
 
+//Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
+-(IBAction)switchPageViewStatistics:(id)sender
+{
+	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+	
+	
+	if(self.viewStatisticsController == nil)
+	{
+		viewStatisticsController *viewStatistics = [[ViewStatisticsController alloc]
+										initWithNibName:@"Statistics" bundle:[NSBundle mainBundle]];
+		self.viewStatisticsController = viewStatistics;
+		
+		
+		[settings release];
+		
+		[self.navigationController pushViewController:self.viewStatisticsController animated:YES];
+	}
+	
+}
+
 
 
 

@@ -8,6 +8,7 @@
 
 #import "SplashScreenController.h"
 
+
 @implementation SplashScreenController
 
 @synthesize mainMenuController;
