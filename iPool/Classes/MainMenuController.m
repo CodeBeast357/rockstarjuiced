@@ -12,6 +12,7 @@
 @implementation MainMenuController
 
 @synthesize settingsController;
+@synthesize addPoolerController;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -50,6 +51,26 @@
 		[settings release];
 		
 		[self.navigationController pushViewController:self.settingsController animated:YES];
+	}
+	
+}
+
+//Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
+-(IBAction)switchPageAddPooler:(id)sender
+{
+	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+	
+	
+	if(self.addPoolerController == nil)
+	{
+		AddPoolerController *addPooler = [[AddPoolerController alloc]
+										initWithNibName:@"AddPooler" bundle:[NSBundle mainBundle]];
+		self.addPoolerController = addPooler;
+		
+		
+		[addPooler release];
+		
+		[self.navigationController pushViewController:self.addPoolerController animated:YES];
 	}
 	
 }
