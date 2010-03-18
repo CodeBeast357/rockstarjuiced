@@ -13,8 +13,7 @@
 					position: (NSString*) p
 					   goals: (int*) g
 					 assists: (int*) a
-				differential: (int*) d 
-					shootout: (int*) s {
+				differential: (int*) d{
     self = [super init];
 
     if ( self ) {
@@ -23,8 +22,7 @@
 		  position: p 
 			 goals: g 
 		   assists: a 
-	  differential: d 
-		  shootout: s];
+	  differential: d];
     }
 
     return self;
@@ -40,10 +38,6 @@
 
 - (int*) differential {
     return differential;
-}
-
-- (int*) shootout {
-    return shootout;
 }
 
 - (void) setGoals: (int*)input
@@ -64,12 +58,6 @@
     differential = [input retain];
 }
 
-- (void) setShootout: (int*)input
-{
-    [shootout autorelease];
-    shootout = [input retain];
-}
-
 - (id) init
 {
     if ( self = [super init] )
@@ -77,7 +65,6 @@
 		[self setGoals: 0];
 		[self setAssists: 0];
 		[self setDifferential: 0];
-		[self setShootout: 0];
     }
 	
     return self;
@@ -88,7 +75,6 @@
 	[goals release];
 	[assists release];
 	[differential release];
-	[shootout release];
     [super dealloc];
 }
 

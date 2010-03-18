@@ -23,14 +23,11 @@
 					position: (NSString*) p 
 					   goals: (int*) g 
 					 assists: (int*) a
-				differential: (int*) d
-					shootout: (int*) s;
+				differential: (int*) d;
 -(int*) goals;
 -(int*) assists;
--(int*) overtimeLosses;
 -(int*) differential;
 -(void) setGoals: (int*) input;
 -(void) setAssists: (int*) input;
 -(void) setDifferential: (int*) input;
--(void) setShootout: (int*) input;
 @end

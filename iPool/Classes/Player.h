@@ -13,11 +13,14 @@
     NSString *lastName;
     NSString *firstName;
 	NSString *position;
+	int *gamePlay;
 }
 
 -(NSString*) lastName;
 -(NSString*) firstName;
 -(NSString*) position;
+-(int*) gamePlay;
+-(void) setGamePlay: (int*) input;
 -(void) setLastName: (NSString*) input;
 -(void) setFirstName: (NSString*) input;
 -(void) setPosition: (NSString*) input;

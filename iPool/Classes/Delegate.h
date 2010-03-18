@@ -10,7 +10,7 @@
 
 @interface Delegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	UINavigationController *navigationController;
+	UINavigationController *navigationController;	
 	
 }
 

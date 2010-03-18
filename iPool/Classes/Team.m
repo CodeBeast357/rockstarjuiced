@@ -1,7 +1,7 @@
 //
 //  Team.m
 //
-//  Created by Ian Bussières on 10-03-08.
+//  Created by Ian BussiÃ‹res on 10-03-08.
 //  Copyright 2010 iPool. All rights reserved.
 //
 
@@ -21,9 +21,9 @@
     return townAbbreviation;
 }
 
-- (NSMutableArray*) skaterList {
-	return skaterList;
-}
+
+
+
 
 - (NSMutableArray*) goalieList {
 	return goalieList;
@@ -117,8 +117,9 @@
 	[goalieList sortUsingDescriptors:[NSArray arrayWithObject:shutoutSorter]];
 }
 
-- (id) init
-{
+- (id) initWithTeamName: (NSString*) tn
+			   teamTown: (NSString*) tt
+			   townAbbrevation: (NSString*) ta{
     if ( self = [super init] )
     {
         [self setTeamName:@"Canadiens"];
@@ -129,6 +130,7 @@
 	
     return self;
 }
+
 
 - (void) dealloc
 {

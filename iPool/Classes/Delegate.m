@@ -19,6 +19,7 @@
     // Override point for customization after application launch
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
+	
 }
 
 - (void)dealloc {
@@ -26,6 +27,8 @@
     [window release];
     [super dealloc];
 }
+
+
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
 exit(0);

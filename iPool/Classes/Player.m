@@ -1,7 +1,7 @@
 //
 //  Player.m
 //
-//  Created by Ian Bussières on 10-03-08.
+//  Created by Ian BussiÃ‹res on 10-03-08.
 //  Copyright 2010 iPool. All rights reserved.
 //
 
@@ -37,6 +37,16 @@
 {
     [position autorelease];
     position = [input retain];
+}
+
+- (void) setGamePlay: (int*)input
+{
+    [gamePlay autorelease];
+    gamePlay = [input retain];
+}
+
+- (int*) gamePlay {
+    return gamePlay;
 }
 
 - (id) init

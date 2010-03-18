@@ -23,9 +23,11 @@
 		E0D8BCBB114F0BC3009BBEE4 /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D8BCB8114F0BC3009BBEE4 /* Goalie.m */; };
 		E0D8BCBC114F0BC3009BBEE4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D8BCBA114F0BC3009BBEE4 /* Player.m */; };
 		E0D8BCBE114F0C4E009BBEE4 /* ViewStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */; };
+		FAA8CE0211529B890041F68D /* TeamList.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CE0111529B890041F68D /* TeamList.m */; };
 		FAAA291A114F125000EADD2B /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA2919114F125000EADD2B /* Team.m */; };
 		FAAA291C114F126C00EADD2B /* AddPooler.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA291B114F126C00EADD2B /* AddPooler.xib */; };
 		FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */; };
+		FAAA294F114F171D00EADD2B /* splash_screen_v1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAAA294E114F171D00EADD2B /* splash_screen_v1.jpg */; };
 		FAD4E455114EFFA5003A1BB5 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */; };
 		FAD4E479114F01C2003A1BB5 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD4E478114F01C2003A1BB5 /* Settings.xib */; };
 /* End PBXBuildFile section */
@@ -58,11 +60,14 @@
 		E0D8BCB9114F0BC3009BBEE4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		E0D8BCBA114F0BC3009BBEE4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewStatistics.xib; sourceTree = "<group>"; };
+		FAA8CE0011529B890041F68D /* TeamList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamList.h; sourceTree = "<group>"; };
+		FAA8CE0111529B890041F68D /* TeamList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamList.m; sourceTree = "<group>"; };
 		FAAA2918114F125000EADD2B /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
 		FAAA2919114F125000EADD2B /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
 		FAAA291B114F126C00EADD2B /* AddPooler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPooler.xib; sourceTree = "<group>"; };
 		FAAA2922114F12CA00EADD2B /* AddPoolerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPoolerController.h; sourceTree = "<group>"; };
 		FAAA2923114F12CA00EADD2B /* AddPoolerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPoolerController.m; sourceTree = "<group>"; };
+		FAAA294E114F171D00EADD2B /* splash_screen_v1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash_screen_v1.jpg; path = ../T1/splash_screen_v1.jpg; sourceTree = SOURCE_ROOT; };
 		FAD4E453114EFFA5003A1BB5 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		FAD4E478114F01C2003A1BB5 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
@@ -96,17 +101,19 @@
 				E0D8BCB4114F0BAE009BBEE4 /* Skater.h */,
 				E0D8BCAF114F0B9D009BBEE4 /* Skater.m */,
 				C2858C2B1145E87D004A4E7D /* Settings.h */,
-				C2858C2C1145E87D004A4E7D /* Settings.m */,
 				1D3623240D0F684500981E51 /* Delegate.h */,
 				1D3623250D0F684500981E51 /* Delegate.m */,
 				A90EFE290F77E16000AB789A /* SplashScreenController.h */,
 				A90EFE2A0F77E16000AB789A /* SplashScreenController.m */,
+				C2858C2C1145E87D004A4E7D /* Settings.m */,
 				A90EFE2C0F77E27800AB789A /* MainMenuController.h */,
 				A90EFE2D0F77E27800AB789A /* MainMenuController.m */,
 				FAD4E453114EFFA5003A1BB5 /* SettingsController.h */,
 				FAD4E454114EFFA5003A1BB5 /* SettingsController.m */,
 				E0B60AB6114F063B005F222D /* ViewStatisticsController.h */,
 				E0B60AB7114F063B005F222D /* ViewStatisticsController.m */,
+				FAA8CE0011529B890041F68D /* TeamList.h */,
+				FAA8CE0111529B890041F68D /* TeamList.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -122,6 +129,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				FAAA294D114F16EC00EADD2B /* Media */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -162,6 +170,14 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAA294D114F16EC00EADD2B /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				FAAA294E114F171D00EADD2B /* splash_screen_v1.jpg */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +228,7 @@
 				FAD4E479114F01C2003A1BB5 /* Settings.xib in Resources */,
 				E0D8BCBE114F0C4E009BBEE4 /* ViewStatistics.xib in Resources */,
 				FAAA291C114F126C00EADD2B /* AddPooler.xib in Resources */,
+				FAAA294F114F171D00EADD2B /* splash_screen_v1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +251,7 @@
 				E0D8BCBC114F0BC3009BBEE4 /* Player.m in Sources */,
 				FAAA291A114F125000EADD2B /* Team.m in Sources */,
 				FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */,
+				FAA8CE0211529B890041F68D /* TeamList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
