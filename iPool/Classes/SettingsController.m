@@ -20,6 +20,23 @@
     return self;
 }
 
+- (void) viewDidLoad{
+	[super viewDidLoad];
+	
+	self.title = @"Pool Settings";
+	
+	//Création des boutons Save et Cancel
+	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
+											 initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
+											 target:self 
+											 action:@selector(cancel:)] autorelease]; 
+	
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
+											   initWithBarButtonSystemItem:UIBarButtonSystemItemSave 
+											   target:self 
+											   action:@selector(save:)] autorelease]; 
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
@@ -29,6 +46,16 @@
 
 - (void)dealloc {
     [super dealloc];
+}
+
+- (IBAction) save: (id) sender{
+
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction) cancel: (id) sender{
+	
+	[self dismissModalViewControllerAnimated:YES];
 }
 
 

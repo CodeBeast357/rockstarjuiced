@@ -20,6 +20,24 @@
     return self;
 }
 
+- (void) viewDidLoad{
+	[super viewDidLoad];
+	
+	self.title = @"Add Pooler";
+	
+	//Création des boutons Save et Cancel
+	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
+											  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
+											  target:self 
+											  action:@selector(cancel:)] autorelease]; 
+	
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
+											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
+											   target:self 
+											   action:@selector(done:)] autorelease]; 
+	
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
@@ -31,5 +49,14 @@
     [super dealloc];
 }
 
+- (IBAction) done: (id) sender{
+	
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction) cancel: (id) sender{
+	
+	[self dismissModalViewControllerAnimated:YES];
+}
 
 @end

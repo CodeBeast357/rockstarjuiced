@@ -20,6 +20,13 @@
     return self;
 }
 
+- (void) viewDidLoad{
+	[super viewDidLoad];
+	
+	self.title = @"Pool Statistics";
+	
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview

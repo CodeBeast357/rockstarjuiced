@@ -25,6 +25,15 @@
     return self;
 }
 
+- (void) viewDidLoad{
+		[super viewDidLoad];
+	
+	self.title = @"Main Menu";
+	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    [self.navigationController setNavigationBarHidden:FALSE];
+	
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
@@ -39,20 +48,26 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 -(IBAction)switchPageSettings:(id)sender
 {
+
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
+	// Creation du controlleur pour la vue et de la bar de navigation
+	SettingsController *settings = [[SettingsController alloc]
+									initWithNibName:@"Settings" bundle:[NSBundle mainBundle]];
+	self.settingsController = settings;
+		
+	UINavigationController *navController = [[UINavigationController alloc] 
+											 initWithRootViewController:settings];
 	
-	if(self.settingsController == nil)
-	{
-		SettingsController *settings = [[SettingsController alloc]
-										initWithNibName:@"Settings" bundle:[NSBundle mainBundle]];
-		self.settingsController = settings;
-		
-		
-		[settings release];
-		
-		[self.navigationController pushViewController:self.settingsController animated:YES];
-	}
+	//Change le style de la bar de navigation
+	navController.navigationBar.barStyle = UIBarStyleBlack;
+	
+	//Affichage de la vue sous la forme d une modalView
+	[self.navigationController presentModalViewController:navController animated:YES];
+	
+	//On libère la mémoire
+	[settings release];
+	[navController release];
 	
 }
 
@@ -61,19 +76,25 @@
 {
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
-	
-	if(self.addPoolerController == nil)
-	{
-		AddPoolerController *addPooler = [[AddPoolerController alloc]
+	// Creation du controlleur pour la vue et de la bar de navigation
+	AddPoolerController *addPooler = [[AddPoolerController alloc]
 										initWithNibName:@"AddPooler" bundle:[NSBundle mainBundle]];
-		self.addPoolerController = addPooler;
-		
-		
-		[addPooler release];
-		
-		[self.navigationController pushViewController:self.addPoolerController animated:YES];
-	}
+	self.addPoolerController = addPooler;
 	
+	UINavigationController *navController = [[UINavigationController alloc] 
+											 initWithRootViewController:addPooler];
+	
+	//Change le style de la bar de navigation
+	navController.navigationBar.barStyle = UIBarStyleBlack;
+	
+	//Affichage de la vue sous la forme d une modalView
+	[self.navigationController presentModalViewController:navController animated:YES];
+	
+	//On libère la mémoire
+	[addPooler release];
+	[navController release];
+	
+
 }
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
@@ -91,8 +112,10 @@
 		
 		[viewStatistics release];
 		
-		[self.navigationController pushViewController:self.viewStatisticsController animated:YES];
 	}
+		
+	[self.navigationController pushViewController:self.viewStatisticsController animated:YES];
+	
 	
 }
 

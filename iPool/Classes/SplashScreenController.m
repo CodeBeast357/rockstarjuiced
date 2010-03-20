@@ -171,16 +171,22 @@
  
 }
 
-                              
+                             
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad{
+	
+	/**
 	activityOutlet.hidden= FALSE;
 	[activityOutlet startAnimating];
 	
 	[self startMyThread];
 	
 	NSLog(@"in viewDidLoad");
+	 **/
+	
+	[self switchPage];
 }
+ 
 
 /*
 // Override to allow orientations other than the default portrait orientation.

@@ -13,4 +13,7 @@
 	Delegate *mainDelegate;
 }
 
+- (IBAction) done: (id) sender;
+- (IBAction) cancel: (id) sender;
+
 @end
