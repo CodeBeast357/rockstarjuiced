@@ -15,7 +15,7 @@
 	int offencePlayerTotal;
 	int defencePlayerTotal;
 	int goaliePlayerTotal;
-	//int numberOfPlayers (= offence + defence + goalie)
+	int numberOfPlayers;
 	int offencePointsPerGoal;
 	int offencePointsPerAssist;
 	int offenceDifferentialActivated; // (<0 || >0)
@@ -26,6 +26,7 @@
 	int goalerPointsPerOTLoss;
 
 }
+
 
 + (Settings*)getInstance;
 
@@ -47,7 +48,7 @@
 - (void)setOffencePlayerTotal:(int)nOff;
 - (void)setDefencePlayerTotal:(int)nDef;
 - (void)setGoaliePlayerTotal:(int)nGoal;
-//- (void)setNumberOfPlayers:(int)nPlay;
+- (void)setNumberOfPlayers:(int)nPlay;
 - (void)setOffencePointsPerGoal:(int)nOff;
 - (void)setOffencePointsPerAssist:(int)nOff;
 - (void)setOffenceDifferentialActivated:(int)nOff;

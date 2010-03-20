@@ -9,6 +9,8 @@
 #import "SettingsController.h"
 
 @implementation SettingsController
+@synthesize settings;
+@synthesize txtFieldPoolName,txtFieldNumberOfPlayers,switchShowAdvanced;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -34,7 +36,15 @@
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
 											   initWithBarButtonSystemItem:UIBarButtonSystemItemSave 
 											   target:self 
-											   action:@selector(save:)] autorelease]; 
+											   action:@selector(save:)] autorelease];
+	settings = [Settings getInstance];
+	
+	//Initialize text fields
+	txtFieldPoolName.text = [settings poolName];
+	
+	if([settings numberOfPlayers] != 0)
+		txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",[settings numberOfPlayers]];
+	
 }
 
 
@@ -49,13 +59,20 @@
 }
 
 - (IBAction) save: (id) sender{
-
+	
+	[settings setPoolName:txtFieldPoolName.text];
+	[settings setNumberOfPlayers:[txtFieldNumberOfPlayers.text intValue]];
 	[self dismissModalViewControllerAnimated:YES];
 }
 
 - (IBAction) cancel: (id) sender{
 	
 	[self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction) txtFieldDoneEditing: (id) sender{
+	
+	[sender resignFirstResponder];
 }
 
 

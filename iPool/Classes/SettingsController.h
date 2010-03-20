@@ -8,12 +8,24 @@
 
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
+#import "Settings.h"
 
 @interface SettingsController : UIViewController  {
-Delegate *mainDelegate;
+	Delegate *mainDelegate;
+	Settings *settings;
+	
+	IBOutlet UITextField *txtFieldPoolName;
+	IBOutlet UITextField *txtFieldNumberOfPlayers;
+	IBOutlet UISwitch *switchShowAdvanced;
 }
+
+@property (nonatomic, retain) Settings *settings;
+@property (nonatomic, retain) UITextField *txtFieldPoolName;
+@property (nonatomic, retain) UITextField *txtFieldNumberOfPlayers;
+@property (nonatomic, retain) UISwitch *switchShowAdvanced;
 
 - (IBAction) save: (id) sender;
 - (IBAction) cancel: (id) sender;
+- (IBAction) txtFieldDoneEditing: (id) sender;
 
 @end

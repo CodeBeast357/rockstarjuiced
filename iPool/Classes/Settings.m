@@ -80,7 +80,7 @@ static Settings *instance = nil;
 }
 
 - (int)numberOfPlayers {
-	return offencePlayerTotal + defencePlayerTotal + goaliePlayerTotal;
+	return numberOfPlayers;
 }
 
 - (int)offencePointsPerGoal {
@@ -131,9 +131,10 @@ static Settings *instance = nil;
 	goaliePlayerTotal = nGoal;
 }
 
-/*
-- (int)setNumberOfPlayers:(int)nPlay {
-}*/
+
+- (void)setNumberOfPlayers:(int)nPlay {
+	numberOfPlayers = nPlay;
+}
 - (void)setOffencePointsPerGoal:(int)nOff {
 	offencePointsPerGoal = nOff;
 }
