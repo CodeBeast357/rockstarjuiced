@@ -9,9 +9,6 @@
 #import "SettingsController.h"
 
 @implementation SettingsController
-@synthesize scrollView;
-@synthesize settings;
-@synthesize switchShowAdvanced;
 @synthesize 
  settingsView,
  scrollView,

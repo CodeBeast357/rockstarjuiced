@@ -97,12 +97,18 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 290395333;
-			PBXWorkspaceStateSaveDate = 290395333;
+			PBXPerProjectTemplateStateSaveDate = 290988590;
+			PBXWorkspaceStateSaveDate = 290988590;
 		};
 		perUserProjectItems = {
+			E05172961158228B00A38FE7 /* XCBuildMessageTextBookmark */ = E05172961158228B00A38FE7 /* XCBuildMessageTextBookmark */;
+			E05172971158228B00A38FE7 /* PBXTextBookmark */ = E05172971158228B00A38FE7 /* PBXTextBookmark */;
+			E05172AA115822B300A38FE7 /* PBXTextBookmark */ = E05172AA115822B300A38FE7 /* PBXTextBookmark */;
+			E05172AB115822B300A38FE7 /* PBXTextBookmark */ = E05172AB115822B300A38FE7 /* PBXTextBookmark */;
+			E05172AC115822B300A38FE7 /* XCBuildMessageTextBookmark */ = E05172AC115822B300A38FE7 /* XCBuildMessageTextBookmark */;
+			E05172AD115822B300A38FE7 /* PBXTextBookmark */ = E05172AD115822B300A38FE7 /* PBXTextBookmark */;
 			E09848F9114F14C000F66C58 = E09848F9114F14C000F66C58 /* PBXTextBookmark */;
-			E098490B114F14D100F66C58 /* PBXTextBookmark */ = E098490B114F14D100F66C58 /* PBXTextBookmark */;
+			E098490B114F14D100F66C58 = E098490B114F14D100F66C58 /* PBXTextBookmark */;
 			E0B60AD1114F0A90005F222D = E0B60AD1114F0A90005F222D /* PBXTextBookmark */;
 			E0BBCF5C1117A5D000C1195B = E0BBCF5C1117A5D000C1195B /* PBXTextBookmark */;
 			E0BBCF5D1117A5D000C1195B = E0BBCF5D1117A5D000C1195B /* PBXTextBookmark */;
@@ -129,6 +135,13 @@
 			sepNavSelRange = "{428, 0}";
 			sepNavVisRange = "{0, 428}";
 			sepNavWindowFrame = "{{305, 259}, {966, 619}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* NavApp_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 538}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
 		};
 	};
 	A90EFE290F77E16000AB789A /* SplashScreenController.h */ = {
@@ -165,10 +178,68 @@
 	};
 	C2858C2C1145E87D004A4E7D /* Settings.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 2275}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 2262}}";
 			sepNavSelRange = "{2379, 0}";
-			sepNavVisRange = "{1990, 831}";
+			sepNavVisRange = "{2010, 834}";
 		};
+	};
+	E05172961158228B00A38FE7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Previous property declaration of 'scrollView' was here";
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 10;
+		rType = 1;
+	};
+	E05172971158228B00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 11";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 42;
+	};
+	E05172AA115822B300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
+		name = "Settings.m: 142";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 834;
+		vrLoc = 2010;
+	};
+	E05172AB115822B300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* NavApp_Prefix.pch */;
+		name = "NavApp_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 181;
+		vrLoc = 0;
+	};
+	E05172AC115822B300A38FE7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Synthesized properties 'scrollView' and 'scrollView' both claim ivar 'scrollView'";
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 47;
+		rType = 1;
+	};
+	E05172AD115822B300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 48";
+		rLen = 0;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 616;
 	};
 	E09848F9114F14C000F66C58 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -250,7 +321,7 @@
 		isSCMEnabled = 0;
 		scmConfiguration = {
 			repositoryNamesForRoots = {
-				"" = test;
+				"" = iPool;
 			};
 		};
 	};
@@ -399,8 +470,8 @@
 		isa = PBXTextBookmark;
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 13";
-		rLen = 613;
-		rLoc = 206;
+		rLen = 537;
+		rLoc = 204;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 0;
@@ -434,9 +505,9 @@
 	};
 	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 557}}";
-			sepNavSelRange = "{206, 613}";
-			sepNavVisRange = "{0, 826}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 4563}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{616, 1151}";
 		};
 	};
 }
