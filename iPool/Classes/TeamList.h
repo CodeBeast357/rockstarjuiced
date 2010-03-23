@@ -13,10 +13,10 @@
 #import <Foundation/NSString.h>
 
 @interface TeamList : NSObject {
-	NSMutableArray *teamList;
+	NSMutableArray *list;
 }
 + (TeamList*)getInstance;
--(NSMutableArray*) teamList;
+-(NSMutableArray*) listOfTeam;
 -(void) addTeam: (Team*) input;
 - (void) addGoalieByTeam: (Goalie*)inputGoalie team:(NSString *)inputTeam;
 - (void) addSkaterByTeam: (Skater*)inputPlayer team:(NSString *)inputTeam;

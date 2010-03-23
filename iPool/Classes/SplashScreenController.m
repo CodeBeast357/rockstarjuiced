@@ -53,6 +53,7 @@
 
 	//add all team to the team list of the nhl
 	TeamList *teamList = [TeamList getInstance];
+	int numberOfPlayerAdd=0;
 		
 	//http://www.iphonedevsdk.com/forum/iphone-sdk-development/36493-get-nsstring-text-html-page.html
 	NSString *sourceOffenceStr = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ca.sports.yahoo.com/nhl/stats/byposition?pos=C,RW,LW&conference=NHL&year=season_2009&qualified=1"]]; 
@@ -87,7 +88,6 @@
 			NSString *differential= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
 			
 			//Skater *aSkater= [[Skater alloc] initWithFirstName:firstname lastName:lastname position:forward goals:[goal intValue] assists:[assist intValue] differential:[differential intValue] gamePlay:[gamePlay intValue]]; 
-
 			Skater *aSkater= [[Skater alloc] init]; 
 			aSkater.firstName=firstname;
 			aSkater.lastName=lastname;
@@ -99,7 +99,7 @@
 			
 			
 			[teamList addSkaterByTeam:aSkater team:team];
-			[aSkater release];
+			numberOfPlayerAdd++;
 		}
  
 	}
@@ -111,28 +111,18 @@
 		BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
 		if(match){
 			NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
-			NSLog(@"deffence firstname: %@", firstname);
 			NSString *lastname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 1];
-			NSLog(@"deffence lastname: %@", lastname);
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *team= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-			NSLog(@"deffence team: %@", team);
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *gamePlay= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 1] componentsSeparatedByString:@"<"] objectAtIndex: 0];
- 
-			NSLog(@"deffence gamePlay: %@", gamePlay);
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *goal= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-			NSLog(@"deffence goal: %@", goal);
- 
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *assist= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-			NSLog(@"deffence assist: %@", assist);
- 
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *differential= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-			NSLog(@"deffence differential: %@", differential);
 			
 			Skater *aSkater= [[Skater alloc] init]; 
 			aSkater.firstName= firstname;
@@ -145,7 +135,7 @@
 			
 			
 			[teamList addSkaterByTeam:aSkater team:team];
-			[aSkater release];
+			numberOfPlayerAdd++;
  
 		}
  
@@ -158,26 +148,19 @@
 	 BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
 	 if(match){
 		NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
-		NSLog(@"goalie firstname: %@", firstname);
 		NSString *lastname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 1];
-		NSLog(@"goalie lastname: %@", lastname);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		NSString *team= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie team: %@", team);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		NSString *gamePlay= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 1] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie gamePlay: %@", gamePlay);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		NSString *win= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 4] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie win: %@", win);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		NSString *loss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie loss: %@", loss);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		NSString *otLoss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie otLoss: %@", otLoss);
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
@@ -187,7 +170,7 @@
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
  
 		NSString *shutouts= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie shootOut: %@", shutouts);
+		
 		 
 		 Goalie *aGoalie= [[Goalie alloc] init]; 
 		 aGoalie.firstName= firstname;
@@ -200,12 +183,21 @@
 		 
 		 
 		 [teamList addGoalieByTeam:aGoalie team:team];
-		 [aGoalie release];
+		 numberOfPlayerAdd++;
  
 		}
  
 	}
- 
+	
+	NSLog(@"Number of player add:%d", numberOfPlayerAdd);
+	NSMutableArray *list= [teamList listOfTeam];
+	NSLog(@"Number of team add: %d", [list count]);
+	for( Team *team in list){
+		NSLog(team.teamName);
+		NSLog(team.townAbbreviation);
+		NSLog(team.teamTown);
+	}
+	
 }
 
                              
