@@ -27,185 +27,214 @@ static TeamList *instance = nil;
 
 		// Initialisation
 		Team *teamNJD= [[Team alloc] init];
-		[teamNJD setTeamTown:@"New Jersey"];
-		[teamNJD setTownAbbreviation:@"NJD"];
-		[teamNJD setTeamName:@"Devils"];
+		teamNJD.teamTown=@"New Jersey";
+		teamNJD.townAbbreviation=@"NJD";
+		teamNJD.teamName=@"Devils";
 		[self addTeam:teamNJD];
+		[teamNJD release];
 		
 		
 		
-		Team *teamCHI= [Team init];
-		[teamCHI setTeamTown:@"Chicago"];
-		[teamCHI setTownAbbreviation:@"CHI"];
-		[teamCHI setTeamName:@"Blackhawks"];
+		Team *teamCHI= [[Team alloc] init];
+		teamCHI.teamTown=@"Chicago";
+		teamCHI.townAbbreviation=@"CHI";
+		teamCHI.teamName=@"Blackhawks";
 		[self addTeam:teamCHI];
+		[teamCHI release];
 		
-		Team *teamNYI= [Team init];
-		[teamNYI setTeamTown:@"New York"];
-		[teamNYI setTownAbbreviation:@"NYI"];
-		[teamNYI setTeamName:@"Islanders"];
+		Team *teamNYI= [[Team alloc] init];
+		teamNYI.teamTown=@"New York";
+		teamNYI.townAbbreviation=@"NYI";
+		teamNYI.teamName=@"Islanders";
 		[self addTeam:teamNYI];
+		[teamNYI release];
 		
-		Team *teamCOB= [Team init];
-		[teamCOB setTeamTown:@"Colombus"];
-		[teamCOB setTownAbbreviation:@"COB"];
-		[teamCOB setTeamName:@"Blue Jackets"];
+		Team *teamCOB= [[Team alloc] init];
+		teamCOB.teamTown=@"Colombus";
+		teamCOB.townAbbreviation=@"COB";
+		teamCOB.teamName=@"Blue Jackets";
 		[self addTeam:teamCOB];
+		[teamCOB release];
 		
-		Team *teamNYR= [Team init];
-		[teamNYR setTeamTown:@"New York"];
-		[teamNYR setTownAbbreviation:@"NYR"];
-		[teamNYR setTeamName:@"Rangers"];
+		Team *teamNYR= [[Team alloc] init];
+		teamNYR.teamTown=@"New York";
+		teamNYR.townAbbreviation=@"NYR";
+		teamNYR.teamName=@"Rangers";
 		[self addTeam:teamNYR];
+		[teamNYR release];
 		
-		Team *teamDET= [Team init];
-		[teamDET setTeamTown:@"Detroit"];
-		[teamDET setTownAbbreviation:@"DET"];
-		[teamDET setTeamName:@"Red Wings"];
+		Team *teamDET= [[Team alloc] init];
+		teamDET.teamTown=@"Detroit";
+		teamDET.townAbbreviation=@"DET";
+		teamDET.teamName=@"Red Wings";
 		[self addTeam:teamDET];
+		[teamDET release];
 		
-		Team *teamPHI= [Team init];
-		[teamPHI setTeamTown:@"Philadelphia"];
-		[teamPHI setTownAbbreviation:@"PHI"];
-		[teamPHI setTeamName:@"Flyers"];
+		Team *teamPHI= [[Team alloc] init];
+		teamPHI.teamTown=@"Philadelphia";
+		teamPHI.townAbbreviation=@"PHI";
+		teamPHI.teamName=@"Flyers";
 		[self addTeam:teamPHI];
+		[teamPHI release];
 		
-		Team *teamNAS= [Team init];
-		[teamNAS setTeamTown:@"Nashville"];
-		[teamNAS setTownAbbreviation:@"NAS"];
-		[teamNAS setTeamName:@"Predators"];
+		Team *teamNAS= [[Team alloc] init];
+		teamNAS.teamTown=@"Nashville";
+		teamNAS.townAbbreviation=@"NAS";
+		teamNAS.teamName=@"Predators";
 		[self addTeam:teamNAS];
+		[teamNAS release];
 		
-		Team *teamPIT= [Team init];
-		[teamPIT setTeamTown:@"Pittsburgh"];
-		[teamPIT setTownAbbreviation:@"PIT"];
-		[teamPIT setTeamName:@"Penguins"];
+		Team *teamPIT= [[Team alloc] init];
+		teamPIT.teamTown=@"Pittsburgh";
+		teamPIT.townAbbreviation=@"PIT";
+		teamPIT.teamName=@"Penguins";
 		[self addTeam:teamPIT];
+		[teamPIT release];
 		
-		Team *teamSTL= [Team init];
-		[teamSTL setTeamTown:@"St Louis"];
-		[teamSTL setTownAbbreviation:@"STL"];
-		[teamSTL setTeamName:@"Blues"];
+		Team *teamSTL= [[Team alloc] init];
+		teamSTL.teamTown=@"St Louis";
+		teamSTL.townAbbreviation=@"STL";
+		teamSTL.teamName=@"Blues";
 		[self addTeam:teamSTL];
+		[teamSTL release];
 		
-		Team *teamBOS= [Team init];
-		[teamBOS setTeamTown:@"Boston"];
-		[teamBOS setTownAbbreviation:@"BOS"];
-		[teamBOS setTeamName:@"Bruins"];
+		Team *teamBOS= [[Team alloc] init];
+		teamBOS.teamTown=@"Boston";
+		teamBOS.townAbbreviation=@"BOS";
+		teamBOS.teamName=@"Bruins";
 		[self addTeam:teamBOS];
+		[teamBOS release];
 		
-		Team *teamCGY= [Team init];
-		[teamCGY setTeamTown:@"Calgary"];
-		[teamCGY setTownAbbreviation:@"CGY"];
-		[teamCGY setTeamName:@"Flames"];
+		Team *teamCGY= [[Team alloc] init];
+		teamCGY.teamTown=@"Calgary";
+		teamCGY.townAbbreviation=@"CGY";
+		teamCGY.teamName=@"Flames";
 		[self addTeam:teamCGY];
+		[teamCGY release];
 		
-		Team *teamBUF= [Team init];
-		[teamBUF setTeamTown:@"Buffalo"];
-		[teamBUF setTownAbbreviation:@"BUF"];
-		[teamBUF setTeamName:@"Sabres"];
+		Team *teamBUF=[[Team alloc] init];
+		teamBUF.teamTown=@"Buffalo";
+		teamBUF.townAbbreviation=@"BUF";
+		teamBUF.teamName=@"Sabres";
 		[self addTeam:teamBUF];
+		[teamBUF release];
 		
-		Team *teamCOL= [Team init];
-		[teamCOL setTeamTown:@"Colorado"];
-		[teamCOL setTownAbbreviation:@"COL"];
-		[teamCOL setTeamName:@"Avalanche"];
+		Team *teamCOL=[[Team alloc] init];
+		teamCOL.teamTown=@"Colorado";
+		teamCOL.townAbbreviation=@"COL";
+		teamCOL.teamName=@"Avalanche";
 		[self addTeam:teamCOL];
+		[teamCOL release];
 		
-		Team *teamMON= [Team init];
-		[teamMON setTeamTown:@"Montreal"];
-		[teamMON setTownAbbreviation:@"MON"];
-		[teamMON setTeamName:@"Canadiens"];
+		Team *teamMON= [[Team alloc] init];
+		teamMON.teamTown=@"Montreal";
+		teamMON.townAbbreviation=@"MON";
+		teamMON.teamName=@"Canadiens";
 		[self addTeam:teamMON];
+		[teamMON release];
 		
-		Team *teamEDM= [Team init];
-		[teamEDM setTeamTown:@"Edmonton"];
-		[teamEDM setTownAbbreviation:@"EDM"];
-		[teamEDM setTeamName:@"Oilers"];
+		Team *teamEDM= [[Team alloc] init];
+		teamEDM.teamTown=@"Edmonton";
+		teamEDM.townAbbreviation=@"EDM";
+		teamEDM.teamName=@"Oilers";
 		[self addTeam:teamEDM];
+		[teamEDM release];
 		
-		Team *teamOTT= [Team init];
-		[teamOTT setTeamTown:@"Ottawa"];
-		[teamOTT setTownAbbreviation:@"OTT"];
-		[teamOTT setTeamName:@"Senators"];
+		Team *teamOTT= [[Team alloc] init];
+		teamOTT.teamTown=@"Ottawa";
+		teamOTT.townAbbreviation=@"OTT";
+		teamOTT.teamName=@"Senators";
 		[self addTeam:teamOTT];
+		[teamOTT release];
 		
-		Team *teamMIN= [Team init];
-		[teamMIN setTeamTown:@"Minnesota"];
-		[teamMIN setTownAbbreviation:@"MIN"];
-		[teamMIN setTeamName:@"Wild"];
+		Team *teamMIN= [[Team alloc] init];
+		teamMIN.teamTown=@"Minnesota";
+		teamMIN.townAbbreviation=@"MIN";
+		teamMIN.teamName=@"Wild";
 		[self addTeam:teamMIN];
+		[teamMIN release];
 		
-		Team *teamTOR= [Team init];
-		[teamTOR setTeamTown:@"Torronto"];
-		[teamTOR setTownAbbreviation:@"TOR"];
-		[teamTOR setTeamName:@"Maple Leafs"];
+		Team *teamTOR= [[Team alloc] init];
+		teamTOR.teamTown=@"Torronto";
+		teamTOR.townAbbreviation=@"TOR";
+		teamTOR.teamName=@"Maple Leafs";
 		[self addTeam:teamTOR];
+		[teamTOR release];
 		
-		Team *teamVAN= [Team init];
-		[teamVAN setTeamTown:@"Vancouver"];
-		[teamVAN setTownAbbreviation:@"VAN"];
-		[teamVAN setTeamName:@"Canucks"];
+		Team *teamVAN= [[Team alloc] init];
+		teamVAN.teamTown=@"Vancouver";
+		teamVAN.townAbbreviation=@"VAN";
+		teamVAN.teamName=@"Canucks";
 		[self addTeam:teamVAN];
+		[teamVAN release];
 		
-		Team *teamATL= [Team init];
-		[teamATL setTeamTown:@"Atlanta"];
-		[teamATL setTownAbbreviation:@"ATL"];
-		[teamATL setTeamName:@"Thrashers"];
+		Team *teamATL= [[Team alloc] init];
+		teamATL.teamTown=@"Atlanta";
+		teamATL.townAbbreviation=@"ATL";
+		teamATL.teamName=@"Thrashers";
 		[self addTeam:teamATL];
+		[teamATL release];
 		
-		Team *teamANA= [Team init];
-		[teamANA setTeamTown:@"Anaheim"];
-		[teamANA setTownAbbreviation:@"ANA"];
-		[teamANA setTeamName:@"Ducks"];
+		Team *teamANA= [[Team alloc] init];
+		teamANA.teamTown=@"Anaheim";
+		teamANA.townAbbreviation=@"ANA";
+		teamANA.teamName=@"Ducks";
 		[self addTeam:teamANA];
+		[teamANA release];
 		
-		Team *teamCAR= [Team init];
-		[teamCAR setTeamTown:@"Carolina"];
-		[teamCAR setTownAbbreviation:@"CAR"];
-		[teamCAR setTeamName:@"Hurricanes"];
+		Team *teamCAR= [[Team alloc] init];
+		teamCAR.teamTown=@"Carolina";
+		teamCAR.townAbbreviation=@"CAR";
+		teamCAR.teamName=@"Hurricanes";
 		[self addTeam:teamCAR];
+		[teamCAR release];
 		
-		Team *teamDAL= [Team init];
-		[teamDAL setTeamTown:@"Dallas"];
-		[teamDAL setTownAbbreviation:@"DAL"];
-		[teamDAL setTeamName:@"Stars"];
+		Team *teamDAL= [[Team alloc] init];
+		teamDAL.teamTown=@"Dallas";
+		teamDAL.townAbbreviation=@"DAL";
+		teamDAL.teamName=@"Stars";
 		[self addTeam:teamDAL];
+		[teamDAL release];
 		
-		Team *teamFLA= [Team init];
-		[teamFLA setTeamTown:@"Florida"];
-		[teamFLA setTownAbbreviation:@"FLA"];
-		[teamFLA setTeamName:@"Panthers"];
+		Team *teamFLA= [[Team alloc] init];
+		teamFLA.teamTown=@"Florida";
+		teamFLA.townAbbreviation=@"FLA";
+		teamFLA.teamName=@"Panthers";
 		[self addTeam:teamFLA];
+		[teamFLA release];
 		
-		Team *teamLOS= [Team init];
-		[teamLOS setTeamTown:@"Los Angeles"];
-		[teamLOS setTownAbbreviation:@"LOS"];
-		[teamLOS setTeamName:@"Kings"];
+		Team *teamLOS= [[Team alloc] init];
+		teamLOS.teamTown=@"Los Angeles";
+		teamLOS.townAbbreviation=@"LOS";
+		teamLOS.teamName=@"Kings";
 		[self addTeam:teamLOS];
+		[teamLOS release];
 		
-		Team *teamTAM= [Team init];
-		[teamTAM setTeamTown:@"Tampa Bay"];
-		[teamTAM setTownAbbreviation:@"TAM"];
-		[teamTAM setTeamName:@"Lightning"];
+		Team *teamTAM= [[Team alloc] init];
+		teamTAM.teamTown=@"Tampa Bay";
+		teamTAM.townAbbreviation=@"TAM";
+		teamTAM.teamName=@"Lightning";
 		[self addTeam:teamTAM];
+		[teamTAM release];
 		
-		Team *teamPHO= [Team init];
-		[teamPHO setTeamTown:@"Phoenix"];
-		[teamPHO setTownAbbreviation:@"PHO"];
-		[teamPHO setTeamName:@"Coyotes"];
+		Team *teamPHO= [[Team alloc] init];
+		teamPHO.teamTown=@"Phoenix";
+		teamPHO.townAbbreviation=@"PHO";
+		teamPHO.teamName=@"Coyotes";
 		[self addTeam:teamPHO];
+		[teamPHO release];
 		
-		Team *teamWAS= [Team init];
-		[teamWAS setTeamTown:@"Washington"];
-		[teamWAS setTownAbbreviation:@"WAS"];
-		[teamWAS setTeamName:@"Capitals"];
+		Team *teamWAS=[[Team alloc] init];
+		teamWAS.teamTown=@"Washington";
+		teamWAS.townAbbreviation=@"WAS";
+		teamWAS.teamName=@"Capitals";
 		[self addTeam:teamWAS];
+		[teamWAS release];
 		
-		Team *teamSAN= [Team init];
-		[teamSAN setTeamTown:@"San Jose"];
-		[teamSAN setTownAbbreviation:@"SAN"];
-		[teamSAN setTeamName:@"Sharks"];
+		Team *teamSAN= [[Team alloc] init];
+		teamSAN.teamTown=@"San Jose";
+		teamSAN.townAbbreviation=@"SAN";
+		teamSAN.teamName=@"Sharks";
 		[self addTeam:teamSAN];
  
 	}

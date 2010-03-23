@@ -53,8 +53,6 @@
 
 	//add all team to the team list of the nhl
 	TeamList *teamList = [TeamList getInstance];
-	NSString *forward= @"f";
-	NSString *defence=@"d";
 		
 	//http://www.iphonedevsdk.com/forum/iphone-sdk-development/36493-get-nsstring-text-html-page.html
 	NSString *sourceOffenceStr = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ca.sports.yahoo.com/nhl/stats/byposition?pos=C,RW,LW&conference=NHL&year=season_2009&qualified=1"]]; 
@@ -92,7 +90,7 @@
 
 			Skater *aSkater= [[Skater alloc] init]; 
 			aSkater.firstName=firstname;
-			//aSkater.lastName=lastname;
+			aSkater.lastName=lastname;
 			aSkater.position=@"f";
 			aSkater.goals=[goal intValue];
 			aSkater.assists=[assist intValue];
@@ -100,7 +98,7 @@
 			aSkater.gamePlay=[gamePlay intValue];
 			
 			
-			[teamList addSkaterByTeam:aSkater team:team];
+			//[teamList addSkaterByTeam:aSkater team:team];
 		}
  
 	}
@@ -137,7 +135,7 @@
 			
 			Skater *aSkater= [[Skater alloc] init]; 
 			aSkater.firstName= firstname;
-			//aSkater.lastName=lastname;
+			aSkater.lastName=lastname;
 			aSkater.position=@"d";
 			aSkater.goals=[goal intValue];
 			aSkater.assists=[assist intValue];

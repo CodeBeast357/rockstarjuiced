@@ -26,6 +26,9 @@
 		FA96F32E1158404F00ABCBFC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3281158404F00ABCBFC /* Player.m */; };
 		FA96F32F1158404F00ABCBFC /* Skater.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F32A1158404F00ABCBFC /* Skater.m */; };
 		FA96F3301158404F00ABCBFC /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F32C1158404F00ABCBFC /* Team.m */; };
+		FA96F3D111586A8500ABCBFC /* green_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96F3CE11586A8500ABCBFC /* green_tick.png */; };
+		FA96F3D211586A8500ABCBFC /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96F3CF11586A8500ABCBFC /* help.png */; };
+		FA96F3D311586A8500ABCBFC /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96F3D011586A8500ABCBFC /* red_cross.png */; };
 		FAA8CE0211529B890041F68D /* TeamList.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CE0111529B890041F68D /* TeamList.m */; };
 		FAAA291C114F126C00EADD2B /* AddPooler.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA291B114F126C00EADD2B /* AddPooler.xib */; };
 		FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */; };
@@ -66,6 +69,9 @@
 		FA96F32A1158404F00ABCBFC /* Skater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skater.m; sourceTree = "<group>"; };
 		FA96F32B1158404F00ABCBFC /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
 		FA96F32C1158404F00ABCBFC /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		FA96F3CE11586A8500ABCBFC /* green_tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_tick.png; path = Media/green_tick.png; sourceTree = "<group>"; };
+		FA96F3CF11586A8500ABCBFC /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Media/help.png; sourceTree = "<group>"; };
+		FA96F3D011586A8500ABCBFC /* red_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_cross.png; path = Media/red_cross.png; sourceTree = "<group>"; };
 		FAA8CE0011529B890041F68D /* TeamList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamList.h; sourceTree = "<group>"; };
 		FAA8CE0111529B890041F68D /* TeamList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamList.m; sourceTree = "<group>"; };
 		FAAA291B114F126C00EADD2B /* AddPooler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPooler.xib; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 		FAAA294D114F16EC00EADD2B /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				FA96F3CE11586A8500ABCBFC /* green_tick.png */,
+				FA96F3CF11586A8500ABCBFC /* help.png */,
+				FA96F3D011586A8500ABCBFC /* red_cross.png */,
 				C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */,
 			);
 			name = Media;
@@ -234,6 +243,9 @@
 				E0D8BCBE114F0C4E009BBEE4 /* ViewStatistics.xib in Resources */,
 				FAAA291C114F126C00EADD2B /* AddPooler.xib in Resources */,
 				C2B91EB311543C6900BB73ED /* splash_screen_v1.jpg in Resources */,
+				FA96F3D111586A8500ABCBFC /* green_tick.png in Resources */,
+				FA96F3D211586A8500ABCBFC /* help.png in Resources */,
+				FA96F3D311586A8500ABCBFC /* red_cross.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
