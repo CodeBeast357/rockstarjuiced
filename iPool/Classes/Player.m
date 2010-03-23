@@ -14,10 +14,10 @@
 {
     if ( self = [super init] )
     {
-        [self lastName:@"Ovechkin"];
-		[self firstName:@"Alexander"];
-        [self position:@"LW"];
-		[self gamePlay:0];
+        self.lastName=@"Ovechkin";
+		self.firstName=@"Alexander";
+        self.position=@"LW";
+		self.gamePlay=0;
     }
 	
     return self;

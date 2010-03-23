@@ -1,7 +1,7 @@
 //
 //  Skater.m
 //
-//  Created by Ian Bussières on 10-03-08.
+//  Created by Ian BussiÃ‹res on 10-03-08.
 //  Copyright 2010 iPool. All rights reserved.
 //
 
@@ -37,9 +37,9 @@
 {
     if ( self = [super init] )
     {
-		[self setGoals: 0];
-		[self setAssists: 0];
-		[self setDifferential: 0];
+		self.goals=0;
+		self.assists=0;
+		self.differential=0;
     }
 	
     return self;
@@ -47,11 +47,7 @@
 
 - (void) dealloc
 {
-	[goals release];
-	[assists release];
-	[differential release];
-	
-    [super dealloc];
+	[super dealloc];
 }
 
 @end

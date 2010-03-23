@@ -23,8 +23,10 @@ static TeamList *instance = nil;
 
 - (TeamList*)init {
 	if (self = [super init]) {
+		
+
 		// Initialisation
-		Team *teamNJD= [Team init];
+		Team *teamNJD= [[Team alloc] init];
 		[teamNJD setTeamTown:@"New Jersey"];
 		[teamNJD setTownAbbreviation:@"NJD"];
 		[teamNJD setTeamName:@"Devils"];
@@ -205,6 +207,7 @@ static TeamList *instance = nil;
 		[teamSAN setTownAbbreviation:@"SAN"];
 		[teamSAN setTeamName:@"Sharks"];
 		[self addTeam:teamSAN];
+ 
 	}
 	return self;
 }

@@ -53,6 +53,8 @@
 
 	//add all team to the team list of the nhl
 	TeamList *teamList = [TeamList getInstance];
+	NSString *forward= @"f";
+	NSString *defence=@"d";
 		
 	//http://www.iphonedevsdk.com/forum/iphone-sdk-development/36493-get-nsstring-text-html-page.html
 	NSString *sourceOffenceStr = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ca.sports.yahoo.com/nhl/stats/byposition?pos=C,RW,LW&conference=NHL&year=season_2009&qualified=1"]]; 
@@ -86,8 +88,18 @@
 			[aScannerOffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *differential= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
 			
-			Skater *aSkater= [Skater initWithFirstName:firstname lastName:lastname position:@"O" goals:goal assits:assist diffrential:differential]; 
+			//Skater *aSkater= [[Skater alloc] initWithFirstName:firstname lastName:lastname position:forward goals:[goal intValue] assists:[assist intValue] differential:[differential intValue] gamePlay:[gamePlay intValue]]; 
 
+			Skater *aSkater= [[Skater alloc] init]; 
+			aSkater.firstName=firstname;
+			//aSkater.lastName=lastname;
+			aSkater.position=@"f";
+			aSkater.goals=[goal intValue];
+			aSkater.assists=[assist intValue];
+			aSkater.differential=[differential intValue];
+			aSkater.gamePlay=[gamePlay intValue];
+			
+			
 			[teamList addSkaterByTeam:aSkater team:team];
 		}
  
@@ -122,6 +134,18 @@
 			[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
 			NSString *differential= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
 			NSLog(@"deffence differential: %@", differential);
+			
+			Skater *aSkater= [[Skater alloc] init]; 
+			aSkater.firstName= firstname;
+			//aSkater.lastName=lastname;
+			aSkater.position=@"d";
+			aSkater.goals=[goal intValue];
+			aSkater.assists=[assist intValue];
+			aSkater.differential=[differential intValue];
+			aSkater.gamePlay=[gamePlay intValue];
+			
+			
+			[teamList addSkaterByTeam:aSkater team:team];
  
 		}
  
@@ -175,16 +199,14 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad{
 	
-	/**
 	activityOutlet.hidden= FALSE;
 	[activityOutlet startAnimating];
 	
 	[self startMyThread];
 	
 	NSLog(@"in viewDidLoad");
-	 **/
 	
-	[self switchPage];
+    //[self switchPage];
 }
  
 

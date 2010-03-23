@@ -21,12 +21,12 @@
 		C2858C2D1145E87D004A4E7D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C2858C2C1145E87D004A4E7D /* Settings.m */; };
 		C2B91EB311543C6900BB73ED /* splash_screen_v1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */; };
 		E0B60AB8114F063B005F222D /* ViewStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */; };
-		E0D8BCB0114F0B9D009BBEE4 /* Skater.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D8BCAF114F0B9D009BBEE4 /* Skater.m */; };
-		E0D8BCBB114F0BC3009BBEE4 /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D8BCB8114F0BC3009BBEE4 /* Goalie.m */; };
-		E0D8BCBC114F0BC3009BBEE4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D8BCBA114F0BC3009BBEE4 /* Player.m */; };
 		E0D8BCBE114F0C4E009BBEE4 /* ViewStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */; };
+		FA96F32D1158404F00ABCBFC /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3261158404F00ABCBFC /* Goalie.m */; };
+		FA96F32E1158404F00ABCBFC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3281158404F00ABCBFC /* Player.m */; };
+		FA96F32F1158404F00ABCBFC /* Skater.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F32A1158404F00ABCBFC /* Skater.m */; };
+		FA96F3301158404F00ABCBFC /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F32C1158404F00ABCBFC /* Team.m */; };
 		FAA8CE0211529B890041F68D /* TeamList.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA8CE0111529B890041F68D /* TeamList.m */; };
-		FAAA291A114F125000EADD2B /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA2919114F125000EADD2B /* Team.m */; };
 		FAAA291C114F126C00EADD2B /* AddPooler.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAA291B114F126C00EADD2B /* AddPooler.xib */; };
 		FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */; };
 		FAD4E455114EFFA5003A1BB5 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */; };
@@ -57,17 +57,17 @@
 		C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash_screen_v1.jpg; path = Media/splash_screen_v1.jpg; sourceTree = "<group>"; };
 		E0B60AB6114F063B005F222D /* ViewStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewStatisticsController.h; sourceTree = "<group>"; };
 		E0B60AB7114F063B005F222D /* ViewStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewStatisticsController.m; sourceTree = "<group>"; };
-		E0D8BCAF114F0B9D009BBEE4 /* Skater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skater.m; sourceTree = "<group>"; };
-		E0D8BCB4114F0BAE009BBEE4 /* Skater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skater.h; sourceTree = "<group>"; };
-		E0D8BCB7114F0BC3009BBEE4 /* Goalie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goalie.h; sourceTree = "<group>"; };
-		E0D8BCB8114F0BC3009BBEE4 /* Goalie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goalie.m; sourceTree = "<group>"; };
-		E0D8BCB9114F0BC3009BBEE4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
-		E0D8BCBA114F0BC3009BBEE4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewStatistics.xib; sourceTree = "<group>"; };
+		FA96F3251158404F00ABCBFC /* Goalie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goalie.h; sourceTree = "<group>"; };
+		FA96F3261158404F00ABCBFC /* Goalie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goalie.m; sourceTree = "<group>"; };
+		FA96F3271158404F00ABCBFC /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		FA96F3281158404F00ABCBFC /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		FA96F3291158404F00ABCBFC /* Skater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Skater.h; sourceTree = "<group>"; };
+		FA96F32A1158404F00ABCBFC /* Skater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Skater.m; sourceTree = "<group>"; };
+		FA96F32B1158404F00ABCBFC /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		FA96F32C1158404F00ABCBFC /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
 		FAA8CE0011529B890041F68D /* TeamList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamList.h; sourceTree = "<group>"; };
 		FAA8CE0111529B890041F68D /* TeamList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamList.m; sourceTree = "<group>"; };
-		FAAA2918114F125000EADD2B /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
-		FAAA2919114F125000EADD2B /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
 		FAAA291B114F126C00EADD2B /* AddPooler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddPooler.xib; sourceTree = "<group>"; };
 		FAAA2922114F12CA00EADD2B /* AddPoolerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPoolerController.h; sourceTree = "<group>"; };
 		FAAA2923114F12CA00EADD2B /* AddPoolerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPoolerController.m; sourceTree = "<group>"; };
@@ -93,16 +93,16 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FA96F3251158404F00ABCBFC /* Goalie.h */,
+				FA96F3261158404F00ABCBFC /* Goalie.m */,
+				FA96F3271158404F00ABCBFC /* Player.h */,
+				FA96F3281158404F00ABCBFC /* Player.m */,
+				FA96F3291158404F00ABCBFC /* Skater.h */,
+				FA96F32A1158404F00ABCBFC /* Skater.m */,
+				FA96F32B1158404F00ABCBFC /* Team.h */,
+				FA96F32C1158404F00ABCBFC /* Team.m */,
 				FAAA2922114F12CA00EADD2B /* AddPoolerController.h */,
 				FAAA2923114F12CA00EADD2B /* AddPoolerController.m */,
-				FAAA2918114F125000EADD2B /* Team.h */,
-				FAAA2919114F125000EADD2B /* Team.m */,
-				E0D8BCB7114F0BC3009BBEE4 /* Goalie.h */,
-				E0D8BCB8114F0BC3009BBEE4 /* Goalie.m */,
-				E0D8BCB9114F0BC3009BBEE4 /* Player.h */,
-				E0D8BCBA114F0BC3009BBEE4 /* Player.m */,
-				E0D8BCB4114F0BAE009BBEE4 /* Skater.h */,
-				E0D8BCAF114F0B9D009BBEE4 /* Skater.m */,
 				C2858C2B1145E87D004A4E7D /* Settings.h */,
 				1D3623240D0F684500981E51 /* Delegate.h */,
 				1D3623250D0F684500981E51 /* Delegate.m */,
@@ -251,13 +251,13 @@
 				C2858C2D1145E87D004A4E7D /* Settings.m in Sources */,
 				FAD4E455114EFFA5003A1BB5 /* SettingsController.m in Sources */,
 				E0B60AB8114F063B005F222D /* ViewStatisticsController.m in Sources */,
-				E0D8BCB0114F0B9D009BBEE4 /* Skater.m in Sources */,
-				E0D8BCBB114F0BC3009BBEE4 /* Goalie.m in Sources */,
-				E0D8BCBC114F0BC3009BBEE4 /* Player.m in Sources */,
-				FAAA291A114F125000EADD2B /* Team.m in Sources */,
 				FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */,
 				FAA8CE0211529B890041F68D /* TeamList.m in Sources */,
 				65B637D5115821DD00F90E0E /* Pooler.m in Sources */,
+				FA96F32D1158404F00ABCBFC /* Goalie.m in Sources */,
+				FA96F32E1158404F00ABCBFC /* Player.m in Sources */,
+				FA96F32F1158404F00ABCBFC /* Skater.m in Sources */,
+				FA96F3301158404F00ABCBFC /* Team.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
