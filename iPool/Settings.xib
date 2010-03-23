@@ -628,7 +628,7 @@
 							<object class="IBUIImageView" id="515392326">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 48}, {40, 19}}</string>
+								<string key="NSFrame">{{280, 48}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -653,7 +653,7 @@
 							<object class="IBUIImageView" id="510370964">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 102}, {40, 19}}</string>
+								<string key="NSFrame">{{282, 101}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -675,7 +675,7 @@
 							<object class="IBUIImageView" id="638643205">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 201}, {40, 19}}</string>
+								<string key="NSFrame">{{280, 200}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -697,7 +697,7 @@
 							<object class="IBUIImageView" id="678285503">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 240}, {40, 19}}</string>
+								<string key="NSFrame">{{280, 240}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -774,7 +774,7 @@
 							<object class="IBUIImageView" id="950976881">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 281}, {40, 19}}</string>
+								<string key="NSFrame">{{280, 281}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -796,7 +796,7 @@
 							<object class="IBUIImageView" id="803036704">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{259, 364}, {40, 19}}</string>
+								<string key="NSFrame">{{280, 365}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -806,7 +806,7 @@
 							</object>
 							<object class="IBUIImageView" id="828843329">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{238, 402}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -817,7 +817,7 @@
 							</object>
 							<object class="IBUIImageView" id="583267274">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{240, 442}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -828,8 +828,8 @@
 							</object>
 							<object class="IBUIImageView" id="47859104">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{261, 443}, {40, 19}}</string>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{260, 443}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -839,7 +839,7 @@
 							</object>
 							<object class="IBUIImageView" id="499545265">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{240, 526}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -850,8 +850,8 @@
 							</object>
 							<object class="IBUIImageView" id="788310167">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{261, 527}, {40, 19}}</string>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{261, 526}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -861,7 +861,7 @@
 							</object>
 							<object class="IBUIImageView" id="324328575">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{240, 564}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -872,7 +872,7 @@
 							</object>
 							<object class="IBUIImageView" id="253584183">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{261, 565}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -883,7 +883,7 @@
 							</object>
 							<object class="IBUIImageView" id="100130555">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{240, 604}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -894,8 +894,8 @@
 							</object>
 							<object class="IBUIImageView" id="443849276">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{261, 605}, {40, 19}}</string>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{261, 604}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -905,8 +905,8 @@
 							</object>
 							<object class="IBUIImageView" id="1067401861">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
-								<string key="NSFrame">{{261, 402}, {40, 19}}</string>
+								<int key="NSvFlags">-2147483392</int>
+								<string key="NSFrame">{{260, 402}, {40, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -916,7 +916,7 @@
 							</object>
 							<object class="IBUIImageView" id="423936876">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{240, 647}, {82, 20}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -927,7 +927,7 @@
 							</object>
 							<object class="IBUIImageView" id="999140742">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{261, 648}, {40, 19}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -938,7 +938,7 @@
 							</object>
 							<object class="IBUIImageView" id="698444152">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 402}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -949,7 +949,7 @@
 							</object>
 							<object class="IBUIImageView" id="925554010">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 442}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -960,7 +960,7 @@
 							</object>
 							<object class="IBUIImageView" id="815440129">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 485}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -971,7 +971,7 @@
 							</object>
 							<object class="IBUIImageView" id="578997988">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{-15, 526}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -982,7 +982,7 @@
 							</object>
 							<object class="IBUIImageView" id="77302673">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 564}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -993,7 +993,7 @@
 							</object>
 							<object class="IBUIImageView" id="376942994">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 604}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -1004,7 +1004,7 @@
 							</object>
 							<object class="IBUIImageView" id="512091833">
 								<reference key="NSNextResponder" ref="745426341"/>
-								<int key="NSvFlags">256</int>
+								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{12, 646}, {60, 21}}</string>
 								<reference key="NSSuperview" ref="745426341"/>
 								<bool key="IBUIOpaque">NO</bool>
@@ -1013,7 +1013,7 @@
 								<bool key="IBUIMultipleTouchEnabled">YES</bool>
 								<reference key="IBUIImage" ref="329299064"/>
 							</object>
-							<object class="IBUISwitch" id="139614814">
+							<object class="IBUISwitch" id="472047761">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{207, 319}, {94, 27}}</string>
@@ -1025,7 +1025,7 @@
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<bool key="IBUIOn">YES</bool>
 							</object>
-							<object class="IBUISwitch" id="706338573">
+							<object class="IBUISwitch" id="512607665">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{207, 482}, {94, 27}}</string>
@@ -1038,7 +1038,7 @@
 								<bool key="IBUIOn">YES</bool>
 							</object>
 						</object>
-						<string key="NSFrame">{{0, -25}, {320, 881}}</string>
+						<string key="NSFrame">{{0, -27}, {320, 881}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -1391,7 +1391,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">switchPlusMinusFwd</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="139614814"/>
+						<reference key="destination" ref="472047761"/>
 					</object>
 					<int key="connectionID">167</int>
 				</object>
@@ -1399,7 +1399,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">switchPlusMinusDef</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="706338573"/>
+						<reference key="destination" ref="512607665"/>
 					</object>
 					<int key="connectionID">169</int>
 				</object>
@@ -1410,6 +1410,286 @@
 						<reference key="destination" ref="286229418"/>
 					</object>
 					<int key="connectionID">170</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPoolName</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="247038695"/>
+					</object>
+					<int key="connectionID">171</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPoolName</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="914736933"/>
+					</object>
+					<int key="connectionID">172</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPoolName</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="515392326"/>
+					</object>
+					<int key="connectionID">173</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidNumberOfPlayers</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="846188328"/>
+					</object>
+					<int key="connectionID">175</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidNumberOfPlayers</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="510370964"/>
+					</object>
+					<int key="connectionID">176</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpNumberOfFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="1067198335"/>
+					</object>
+					<int key="connectionID">178</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidNumberOfFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="417401036"/>
+					</object>
+					<int key="connectionID">179</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidNumberOfFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="638643205"/>
+					</object>
+					<int key="connectionID">180</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerGoalFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="470888657"/>
+					</object>
+					<int key="connectionID">181</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerGoalFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="235264150"/>
+					</object>
+					<int key="connectionID">182</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerGoalFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="678285503"/>
+					</object>
+					<int key="connectionID">183</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerAssistFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="269211223"/>
+					</object>
+					<int key="connectionID">184</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerAssistFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="267191339"/>
+					</object>
+					<int key="connectionID">185</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerAssistFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="950976881"/>
+					</object>
+					<int key="connectionID">186</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpNumberOfDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="16498053"/>
+					</object>
+					<int key="connectionID">187</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidNumberOfDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="932062981"/>
+					</object>
+					<int key="connectionID">188</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidNumberOfDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="803036704"/>
+					</object>
+					<int key="connectionID">189</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerGoalDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="698444152"/>
+					</object>
+					<int key="connectionID">190</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerGoalDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="828843329"/>
+					</object>
+					<int key="connectionID">191</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerGoalDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="1067401861"/>
+					</object>
+					<int key="connectionID">192</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerAssistDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="925554010"/>
+					</object>
+					<int key="connectionID">193</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerAssistDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="583267274"/>
+					</object>
+					<int key="connectionID">194</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerAssistDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="47859104"/>
+					</object>
+					<int key="connectionID">195</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpNumberOfGoalie</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="578997988"/>
+					</object>
+					<int key="connectionID">196</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidNumberOfGoalie</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="499545265"/>
+					</object>
+					<int key="connectionID">197</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidNumberOfGoalie</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="788310167"/>
+					</object>
+					<int key="connectionID">198</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerWin</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="77302673"/>
+					</object>
+					<int key="connectionID">199</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerWin</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="324328575"/>
+					</object>
+					<int key="connectionID">200</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerWin</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="253584183"/>
+					</object>
+					<int key="connectionID">201</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerOT</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="376942994"/>
+					</object>
+					<int key="connectionID">202</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerOT</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="100130555"/>
+					</object>
+					<int key="connectionID">203</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerOT</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="443849276"/>
+					</object>
+					<int key="connectionID">204</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPointPerShoutout</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="512091833"/>
+					</object>
+					<int key="connectionID">205</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgValidPointPerShoutout</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="423936876"/>
+					</object>
+					<int key="connectionID">206</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgInvalidPointPerShoutout</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="999140742"/>
+					</object>
+					<int key="connectionID">207</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -1448,29 +1728,14 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="512091833"/>
 							<reference ref="376942994"/>
-							<reference ref="77302673"/>
 							<reference ref="578997988"/>
 							<reference ref="815440129"/>
-							<reference ref="925554010"/>
 							<reference ref="698444152"/>
 							<reference ref="16498053"/>
-							<reference ref="999140742"/>
-							<reference ref="443849276"/>
-							<reference ref="253584183"/>
-							<reference ref="788310167"/>
 							<reference ref="423936876"/>
 							<reference ref="100130555"/>
 							<reference ref="324328575"/>
-							<reference ref="803036704"/>
-							<reference ref="950976881"/>
-							<reference ref="678285503"/>
-							<reference ref="638643205"/>
-							<reference ref="510370964"/>
-							<reference ref="515392326"/>
-							<reference ref="1067401861"/>
-							<reference ref="47859104"/>
 							<reference ref="499545265"/>
-							<reference ref="828843329"/>
 							<reference ref="932062981"/>
 							<reference ref="267191339"/>
 							<reference ref="235264150"/>
@@ -1507,13 +1772,28 @@
 							<reference ref="308675407"/>
 							<reference ref="1070649007"/>
 							<reference ref="197627127"/>
-							<reference ref="139614814"/>
+							<reference ref="472047761"/>
 							<reference ref="687768691"/>
-							<reference ref="706338573"/>
+							<reference ref="512607665"/>
 							<reference ref="315462313"/>
 							<reference ref="1020029731"/>
 							<reference ref="583267274"/>
 							<reference ref="653344790"/>
+							<reference ref="515392326"/>
+							<reference ref="510370964"/>
+							<reference ref="638643205"/>
+							<reference ref="678285503"/>
+							<reference ref="950976881"/>
+							<reference ref="803036704"/>
+							<reference ref="828843329"/>
+							<reference ref="925554010"/>
+							<reference ref="77302673"/>
+							<reference ref="999140742"/>
+							<reference ref="443849276"/>
+							<reference ref="253584183"/>
+							<reference ref="788310167"/>
+							<reference ref="47859104"/>
+							<reference ref="1067401861"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -1849,12 +2129,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">166</int>
-						<reference key="object" ref="139614814"/>
+						<reference key="object" ref="472047761"/>
 						<reference key="parent" ref="745426341"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">168</int>
-						<reference key="object" ref="706338573"/>
+						<reference key="object" ref="512607665"/>
 						<reference key="parent" ref="745426341"/>
 					</object>
 				</object>
@@ -1902,7 +2182,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>SettingsController</string>
 					<string>UIResponder</string>
-					<string>{{859, 312}, {320, 480}}</string>
+					<string>{{840, 244}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -1952,7 +2232,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">170</int>
+			<int key="maxID">207</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -1981,6 +2261,42 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>imgHelpNumberOfDef</string>
+							<string>imgHelpNumberOfFwd</string>
+							<string>imgHelpNumberOfGoalie</string>
+							<string>imgHelpNumberOfPlayers</string>
+							<string>imgHelpPointPerAssistDef</string>
+							<string>imgHelpPointPerAssistFwd</string>
+							<string>imgHelpPointPerGoalDef</string>
+							<string>imgHelpPointPerGoalFwd</string>
+							<string>imgHelpPointPerOT</string>
+							<string>imgHelpPointPerShoutout</string>
+							<string>imgHelpPointPerWin</string>
+							<string>imgHelpPoolName</string>
+							<string>imgInvalidNumberOfDef</string>
+							<string>imgInvalidNumberOfFwd</string>
+							<string>imgInvalidNumberOfGoalie</string>
+							<string>imgInvalidNumberOfPlayers</string>
+							<string>imgInvalidPointPerAssistDef</string>
+							<string>imgInvalidPointPerAssistFwd</string>
+							<string>imgInvalidPointPerGoalDef</string>
+							<string>imgInvalidPointPerGoalFwd</string>
+							<string>imgInvalidPointPerOT</string>
+							<string>imgInvalidPointPerShoutout</string>
+							<string>imgInvalidPointPerWin</string>
+							<string>imgInvalidPoolName</string>
+							<string>imgValidNumberOfDef</string>
+							<string>imgValidNumberOfFwd</string>
+							<string>imgValidNumberOfGoalie</string>
+							<string>imgValidNumberOfPlayers</string>
+							<string>imgValidPointPerAssistDef</string>
+							<string>imgValidPointPerAssistFwd</string>
+							<string>imgValidPointPerGoalDef</string>
+							<string>imgValidPointPerGoalFwd</string>
+							<string>imgValidPointPerOT</string>
+							<string>imgValidPointPerShoutout</string>
+							<string>imgValidPointPerWin</string>
+							<string>imgValidPoolName</string>
 							<string>lblNumberOfDef</string>
 							<string>lblNumberOfFwd</string>
 							<string>lblNumberOfGoalie</string>
@@ -2013,6 +2329,42 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
 							<string>UILabel</string>
 							<string>UILabel</string>
 							<string>UILabel</string>

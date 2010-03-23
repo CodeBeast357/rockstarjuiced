@@ -80,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1141,
+					1102,
 					20,
 					48,
 					43,
@@ -228,6 +228,15 @@
 			E051742E1158788100A38FE7 /* XCBuildMessageTextBookmark */ = E051742E1158788100A38FE7 /* XCBuildMessageTextBookmark */;
 			E051742F1158788100A38FE7 /* PBXTextBookmark */ = E051742F1158788100A38FE7 /* PBXTextBookmark */;
 			E05174301158788100A38FE7 /* PBXTextBookmark */ = E05174301158788100A38FE7 /* PBXTextBookmark */;
+			E0517438115878F500A38FE7 /* PBXTextBookmark */ = E0517438115878F500A38FE7 /* PBXTextBookmark */;
+			E051743A1158790D00A38FE7 /* PBXTextBookmark */ = E051743A1158790D00A38FE7 /* PBXTextBookmark */;
+			E051743B1158790D00A38FE7 /* PBXTextBookmark */ = E051743B1158790D00A38FE7 /* PBXTextBookmark */;
+			E051744011587B9300A38FE7 /* PBXTextBookmark */ = E051744011587B9300A38FE7 /* PBXTextBookmark */;
+			E051744111587B9300A38FE7 /* PlistBookmark */ = E051744111587B9300A38FE7 /* PlistBookmark */;
+			E051744211587B9300A38FE7 /* PBXTextBookmark */ = E051744211587B9300A38FE7 /* PBXTextBookmark */;
+			E051744311587B9300A38FE7 /* PBXTextBookmark */ = E051744311587B9300A38FE7 /* PBXTextBookmark */;
+			E051744811587BBB00A38FE7 /* PBXTextBookmark */ = E051744811587BBB00A38FE7 /* PBXTextBookmark */;
+			E051744911587BBB00A38FE7 /* PBXTextBookmark */ = E051744911587BBB00A38FE7 /* PBXTextBookmark */;
 			E09848F9114F14C000F66C58 = E09848F9114F14C000F66C58 /* PBXTextBookmark */;
 			E098490B114F14D100F66C58 = E098490B114F14D100F66C58 /* PBXTextBookmark */;
 			E0B60AD1114F0A90005F222D = E0B60AD1114F0A90005F222D /* PBXTextBookmark */;
@@ -1460,9 +1469,9 @@
 	};
 	E051741A1158774B00A38FE7 /* SplashScreenController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1433, 3250}}";
-			sepNavSelRange = "{10579, 0}";
-			sepNavVisRange = "{10007, 882}";
+			sepNavIntBoundsRect = "{{0, 0}, {1433, 3419}}";
+			sepNavSelRange = "{10862, 0}";
+			sepNavVisRange = "{10583, 840}";
 			sepNavWindowFrame = "{{343, 326}, {750, 558}}";
 		};
 	};
@@ -1555,6 +1564,97 @@
 		vrLoc = 28;
 	};
 	E05174301158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
+		name = "Settings.h: 29";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 138;
+	};
+	E0517438115878F500A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 53";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 1730;
+		vrLoc = 1081;
+	};
+	E051743A1158790D00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 34";
+		rLen = 0;
+		rLoc = 941;
+		rType = 0;
+		vrLen = 1695;
+		vrLoc = 1530;
+	};
+	E051743B1158790D00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
+		name = "Settings.h: 29";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 138;
+	};
+	E051744011587B9300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 34";
+		rLen = 0;
+		rLoc = 941;
+		rType = 0;
+		vrLen = 1695;
+		vrLoc = 1530;
+	};
+	E051744111587B9300A38FE7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/ah25730/Desktop/iPool/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	E051744211587B9300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 218";
+		rLen = 0;
+		rLoc = 10803;
+		rType = 0;
+		vrLen = 838;
+		vrLoc = 10585;
+	};
+	E051744311587B9300A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
+		name = "Settings.h: 29";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 138;
+	};
+	E051744811587BBB00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 222";
+		rLen = 0;
+		rLoc = 10862;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 10583;
+	};
+	E051744911587BBB00A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
 		name = "Settings.h: 29";
@@ -1804,9 +1904,9 @@
 	};
 	FAD4E453114EFFA5003A1BB5 /* SettingsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 1950}}";
-			sepNavSelRange = "{400, 0}";
-			sepNavVisRange = "{28, 1127}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 1755}}";
+			sepNavSelRange = "{941, 0}";
+			sepNavVisRange = "{1530, 1695}";
 		};
 	};
 	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
