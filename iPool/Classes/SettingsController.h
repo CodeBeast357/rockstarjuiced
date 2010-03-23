@@ -26,18 +26,16 @@
 	IBOutlet UITextField* txtFieldNumberOfFwd;
 	IBOutlet UITextField* txtFieldPointPerGoalFwd;
 	IBOutlet UITextField* txtFieldPointPerAssistFwd;
-	IBOutlet UITextField* txtFieldPlusMinusFwd;
+	IBOutlet UISwitch* switchPlusMinusFwd;
 	IBOutlet UITextField* txtFieldNumberOfDef;
 	IBOutlet UITextField* txtFieldPointPerGoalDef;
 	IBOutlet UITextField* txtFieldPointPerAssistDef;
-	IBOutlet UITextField* txtFieldPlusMinusDef;
+	IBOutlet UISwitch* switchPlusMinusDef;
 	IBOutlet UITextField* txtFieldNumberOfGoalie;
 	IBOutlet UITextField* txtFieldPointPerWin;
 	IBOutlet UITextField* txtFieldPointPerOT;
 	IBOutlet UITextField* txtFieldPointPerShoutout;
-	IBOutlet UITextField* txtFieldShoutoutPts;
-	IBOutlet UITextField* txtFieldPointPerPts;
-	IBOutlet UITextField* txtFieldProlongationPts;
+
 	
 	IBOutlet UILabel* lblNumberOfFwd;
 	IBOutlet UILabel* lblPointPerGoalFwd;
@@ -51,9 +49,7 @@
 	IBOutlet UILabel* lblPointPerWin;
 	IBOutlet UILabel* lblPointPerOT;
 	IBOutlet UILabel* lblPointPerShoutout;
-	IBOutlet UILabel* lblShoutoutPts;
-	IBOutlet UILabel* lblPointPerPts;
-	IBOutlet UILabel* lblProlongationPts;
+
 }
 
 @property (nonatomic, retain) UIView *settingsView;
@@ -65,18 +61,15 @@
 @property (nonatomic, retain) UITextField* txtFieldNumberOfFwd;
 @property (nonatomic, retain) UITextField* txtFieldPointPerGoalFwd;
 @property (nonatomic, retain) UITextField* txtFieldPointPerAssistFwd;
-@property (nonatomic, retain) UITextField* txtFieldPlusMinusFwd;
+@property (nonatomic, retain) UISwitch* switchPlusMinusFwd;
 @property (nonatomic, retain) UITextField* txtFieldNumberOfDef;
 @property (nonatomic, retain) UITextField* txtFieldPointPerGoalDef;
 @property (nonatomic, retain) UITextField* txtFieldPointPerAssistDef;
-@property (nonatomic, retain) UITextField* txtFieldPlusMinusDef;
+@property (nonatomic, retain) UISwitch* switchPlusMinusDef;
 @property (nonatomic, retain) UITextField* txtFieldNumberOfGoalie;
 @property (nonatomic, retain) UITextField* txtFieldPointPerWin;
 @property (nonatomic, retain) UITextField* txtFieldPointPerOT;
 @property (nonatomic, retain) UITextField* txtFieldPointPerShoutout;
-@property (nonatomic, retain) UITextField* txtFieldShoutoutPts;
-@property (nonatomic, retain) UITextField* txtFieldPointPerPts;
-@property (nonatomic, retain) UITextField* txtFieldProlongationPts;
 @property (nonatomic, retain) UILabel* lblNumberOfFwd;
 @property (nonatomic, retain) UILabel* lblPointPerGoalFwd;
 @property (nonatomic, retain) UILabel* lblPointPerAssistFwd;
@@ -89,9 +82,7 @@
 @property (nonatomic, retain) UILabel* lblPointPerWin;
 @property (nonatomic, retain) UILabel* lblPointPerOT;
 @property (nonatomic, retain) UILabel* lblPointPerShoutout;
-@property (nonatomic, retain) UILabel* lblShoutoutPts;
-@property (nonatomic, retain) UILabel* lblPointPerPts;
-@property (nonatomic, retain) UILabel* lblProlongationPts;
+
 
 - (IBAction) save: (id) sender;
 - (IBAction) cancel: (id) sender;

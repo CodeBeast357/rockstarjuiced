@@ -37,7 +37,26 @@ static Settings *instance = nil;
 
 - (Settings*)init {
 	if (self = [super init]) {
+		
 		// Initialisation
+		
+		numberOfPlayers = 20;
+		
+		offencePlayerTotal = 12;
+		offencePointsPerGoal = 1;
+		offencePointsPerAssist = 1;
+		offenceDifferentialActivated = false;
+		
+		defencePlayerTotal = 6;
+		defencePointsPerGoal = 2;
+		defencePointsPerAssist = 1;
+		defenceDifferentialActivated = true;
+		
+		goaliePlayerTotal = 2;
+		goalerPointsPerWin = 2;
+		goalerPointsPerOTLoss = 1;
+		goalerPointsPerShoutout = 2;
+
 	}
 	return self;
 }
@@ -95,7 +114,7 @@ static Settings *instance = nil;
 	return offenceDifferentialValue;
 }
 
-- (int)offenceDifferentialActivated {
+- (BOOL)offenceDifferentialActivated {
 	return offenceDifferentialActivated;
 }
 
@@ -107,7 +126,7 @@ static Settings *instance = nil;
 	return defencePointsPerAssist;
 }
 
-- (int)defenceDifferentialActivated {
+- (BOOL)defenceDifferentialActivated {
 	return defenceDifferentialActivated;
 }
 
@@ -127,9 +146,10 @@ static Settings *instance = nil;
 	return goalerPointsPerOTLoss;
 }
 
-- (int)goalerPointsPerShootoutSave {
-	return goalerPointsPerShootoutSave;
+- (int) goalerPointsPerShoutout{
+	return goalerPointsPerShoutout;
 }
+
 
 - (void)setPoolName:(NSString*)newName {
 	poolName = newName;
@@ -163,7 +183,7 @@ static Settings *instance = nil;
 	offenceDifferentialValue = nOff;
 }
 
-- (void)setOffenceDifferentialActivated:(int)nOff {
+- (void)setOffenceDifferentialActivated:(BOOL)nOff {
 	offenceDifferentialActivated = nOff;
 }
 
@@ -179,7 +199,7 @@ static Settings *instance = nil;
 	defenceDifferentialValue = nDef;
 }
 
-- (void)setDefenceDifferentialActivated:(int)nDef {
+- (void)setDefenceDifferentialActivated:(BOOL)nDef {
 	defenceDifferentialActivated = nDef;
 }
 
@@ -191,12 +211,12 @@ static Settings *instance = nil;
 	goalerPointsPerWin = nGoal;
 }
 
-- (void)setGoalerPointsPerShootoutSaves:(int)nGoal {
-	goalerPointsPerWin = nGoal;
-}
-
 - (void)setGoalerPointsPerOTLoss:(int)nGoal {
 	goalerPointsPerOTLoss = nGoal;
+}
+
+- (void) setGoalerPointsPerShoutout:(int)nGoal {
+	goalerPointsPerShoutout = nGoal;
 }
 
 @end

@@ -19,18 +19,15 @@
  txtFieldNumberOfFwd,
  txtFieldPointPerGoalFwd,
  txtFieldPointPerAssistFwd,
- txtFieldPlusMinusFwd,
+ switchPlusMinusFwd,
  txtFieldNumberOfDef,
  txtFieldPointPerGoalDef,
  txtFieldPointPerAssistDef,
- txtFieldPlusMinusDef,
+ switchPlusMinusDef,
  txtFieldNumberOfGoalie,
  txtFieldPointPerWin,
  txtFieldPointPerOT,
  txtFieldPointPerShoutout,
- txtFieldShoutoutPts,
- txtFieldPointPerPts,
- txtFieldProlongationPts,
  lblNumberOfFwd,
  lblPointPerGoalFwd,
  lblPointPerAssistFwd,
@@ -42,10 +39,8 @@
  lblNumberOfGoalie,
  lblPointPerWin,
  lblPointPerOT,
- lblPointPerShoutout,
- lblShoutoutPts,
- lblPointPerPts,
-lblProlongationPts;
+ lblPointPerShoutout;
+
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -100,12 +95,17 @@ lblProlongationPts;
 	[settings setOffencePlayerTotal:[txtFieldNumberOfFwd.text intValue]];
 	[settings setOffencePointsPerGoal:[txtFieldPointPerGoalFwd.text intValue]];
 	[settings setOffencePointsPerAssist:[txtFieldPointPerAssistFwd.text intValue]];
-	[settings setOffenceDifferentialActivated:[txtFieldPlusMinusFwd.text intValue]];
+	[settings setOffenceDifferentialActivated:switchPlusMinusFwd.state];
 	[settings setDefencePlayerTotal:[txtFieldNumberOfDef.text intValue]];
 	[settings setDefencePointsPerGoal:[txtFieldPointPerGoalDef.text intValue]];
 	[settings setDefencePointsPerAssist:[txtFieldPointPerAssistDef.text intValue]];
-	[settings setDefenceDifferentialActivated:[txtFieldPlusMinusDef.text intValue]];
+	[settings setDefenceDifferentialActivated:switchPlusMinusDef.state];
+	[settings setGoaliePlayerTotal:[txtFieldNumberOfGoalie.text intValue]];
+	[settings setGoalerPointsPerWin:[txtFieldPointPerWin.text intValue]];
+	[settings setGoalerPointsPerOTLoss:[txtFieldPointPerOT.text intValue]];
+	[settings setGoalerPointsPerShoutout:[txtFieldPointPerShoutout.text intValue]];
 	
+	NSLog(@"test");
 	
 	[self dismissModalViewControllerAnimated:YES];
 }
@@ -121,34 +121,32 @@ lblProlongationPts;
 		
 		txtFieldPointPerGoalFwd.enabled = YES;
 		txtFieldPointPerAssistFwd.enabled = YES;
-		txtFieldPlusMinusFwd.enabled = YES;
+		switchPlusMinusFwd.enabled = YES;
 	}
 	else{
 		
 		txtFieldPointPerGoalFwd.enabled = NO;
 		txtFieldPointPerAssistFwd.enabled = NO;
-		txtFieldPlusMinusFwd.enabled = NO;
+		switchPlusMinusFwd.enabled = NO;
 		
 		txtFieldPointPerGoalFwd.text = @"";
 		txtFieldPointPerAssistFwd.text = @"";
-		txtFieldPlusMinusFwd.text = @"";
 	}
 	
 	if([txtFieldNumberOfDef.text intValue] > 0){
 		
 		txtFieldPointPerGoalDef.enabled = YES;
 		txtFieldPointPerAssistDef.enabled = YES;
-		txtFieldPlusMinusDef.enabled = YES;
+		switchPlusMinusDef.enabled = YES;
 	}
 	else{
 		
 		txtFieldPointPerGoalDef.enabled = NO;
 		txtFieldPointPerAssistDef.enabled = NO;
-		txtFieldPlusMinusDef.enabled = NO;
+		switchPlusMinusDef.enabled = NO;
 		
 		txtFieldPointPerGoalDef.text = @"";
 		txtFieldPointPerAssistDef.text = @"";
-		txtFieldPlusMinusDef.text = @"";
 	}
 	
 	if([txtFieldNumberOfGoalie.text intValue] > 0){
@@ -244,18 +242,15 @@ lblProlongationPts;
 		txtFieldNumberOfFwd.hidden = YES;
 		txtFieldPointPerGoalFwd.hidden = YES;
 		txtFieldPointPerAssistFwd.hidden = YES;
-		txtFieldPlusMinusFwd.hidden = YES;
+		switchPlusMinusFwd.hidden = YES;
 		txtFieldNumberOfDef.hidden = YES;
 		txtFieldPointPerGoalDef.hidden = YES;
 		txtFieldPointPerAssistDef.hidden = YES;
-		txtFieldPlusMinusDef.hidden = YES;
+		switchPlusMinusDef.hidden = YES;
 		txtFieldNumberOfGoalie.hidden = YES;
 		txtFieldPointPerWin.hidden = YES;
 		txtFieldPointPerOT.hidden = YES;
 		txtFieldPointPerShoutout.hidden = YES;
-		txtFieldShoutoutPts.hidden = YES;
-		txtFieldPointPerPts.hidden = YES;
-		txtFieldProlongationPts.hidden = YES;
 		lblNumberOfFwd.hidden = YES;
 		lblPointPerGoalFwd.hidden = YES;
 		lblPointPerAssistFwd.hidden = YES;
@@ -268,9 +263,6 @@ lblProlongationPts;
 		lblPointPerWin.hidden = YES;
 		lblPointPerOT.hidden = YES;
 		lblPointPerShoutout.hidden = YES;
-		lblShoutoutPts.hidden = YES;
-		lblPointPerPts.hidden = YES;
-		lblProlongationPts.hidden = YES;
 		
 		switchShowAdvanced = NO;
 		
@@ -280,18 +272,15 @@ lblProlongationPts;
 		txtFieldNumberOfFwd.hidden = NO;
 		txtFieldPointPerGoalFwd.hidden = NO;
 		txtFieldPointPerAssistFwd.hidden = NO;
-		txtFieldPlusMinusFwd.hidden = NO;
+		switchPlusMinusFwd.hidden = NO;
 		txtFieldNumberOfDef.hidden = NO;
 		txtFieldPointPerGoalDef.hidden = NO;
 		txtFieldPointPerAssistDef.hidden = NO;
-		txtFieldPlusMinusDef.hidden = NO;
+		switchPlusMinusDef.hidden = NO;
 		txtFieldNumberOfGoalie.hidden = NO;
 		txtFieldPointPerWin.hidden = NO;
 		txtFieldPointPerOT.hidden = NO;
 		txtFieldPointPerShoutout.hidden = NO;
-		txtFieldShoutoutPts.hidden = NO;
-		txtFieldPointPerPts.hidden = NO;
-		txtFieldProlongationPts.hidden = NO;
 		lblNumberOfFwd.hidden = NO;
 		lblPointPerGoalFwd.hidden = NO;
 		lblPointPerAssistFwd.hidden = NO;
@@ -304,9 +293,6 @@ lblProlongationPts;
 		lblPointPerWin.hidden = NO;
 		lblPointPerOT.hidden = NO;
 		lblPointPerShoutout.hidden = NO;
-		lblShoutoutPts.hidden = NO;
-		lblPointPerPts.hidden = NO;
-		lblProlongationPts.hidden = NO;
 		
 		switchShowAdvanced = YES;
 	}
@@ -325,16 +311,22 @@ lblProlongationPts;
 		txtFieldPointPerGoalFwd.text = [NSString stringWithFormat:@"%d",[settings offencePointsPerGoal]];
 	if([settings offencePointsPerAssist] != 0)
 		txtFieldPointPerAssistFwd.text = [NSString stringWithFormat:@"%d",[settings offencePointsPerAssist]];
-	if([settings offenceDifferentialActivated] != 0)
-		txtFieldPlusMinusFwd.text = [NSString stringWithFormat:@"%d",[settings offenceDifferentialActivated]];
+
 	if([settings defencePlayerTotal] != 0)
 		txtFieldNumberOfDef.text = [NSString stringWithFormat:@"%d",[settings defencePlayerTotal]];
 	if([settings defencePointsPerGoal] != 0)
 		txtFieldPointPerGoalDef.text = [NSString stringWithFormat:@"%d",[settings defencePointsPerGoal]];
 	if([settings defencePointsPerAssist] != 0)
 		txtFieldPointPerAssistDef.text = [NSString stringWithFormat:@"%d",[settings defencePointsPerAssist]];
-	if([settings defenceDifferentialActivated] != 0)
-		txtFieldPlusMinusDef.text = [NSString stringWithFormat:@"%d",[settings defenceDifferentialActivated]];
+
+	if([settings goaliePlayerTotal] != 0)
+		txtFieldNumberOfGoalie.text = [NSString stringWithFormat:@"%d",[settings goaliePlayerTotal]];
+	if([settings goalerPointsPerShoutout] != 0)
+		txtFieldPointPerShoutout.text = [NSString stringWithFormat:@"%d",[settings goalerPointsPerShoutout]];
+	if([settings goalerPointsPerWin] != 0)
+		txtFieldPointPerWin.text = [NSString stringWithFormat:@"%d",[settings goalerPointsPerWin]];
+	if([settings goalerPointsPerOTLoss] != 0)
+		txtFieldPointPerOT.text = [NSString stringWithFormat:@"%d",[settings goalerPointsPerOTLoss]];
 	
 }
 

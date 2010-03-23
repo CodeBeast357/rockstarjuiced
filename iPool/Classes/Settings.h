@@ -19,15 +19,16 @@
 	int offencePointsPerGoal;
 	int offencePointsPerAssist;
 	int offenceDifferentialValue;
-	int offenceDifferentialActivated; // (<0 || >0)
+	BOOL offenceDifferentialActivated; // (<0 || >0)
 	int defencePointsPerGoal;
 	int defencePointsPerAssist;
 	int defenceDifferentialValue;
-	int defenceDifferentialActivated; // (<0 || >0)
+	BOOL defenceDifferentialActivated; // (<0 || >0)
 	int goalerPointsPerWin;
 	int goalerPointsPerShutout;
 	int goalerPointsPerShootoutSave;
 	int goalerPointsPerOTLoss;
+	int goalerPointsPerShoutout;
 
 }
 
@@ -41,16 +42,17 @@
 - (int)numberOfPlayers;
 - (int)offencePointsPerGoal;
 - (int)offencePointsPerAssist;
-- (int)offenceDifferentialActivated;
+- (BOOL)offenceDifferentialActivated;
 - (int)offenceDifferentialValue;
 - (int)defencePointsPerGoal;
 - (int)defencePointsPerAssist;
 - (int)defenceDifferentialValue;
-- (int)defenceDifferentialActivated;
+- (BOOL)defenceDifferentialActivated;
 - (int)goalerPointsPerWin;
 - (int)goalerPointsPerShutout;
 - (int)goalerPointsPerShootoutSave;
 - (int)goalerPointsPerOTLoss;
+- (int) goalerPointsPerShoutout;
 
 - (void)setPoolName:(NSString*)newName;
 - (void)setOffencePlayerTotal:(int)nOff;
@@ -60,14 +62,14 @@
 - (void)setOffencePointsPerGoal:(int)nOff;
 - (void)setOffencePointsPerAssist:(int)nOff;
 - (void)setOffenceDifferentialValue:(int)nOff; 
-- (void)setOffenceDifferentialActivated:(int)nOff;
+- (void)setOffenceDifferentialActivated:(BOOL)nOff;
 - (void)setDefencePointsPerGoal:(int)nDef;
 - (void)setDefencePointsPerAssist:(int)nDef;
 - (void)setDefenceDifferentialValue:(int)nDef;
-- (void)setDefenceDifferentialActivated:(int)nDef;
+- (void)setDefenceDifferentialActivated:(BOOL)nDef;
 - (void)setGoalerPointsPerWin:(int)nGoal;
 - (void)setGoalerPointsPerShutout:(int)nGoal;
-- (void)setGoalerPointsPerShootoutSave:(int)nGoal;
 - (void)setGoalerPointsPerOTLoss:(int)nGoal;
+- (void) setGoalerPointsPerShoutout:(int)nPts;
 
 @end
