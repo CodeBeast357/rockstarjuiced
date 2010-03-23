@@ -95,11 +95,11 @@
 	[settings setOffencePlayerTotal:[txtFieldNumberOfFwd.text intValue]];
 	[settings setOffencePointsPerGoal:[txtFieldPointPerGoalFwd.text intValue]];
 	[settings setOffencePointsPerAssist:[txtFieldPointPerAssistFwd.text intValue]];
-	[settings setOffenceDifferentialActivated:switchPlusMinusFwd.state];
+	[settings setOffenceDifferentialActivated:switchPlusMinusFwd.on];
 	[settings setDefencePlayerTotal:[txtFieldNumberOfDef.text intValue]];
 	[settings setDefencePointsPerGoal:[txtFieldPointPerGoalDef.text intValue]];
 	[settings setDefencePointsPerAssist:[txtFieldPointPerAssistDef.text intValue]];
-	[settings setDefenceDifferentialActivated:switchPlusMinusDef.state];
+	[settings setDefenceDifferentialActivated:switchPlusMinusDef.on];
 	[settings setGoaliePlayerTotal:[txtFieldNumberOfGoalie.text intValue]];
 	[settings setGoalerPointsPerWin:[txtFieldPointPerWin.text intValue]];
 	[settings setGoalerPointsPerOTLoss:[txtFieldPointPerOT.text intValue]];
@@ -327,6 +327,9 @@
 		txtFieldPointPerWin.text = [NSString stringWithFormat:@"%d",[settings goalerPointsPerWin]];
 	if([settings goalerPointsPerOTLoss] != 0)
 		txtFieldPointPerOT.text = [NSString stringWithFormat:@"%d",[settings goalerPointsPerOTLoss]];
+	
+	switchPlusMinusFwd.on = [settings offenceDifferentialActivated];
+	switchPlusMinusDef.on = [settings defenceDifferentialActivated];
 	
 }
 

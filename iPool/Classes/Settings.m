@@ -45,12 +45,12 @@ static Settings *instance = nil;
 		offencePlayerTotal = 12;
 		offencePointsPerGoal = 1;
 		offencePointsPerAssist = 1;
-		offenceDifferentialActivated = false;
+		offenceDifferentialActivated = YES;
 		
 		defencePlayerTotal = 6;
 		defencePointsPerGoal = 2;
 		defencePointsPerAssist = 1;
-		defenceDifferentialActivated = true;
+		defenceDifferentialActivated = YES;
 		
 		goaliePlayerTotal = 2;
 		goalerPointsPerWin = 2;

@@ -214,6 +214,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -248,6 +249,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -272,6 +274,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -296,6 +299,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -365,6 +369,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -389,6 +394,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -458,6 +464,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -482,6 +489,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -506,6 +514,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -529,6 +538,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -567,6 +577,7 @@
 									<bytes key="NSWhite">MAA</bytes>
 									<reference key="NSCustomColorSpace" ref="306147985"/>
 								</object>
+								<int key="IBUITextAlignment">1</int>
 								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
@@ -1002,7 +1013,7 @@
 								<bool key="IBUIMultipleTouchEnabled">YES</bool>
 								<reference key="IBUIImage" ref="329299064"/>
 							</object>
-							<object class="IBUISwitch" id="911606220">
+							<object class="IBUISwitch" id="139614814">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{207, 319}, {94, 27}}</string>
@@ -1014,7 +1025,7 @@
 								<int key="IBUIContentVerticalAlignment">0</int>
 								<bool key="IBUIOn">YES</bool>
 							</object>
-							<object class="IBUISwitch" id="161013789">
+							<object class="IBUISwitch" id="706338573">
 								<reference key="NSNextResponder" ref="745426341"/>
 								<int key="NSvFlags">-2147483356</int>
 								<string key="NSFrame">{{207, 482}, {94, 27}}</string>
@@ -1027,7 +1038,7 @@
 								<bool key="IBUIOn">YES</bool>
 							</object>
 						</object>
-						<string key="NSFrame">{{0, -21}, {320, 881}}</string>
+						<string key="NSFrame">{{0, -25}, {320, 881}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -1380,7 +1391,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">switchPlusMinusFwd</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="911606220"/>
+						<reference key="destination" ref="139614814"/>
 					</object>
 					<int key="connectionID">167</int>
 				</object>
@@ -1388,7 +1399,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">switchPlusMinusDef</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="161013789"/>
+						<reference key="destination" ref="706338573"/>
 					</object>
 					<int key="connectionID">169</int>
 				</object>
@@ -1459,7 +1470,6 @@
 							<reference ref="1067401861"/>
 							<reference ref="47859104"/>
 							<reference ref="499545265"/>
-							<reference ref="583267274"/>
 							<reference ref="828843329"/>
 							<reference ref="932062981"/>
 							<reference ref="267191339"/>
@@ -1475,14 +1485,12 @@
 							<reference ref="247038695"/>
 							<reference ref="286229418"/>
 							<reference ref="522820034"/>
-							<reference ref="653344790"/>
 							<reference ref="56475768"/>
 							<reference ref="521910262"/>
 							<reference ref="645200111"/>
 							<reference ref="46234431"/>
 							<reference ref="477107667"/>
 							<reference ref="692435914"/>
-							<reference ref="1020029731"/>
 							<reference ref="639444964"/>
 							<reference ref="645038686"/>
 							<reference ref="174958925"/>
@@ -1499,10 +1507,13 @@
 							<reference ref="308675407"/>
 							<reference ref="1070649007"/>
 							<reference ref="197627127"/>
-							<reference ref="911606220"/>
+							<reference ref="139614814"/>
 							<reference ref="687768691"/>
-							<reference ref="161013789"/>
+							<reference ref="706338573"/>
 							<reference ref="315462313"/>
+							<reference ref="1020029731"/>
+							<reference ref="583267274"/>
+							<reference ref="653344790"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -1838,12 +1849,12 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">166</int>
-						<reference key="object" ref="911606220"/>
+						<reference key="object" ref="139614814"/>
 						<reference key="parent" ref="745426341"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">168</int>
-						<reference key="object" ref="161013789"/>
+						<reference key="object" ref="706338573"/>
 						<reference key="parent" ref="745426341"/>
 					</object>
 				</object>

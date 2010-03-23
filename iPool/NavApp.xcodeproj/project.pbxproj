@@ -14,7 +14,6 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		65B637D5115821DD00F90E0E /* Pooler.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B637D4115821DD00F90E0E /* Pooler.m */; };
-		A90EFE2B0F77E16000AB789A /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */; };
 		A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */; };
 		A90EFE300F77E38C00AB789A /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */; };
 		A90EFE320F77E39700AB789A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE310F77E39700AB789A /* MainMenu.xib */; };
@@ -23,6 +22,7 @@
 		E05172F5115852EF00A38FE7 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F4115852EF00A38FE7 /* help.png */; };
 		E05172F7115852F900A38FE7 /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F6115852F900A38FE7 /* red_cross.png */; };
 		E05172F91158530200A38FE7 /* green_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F81158530200A38FE7 /* green_tick.png */; };
+		E051741B1158774B00A38FE7 /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */; };
 		E0B60AB8114F063B005F222D /* ViewStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */; };
 		E0D8BCBE114F0C4E009BBEE4 /* ViewStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */; };
 		FA96F32D1158404F00ABCBFC /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3261158404F00ABCBFC /* Goalie.m */; };
@@ -49,8 +49,6 @@
 		65B637D3115821DD00F90E0E /* Pooler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pooler.h; sourceTree = "<group>"; };
 		65B637D4115821DD00F90E0E /* Pooler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pooler.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A90EFE290F77E16000AB789A /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
-		A90EFE2A0F77E16000AB789A /* SplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenController.m; sourceTree = "<group>"; };
 		A90EFE2C0F77E27800AB789A /* MainMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuController.h; sourceTree = "<group>"; };
 		A90EFE2D0F77E27800AB789A /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
 		A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
@@ -61,6 +59,8 @@
 		E05172F4115852EF00A38FE7 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Media/help.png; sourceTree = "<group>"; };
 		E05172F6115852F900A38FE7 /* red_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_cross.png; path = Media/red_cross.png; sourceTree = "<group>"; };
 		E05172F81158530200A38FE7 /* green_tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_tick.png; path = Media/green_tick.png; sourceTree = "<group>"; };
+		E051741A1158774B00A38FE7 /* SplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenController.m; sourceTree = "<group>"; };
+		E051741C1158775300A38FE7 /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
 		E0B60AB6114F063B005F222D /* ViewStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewStatisticsController.h; sourceTree = "<group>"; };
 		E0B60AB7114F063B005F222D /* ViewStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewStatisticsController.m; sourceTree = "<group>"; };
 		E0D8BCBD114F0C4E009BBEE4 /* ViewStatistics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewStatistics.xib; sourceTree = "<group>"; };
@@ -99,6 +99,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E051741C1158775300A38FE7 /* SplashScreenController.h */,
+				E051741A1158774B00A38FE7 /* SplashScreenController.m */,
 				FA96F3251158404F00ABCBFC /* Goalie.h */,
 				FA96F3261158404F00ABCBFC /* Goalie.m */,
 				FA96F3271158404F00ABCBFC /* Player.h */,
@@ -112,8 +114,6 @@
 				C2858C2B1145E87D004A4E7D /* Settings.h */,
 				1D3623240D0F684500981E51 /* Delegate.h */,
 				1D3623250D0F684500981E51 /* Delegate.m */,
-				A90EFE290F77E16000AB789A /* SplashScreenController.h */,
-				A90EFE2A0F77E16000AB789A /* SplashScreenController.m */,
 				C2858C2C1145E87D004A4E7D /* Settings.m */,
 				A90EFE2C0F77E27800AB789A /* MainMenuController.h */,
 				A90EFE2D0F77E27800AB789A /* MainMenuController.m */,
@@ -258,7 +258,6 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* Delegate.m in Sources */,
-				A90EFE2B0F77E16000AB789A /* SplashScreenController.m in Sources */,
 				A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */,
 				C2858C2D1145E87D004A4E7D /* Settings.m in Sources */,
 				FAD4E455114EFFA5003A1BB5 /* SettingsController.m in Sources */,
@@ -270,6 +269,7 @@
 				FA96F32E1158404F00ABCBFC /* Player.m in Sources */,
 				FA96F32F1158404F00ABCBFC /* Skater.m in Sources */,
 				FA96F3301158404F00ABCBFC /* Team.m in Sources */,
+				E051741B1158774B00A38FE7 /* SplashScreenController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

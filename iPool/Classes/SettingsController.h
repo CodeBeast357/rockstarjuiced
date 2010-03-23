@@ -49,6 +49,43 @@
 	IBOutlet UILabel* lblPointPerWin;
 	IBOutlet UILabel* lblPointPerOT;
 	IBOutlet UILabel* lblPointPerShoutout;
+	
+	
+	IBOutlet UITextField *txtFieldPoolName;
+	IBOutlet UITextField *txtFieldNumberOfPlayers;
+	IBOutlet UISwitch *switchShowAdvanced;
+	
+	//Images
+	IBOutlet UIImageView* imgValidNumberOfFwd;
+	IBOutlet UIImageView* imgInvalidNumberOfFwd;
+	IBOutlet UIImageView* imgHelpNumberOfFwd;
+	IBOutlet UIImageView* imgValidPointPerGoalFwd;
+	IBOutlet UIImageView* imgInvalidPointPerGoalFwd;
+	IBOutlet UIImageView* imgHelpPointPerGoalFwd;
+	IBOutlet UIImageView* imgValidPointPerAssistFwd;
+	IBOutlet UIImageView* imgInvalidPointPerAssistFwd;
+	IBOutlet UIImageView* imgHelpPointPerAssistFwd;
+	IBOutlet UIImageView* imgValidNumberOfDef;
+	IBOutlet UIImageView* imgInvalidNumberOfDef;
+	IBOutlet UIImageView* imgHelpNumberOfDef;
+	IBOutlet UIImageView* imgValidPointPerGoalDef;
+	IBOutlet UIImageView* imgInvalidPointPerGoalDef;
+	IBOutlet UIImageView* imgHelpPointPerGoalDef;
+	IBOutlet UIImageView* imgValidPointPerAssistDef;
+	IBOutlet UIImageView* imgInvalidPointPerAssistDef;
+	IBOutlet UIImageView* imgHelpPointPerAssistDef;
+	IBOutlet UIImageView* imgValidNumberOfGoalie;
+	IBOutlet UIImageView* imgInvalidNumberOfGoalie;
+	IBOutlet UIImageView* imgHelpNumberOfGoalie;
+	IBOutlet UIImageView* imgValidPointPerWin;
+	IBOutlet UIImageView* imgInvalidPointPerWin;
+	IBOutlet UIImageView* imgHelpPointPerWin;
+	IBOutlet UIImageView* imgValidPointPerOT;
+	IBOutlet UIImageView* imgInvalidPointPerOT;
+	IBOutlet UIImageView* imgHelpPointPerOT;
+	IBOutlet UIImageView* imgValidPointPerShoutout;
+	IBOutlet UIImageView* imgInvalidPointPerShoutout;
+	IBOutlet UIImageView* imgHelpPointPerShoutout;
 
 }
 
