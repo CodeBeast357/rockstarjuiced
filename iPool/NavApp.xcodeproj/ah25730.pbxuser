@@ -218,6 +218,16 @@
 			E051740B1158732F00A38FE7 /* PBXTextBookmark */ = E051740B1158732F00A38FE7 /* PBXTextBookmark */;
 			E051740C1158732F00A38FE7 /* PBXTextBookmark */ = E051740C1158732F00A38FE7 /* PBXTextBookmark */;
 			E0517413115874BE00A38FE7 /* PBXTextBookmark */ = E0517413115874BE00A38FE7 /* PBXTextBookmark */;
+			E05174251158787B00A38FE7 /* PBXTextBookmark */ = E05174251158787B00A38FE7 /* PBXTextBookmark */;
+			E05174261158787B00A38FE7 /* XCBuildMessageTextBookmark */ = E05174261158787B00A38FE7 /* XCBuildMessageTextBookmark */;
+			E05174271158787B00A38FE7 /* PBXTextBookmark */ = E05174271158787B00A38FE7 /* PBXTextBookmark */;
+			E051742A1158788100A38FE7 /* PBXTextBookmark */ = E051742A1158788100A38FE7 /* PBXTextBookmark */;
+			E051742B1158788100A38FE7 /* PBXTextBookmark */ = E051742B1158788100A38FE7 /* PBXTextBookmark */;
+			E051742C1158788100A38FE7 /* PBXTextBookmark */ = E051742C1158788100A38FE7 /* PBXTextBookmark */;
+			E051742D1158788100A38FE7 /* PBXTextBookmark */ = E051742D1158788100A38FE7 /* PBXTextBookmark */;
+			E051742E1158788100A38FE7 /* XCBuildMessageTextBookmark */ = E051742E1158788100A38FE7 /* XCBuildMessageTextBookmark */;
+			E051742F1158788100A38FE7 /* PBXTextBookmark */ = E051742F1158788100A38FE7 /* PBXTextBookmark */;
+			E05174301158788100A38FE7 /* PBXTextBookmark */ = E05174301158788100A38FE7 /* PBXTextBookmark */;
 			E09848F9114F14C000F66C58 = E09848F9114F14C000F66C58 /* PBXTextBookmark */;
 			E098490B114F14D100F66C58 = E098490B114F14D100F66C58 /* PBXTextBookmark */;
 			E0B60AD1114F0A90005F222D = E0B60AD1114F0A90005F222D /* PBXTextBookmark */;
@@ -294,9 +304,9 @@
 	};
 	C2858C2C1145E87D004A4E7D /* Settings.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 2821}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 2834}}";
 			sepNavSelRange = "{1125, 0}";
-			sepNavVisRange = "{474, 843}";
+			sepNavVisRange = "{512, 805}";
 			sepNavWindowFrame = "{{301, 318}, {750, 558}}";
 		};
 	};
@@ -873,7 +883,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 68";
 		rLen = 12;
-		rLoc = 3947;
+		rLoc = 4083;
 		rType = 0;
 		vrLen = 2071;
 		vrLoc = 1593;
@@ -903,7 +913,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 64";
 		rLen = 12;
-		rLoc = 3685;
+		rLoc = 3821;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 1647;
@@ -933,7 +943,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 97";
 		rLen = 0;
-		rLoc = 5206;
+		rLoc = 5342;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 1642;
@@ -1403,7 +1413,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 97";
 		rLen = 0;
-		rLoc = 5206;
+		rLoc = 5342;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 1642;
@@ -1447,6 +1457,112 @@
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7845;
+	};
+	E051741A1158774B00A38FE7 /* SplashScreenController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1433, 3250}}";
+			sepNavSelRange = "{10579, 0}";
+			sepNavVisRange = "{10007, 882}";
+			sepNavWindowFrame = "{{343, 326}, {750, 558}}";
+		};
+	};
+	E05174251158787B00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 338";
+		rLen = 0;
+		rLoc = 9900;
+		rType = 0;
+		vrLen = 1814;
+		vrLoc = 7845;
+	};
+	E05174261158787B00A38FE7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Duplicate member 'txtFieldPoolName'";
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 21;
+		rType = 1;
+	};
+	E05174271158787B00A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 53";
+		rLen = 0;
+		rLoc = 1541;
+		rType = 0;
+		vrLen = 1730;
+		vrLoc = 1081;
+	};
+	E051742A1158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 334";
+		rLen = 0;
+		rLoc = 9892;
+		rType = 0;
+		vrLen = 1766;
+		vrLoc = 8134;
+	};
+	E051742B1158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB6114F063B005F222D /* ViewStatisticsController.h */;
+		name = "ViewStatisticsController.h: 9";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	E051742C1158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 206";
+		rLen = 0;
+		rLoc = 10579;
+		rType = 0;
+		vrLen = 882;
+		vrLoc = 10007;
+	};
+	E051742D1158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
+		name = "Settings.m: 53";
+		rLen = 0;
+		rLoc = 1125;
+		rType = 0;
+		vrLen = 805;
+		vrLoc = 512;
+	};
+	E051742E1158788100A38FE7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Duplicate member 'txtFieldPoolName'";
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 21;
+		rType = 1;
+	};
+	E051742F1158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 22";
+		rLen = 0;
+		rLoc = 400;
+		rType = 0;
+		vrLen = 1127;
+		vrLoc = 28;
+	};
+	E05174301158788100A38FE7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
+		name = "Settings.h: 29";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 138;
 	};
 	E09848F9114F14C000F66C58 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1671,6 +1787,14 @@
 		vrLen = 858;
 		vrLoc = 2013;
 	};
+	FAA8CE0111529B890041F68D /* TeamList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 3627}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{993, 939}";
+			sepNavWindowFrame = "{{61, 423}, {750, 558}}";
+		};
+	};
 	FAAA2923114F12CA00EADD2B /* AddPoolerController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1319, 1768}}";
@@ -1680,14 +1804,14 @@
 	};
 	FAD4E453114EFFA5003A1BB5 /* SettingsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 1885}}";
-			sepNavSelRange = "{1807, 0}";
-			sepNavVisRange = "{1534, 1608}";
+			sepNavIntBoundsRect = "{{0, 0}, {1319, 1950}}";
+			sepNavSelRange = "{400, 0}";
+			sepNavVisRange = "{28, 1127}";
 		};
 	};
 	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1313, 4082}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1313, 4069}}";
 			sepNavSelRange = "{9900, 0}";
 			sepNavVisRange = "{7845, 1814}";
 		};

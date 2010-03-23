@@ -50,12 +50,13 @@
 	IBOutlet UILabel* lblPointPerOT;
 	IBOutlet UILabel* lblPointPerShoutout;
 	
-	
-	IBOutlet UITextField *txtFieldPoolName;
-	IBOutlet UITextField *txtFieldNumberOfPlayers;
-	IBOutlet UISwitch *switchShowAdvanced;
-	
 	//Images
+	IBOutlet UIImageView *imgValidPoolName;
+	IBOutlet UIImageView *imgInvalidPoolName;
+	IBOutlet UIImageView *imgHelpPoolName;
+	IBOutlet UIImageView *imgValidNumberOfPlayers;
+	IBOutlet UIImageView *imgInvalidNumberOfPlayers;
+	IBOutlet UIImageView *imgHelpNumberOfPlayers;
 	IBOutlet UIImageView* imgValidNumberOfFwd;
 	IBOutlet UIImageView* imgInvalidNumberOfFwd;
 	IBOutlet UIImageView* imgHelpNumberOfFwd;
