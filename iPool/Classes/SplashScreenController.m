@@ -215,11 +215,11 @@
 	activityOutlet.hidden= FALSE;
 	[activityOutlet startAnimating];
 	
-	[self startMyThread];
+	//[self startMyThread];
 	
 	NSLog(@"in viewDidLoad");
 	
-    //[self switchPage];
+    [self switchPage];
 }
  
 

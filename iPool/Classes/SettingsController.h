@@ -10,7 +10,7 @@
 #import "Delegate.h"
 #import "Settings.h"
 
-@interface SettingsController : UIViewController  {
+@interface SettingsController : UIViewController <UIAlertViewDelegate>  {
 	Delegate *mainDelegate;
 	Settings *settings;
 	
@@ -126,6 +126,7 @@
 - (IBAction) cancel: (id) sender;
 - (IBAction) txtFieldDoneEditing: (id) sender;
 - (IBAction) showAdvancedSettings: (id) sender;
+- (IBAction) txtFieldPoolNameEditting: (id) sender;
 
 - (void)keyboardDidShow: (NSNotification*) notif;
 - (void)keyboardDidHide: (NSNotification*) notif;

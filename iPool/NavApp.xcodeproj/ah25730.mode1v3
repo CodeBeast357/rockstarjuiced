@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E051744911587BBB00A38FE7</string>
+						<string>E051751F11588D6200A38FE7</string>
 						<key>history</key>
 						<array>
 							<string>E05173321158603900A38FE7</string>
@@ -317,11 +317,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>38</integer>
+									<integer>32</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {317, 823}}</string>
+							<string>{{0, 111}, {317, 823}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -340,7 +342,7 @@
 							<real>317</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-2 146 1680 882 0 0 1680 1028 </string>
+						<string>-3 146 1680 882 0 0 1680 1028 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -356,7 +358,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SplashScreenController.m</string>
+								<string>SettingsController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -364,11 +366,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SplashScreenController.m</string>
+										<string>SettingsController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E051744811587BBB00A38FE7</string>
+										<string>E051751E11588D6200A38FE7</string>
 										<key>history</key>
 										<array>
 											<string>E0BBCF5C1117A5D000C1195B</string>
@@ -383,12 +385,13 @@
 											<string>E05173481158661000A38FE7</string>
 											<string>E05173631158680500A38FE7</string>
 											<string>E05173BC11586EE500A38FE7</string>
-											<string>E051742A1158788100A38FE7</string>
 											<string>E051742B1158788100A38FE7</string>
 											<string>E051742D1158788100A38FE7</string>
-											<string>E051744011587B9300A38FE7</string>
 											<string>E051744111587B9300A38FE7</string>
-											<string>E051742C1158788100A38FE7</string>
+											<string>E051744F11587BFE00A38FE7</string>
+											<string>E051746011587DCD00A38FE7</string>
+											<string>E051751811588B4B00A38FE7</string>
+											<string>E051751011588B1700A38FE7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -402,7 +405,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1341, 563}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-2 146 1680 882 0 0 1680 1028 </string>
+								<string>-3 146 1680 882 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -422,7 +425,7 @@
 								<key>Frame</key>
 								<string>{{0, 568}, {1341, 273}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-2 146 1680 882 0 0 1680 1028 </string>
+								<string>-3 146 1680 882 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -598,7 +601,7 @@
 		<string>/Users/ah25730/Desktop/iPool/NavApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-2 146 1680 882 0 0 1680 1028 </string>
+	<string>-3 146 1680 882 0 0 1680 1028 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -936,18 +939,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {832, 438}}</string>
+								<string>{{0, 0}, {880, 522}}</string>
 								<key>RubberWindowFrame</key>
-								<string>211 409 832 479 0 0 1680 1028 </string>
+								<string>17 312 880 563 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>438pt</string>
+							<string>522pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>438pt</string>
+					<string>522pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -967,7 +970,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>211 409 832 479 0 0 1680 1028 </string>
+			<string>17 312 880 563 0 0 1680 1028 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

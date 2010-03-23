@@ -57,7 +57,7 @@
 	
 	self.title = @"Pool Settings";
 	
-	scrollView.contentSize = CGSizeMake(320,1300);
+	scrollView.contentSize = CGSizeMake(320,1150);
 	switchShowAdvanced = NO;
 	
 	//Création des boutons Save et Cancel
@@ -74,6 +74,7 @@
 	
 	//Initialize text fields
 	[self initTxtFields];
+	
 	
 }
 
@@ -264,8 +265,29 @@
 		lblPointPerOT.hidden = YES;
 		lblPointPerShoutout.hidden = YES;
 		
-		switchShowAdvanced = NO;
+		imgValidNumberOfFwd.hidden = YES;
+		imgHelpNumberOfFwd.hidden = YES;
+		imgValidPointPerGoalFwd.hidden = YES;
+		imgHelpPointPerGoalFwd.hidden = YES;
+		imgValidPointPerAssistFwd.hidden = YES;
+		imgHelpPointPerAssistFwd.hidden = YES;
+		imgValidNumberOfDef.hidden = YES;
+		imgHelpNumberOfDef.hidden = YES;
+		imgValidPointPerGoalDef.hidden = YES;
+		imgHelpPointPerGoalDef.hidden = YES;
+		imgValidPointPerAssistDef.hidden = YES;
+		imgHelpPointPerAssistDef.hidden = YES;
+		imgValidNumberOfGoalie.hidden = YES;
+		imgHelpNumberOfGoalie.hidden = YES;
+		imgValidPointPerWin.hidden = YES;
+		imgHelpPointPerWin.hidden = YES;
+		imgValidPointPerOT.hidden = YES;
+		imgHelpPointPerOT.hidden = YES;
+		imgValidPointPerShoutout.hidden = YES;
+		imgHelpPointPerShoutout.hidden = YES;
 		
+		
+		switchShowAdvanced = NO;
 	}
 	else{
 		
@@ -293,6 +315,27 @@
 		lblPointPerWin.hidden = NO;
 		lblPointPerOT.hidden = NO;
 		lblPointPerShoutout.hidden = NO;
+		
+		imgValidNumberOfFwd.hidden = NO;
+		imgHelpNumberOfFwd.hidden = NO;
+		imgValidPointPerGoalFwd.hidden = NO;
+		imgHelpPointPerGoalFwd.hidden = NO;
+		imgValidPointPerAssistFwd.hidden = NO;
+		imgHelpPointPerAssistFwd.hidden = NO;
+		imgValidNumberOfDef.hidden = NO;
+		imgHelpNumberOfDef.hidden = NO;
+		imgValidPointPerGoalDef.hidden = NO;
+		imgHelpPointPerGoalDef.hidden = NO;
+		imgValidPointPerAssistDef.hidden = NO;
+		imgHelpPointPerAssistDef.hidden = NO;
+		imgValidNumberOfGoalie.hidden = NO;
+		imgHelpNumberOfGoalie.hidden = NO;
+		imgValidPointPerWin.hidden = NO;
+		imgHelpPointPerWin.hidden = NO;
+		imgValidPointPerOT.hidden = NO;
+		imgHelpPointPerOT.hidden = NO;
+		imgValidPointPerShoutout.hidden = NO;
+		imgHelpPointPerShoutout.hidden = NO;
 		
 		switchShowAdvanced = YES;
 	}
@@ -330,6 +373,24 @@
 	
 	switchPlusMinusFwd.on = [settings offenceDifferentialActivated];
 	switchPlusMinusDef.on = [settings defenceDifferentialActivated];
+	
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+	
+		//Button NO
+		if (buttonIndex == 0){
+
+		}
+		//Button YES
+	    else if(buttonIndex == 1){
+			
+		}
+	
+}
+
+- (IBAction) txtFieldPoolNameEditting: (id) sender{
+	
 	
 }
 
