@@ -98,7 +98,8 @@
 			aSkater.gamePlay=[gamePlay intValue];
 			
 			
-			//[teamList addSkaterByTeam:aSkater team:team];
+			[teamList addSkaterByTeam:aSkater team:team];
+			[aSkater release];
 		}
  
 	}
@@ -144,6 +145,7 @@
 			
 			
 			[teamList addSkaterByTeam:aSkater team:team];
+			[aSkater release];
  
 		}
  
@@ -184,8 +186,21 @@
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
  
-		NSString *shootOut= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		NSLog(@"goalie shootOut: %@", shootOut);
+		NSString *shutouts= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+		NSLog(@"goalie shootOut: %@", shutouts);
+		 
+		 Goalie *aGoalie= [[Goalie alloc] init]; 
+		 aGoalie.firstName= firstname;
+		 aGoalie.lastName=lastname;
+		 aGoalie.wins=[win intValue];;
+		 aGoalie.shutouts=[shutouts intValue];
+		 aGoalie.overtimeLosses=[otLoss intValue];
+		 aGoalie.position= @"g";
+		 aGoalie.gamePlay=[gamePlay intValue];
+		 
+		 
+		 [teamList addGoalieByTeam:aGoalie team:team];
+		 [aGoalie release];
  
 		}
  
@@ -200,13 +215,11 @@
 	activityOutlet.hidden= FALSE;
 	[activityOutlet startAnimating];
 	
-	/*
 	[self startMyThread];
 	
 	NSLog(@"in viewDidLoad");
-	 */
 	
-    [self switchPage];
+    //[self switchPage];
 }
  
 
