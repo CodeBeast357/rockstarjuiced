@@ -7,8 +7,16 @@
 //
 
 #import "AddPoolerController.h"
+#import "Settings.h"
+
+#define SectionHeaderHeight 40
 
 @implementation AddPoolerController
+
+@synthesize tableView;
+@synthesize offencePlayers;
+@synthesize defencePlayers;
+@synthesize goalies;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -35,6 +43,11 @@
 											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
 											   target:self 
 											   action:@selector(done:)] autorelease]; 
+	//Initialisation des tables de joueurs
+	Settings* config = [Settings getInstance];
+	offencePlayers = [[NSArray alloc] initWithObjects:@"Add offence player", nil count:config.offencePlayerTotal];
+	defencePlayers = [[NSArray alloc] initWithObjects:@"Add defence player", nil count:config.defencePlayerTotal];
+	goalies = [[NSArray alloc] initWithObjects:@"Add goalie", nil count:config.goaliePlayerTotal];
 	
 }
 
@@ -46,6 +59,10 @@
 
 
 - (void)dealloc {
+	[tableView release];
+	[offencePlayers release];
+	[defencePlayers release];
+	[goalies release];
     [super dealloc];
 }
 
@@ -57,6 +74,64 @@
 - (IBAction) cancel: (id) sender{
 	
 	[self dismissModalViewControllerAnimated:YES];
+}
+
+
+- (IBAction) txtFieldDoneEditing: (id) sender {
+	[sender resignFirstResponder];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString* identifier = @"origin";
+	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+	if (cell == nil) {
+		cell = [[[UITableViewCell alloc] init] autorelease];
+	}
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	switch (indexPath.section) {
+		case 0:
+			cell.textLabel.text = [offencePlayers objectAtIndex:indexPath.row];
+			break;
+		case 1:
+			cell.textLabel.text = [defencePlayers objectAtIndex:indexPath.row];
+			break;
+		case 2:
+			cell.textLabel.text = [goalies objectAtIndex:indexPath.row];
+			break;
+		default:
+			break;
+	}
+	return cell;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	switch (section) {
+		case 0:
+			return [offencePlayers count];
+		case 1:
+			return [defencePlayers count];
+		case 2:
+			return [goalies count];
+		default:
+			return 0;
+	}
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 3;
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+	switch (section) {
+		case 0:
+			return @"Offensive";
+		case 1:
+			return @"Defensive";
+		case 2:
+			return @"Goal";
+		default:
+			break;
+	}
 }
 
 @end

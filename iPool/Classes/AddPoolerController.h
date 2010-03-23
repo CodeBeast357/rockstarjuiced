@@ -9,11 +9,21 @@
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
 
-@interface AddPoolerController : UIViewController  {
+@interface AddPoolerController : UIViewController <UITableViewDataSource, UITableViewDelegate>  {
 	Delegate *mainDelegate;
+	IBOutlet UITableView* tableView;
+	NSArray* offencePlayers;
+	NSArray* defencePlayers;
+	NSArray* goalies;
 }
+
+@property (nonatomic, retain) UITableView* tableView;
+@property (nonatomic, retain) NSArray* offencePlayers;
+@property (nonatomic, retain) NSArray* defencePlayers;
+@property (nonatomic, retain) NSArray* goalies;
 
 - (IBAction) done: (id) sender;
 - (IBAction) cancel: (id) sender;
+- (IBAction) txtFieldDoneEditing: (id) sender;
 
 @end
