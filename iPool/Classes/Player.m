@@ -8,54 +8,16 @@
 #import "Player.h"
 
 @implementation Player
-
-- (NSString*) lastName {
-    return lastName;
-}
-
-- (NSString*) firstName {
-    return firstName;
-}
-
-- (NSString*) position {
-    return position;
-}
-
-- (void) setLastName: (NSString*)input
-{
-    [lastName autorelease];
-    lastName = [input retain];
-}
-
-- (void) setFirstName: (NSString*)input
-{
-    [firstName autorelease];
-    firstName = [input retain];
-}
-
-- (void) setPosition: (NSString*)input
-{
-    [position autorelease];
-    position = [input retain];
-}
-
-- (void) setGamePlay: (int*)input
-{
-    [gamePlay autorelease];
-    gamePlay = [input retain];
-}
-
-- (int*) gamePlay {
-    return gamePlay;
-}
-
+@synthesize lastName, firstName, position, gamePlay;
+ 
 - (id) init
 {
     if ( self = [super init] )
     {
-        [self setLastName:@"Ovechkin"];
-		[self setFirstName:@"Alexander"];
-        [self setPosition:@"LW"];
+        [self lastName:@"Ovechkin"];
+		[self firstName:@"Alexander"];
+        [self position:@"LW"];
+		[self gamePlay:0];
     }
 	
     return self;
@@ -66,6 +28,8 @@
     [lastName release];
     [firstName release];
 	[position release];
+	[gamePlay release];
+	
     [super dealloc];
 }
 

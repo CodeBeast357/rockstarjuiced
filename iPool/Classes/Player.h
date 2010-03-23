@@ -13,15 +13,12 @@
     NSString *lastName;
     NSString *firstName;
 	NSString *position;
-	int *gamePlay;
+	int gamePlay;
 }
 
--(NSString*) lastName;
--(NSString*) firstName;
--(NSString*) position;
--(int*) gamePlay;
--(void) setGamePlay: (int*) input;
--(void) setLastName: (NSString*) input;
--(void) setFirstName: (NSString*) input;
--(void) setPosition: (NSString*) input;
+@property (nonatomic, assign) NSString* lastName;
+@property (nonatomic, assign) NSString* firstName;
+@property (nonatomic, assign) NSString* position;
+@property (nonatomic, assign) int gamePlay;
+
 @end

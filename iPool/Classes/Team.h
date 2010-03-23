@@ -20,14 +20,11 @@
 	NSMutableArray *goalieList;
 }
 
--(NSString*) teamName;
--(NSString*) teamTown;
--(NSString*) townAbbreviation;
--(NSMutableArray*) skaterList;
--(NSMutableArray*) goalieList;
--(void) setTeamName: (NSString*) input;
--(void) setTeamTown: (NSString*) input;
--(void) setTownAbbreviation: (NSString*) input;
+@property (nonatomic, retain)  NSString* teamName;
+@property (nonatomic, retain)  NSString* teamTown;
+@property (nonatomic, retain)  NSString* townAbbreviation;
+@property (nonatomic, retain)  NSMutableArray* skaterList;
+@property (nonatomic, retain)  NSMutableArray* goalieList;
 -(void) addSkater: (Skater*) input;
 -(void) addGoalie: (Goalie*) input;
 -(void) sortSkaterByLastName;

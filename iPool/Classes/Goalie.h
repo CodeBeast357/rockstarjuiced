@@ -23,11 +23,11 @@
 					position: (NSString*) p 
 						wins: (int) w 
 			  overtimeLosses: (int) o
-					shutouts: (int) s;
--(int) wins;
--(int) overtimeLosses;
--(int) shutouts;
--(void) setWins: (int) w;
--(void) setOvertimeLosses: (int) o;
--(void) setShutouts: (int) s;
+					shutouts: (int) s
+					gamePlay: (int) gp;
+
+@property (nonatomic, assign) int wins;
+@property (nonatomic, assign) int overtimeLosses;
+@property (nonatomic, assign) int shutouts;
+
 @end

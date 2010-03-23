@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		65B637D5115821DD00F90E0E /* Pooler.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B637D4115821DD00F90E0E /* Pooler.m */; };
 		A90EFE2B0F77E16000AB789A /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */; };
 		A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */; };
 		A90EFE300F77E38C00AB789A /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */; };
@@ -42,6 +43,8 @@
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* NavApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavApp_Prefix.pch; sourceTree = "<group>"; };
+		65B637D3115821DD00F90E0E /* Pooler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pooler.h; sourceTree = "<group>"; };
+		65B637D4115821DD00F90E0E /* Pooler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pooler.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90EFE290F77E16000AB789A /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
 		A90EFE2A0F77E16000AB789A /* SplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenController.m; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 				E0B60AB7114F063B005F222D /* ViewStatisticsController.m */,
 				FAA8CE0011529B890041F68D /* TeamList.h */,
 				FAA8CE0111529B890041F68D /* TeamList.m */,
+				65B637D3115821DD00F90E0E /* Pooler.h */,
+				65B637D4115821DD00F90E0E /* Pooler.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				FAAA291A114F125000EADD2B /* Team.m in Sources */,
 				FAAA2924114F12CA00EADD2B /* AddPoolerController.m in Sources */,
 				FAA8CE0211529B890041F68D /* TeamList.m in Sources */,
+				65B637D5115821DD00F90E0E /* Pooler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

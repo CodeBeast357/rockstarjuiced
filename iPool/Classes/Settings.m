@@ -91,6 +91,10 @@ static Settings *instance = nil;
 	return offencePointsPerAssist;
 }
 
+- (int)offenceDifferentialValue {
+	return offenceDifferentialValue;
+}
+
 - (int)offenceDifferentialActivated {
 	return offenceDifferentialActivated;
 }
@@ -107,12 +111,24 @@ static Settings *instance = nil;
 	return defenceDifferentialActivated;
 }
 
+- (int)defenceDifferentialValue {
+	return defenceDifferentialValue;
+}
+
 - (int)goalerPointsPerWin {
 	return goalerPointsPerWin;
 }
 
+- (int)goalerPointsPerShutout {
+	return goalerPointsPerShutout;
+}
+
 - (int)goalerPointsPerOTLoss {
 	return goalerPointsPerOTLoss;
+}
+
+- (int)goalerPointsPerShootoutSave {
+	return goalerPointsPerShootoutSave;
 }
 
 - (void)setPoolName:(NSString*)newName {
@@ -131,16 +147,20 @@ static Settings *instance = nil;
 	goaliePlayerTotal = nGoal;
 }
 
-
 - (void)setNumberOfPlayers:(int)nPlay {
 	numberOfPlayers = nPlay;
 }
+
 - (void)setOffencePointsPerGoal:(int)nOff {
 	offencePointsPerGoal = nOff;
 }
 
 - (void)setOffencePointsPerAssist:(int)nOff {
 	offencePointsPerAssist = nOff;
+}
+
+- (void)setOffenceDifferentialValue:(int)nOff {
+	offenceDifferentialValue = nOff;
 }
 
 - (void)setOffenceDifferentialActivated:(int)nOff {
@@ -155,11 +175,23 @@ static Settings *instance = nil;
 	defencePointsPerAssist = nDef;
 }
 
+- (void)setDefenceDifferentialValue:(int)nDef {
+	defenceDifferentialValue = nDef;
+}
+
 - (void)setDefenceDifferentialActivated:(int)nDef {
 	defenceDifferentialActivated = nDef;
 }
 
 - (void)setGoalerPointsPerWin:(int)nGoal {
+	goalerPointsPerWin = nGoal;
+}
+
+- (void)setGoalerPointsPerShutout:(int)nGoal {
+	goalerPointsPerWin = nGoal;
+}
+
+- (void)setGoalerPointsPerShootoutSaves:(int)nGoal {
 	goalerPointsPerWin = nGoal;
 }
 

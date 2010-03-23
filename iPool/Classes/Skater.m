@@ -8,12 +8,15 @@
 #import "Skater.h"
 
 @implementation Skater : Player
+@synthesize goals, assists, differential;
+
 -(Skater*) initWithFirstName: (NSString*) f
 					lastName: (NSString*) l
 					position: (NSString*) p
-					   goals: (int*) g
-					 assists: (int*) a
-				differential: (int*) d{
+					   goals: (int) g
+					 assists: (int) a
+				differential: (int) d 
+					gamePlay: (int) gp {
     self = [super init];
 
     if ( self ) {
@@ -22,41 +25,13 @@
 		  position: p 
 			 goals: g 
 		   assists: a 
-	  differential: d];
+	  differential: d
+		  gamePlay: gp];
     }
 
     return self;
 }
 
-- (int*) goals {
-    return goals;
-}
-
-- (int*) assists {
-    return assists;
-}
-
-- (int*) differential {
-    return differential;
-}
-
-- (void) setGoals: (int*)input
-{
-    [goals autorelease];
-    goals = [input retain];
-}
-
-- (void) setAssists: (int*)input
-{
-    [assists autorelease];
-    assists = [input retain];
-}
-
-- (void) setDifferential: (int*)input
-{
-    [differential autorelease];
-    differential = [input retain];
-}
 
 - (id) init
 {
@@ -75,6 +50,7 @@
 	[goals release];
 	[assists release];
 	[differential release];
+	
     [super dealloc];
 }
 

@@ -8,12 +8,15 @@
 #import "Goalie.h"
 
 @implementation Goalie : Player 
+@synthesize wins, overtimeLosses, shutouts;
+
 -(Goalie*) initWithFirstName: (NSString*) f 
 				   lastName : (NSString*) l 
 					position: (NSString*) p 
 					    wins: (int) w
 			  overtimeLosses: (int) o
-					shutouts: (int) s {
+					shutouts: (int) s 
+					gamePlay: (int) gp{
     self = [super init];
 
     if ( self ) {
@@ -22,42 +25,16 @@
 			 position: p 
 				 wins: w 
 	   overtimeLosses: o 
-			 shutouts: s];
+			 shutouts: s
+			 gamePlay: gp];
     }
 
     return self;
 }
 
-- (int) wins {
-    return wins;
-}
-
-- (int) overtimeLosses {
-    return overtimeLosses;
-}
-
-- (int) shutouts {
-    return shutouts;
-}
-
-- (void) setWins: (int) w
-{
-    wins = w;
-}
-
-- (void) setOvertimeLosses: (int) o
-{
-    overtimeLosses = o;
-}
-
-- (void) setShutouts: (int) s
-{
-    shutouts = s;
-}
-
 
 - (void) dealloc
-{
+{	
     [super dealloc];
 }
 

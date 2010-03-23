@@ -8,44 +8,7 @@
 #import "Team.h"
 
 @implementation Team
-
-- (NSString*) teamName {
-    return teamName;
-}
-
-- (NSString*) teamTown {
-    return teamTown;
-}
-
-- (NSString*) townAbbreviation {
-    return townAbbreviation;
-}
-
-
-
-
-
-- (NSMutableArray*) goalieList {
-	return goalieList;
-}
-
-- (void) setTeamName: (NSString*)input
-{
-    [teamName autorelease];
-    teamName = [input retain];
-}
-
-- (void) setTeamTown: (NSString*)input
-{
-    [teamTown autorelease];
-    teamTown = [input retain];
-}
-
-- (void) setTownAbbreviation: (NSString*)input
-{
-    [townAbbreviation autorelease];
-    townAbbreviation = [input retain];
-}
+@synthesize teamName, teamTown, townAbbreviation, goalieList, skaterList;
 
 - (void) addSkater: (Skater*)input
 {

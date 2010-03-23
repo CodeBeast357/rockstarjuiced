@@ -12,22 +12,22 @@
 #import "Player.h"
 
 @interface Skater: Player {
-    int *goals;
-    int *assists;
-	int *differential;
-    int *shootout;
+    int goals;
+    int assists;
+	int differential;
+    int shootout;
 }
 
 -(Skater*) initWithFirstName: (NSString*) f 
 					lastName: (NSString*) l 
 					position: (NSString*) p 
-					   goals: (int*) g 
-					 assists: (int*) a
-				differential: (int*) d;
--(int*) goals;
--(int*) assists;
--(int*) differential;
--(void) setGoals: (int*) input;
--(void) setAssists: (int*) input;
--(void) setDifferential: (int*) input;
+					   goals: (int) g 
+					 assists: (int) a
+				differential: (int) d
+					gamePlay: (int) gp;
+
+@property (nonatomic, assign) int goals;
+@property (nonatomic, assign) int assists;
+@property (nonatomic, assign) int differential;
+
 @end
