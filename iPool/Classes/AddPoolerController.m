@@ -9,14 +9,14 @@
 #import "AddPoolerController.h"
 #import "Settings.h"
 
-#define SectionHeaderHeight 40
-
 @implementation AddPoolerController
 
-@synthesize tableView;
-@synthesize offencePlayers;
-@synthesize defencePlayers;
-@synthesize goalies;
+@synthesize
+	selectTeamController,
+	tablePooler,
+	offencePlayers,
+	defencePlayers,
+	goalies;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -45,9 +45,18 @@
 											   action:@selector(done:)] autorelease]; 
 	//Initialisation des tables de joueurs
 	Settings* config = [Settings getInstance];
-	offencePlayers = [[NSArray alloc] initWithObjects:@"Add offence player", nil count:config.offencePlayerTotal];
-	defencePlayers = [[NSArray alloc] initWithObjects:@"Add defence player", nil count:config.defencePlayerTotal];
-	goalies = [[NSArray alloc] initWithObjects:@"Add goalie", nil count:config.goaliePlayerTotal];
+	offencePlayers = [[NSMutableArray alloc] init];
+	for (int n=0; n<config.offencePlayerTotal; ++n) {
+		[offencePlayers addObject:@"Choose a forward player"];
+	}
+	defencePlayers = [[NSMutableArray alloc] init];
+	for (int n=0; n<config.defencePlayerTotal; ++n) {
+		[defencePlayers addObject:@"Choose a defence player"];
+	}
+	goalies = [[NSMutableArray alloc] init];
+	for (int n=0; n<config.goaliePlayerTotal; ++n) {
+		[goalies addObject:@"Choose a goalie"];
+	}
 	
 }
 
@@ -59,7 +68,7 @@
 
 
 - (void)dealloc {
-	[tableView release];
+	[tablePooler release];
 	[offencePlayers release];
 	[defencePlayers release];
 	[goalies release];
@@ -130,8 +139,33 @@
 		case 2:
 			return @"Goal";
 		default:
-			break;
+			return @"Empty";
 	}
+}
+
+//Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+	
+	// Creation du controlleur pour la vue et de la bar de navigation
+	SelectTeamController *selectTeam = [[SelectTeamController alloc]
+									  initWithNibName:@"SelectTeam" bundle:[NSBundle mainBundle]];
+	self.selectTeamController = selectTeam;
+	
+	UINavigationController *navController = [[UINavigationController alloc] 
+											 initWithRootViewController:selectTeam];
+	
+	//Change le style de la bar de navigation
+	navController.navigationBar.barStyle = UIBarStyleBlack;
+	
+	//Affichage de la vue sous la forme d une modalView
+	[self.navigationController presentModalViewController:navController animated:YES];
+	
+	//On libère la mémoire
+	[selectTeam release];
+	[navController release];
+	
+	
 }
 
 @end

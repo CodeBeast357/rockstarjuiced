@@ -8,16 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
+#import "SelectTeamController.h"
 
 @interface AddPoolerController : UIViewController <UITableViewDataSource, UITableViewDelegate>  {
 	Delegate *mainDelegate;
-	IBOutlet UITableView* tableView;
-	NSArray* offencePlayers;
-	NSArray* defencePlayers;
-	NSArray* goalies;
+	SelectTeamController* selectTeamController;
+	IBOutlet UITableView* tablePooler;
+	NSMutableArray* offencePlayers;
+	NSMutableArray* defencePlayers;
+	NSMutableArray* goalies;
 }
 
-@property (nonatomic, retain) UITableView* tableView;
+@property (nonatomic, retain) SelectTeamController* selectTeamController;
+@property (nonatomic, retain) UITableView* tablePooler;
 @property (nonatomic, retain) NSArray* offencePlayers;
 @property (nonatomic, retain) NSArray* defencePlayers;
 @property (nonatomic, retain) NSArray* goalies;

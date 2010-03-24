@@ -35,41 +35,23 @@
 
 + (Settings*)getInstance;
 
-- (NSString*)poolName;
-- (int)offencePlayerTotal;
-- (int)defencePlayerTotal;
-- (int)goaliePlayerTotal;
-- (int)numberOfPlayers;
-- (int)offencePointsPerGoal;
-- (int)offencePointsPerAssist;
-- (BOOL)offenceDifferentialActivated;
-- (int)offenceDifferentialValue;
-- (int)defencePointsPerGoal;
-- (int)defencePointsPerAssist;
-- (int)defenceDifferentialValue;
-- (BOOL)defenceDifferentialActivated;
-- (int)goalerPointsPerWin;
-- (int)goalerPointsPerShutout;
-- (int)goalerPointsPerShootoutSave;
-- (int)goalerPointsPerOTLoss;
-- (int) goalerPointsPerShoutout;
-
-- (void)setPoolName:(NSString*)newName;
-- (void)setOffencePlayerTotal:(int)nOff;
-- (void)setDefencePlayerTotal:(int)nDef;
-- (void)setGoaliePlayerTotal:(int)nGoal;
-- (void)setNumberOfPlayers:(int)nPlay;
-- (void)setOffencePointsPerGoal:(int)nOff;
-- (void)setOffencePointsPerAssist:(int)nOff;
-- (void)setOffenceDifferentialValue:(int)nOff; 
-- (void)setOffenceDifferentialActivated:(BOOL)nOff;
-- (void)setDefencePointsPerGoal:(int)nDef;
-- (void)setDefencePointsPerAssist:(int)nDef;
-- (void)setDefenceDifferentialValue:(int)nDef;
-- (void)setDefenceDifferentialActivated:(BOOL)nDef;
-- (void)setGoalerPointsPerWin:(int)nGoal;
-- (void)setGoalerPointsPerShutout:(int)nGoal;
-- (void)setGoalerPointsPerOTLoss:(int)nGoal;
-- (void) setGoalerPointsPerShoutout:(int)nPts;
+@property (nonatomic, retain) NSString* poolName;
+@property (nonatomic) int offencePlayerTotal;
+@property (nonatomic) int defencePlayerTotal;
+@property (nonatomic) int goaliePlayerTotal;
+@property (nonatomic) int numberOfPlayers;
+@property (nonatomic) int offencePointsPerGoal;
+@property (nonatomic) int offencePointsPerAssist;
+@property (nonatomic) BOOL offenceDifferentialActivated;
+@property (nonatomic) int offenceDifferentialValue;
+@property (nonatomic) int defencePointsPerGoal;
+@property (nonatomic) int defencePointsPerAssist;
+@property (nonatomic) int defenceDifferentialValue;
+@property (nonatomic) BOOL defenceDifferentialActivated;
+@property (nonatomic) int goalerPointsPerWin;
+@property (nonatomic) int goalerPointsPerShutout;
+@property (nonatomic) int goalerPointsPerShootoutSave;
+@property (nonatomic) int goalerPointsPerOTLoss;
+@property (nonatomic) int goalerPointsPerShoutout;
 
 @end
