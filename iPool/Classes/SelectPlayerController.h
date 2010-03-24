@@ -7,10 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Delegate.h"
 
 @interface SelectPlayerController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
-
+	Delegate *mainDelegate;
+	IBOutlet UITableView* tablePlayers;
+	NSMutableArray* players;
+	
 }
+
+@property (nonatomic, retain) UITableView* tablePlayers;
+@property (nonatomic, retain) NSMutableArray* players;
+
+- (IBAction) done: (id) sender;
+- (IBAction) cancel: (id) sender;
 
 @end

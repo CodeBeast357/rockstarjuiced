@@ -143,6 +143,14 @@
 	}
 }
 
+- (NSIndexPath *)tableView:(UITableView *)tableView willDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+	return indexPath;
+}
+
+- (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
+	[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
+}
+/*
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
@@ -166,6 +174,6 @@
 	[navController release];
 	
 	
-}
+}*/
 
 @end
