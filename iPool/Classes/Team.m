@@ -10,6 +10,18 @@
 @implementation Team
 @synthesize teamName, teamTown, townAbbreviation, goalieList, skaterList;
 
+
+- (Team*)init {
+	if (self = [super init]) {
+		
+		// Initialisation
+		skaterList = [[NSMutableArray alloc] init];
+		goalieList = [[NSMutableArray alloc] init];
+		
+	}
+	return self;
+}
+
 - (void) addSkater: (Skater*)input
 {
 	[skaterList addObject: input];
@@ -82,7 +94,7 @@
 
 - (id) initWithTeamName: (NSString*) tn
 			   teamTown: (NSString*) tt
-			   townAbbrevation: (NSString*) ta{
+		townAbbrevation: (NSString*) ta{
     if ( self = [super init] )
     {
         [self setTeamName:@"Canadiens"];

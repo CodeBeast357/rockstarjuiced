@@ -18,16 +18,16 @@
 {
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
-
+	
 	if(self.mainMenuController == nil)
 	{
 		MainMenuController *mainMenu = [[MainMenuController alloc]
-									  initWithNibName:@"MainMenu" bundle:[NSBundle mainBundle]];
+										initWithNibName:@"MainMenu" bundle:[NSBundle mainBundle]];
 		self.mainMenuController = mainMenu;
 		
 		
 		[mainMenu release];
-	
+		
 		[self.navigationController pushViewController:self.mainMenuController animated:YES];
 	}
 	
@@ -50,11 +50,11 @@
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadAllPlayers {
-
+	
 	//add all team to the team list of the nhl
 	TeamList *teamList = [TeamList getInstance];
 	int numberOfPlayerAdd=0;
-		
+	
 	//http://www.iphonedevsdk.com/forum/iphone-sdk-development/36493-get-nsstring-text-html-page.html
 	NSString *sourceOffenceStr = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ca.sports.yahoo.com/nhl/stats/byposition?pos=C,RW,LW&conference=NHL&year=season_2009&qualified=1"]]; 
 	NSString *sourceDeffenceStr = [[NSString alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://ca.sports.yahoo.com/nhl/stats/byposition?pos=D&conference=NHL&year=season_2009&qualified=1"]];
@@ -66,11 +66,11 @@
 	NSScanner *aScannerOffence = [NSScanner scannerWithString:sourceOffenceStr];
 	NSScanner *aScannerDeffence = [NSScanner scannerWithString:sourceDeffenceStr];
 	NSScanner *aScannerGoalie = [NSScanner scannerWithString:sourceGoalieStr];
- 
+	
 	while ([aScannerOffence isAtEnd] == NO)
 	{
 		[aScannerOffence scanUpToCharactersFromSet:eol intoString:&lineContent];
- 
+		
 		BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
 		if(match){
 			NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
@@ -99,15 +99,16 @@
 			
 			
 			[teamList addSkaterByTeam:aSkater team:team];
+			[aSkater release];
 			numberOfPlayerAdd++;
 		}
- 
+		
 	}
- 
+	
 	while ([aScannerDeffence isAtEnd] == NO)
 	{
 		[aScannerDeffence scanUpToCharactersFromSet:eol intoString:&lineContent];
- 
+		
 		BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
 		if(match){
 			NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
@@ -135,58 +136,60 @@
 			
 			
 			[teamList addSkaterByTeam:aSkater team:team];
+			[aSkater release];
 			numberOfPlayerAdd++;
- 
+			
 		}
- 
+		
 	}
- 
+	
 	while ([aScannerGoalie isAtEnd] == NO)
 	{
-	 [aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
- 
-	 BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
-	 if(match){
-		NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
-		NSString *lastname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 1];
 		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		NSString *team= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		NSString *gamePlay= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 1] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		NSString *win= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 4] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		NSString *loss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		NSString *otLoss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
-		[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
- 
-		NSString *shutouts= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
 		
-		 
-		 Goalie *aGoalie= [[Goalie alloc] init]; 
-		 aGoalie.firstName= firstname;
-		 aGoalie.lastName=lastname;
-		 aGoalie.wins=[win intValue];;
-		 aGoalie.shutouts=[shutouts intValue];
-		 aGoalie.overtimeLosses=[otLoss intValue];
-		 aGoalie.position= @"g";
-		 aGoalie.gamePlay=[gamePlay intValue];
-		 
-		 
-		 [teamList addGoalieByTeam:aGoalie team:team];
-		 numberOfPlayerAdd++;
- 
+		BOOL match = ([lineContent rangeOfString:@"/nhl/players/" options:NSCaseInsensitiveSearch].location != NSNotFound);
+		if(match){
+			NSString *firstname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 0];
+			NSString *lastname= [[[[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0] componentsSeparatedByString:@" "] objectAtIndex: 1];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			NSString *team= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 2] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			NSString *gamePlay= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 1] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			NSString *win= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 4] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			NSString *loss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			NSString *otLoss= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			[aScannerGoalie scanUpToCharactersFromSet:eol intoString:&lineContent];
+			
+			NSString *shutouts= [[[[lineContent componentsSeparatedByString:@">"] objectAtIndex: 3] componentsSeparatedByString:@"<"] objectAtIndex: 0];
+			
+			
+			Goalie *aGoalie= [[Goalie alloc] init]; 
+			aGoalie.firstName= firstname;
+			aGoalie.lastName=lastname;
+			aGoalie.wins=[win intValue];;
+			aGoalie.shutouts=[shutouts intValue];
+			aGoalie.overtimeLosses=[otLoss intValue];
+			aGoalie.position= @"g";
+			aGoalie.gamePlay=[gamePlay intValue];
+			
+			
+			[teamList addGoalieByTeam:aGoalie team:team];
+			[aGoalie release];
+			numberOfPlayerAdd++;
+			
 		}
- 
+		
 	}
 	
 	NSLog(@"Number of player add:%d", numberOfPlayerAdd);
@@ -194,34 +197,40 @@
 	NSLog(@"Number of team add: %d", [list count]);
 	for( Team *team in list){
 		NSLog(team.teamName);
-		NSLog(team.townAbbreviation);
-		NSLog(team.teamTown);
+		for(Skater *aSkater in [team skaterList]){
+			NSLog(@"firstname:%@ lastname:%@ position:%@ goals:%d assists:%d differential:%d gameplay:%d", aSkater.firstName,aSkater.lastName,aSkater.position,aSkater.goals,aSkater.assists,aSkater.differential,aSkater.gamePlay);
+			
+		}
+		for(Goalie *aGoalie in [team goalieList]){
+			NSLog(@"firstname:%@ lastname:%@ position:%@ wins:%d shutouts:%d ot:%d gameplay:%d", aGoalie.firstName,aGoalie.lastName,aGoalie.position,aGoalie.wins,aGoalie.shutouts,aGoalie.overtimeLosses,aGoalie.gamePlay);
+			
+		}
 	}
 	
 }
 
-                             
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad{
 	
 	activityOutlet.hidden= FALSE;
 	[activityOutlet startAnimating];
 	
-	//[self startMyThread];
+	[self startMyThread];
 	
 	NSLog(@"in viewDidLoad");
 	
-    [self switchPage];
+    //[self switchPage];
 }
- 
+
 
 /*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
+ // Override to allow orientations other than the default portrait orientation.
+ - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+ // Return YES for supported orientations
+ return (interfaceOrientation == UIInterfaceOrientationPortrait);
+ }
+ */
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
