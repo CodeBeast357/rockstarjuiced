@@ -16,9 +16,9 @@
 	int gamePlay;
 }
 
-@property (nonatomic, assign) NSString* lastName;
-@property (nonatomic, assign) NSString* firstName;
-@property (nonatomic, assign) NSString* position;
+@property (nonatomic, retain) NSString* lastName;
+@property (nonatomic, retain) NSString* firstName;
+@property (nonatomic, retain) NSString* position;
 @property (nonatomic, assign) int gamePlay;
 
 @end

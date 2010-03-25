@@ -30,12 +30,14 @@
 	
 	self.title = @"Select a Player";
 	
+	//Initialisation de la table des joueurs
+	teamList = [TeamList getInstance];
+	teams= [teamList listOfTeam];
+	teamSelected= mainDelegate.teamSelected;
+	team= [teams objectAtIndex:teamSelected];
+	players = team.skaterList;
+	
 }
-
--(void) viewDidAppear{
-	NSLog(@"view did appear");
-}
-
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -51,21 +53,16 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	//Initialisation de la table des joueurs
-	teamList = [TeamList getInstance];
-	teams= [teamList listOfTeam];
-	teamSelected= mainDelegate.teamSelected;
-	team= [teams objectAtIndex:teamSelected];
-	players = team.skaterList;
 	
 	NSLog(@"number of player:%d",[players count]);
-	
-	
+	NSLog(@"Team selected:%@", team.teamName);
+
 	static NSString* identifier = @"origin";
 	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] init] autorelease];
 	}
+	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.textLabel.text = [[players objectAtIndex:indexPath.row] firstName];
 	//cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
@@ -74,12 +71,6 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	//Initialisation de la table des joueurs
-	teamList = [TeamList getInstance];
-	teams= [teamList listOfTeam];
-	teamSelected= mainDelegate.teamSelected;
-	team= [teams objectAtIndex:teamSelected];
-	players = team.skaterList;
 	return [players count];
 }
 
@@ -115,5 +106,6 @@
 	
 	
 }
+
 
 @end

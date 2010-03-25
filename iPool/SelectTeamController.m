@@ -34,6 +34,12 @@
 	//Initialisation de la table des équipes
 	teamList = [TeamList getInstance];
 	teams= [teamList listOfTeam];
+	
+}
+
+- (void) viewWillAppear{
+		
+	
 }
 
 - (void)didReceiveMemoryWarning {
@@ -49,6 +55,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	
 	static NSString* identifier = @"origin";
 	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	if (cell == nil) {
@@ -86,6 +93,7 @@
 	
 	mainDelegate.teamSelected=indexPath.row;
 	NSLog(@"%d", mainDelegate.teamSelected);
+	
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectPlayerController animated:YES];
 	
