@@ -737,6 +737,20 @@
 			E0118200115BE82D0015F2C7 /* PBXTextBookmark */ = E0118200115BE82D0015F2C7 /* PBXTextBookmark */;
 			E0118201115BE82D0015F2C7 /* PBXTextBookmark */ = E0118201115BE82D0015F2C7 /* PBXTextBookmark */;
 			E0118202115BE82D0015F2C7 /* PBXTextBookmark */ = E0118202115BE82D0015F2C7 /* PBXTextBookmark */;
+			E0118217115BEA290015F2C7 /* PBXTextBookmark */ = E0118217115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118218115BEA290015F2C7 /* PBXTextBookmark */ = E0118218115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118219115BEA290015F2C7 /* PBXTextBookmark */ = E0118219115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821A115BEA290015F2C7 /* PBXTextBookmark */ = E011821A115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821B115BEA290015F2C7 /* PBXTextBookmark */ = E011821B115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821C115BEA290015F2C7 /* PBXTextBookmark */ = E011821C115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821D115BEA290015F2C7 /* PBXTextBookmark */ = E011821D115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821E115BEA290015F2C7 /* PBXTextBookmark */ = E011821E115BEA290015F2C7 /* PBXTextBookmark */;
+			E011821F115BEA290015F2C7 /* PBXTextBookmark */ = E011821F115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118220115BEA290015F2C7 /* PBXTextBookmark */ = E0118220115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118221115BEA290015F2C7 /* PBXTextBookmark */ = E0118221115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118222115BEA290015F2C7 /* PBXTextBookmark */ = E0118222115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118223115BEA290015F2C7 /* PBXTextBookmark */ = E0118223115BEA290015F2C7 /* PBXTextBookmark */;
+			E0118224115BEA290015F2C7 /* PBXTextBookmark */ = E0118224115BEA290015F2C7 /* PBXTextBookmark */;
 			E05172961158228B00A38FE7 = E05172961158228B00A38FE7 /* PBXTextBookmark */;
 			E05172971158228B00A38FE7 = E05172971158228B00A38FE7 /* PBXTextBookmark */;
 			E05172AA115822B300A38FE7 = E05172AA115822B300A38FE7 /* PBXTextBookmark */;
@@ -988,6 +1002,13 @@
 			sepNavVisRange = "{0, 181}";
 		};
 	};
+	65B637D3115821DD00F90E0E /* Pooler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 689}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1053}";
+		};
+	};
 	65B637D4115821DD00F90E0E /* Pooler.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1262, 3328}}";
@@ -1053,7 +1074,7 @@
 	};
 	C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 786}}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 809}}";
 			sepNavSelRange = "{484, 0}";
 			sepNavVisRange = "{0, 609}";
 			sepNavWindowFrame = "{{553, 65}, {750, 937}}";
@@ -1061,9 +1082,9 @@
 	};
 	C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1300, 1378}}";
-			sepNavSelRange = "{2099, 0}";
-			sepNavVisRange = "{988, 1364}";
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 1456}}";
+			sepNavSelRange = "{1430, 0}";
+			sepNavVisRange = "{1042, 1417}";
 			sepNavWindowFrame = "{{852, 91}, {750, 937}}";
 		};
 	};
@@ -3056,7 +3077,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 77";
 		rLen = 0;
-		rLoc = 2354;
+		rLoc = 2248;
 		rType = 0;
 		vrLen = 2225;
 		vrLoc = 646;
@@ -3066,7 +3087,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 101";
 		rLen = 0;
-		rLoc = 3282;
+		rLoc = 3176;
 		rType = 0;
 		vrLen = 2094;
 		vrLoc = 1073;
@@ -3280,7 +3301,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 101";
 		rLen = 0;
-		rLoc = 3282;
+		rLoc = 3176;
 		rType = 0;
 		vrLen = 2094;
 		vrLoc = 1073;
@@ -3627,7 +3648,7 @@
 		isa = PBXTextBookmark;
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		rLen = 1;
-		rLoc = 68;
+		rLoc = 67;
 		rType = 1;
 	};
 	E00F83CB115BC73B00027F28 /* PBXTextBookmark */ = {
@@ -3655,7 +3676,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 90;
@@ -3853,7 +3874,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 73";
 		rLen = 0;
-		rLoc = 2254;
+		rLoc = 2148;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 1180;
@@ -3863,7 +3884,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 90;
@@ -4003,7 +4024,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 1419;
 		vrLoc = 990;
@@ -4013,7 +4034,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1805;
+		rLoc = 1729;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 90;
@@ -4173,7 +4194,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 61";
 		rLen = 0;
-		rLoc = 1778;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 2166;
 		vrLoc = 643;
@@ -4493,7 +4514,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 957;
@@ -4663,7 +4684,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 957;
@@ -4823,7 +4844,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 1577;
@@ -4843,7 +4864,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 646;
@@ -5003,7 +5024,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 1577;
@@ -5033,7 +5054,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 646;
@@ -5163,7 +5184,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 1263;
@@ -5333,7 +5354,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 1099;
@@ -5483,7 +5504,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1991;
+		rLoc = 1885;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 1099;
@@ -5637,7 +5658,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 87";
 		rLen = 0;
-		rLoc = 2564;
+		rLoc = 2458;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 1830;
@@ -5877,7 +5898,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 80";
 		rLen = 0;
-		rLoc = 2254;
+		rLoc = 2148;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 46;
@@ -6037,7 +6058,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 81";
 		rLen = 0;
-		rLoc = 2564;
+		rLoc = 2458;
 		rType = 0;
 		vrLen = 1680;
 		vrLoc = 1008;
@@ -6417,7 +6438,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 77";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 963;
@@ -6699,7 +6720,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -6769,7 +6790,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1876;
 		vrLoc = 456;
@@ -6828,7 +6849,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 118";
 		rLen = 0;
-		rLoc = 3287;
+		rLoc = 3181;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 1210;
@@ -6858,7 +6879,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -6908,7 +6929,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -6948,7 +6969,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -6998,7 +7019,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 118";
 		rLen = 0;
-		rLoc = 3287;
+		rLoc = 3181;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 32;
@@ -7018,7 +7039,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1849;
 		vrLoc = 456;
@@ -7078,7 +7099,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1845;
 		vrLoc = 456;
@@ -7108,7 +7129,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1777;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1059;
@@ -7118,7 +7139,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -7148,7 +7169,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1728;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1059;
@@ -7158,7 +7179,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -7197,8 +7218,8 @@
 		isa = PBXTextBookmark;
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
-		rLen = 50;
-		rLoc = 1728;
+		rLen = 0;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 1061;
@@ -7218,7 +7239,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 83";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1863;
 		vrLoc = 456;
@@ -7268,7 +7289,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 71";
 		rLen = 0;
-		rLoc = 1740;
+		rLoc = 1704;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 1018;
@@ -7318,7 +7339,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 73";
 		rLen = 0;
-		rLoc = 2099;
+		rLoc = 1993;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 988;
@@ -7334,6 +7355,146 @@
 		vrLoc = 885;
 	};
 	E0118202115BE82D0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 20";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	E0118217115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E051741C1158775300A38FE7 /* SplashScreenController.h */;
+		name = "SplashScreenController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 663;
+		vrLoc = 0;
+	};
+	E0118218115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3281158404F00ABCBFC /* Player.m */;
+		name = "Player.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 543;
+		vrLoc = 0;
+	};
+	E0118219115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F32C1158404F00ABCBFC /* Team.m */;
+		name = "Team.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 765;
+		vrLoc = 0;
+	};
+	E011821A115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F32B1158404F00ABCBFC /* Team.h */;
+		name = "Team.h: 23";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 0;
+	};
+	E011821B115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3271158404F00ABCBFC /* Player.h */;
+		name = "Player.h: 22";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	E011821C115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3251158404F00ABCBFC /* Goalie.h */;
+		name = "Goalie.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 0;
+	};
+	E011821D115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D3115821DD00F90E0E /* Pooler.h */;
+		name = "Pooler.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 0;
+	};
+	E011821E115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3291158404F00ABCBFC /* Skater.h */;
+		name = "Skater.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 0;
+	};
+	E011821F115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3261158404F00ABCBFC /* Goalie.m */;
+		name = "Goalie.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	E0118220115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 65";
+		rLen = 0;
+		rLoc = 1566;
+		rType = 0;
+		vrLen = 1410;
+		vrLoc = 1075;
+	};
+	E0118221115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 67";
+		rLen = 0;
+		rLoc = 1704;
+		rType = 0;
+		vrLen = 1366;
+		vrLoc = 988;
+	};
+	E0118222115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 58";
+		rLen = 0;
+		rLoc = 1430;
+		rType = 0;
+		vrLen = 1417;
+		vrLoc = 1042;
+	};
+	E0118223115BEA290015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 99";
+		rLen = 0;
+		rLoc = 2769;
+		rType = 0;
+		vrLen = 1897;
+		vrLoc = 885;
+	};
+	E0118224115BEA290015F2C7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
@@ -8497,9 +8658,9 @@
 	};
 	E051741C1158775300A38FE7 /* SplashScreenController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 442}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 658}";
+			sepNavVisRange = "{0, 663}";
 			sepNavWindowFrame = "{{61, 423}, {750, 558}}";
 		};
 	};
@@ -9686,24 +9847,52 @@
 	};
 	FA96F3251158404F00ABCBFC /* Goalie.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1280, 524}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 646}";
 		};
 	};
+	FA96F3261158404F00ABCBFC /* Goalie.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 533}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 661}";
+		};
+	};
+	FA96F3271158404F00ABCBFC /* Player.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 485}";
+		};
+	};
+	FA96F3281158404F00ABCBFC /* Player.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 543}";
+		};
+	};
+	FA96F3291158404F00ABCBFC /* Skater.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 659}";
+		};
+	};
 	FA96F32B1158404F00ABCBFC /* Team.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 507}}";
-			sepNavSelRange = "{366, 0}";
-			sepNavVisRange = "{77, 923}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{0, 1005}";
 			sepNavWindowFrame = "{{319, 292}, {750, 558}}";
 		};
 	};
 	FA96F32C1158404F00ABCBFC /* Team.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 1573}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 1677}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{2515, 739}";
+			sepNavVisRange = "{0, 765}";
 			sepNavWindowFrame = "{{107, 381}, {750, 558}}";
 		};
 	};

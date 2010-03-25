@@ -64,9 +64,8 @@
 	}
 	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	cell.textLabel.text = [[players objectAtIndex:indexPath.row] firstName];
-	//cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
-	//NSLog(cell.textLabel.text);
+	cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
+
 	return cell;
 }
 
