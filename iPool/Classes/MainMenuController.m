@@ -49,7 +49,6 @@
 -(IBAction)switchPageSettings:(id)sender
 {
 
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
 	// Creation du controlleur pour la vue et de la bar de navigation
 	SettingsController *settings = [[SettingsController alloc]
@@ -74,7 +73,6 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 -(IBAction)switchPageAddPooler:(id)sender
 {
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
 	// Creation du controlleur pour la vue et de la bar de navigation
 	AddPoolerController *addPooler = [[AddPoolerController alloc]
@@ -100,7 +98,6 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 -(IBAction)switchPageViewStatistics:(id)sender
 {
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
 	
 	if(self.viewStatisticsController == nil)

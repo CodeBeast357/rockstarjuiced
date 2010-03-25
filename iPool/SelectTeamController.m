@@ -68,30 +68,27 @@
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
 }
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
+	if(self.selectPlayerController == nil)
+	{
 	// Creation du controlleur pour la vue et de la bar de navigation
 	SelectPlayerController *selectPlayer = [[SelectPlayerController alloc]
 										initWithNibName:@"SelectPlayer" bundle:[NSBundle mainBundle]];
 	self.selectPlayerController = selectPlayer;
 	
-	UINavigationController *navController = [[UINavigationController alloc] 
-											 initWithRootViewController:selectPlayer];
-	
-	//Change le style de la bar de navigation
-	navController.navigationBar.barStyle = UIBarStyleBlack;
-	
-	//Affichage de la vue sous la forme d une modalView
-	[self.navigationController pushViewController:navController animated:YES];
-	
 	//On libère la mémoire
 	[selectPlayer release];
-	[navController release];
+	}
+	
+	mainDelegate.teamSelected=indexPath.row;
+	NSLog(@"%d", mainDelegate.teamSelected);
+	//Affichage de la vue sous la forme d une modalView
+	[self.navigationController pushViewController:self.selectPlayerController animated:YES];
+	self.selectPlayerController == nil;
 	
 	
 }

@@ -10,12 +10,14 @@
 
 @interface Delegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-	UINavigationController *navigationController;	
+	UINavigationController *navigationController;
+	int teamSelected;
 	
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, assign) int teamSelected;
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
 

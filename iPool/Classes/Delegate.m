@@ -12,6 +12,7 @@
 
 @synthesize window;
 @synthesize navigationController;
+@synthesize teamSelected;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    

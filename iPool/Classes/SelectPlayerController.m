@@ -25,19 +25,17 @@
     return self;
 }
 
-- (void)viewDidLoad {
+- (void)viewDidLoad{
 	[super viewDidLoad];
 	
-	self.title = @"Select a team";
+	self.title = @"Select a Player";
 	
-	//Initialisation de la table des équipes
-	players = [[NSMutableArray alloc] init];
-	[players addObject:@"Canadiens"];
-	[players addObject:@"Maple Leafs"];
-	[players addObject:@"Bruins"];
-	[players addObject:@"Sabres"];
-	[players addObject:@"Senators"];
 }
+
+-(void) viewDidAppear{
+	NSLog(@"view did appear");
+}
+
 
 - (void)didReceiveMemoryWarning {
 	// Releases the view if it doesn't have a superview.
@@ -53,17 +51,35 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	//Initialisation de la table des joueurs
+	teamList = [TeamList getInstance];
+	teams= [teamList listOfTeam];
+	teamSelected= mainDelegate.teamSelected;
+	team= [teams objectAtIndex:teamSelected];
+	players = team.skaterList;
+	
+	NSLog(@"number of player:%d",[players count]);
+	
+	
 	static NSString* identifier = @"origin";
 	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] init] autorelease];
 	}
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	cell.textLabel.text = [players objectAtIndex:indexPath.row];
+	cell.textLabel.text = [[players objectAtIndex:indexPath.row] firstName];
+	//cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
+	//NSLog(cell.textLabel.text);
 	return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	//Initialisation de la table des joueurs
+	teamList = [TeamList getInstance];
+	teams= [teamList listOfTeam];
+	teamSelected= mainDelegate.teamSelected;
+	team= [teams objectAtIndex:teamSelected];
+	players = team.skaterList;
 	return [players count];
 }
 
@@ -72,15 +88,14 @@
 }
 
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
 }
-/*
+
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
+	/*
 	// Creation du controlleur pour la vue et de la bar de navigation
-	SelectTeamController *selectPlayer = [[SelectTeamController alloc]
+	SelectTeamController *selectPlayer = [[SelectPlayerController alloc]
 										  initWithNibName:@"SelectPlayer" bundle:[NSBundle mainBundle]];
 	self.selectPlayerController = selectPlayer;
 	
@@ -96,8 +111,9 @@
 	//On libère la mémoire
 	[selectPlayer release];
 	[navController release];
+	 */
 	
 	
-}*/
+}
 
 @end

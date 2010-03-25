@@ -15,6 +15,9 @@
 @interface TeamList : NSObject {
 	NSMutableArray *list;
 }
+@property (nonatomic, retain) NSMutableArray *list;
+
+
 + (TeamList*)getInstance;
 -(NSMutableArray*) listOfTeam;
 -(void) addTeam: (Team*) input;

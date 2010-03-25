@@ -191,7 +191,7 @@
 		}
 		
 	}
-	
+	/*
 	NSLog(@"Number of player add:%d", numberOfPlayerAdd);
 	NSMutableArray *list= [teamList listOfTeam];
 	NSLog(@"Number of team add: %d", [list count]);
@@ -206,6 +206,7 @@
 			
 		}
 	}
+	*/
 	
 }
 

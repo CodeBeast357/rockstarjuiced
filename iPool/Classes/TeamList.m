@@ -11,6 +11,7 @@
 static TeamList *instance = nil;
 
 @implementation TeamList
+@synthesize list;
 
 + (TeamList*)getInstance {
 	@synchronized(self) {

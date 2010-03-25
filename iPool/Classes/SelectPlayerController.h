@@ -8,11 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
+#import "TeamList.h"
 
 @interface SelectPlayerController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	Delegate *mainDelegate;
 	IBOutlet UITableView* tablePlayers;
 	NSMutableArray* players;
+	int teamSelected;
+	TeamList *teamList;
+	NSMutableArray *teams;
+	Team *team;
 	
 }
 
