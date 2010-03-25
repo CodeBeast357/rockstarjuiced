@@ -31,23 +31,9 @@
 	
 	self.title = @"Select a team";
 	
-	//Création des boutons Save et Cancel
-	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
-											  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
-											  target:self 
-											  action:@selector(cancel:)] autorelease]; 
-	
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
-											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-											   target:self 
-											   action:@selector(done:)] autorelease]; 
 	//Initialisation de la table des équipes
-	teams = [[NSMutableArray alloc] init];
-	[teams addObject:@"Canadiens"];
-	[teams addObject:@"Maple Leafs"];
-	[teams addObject:@"Bruins"];
-	[teams addObject:@"Sabres"];
-	[teams addObject:@"Senators"];
+	teamList = [TeamList getInstance];
+	teams= [teamList listOfTeam];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -62,16 +48,6 @@
     [super dealloc];
 }
 
-- (IBAction) done: (id) sender{
-	
-	[self dismissModalViewControllerAnimated:YES];
-}
-
-- (IBAction) cancel: (id) sender{
-	
-	[self dismissModalViewControllerAnimated:YES];
-}
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	static NSString* identifier = @"origin";
 	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
@@ -79,7 +55,7 @@
 		cell = [[[UITableViewCell alloc] init] autorelease];
 	}
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	cell.textLabel.text = [teams objectAtIndex:indexPath.row];
+	cell.textLabel.text = [[teams objectAtIndex:indexPath.row] teamName];
 	return cell;
 }
 
@@ -94,7 +70,7 @@
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
 }
-/*
+
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
@@ -111,13 +87,13 @@
 	navController.navigationBar.barStyle = UIBarStyleBlack;
 	
 	//Affichage de la vue sous la forme d une modalView
-	[self.navigationController presentModalViewController:navController animated:YES];
+	[self.navigationController pushViewController:navController animated:YES];
 	
 	//On libère la mémoire
 	[selectPlayer release];
 	[navController release];
 	
 	
-}*/
+}
 
 @end

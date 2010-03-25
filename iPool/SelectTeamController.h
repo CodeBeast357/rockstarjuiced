@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
 #import "SelectPlayerController.h"
+#import "TeamList.h"
 
 @interface SelectTeamController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	Delegate *mainDelegate;
 	SelectPlayerController* selectPlayerController;
 	IBOutlet UITableView* tableTeams;
 	NSMutableArray* teams;
+	TeamList *teamList;
 	
 }
 
@@ -22,7 +24,5 @@
 @property (nonatomic, retain) UITableView* tableTeams;
 @property (nonatomic, retain) NSMutableArray* teams;
 
-- (IBAction) done: (id) sender;
-- (IBAction) cancel: (id) sender;
 
 @end

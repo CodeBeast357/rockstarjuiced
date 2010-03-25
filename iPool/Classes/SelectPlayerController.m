@@ -30,16 +30,6 @@
 	
 	self.title = @"Select a team";
 	
-	//Création des boutons Save et Cancel
-	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
-											  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
-											  target:self 
-											  action:@selector(cancel:)] autorelease]; 
-	
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
-											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-											   target:self 
-											   action:@selector(done:)] autorelease]; 
 	//Initialisation de la table des équipes
 	players = [[NSMutableArray alloc] init];
 	[players addObject:@"Canadiens"];
@@ -61,15 +51,6 @@
     [super dealloc];
 }
 
-- (IBAction) done: (id) sender{
-	
-	[self dismissModalViewControllerAnimated:YES];
-}
-
-- (IBAction) cancel: (id) sender{
-	
-	[self dismissModalViewControllerAnimated:YES];
-}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	static NSString* identifier = @"origin";

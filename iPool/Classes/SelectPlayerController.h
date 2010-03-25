@@ -19,7 +19,5 @@
 @property (nonatomic, retain) UITableView* tablePlayers;
 @property (nonatomic, retain) NSMutableArray* players;
 
-- (IBAction) done: (id) sender;
-- (IBAction) cancel: (id) sender;
 
 @end

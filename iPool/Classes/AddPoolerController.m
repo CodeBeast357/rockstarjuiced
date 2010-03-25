@@ -150,7 +150,7 @@
 - (void)tableView:(UITableView *)tableView didDeselectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[tableView cellForRowAtIndexPath:indexPath].accessoryType = UITableViewCellAccessoryNone;
 }
-/*
+
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
@@ -160,20 +160,14 @@
 									  initWithNibName:@"SelectTeam" bundle:[NSBundle mainBundle]];
 	self.selectTeamController = selectTeam;
 	
-	UINavigationController *navController = [[UINavigationController alloc] 
-											 initWithRootViewController:selectTeam];
-	
-	//Change le style de la bar de navigation
-	navController.navigationBar.barStyle = UIBarStyleBlack;
 	
 	//Affichage de la vue sous la forme d une modalView
-	[self.navigationController presentModalViewController:navController animated:YES];
+	[self.navigationController pushViewController:self.selectTeamController  animated:YES];
 	
 	//On libère la mémoire
 	[selectTeam release];
-	[navController release];
 	
 	
-}*/
+}
 
 @end
