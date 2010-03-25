@@ -10,22 +10,17 @@
 #import "Settings.h"
 
 @implementation Pooler
-@synthesize poolerName;
+@synthesize poolerName,defencemenList,forwardsList,goaliesList;
 
-- (NSMutableArray*) defencemenList {
-	return defencemenList;
+-(Pooler*) init{
+	if (self = [super init]) {
+		forwardsList= [[NSMutableArray alloc] init];
+		defencemenList= [[NSMutableArray alloc] init];
+		goaliesList=[[NSMutableArray alloc] init];
+	}
+	
+	return self;
 }
-
-
-- (NSMutableArray*) forwardsList {
-	return forwardsList;
-}
-
-
-- (NSMutableArray*) goaliesList {
-	return goaliesList;
-}
-
 
 - (void) addDefenceman: (Skater*)input
 {
@@ -213,26 +208,12 @@
 }
 
 
-
-- (id) init
-{
-    if ( self = [super init] )
-    {
-        [self poolerName:@"Pooler"];
-        // Ian says : init array lists necessary? I believe not. If bug exists, this may be an issue.
-    }
-	
-    return self;
-}
-
-
 - (void) dealloc
 {
     [poolerName release];
 	[forwardsList release];
     [defencemenList release];
     [goaliesList release];
-	
     [super dealloc];
 }
 

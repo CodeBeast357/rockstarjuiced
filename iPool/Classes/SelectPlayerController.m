@@ -13,7 +13,8 @@
 
 @synthesize
 	tablePlayers,
-	players;
+players;
+
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -46,11 +47,8 @@
 }
 
 - (void)dealloc {
-	/*
-	[tablePlayers dealloc];
-	[players dealloc];
+
     [super dealloc];
-	 */
 }
 
 
@@ -67,7 +65,7 @@
 	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
-
+	//NSLog(cell.textLabel.text);
 	return cell;
 }
 
@@ -85,6 +83,8 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	 
+	[self.navigationController popToRootViewControllerAnimated:YES];
 	/*
 	// Creation du controlleur pour la vue et de la bar de navigation
 	SelectTeamController *selectPlayer = [[SelectPlayerController alloc]

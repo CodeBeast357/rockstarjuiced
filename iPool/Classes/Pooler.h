@@ -19,9 +19,11 @@
 }
 
 @property (nonatomic, retain) NSString* poolerName;
--(NSMutableArray*) defencemenList;
--(NSMutableArray*) forwardsList;
--(NSMutableArray*) goaliesList;
+@property (nonatomic, retain) NSMutableArray *defencemenList;
+@property (nonatomic, retain) NSMutableArray *forwardsList;
+@property (nonatomic, retain) NSMutableArray *goaliesList;
+
+
 -(void) addDefenceman: (Skater*) input;
 -(void) addForward: (Skater*) input;
 -(void) addGoalie: (Goalie*) input;

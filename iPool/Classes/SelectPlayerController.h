@@ -10,6 +10,8 @@
 #import "Delegate.h"
 #import "TeamList.h"
 
+
+
 @interface SelectPlayerController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	Delegate *mainDelegate;
 	IBOutlet UITableView* tablePlayers;
@@ -19,10 +21,12 @@
 	NSMutableArray *teams;
 	Team *team;
 	
+	
 }
 
 @property (nonatomic, retain) UITableView* tablePlayers;
 @property (nonatomic, retain) NSMutableArray* players;
+
 
 
 @end

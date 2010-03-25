@@ -2,17 +2,17 @@
 {
 	1D3623240D0F684500981E51 /* Delegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
-			sepNavSelRange = "{602, 0}";
-			sepNavVisRange = "{0, 602}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 517}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{0, 830}";
 			sepNavWindowFrame = "{{271, 295}, {750, 558}}";
 		};
 	};
 	1D3623250D0F684500981E51 /* Delegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {691, 507}}";
-			sepNavSelRange = "{269, 0}";
-			sepNavVisRange = "{78, 618}";
+			sepNavSelRange = "{637, 0}";
+			sepNavVisRange = "{38, 697}";
 			sepNavWindowFrame = "{{813, 262}, {750, 558}}";
 		};
 	};
@@ -80,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1084,
+					1093,
 					20,
 					48,
 					43,
@@ -783,6 +783,212 @@
 			E011826E115BEE3B0015F2C7 /* PBXTextBookmark */ = E011826E115BEE3B0015F2C7 /* PBXTextBookmark */;
 			E011826F115BEE3B0015F2C7 /* PBXTextBookmark */ = E011826F115BEE3B0015F2C7 /* PBXTextBookmark */;
 			E0118270115BEE3B0015F2C7 /* PBXTextBookmark */ = E0118270115BEE3B0015F2C7 /* PBXTextBookmark */;
+			E01182DD115BFCD40015F2C7 /* PBXTextBookmark */ = E01182DD115BFCD40015F2C7 /* PBXTextBookmark */;
+			E01182E4115BFD130015F2C7 /* PBXTextBookmark */ = E01182E4115BFD130015F2C7 /* PBXTextBookmark */;
+			E01182E9115BFD5A0015F2C7 /* PBXTextBookmark */ = E01182E9115BFD5A0015F2C7 /* PBXTextBookmark */;
+			E01182F6115C00860015F2C7 /* PBXTextBookmark */ = E01182F6115C00860015F2C7 /* PBXTextBookmark */;
+			E011833B115C085D0015F2C7 /* PBXBookmark */ = E011833B115C085D0015F2C7 /* PBXBookmark */;
+			E0118349115C0AF70015F2C7 /* PBXBookmark */ = E0118349115C0AF70015F2C7 /* PBXBookmark */;
+			E0118359115C0C8F0015F2C7 /* PBXTextBookmark */ = E0118359115C0C8F0015F2C7 /* PBXTextBookmark */;
+			E011835A115C0C8F0015F2C7 /* PBXTextBookmark */ = E011835A115C0C8F0015F2C7 /* PBXTextBookmark */;
+			E011835B115C0C8F0015F2C7 /* PBXTextBookmark */ = E011835B115C0C8F0015F2C7 /* PBXTextBookmark */;
+			E011835C115C0C8F0015F2C7 /* XCBuildMessageTextBookmark */ = E011835C115C0C8F0015F2C7 /* XCBuildMessageTextBookmark */;
+			E011835D115C0C8F0015F2C7 /* PBXTextBookmark */ = E011835D115C0C8F0015F2C7 /* PBXTextBookmark */;
+			E0118365115C0CC80015F2C7 /* XCBuildMessageTextBookmark */ = E0118365115C0CC80015F2C7 /* XCBuildMessageTextBookmark */;
+			E011836B115C0D240015F2C7 /* PBXTextBookmark */ = E011836B115C0D240015F2C7 /* PBXTextBookmark */;
+			E011836C115C0D240015F2C7 /* PBXTextBookmark */ = E011836C115C0D240015F2C7 /* PBXTextBookmark */;
+			E011836D115C0D240015F2C7 /* XCBuildMessageTextBookmark */ = E011836D115C0D240015F2C7 /* XCBuildMessageTextBookmark */;
+			E011836E115C0D240015F2C7 /* PBXTextBookmark */ = E011836E115C0D240015F2C7 /* PBXTextBookmark */;
+			E0118374115C0D9F0015F2C7 /* PBXBookmark */ = E0118374115C0D9F0015F2C7 /* PBXBookmark */;
+			E0118378115C0E400015F2C7 /* PBXBookmark */ = E0118378115C0E400015F2C7 /* PBXBookmark */;
+			E0118379115C0E400015F2C7 /* PBXBookmark */ = E0118379115C0E400015F2C7 /* PBXBookmark */;
+			E011837A115C0E400015F2C7 /* PBXBookmark */ = E011837A115C0E400015F2C7 /* PBXBookmark */;
+			E011837B115C0E400015F2C7 /* PBXTextBookmark */ = E011837B115C0E400015F2C7 /* PBXTextBookmark */;
+			E011837C115C0E400015F2C7 /* PBXTextBookmark */ = E011837C115C0E400015F2C7 /* PBXTextBookmark */;
+			E011837D115C0E400015F2C7 /* PBXTextBookmark */ = E011837D115C0E400015F2C7 /* PBXTextBookmark */;
+			E011837E115C0E400015F2C7 /* PBXTextBookmark */ = E011837E115C0E400015F2C7 /* PBXTextBookmark */;
+			E011837F115C0E400015F2C7 /* PBXTextBookmark */ = E011837F115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118380115C0E400015F2C7 /* PBXTextBookmark */ = E0118380115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118381115C0E400015F2C7 /* PBXTextBookmark */ = E0118381115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118382115C0E400015F2C7 /* PBXTextBookmark */ = E0118382115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118383115C0E400015F2C7 /* PBXTextBookmark */ = E0118383115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118384115C0E400015F2C7 /* PBXTextBookmark */ = E0118384115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118385115C0E400015F2C7 /* PBXTextBookmark */ = E0118385115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118386115C0E400015F2C7 /* PBXTextBookmark */ = E0118386115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118387115C0E400015F2C7 /* PBXTextBookmark */ = E0118387115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118388115C0E400015F2C7 /* PBXTextBookmark */ = E0118388115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118389115C0E400015F2C7 /* PBXTextBookmark */ = E0118389115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838A115C0E400015F2C7 /* PBXTextBookmark */ = E011838A115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838B115C0E400015F2C7 /* PBXTextBookmark */ = E011838B115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838C115C0E400015F2C7 /* PBXTextBookmark */ = E011838C115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838D115C0E400015F2C7 /* PBXTextBookmark */ = E011838D115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838E115C0E400015F2C7 /* PBXTextBookmark */ = E011838E115C0E400015F2C7 /* PBXTextBookmark */;
+			E011838F115C0E400015F2C7 /* PBXTextBookmark */ = E011838F115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118390115C0E400015F2C7 /* PBXTextBookmark */ = E0118390115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118391115C0E400015F2C7 /* PBXTextBookmark */ = E0118391115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118392115C0E400015F2C7 /* PBXTextBookmark */ = E0118392115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118393115C0E400015F2C7 /* PBXTextBookmark */ = E0118393115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118394115C0E400015F2C7 /* PBXTextBookmark */ = E0118394115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118395115C0E400015F2C7 /* PBXTextBookmark */ = E0118395115C0E400015F2C7 /* PBXTextBookmark */;
+			E0118398115C0E400015F2C7 /* PBXTextBookmark */ = E0118398115C0E400015F2C7 /* PBXTextBookmark */;
+			E011839B115C0E400015F2C7 /* PBXTextBookmark */ = E011839B115C0E400015F2C7 /* PBXTextBookmark */;
+			E011839C115C0E400015F2C7 /* PBXTextBookmark */ = E011839C115C0E400015F2C7 /* PBXTextBookmark */;
+			E011839D115C0E400015F2C7 /* PBXTextBookmark */ = E011839D115C0E400015F2C7 /* PBXTextBookmark */;
+			E011839E115C0E400015F2C7 /* PBXTextBookmark */ = E011839E115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183A1115C0E400015F2C7 /* PBXTextBookmark */ = E01183A1115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183A4115C0E400015F2C7 /* PBXTextBookmark */ = E01183A4115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183A5115C0E400015F2C7 /* PBXTextBookmark */ = E01183A5115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183A8115C0E400015F2C7 /* PBXTextBookmark */ = E01183A8115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183AB115C0E400015F2C7 /* PBXTextBookmark */ = E01183AB115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183AE115C0E400015F2C7 /* PBXTextBookmark */ = E01183AE115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183AF115C0E400015F2C7 /* PBXTextBookmark */ = E01183AF115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183B2115C0E400015F2C7 /* PBXTextBookmark */ = E01183B2115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183B3115C0E400015F2C7 /* PBXTextBookmark */ = E01183B3115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183B6115C0E400015F2C7 /* PBXTextBookmark */ = E01183B6115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183B7115C0E400015F2C7 /* PBXTextBookmark */ = E01183B7115C0E400015F2C7 /* PBXTextBookmark */;
+			E01183BA115C0E7D0015F2C7 /* PBXTextBookmark */ = E01183BA115C0E7D0015F2C7 /* PBXTextBookmark */;
+			E01183BB115C0E7D0015F2C7 /* XCBuildMessageTextBookmark */ = E01183BB115C0E7D0015F2C7 /* XCBuildMessageTextBookmark */;
+			E01183BC115C0E7D0015F2C7 /* PBXTextBookmark */ = E01183BC115C0E7D0015F2C7 /* PBXTextBookmark */;
+			E01183D3115C0F600015F2C7 /* XCBuildMessageTextBookmark */ = E01183D3115C0F600015F2C7 /* XCBuildMessageTextBookmark */;
+			E01183D4115C0F600015F2C7 /* PBXTextBookmark */ = E01183D4115C0F600015F2C7 /* PBXTextBookmark */;
+			E01183D6115C0F750015F2C7 /* XCBuildMessageTextBookmark */ = E01183D6115C0F750015F2C7 /* XCBuildMessageTextBookmark */;
+			E01183D7115C0F750015F2C7 /* PBXTextBookmark */ = E01183D7115C0F750015F2C7 /* PBXTextBookmark */;
+			E01183DA115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DA115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183DB115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DB115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183DC115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DC115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183DD115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DD115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183DE115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DE115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183DF115C0FA50015F2C7 /* PBXTextBookmark */ = E01183DF115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E0115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E0115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E1115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E1115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E2115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E2115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E3115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E3115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E4115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E4115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E5115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E5115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E6115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E6115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E7115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E7115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E8115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E8115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183E9115C0FA50015F2C7 /* PBXTextBookmark */ = E01183E9115C0FA50015F2C7 /* PBXTextBookmark */;
+			E01183EE115C10470015F2C7 /* PBXTextBookmark */ = E01183EE115C10470015F2C7 /* PBXTextBookmark */;
+			E01183EF115C10470015F2C7 /* PBXTextBookmark */ = E01183EF115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F0115C10470015F2C7 /* PBXTextBookmark */ = E01183F0115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F1115C10470015F2C7 /* PBXTextBookmark */ = E01183F1115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F2115C10470015F2C7 /* PBXTextBookmark */ = E01183F2115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F3115C10470015F2C7 /* PBXTextBookmark */ = E01183F3115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F4115C10470015F2C7 /* PBXTextBookmark */ = E01183F4115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F5115C10470015F2C7 /* PBXTextBookmark */ = E01183F5115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F6115C10470015F2C7 /* PBXTextBookmark */ = E01183F6115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F7115C10470015F2C7 /* PBXTextBookmark */ = E01183F7115C10470015F2C7 /* PBXTextBookmark */;
+			E01183F8115C10470015F2C7 /* PBXTextBookmark */ = E01183F8115C10470015F2C7 /* PBXTextBookmark */;
+			E01183FD115C10710015F2C7 /* PBXTextBookmark */ = E01183FD115C10710015F2C7 /* PBXTextBookmark */;
+			E01183FE115C10710015F2C7 /* PBXTextBookmark */ = E01183FE115C10710015F2C7 /* PBXTextBookmark */;
+			E01183FF115C10710015F2C7 /* PBXTextBookmark */ = E01183FF115C10710015F2C7 /* PBXTextBookmark */;
+			E0118400115C10710015F2C7 /* PBXTextBookmark */ = E0118400115C10710015F2C7 /* PBXTextBookmark */;
+			E0118401115C10710015F2C7 /* PBXTextBookmark */ = E0118401115C10710015F2C7 /* PBXTextBookmark */;
+			E0118402115C10710015F2C7 /* PBXTextBookmark */ = E0118402115C10710015F2C7 /* PBXTextBookmark */;
+			E0118403115C10710015F2C7 /* PBXTextBookmark */ = E0118403115C10710015F2C7 /* PBXTextBookmark */;
+			E0118404115C10710015F2C7 /* PBXTextBookmark */ = E0118404115C10710015F2C7 /* PBXTextBookmark */;
+			E0118405115C10710015F2C7 /* PBXTextBookmark */ = E0118405115C10710015F2C7 /* PBXTextBookmark */;
+			E0118406115C10710015F2C7 /* PBXTextBookmark */ = E0118406115C10710015F2C7 /* PBXTextBookmark */;
+			E0118407115C10710015F2C7 /* PBXTextBookmark */ = E0118407115C10710015F2C7 /* PBXTextBookmark */;
+			E0118408115C10870015F2C7 /* PBXTextBookmark */ = E0118408115C10870015F2C7 /* PBXTextBookmark */;
+			E011840D115C112C0015F2C7 /* PBXTextBookmark */ = E011840D115C112C0015F2C7 /* PBXTextBookmark */;
+			E011840E115C112C0015F2C7 /* PBXTextBookmark */ = E011840E115C112C0015F2C7 /* PBXTextBookmark */;
+			E011840F115C112C0015F2C7 /* PBXTextBookmark */ = E011840F115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118410115C112C0015F2C7 /* PBXTextBookmark */ = E0118410115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118411115C112C0015F2C7 /* PBXTextBookmark */ = E0118411115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118412115C112C0015F2C7 /* PBXTextBookmark */ = E0118412115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118413115C112C0015F2C7 /* PBXTextBookmark */ = E0118413115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118414115C112C0015F2C7 /* PBXTextBookmark */ = E0118414115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118415115C112C0015F2C7 /* PBXTextBookmark */ = E0118415115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118416115C112C0015F2C7 /* PBXTextBookmark */ = E0118416115C112C0015F2C7 /* PBXTextBookmark */;
+			E0118417115C112C0015F2C7 /* PBXTextBookmark */ = E0118417115C112C0015F2C7 /* PBXTextBookmark */;
+			E011841C115C11880015F2C7 /* PBXTextBookmark */ = E011841C115C11880015F2C7 /* PBXTextBookmark */;
+			E011841D115C11880015F2C7 /* PBXTextBookmark */ = E011841D115C11880015F2C7 /* PBXTextBookmark */;
+			E011841E115C11880015F2C7 /* PBXTextBookmark */ = E011841E115C11880015F2C7 /* PBXTextBookmark */;
+			E011841F115C11880015F2C7 /* PBXTextBookmark */ = E011841F115C11880015F2C7 /* PBXTextBookmark */;
+			E0118420115C11880015F2C7 /* PBXTextBookmark */ = E0118420115C11880015F2C7 /* PBXTextBookmark */;
+			E0118421115C11880015F2C7 /* PBXTextBookmark */ = E0118421115C11880015F2C7 /* PBXTextBookmark */;
+			E0118422115C11880015F2C7 /* PBXTextBookmark */ = E0118422115C11880015F2C7 /* PBXTextBookmark */;
+			E0118423115C11880015F2C7 /* PBXTextBookmark */ = E0118423115C11880015F2C7 /* PBXTextBookmark */;
+			E0118424115C11880015F2C7 /* PBXTextBookmark */ = E0118424115C11880015F2C7 /* PBXTextBookmark */;
+			E0118425115C11880015F2C7 /* PBXTextBookmark */ = E0118425115C11880015F2C7 /* PBXTextBookmark */;
+			E0118426115C11880015F2C7 /* PBXTextBookmark */ = E0118426115C11880015F2C7 /* PBXTextBookmark */;
+			E0118429115C11990015F2C7 /* PBXTextBookmark */ = E0118429115C11990015F2C7 /* PBXTextBookmark */;
+			E011842C115C11C50015F2C7 /* PBXTextBookmark */ = E011842C115C11C50015F2C7 /* PBXTextBookmark */;
+			E011842D115C11C50015F2C7 /* PBXTextBookmark */ = E011842D115C11C50015F2C7 /* PBXTextBookmark */;
+			E011842E115C11C50015F2C7 /* PBXTextBookmark */ = E011842E115C11C50015F2C7 /* PBXTextBookmark */;
+			E011842F115C11C50015F2C7 /* PBXTextBookmark */ = E011842F115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118430115C11C50015F2C7 /* PBXTextBookmark */ = E0118430115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118431115C11C50015F2C7 /* PBXTextBookmark */ = E0118431115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118432115C11C50015F2C7 /* PBXTextBookmark */ = E0118432115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118433115C11C50015F2C7 /* PBXTextBookmark */ = E0118433115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118434115C11C50015F2C7 /* PBXTextBookmark */ = E0118434115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118435115C11C50015F2C7 /* PBXTextBookmark */ = E0118435115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118436115C11C50015F2C7 /* PBXTextBookmark */ = E0118436115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118437115C11C50015F2C7 /* PBXTextBookmark */ = E0118437115C11C50015F2C7 /* PBXTextBookmark */;
+			E0118438115C11C50015F2C7 /* PBXTextBookmark */ = E0118438115C11C50015F2C7 /* PBXTextBookmark */;
+			E011843B115C11DD0015F2C7 /* PBXTextBookmark */ = E011843B115C11DD0015F2C7 /* PBXTextBookmark */;
+			E011843C115C11DD0015F2C7 /* PBXTextBookmark */ = E011843C115C11DD0015F2C7 /* PBXTextBookmark */;
+			E011843D115C11DD0015F2C7 /* PBXTextBookmark */ = E011843D115C11DD0015F2C7 /* PBXTextBookmark */;
+			E011843E115C11DD0015F2C7 /* PBXTextBookmark */ = E011843E115C11DD0015F2C7 /* PBXTextBookmark */;
+			E011843F115C11DD0015F2C7 /* PBXTextBookmark */ = E011843F115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118440115C11DD0015F2C7 /* PBXTextBookmark */ = E0118440115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118441115C11DD0015F2C7 /* PBXTextBookmark */ = E0118441115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118442115C11DD0015F2C7 /* PBXTextBookmark */ = E0118442115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118443115C11DD0015F2C7 /* PBXTextBookmark */ = E0118443115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118444115C11DD0015F2C7 /* PBXTextBookmark */ = E0118444115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118445115C11DD0015F2C7 /* PBXTextBookmark */ = E0118445115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118446115C11DD0015F2C7 /* PBXTextBookmark */ = E0118446115C11DD0015F2C7 /* PBXTextBookmark */;
+			E0118449115C11F10015F2C7 /* PBXTextBookmark */ = E0118449115C11F10015F2C7 /* PBXTextBookmark */;
+			E011844A115C11F20015F2C7 /* PBXTextBookmark */ = E011844A115C11F20015F2C7 /* PBXTextBookmark */;
+			E011844B115C11F20015F2C7 /* PBXTextBookmark */ = E011844B115C11F20015F2C7 /* PBXTextBookmark */;
+			E011844C115C11F20015F2C7 /* PBXTextBookmark */ = E011844C115C11F20015F2C7 /* PBXTextBookmark */;
+			E011844D115C11F20015F2C7 /* PBXTextBookmark */ = E011844D115C11F20015F2C7 /* PBXTextBookmark */;
+			E011844E115C11F20015F2C7 /* PBXTextBookmark */ = E011844E115C11F20015F2C7 /* PBXTextBookmark */;
+			E011844F115C11F20015F2C7 /* PBXTextBookmark */ = E011844F115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118450115C11F20015F2C7 /* PBXTextBookmark */ = E0118450115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118451115C11F20015F2C7 /* PBXTextBookmark */ = E0118451115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118452115C11F20015F2C7 /* PBXTextBookmark */ = E0118452115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118453115C11F20015F2C7 /* PBXTextBookmark */ = E0118453115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118454115C11F20015F2C7 /* PBXTextBookmark */ = E0118454115C11F20015F2C7 /* PBXTextBookmark */;
+			E0118457115C12EC0015F2C7 /* PBXTextBookmark */ = E0118457115C12EC0015F2C7 /* PBXTextBookmark */;
+			E0118458115C12EC0015F2C7 /* PBXTextBookmark */ = E0118458115C12EC0015F2C7 /* PBXTextBookmark */;
+			E0118459115C12EC0015F2C7 /* PBXTextBookmark */ = E0118459115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845A115C12EC0015F2C7 /* PBXTextBookmark */ = E011845A115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845B115C12EC0015F2C7 /* PBXTextBookmark */ = E011845B115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845C115C12EC0015F2C7 /* PBXTextBookmark */ = E011845C115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845D115C12EC0015F2C7 /* PBXTextBookmark */ = E011845D115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845E115C12EC0015F2C7 /* PBXTextBookmark */ = E011845E115C12EC0015F2C7 /* PBXTextBookmark */;
+			E011845F115C12EC0015F2C7 /* PBXTextBookmark */ = E011845F115C12EC0015F2C7 /* PBXTextBookmark */;
+			E0118460115C12EC0015F2C7 /* PBXTextBookmark */ = E0118460115C12EC0015F2C7 /* PBXTextBookmark */;
+			E0118465115C139F0015F2C7 /* PBXTextBookmark */ = E0118465115C139F0015F2C7 /* PBXTextBookmark */;
+			E0118466115C139F0015F2C7 /* XCBuildMessageTextBookmark */ = E0118466115C139F0015F2C7 /* XCBuildMessageTextBookmark */;
+			E0118467115C139F0015F2C7 /* PBXTextBookmark */ = E0118467115C139F0015F2C7 /* PBXTextBookmark */;
+			E011846E115C14D00015F2C7 /* PBXTextBookmark */ = E011846E115C14D00015F2C7 /* PBXTextBookmark */;
+			E011846F115C14D00015F2C7 /* PBXTextBookmark */ = E011846F115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118470115C14D00015F2C7 /* PBXTextBookmark */ = E0118470115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118471115C14D00015F2C7 /* PBXTextBookmark */ = E0118471115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118472115C14D00015F2C7 /* PBXTextBookmark */ = E0118472115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118473115C14D00015F2C7 /* PBXTextBookmark */ = E0118473115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118474115C14D00015F2C7 /* PBXTextBookmark */ = E0118474115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118475115C14D00015F2C7 /* PBXTextBookmark */ = E0118475115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118476115C14D00015F2C7 /* PBXTextBookmark */ = E0118476115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118477115C14D00015F2C7 /* PBXTextBookmark */ = E0118477115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118478115C14D00015F2C7 /* PBXTextBookmark */ = E0118478115C14D00015F2C7 /* PBXTextBookmark */;
+			E0118479115C14D00015F2C7 /* PBXTextBookmark */ = E0118479115C14D00015F2C7 /* PBXTextBookmark */;
+			E011847A115C14D00015F2C7 /* PBXTextBookmark */ = E011847A115C14D00015F2C7 /* PBXTextBookmark */;
+			E011847F115C15020015F2C7 /* PBXTextBookmark */ = E011847F115C15020015F2C7 /* PBXTextBookmark */;
+			E0118480115C15020015F2C7 /* PBXTextBookmark */ = E0118480115C15020015F2C7 /* PBXTextBookmark */;
+			E0118481115C15020015F2C7 /* PBXTextBookmark */ = E0118481115C15020015F2C7 /* PBXTextBookmark */;
+			E0118482115C15020015F2C7 /* PBXTextBookmark */ = E0118482115C15020015F2C7 /* PBXTextBookmark */;
+			E0118483115C15020015F2C7 /* PBXTextBookmark */ = E0118483115C15020015F2C7 /* PBXTextBookmark */;
+			E0118484115C15020015F2C7 /* PBXTextBookmark */ = E0118484115C15020015F2C7 /* PBXTextBookmark */;
+			E0118485115C15020015F2C7 /* PBXTextBookmark */ = E0118485115C15020015F2C7 /* PBXTextBookmark */;
+			E0118486115C15020015F2C7 /* PBXTextBookmark */ = E0118486115C15020015F2C7 /* PBXTextBookmark */;
+			E0118487115C15020015F2C7 /* PBXTextBookmark */ = E0118487115C15020015F2C7 /* PBXTextBookmark */;
+			E0118488115C15020015F2C7 /* PBXTextBookmark */ = E0118488115C15020015F2C7 /* PBXTextBookmark */;
+			E0118489115C15020015F2C7 /* PBXTextBookmark */ = E0118489115C15020015F2C7 /* PBXTextBookmark */;
 			E05172961158228B00A38FE7 = E05172961158228B00A38FE7 /* PBXTextBookmark */;
 			E05172971158228B00A38FE7 = E05172971158228B00A38FE7 /* PBXTextBookmark */;
 			E05172AA115822B300A38FE7 = E05172AA115822B300A38FE7 /* PBXTextBookmark */;
@@ -1036,16 +1242,18 @@
 	};
 	65B637D3115821DD00F90E0E /* Pooler.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 689}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1053}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 754}}";
+			sepNavSelRange = "{943, 0}";
+			sepNavVisRange = "{19, 1185}";
+			sepNavWindowFrame = "{{15, 91}, {1653, 937}}";
 		};
 	};
 	65B637D4115821DD00F90E0E /* Pooler.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 3328}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 544}";
+			sepNavIntBoundsRect = "{{0, 0}, {754, 3055}}";
+			sepNavSelRange = "{446, 0}";
+			sepNavVisRange = "{112, 567}";
+			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
 		};
 	};
 	A90EFE2A0F77E16000AB789A /* SplashScreenController.m */ = {
@@ -1055,68 +1263,73 @@
 		name = SplashScreenController.m;
 		path = /Users/ah25730/Desktop/iPool/Classes/SplashScreenController.m;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 3055}}";
+			sepNavSelRange = "{4787, 0}";
+			sepNavVisRange = "{2540, 3058}";
+		};
 	};
 	A90EFE2C0F77E27800AB789A /* MainMenuController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 557}}";
-			sepNavSelRange = "{671, 0}";
-			sepNavVisRange = "{0, 677}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 407}}";
+			sepNavSelRange = "{380, 41}";
+			sepNavVisRange = "{0, 867}";
 			sepNavWindowFrame = "{{930, 275}, {750, 558}}";
 		};
 	};
 	A90EFE2D0F77E27800AB789A /* MainMenuController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 1599}}";
-			sepNavSelRange = "{2998, 43}";
-			sepNavVisRange = "{2456, 940}";
+			sepNavIntBoundsRect = "{{0, 0}, {817, 1599}}";
+			sepNavSelRange = "{242, 32}";
+			sepNavVisRange = "{27, 873}";
 			sepNavWindowFrame = "{{297, 242}, {750, 558}}";
 		};
 	};
 	C2858C2B1145E87D004A4E7D /* Settings.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 871}}";
-			sepNavSelRange = "{676, 0}";
-			sepNavVisRange = "{135, 694}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 754}}";
+			sepNavSelRange = "{1680, 0}";
+			sepNavVisRange = "{256, 1419}";
 			sepNavWindowFrame = "{{15, 465}, {750, 558}}";
 		};
 	};
 	C2858C2C1145E87D004A4E7D /* Settings.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1319, 2834}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1235}}";
 			sepNavSelRange = "{1125, 0}";
-			sepNavVisRange = "{512, 805}";
+			sepNavVisRange = "{435, 912}";
 			sepNavWindowFrame = "{{301, 318}, {750, 558}}";
 		};
 	};
 	C2EEE09F115A4C660057FE0D /* SelectTeamController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
-			sepNavSelRange = "{618, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 517}}";
+			sepNavSelRange = "{196, 0}";
 			sepNavVisRange = "{0, 703}";
-			sepNavWindowFrame = "{{141, 274}, {750, 558}}";
+			sepNavWindowFrame = "{{485, 120}, {750, 558}}";
 		};
 	};
 	C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {817, 1378}}";
 			sepNavSelRange = "{2755, 0}";
-			sepNavVisRange = "{880, 1880}";
+			sepNavVisRange = "{819, 1908}";
 			sepNavWindowFrame = "{{223, 17}, {750, 937}}";
 		};
 	};
 	C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 786}}";
-			sepNavSelRange = "{484, 0}";
-			sepNavVisRange = "{0, 609}";
-			sepNavWindowFrame = "{{553, 65}, {750, 937}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 517}}";
+			sepNavSelRange = "{219, 0}";
+			sepNavVisRange = "{0, 614}";
+			sepNavWindowFrame = "{{553, 91}, {750, 937}}";
 		};
 	};
 	C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1286, 1469}}";
-			sepNavSelRange = "{1236, 0}";
-			sepNavVisRange = "{0, 949}";
+			sepNavIntBoundsRect = "{{0, 0}, {740, 1638}}";
+			sepNavSelRange = "{1162, 0}";
+			sepNavVisRange = "{0, 1514}";
 			sepNavWindowFrame = "{{852, 91}, {750, 937}}";
 		};
 	};
@@ -1159,7 +1372,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 386";
 		rLen = 0;
-		rLoc = 11592;
+		rLoc = 11733;
 		rType = 0;
 		vrLen = 1379;
 		vrLoc = 7299;
@@ -1189,7 +1402,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 23";
 		rLen = 0;
-		rLoc = 601;
+		rLoc = 829;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 0;
@@ -1199,7 +1412,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 27";
 		rLen = 0;
-		rLoc = 680;
+		rLoc = 709;
 		rType = 0;
 		vrLen = 1063;
 		vrLoc = 2134;
@@ -1639,7 +1852,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 21";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 511;
 		vrLoc = 0;
@@ -1779,9 +1992,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 170";
 		rLen = 0;
-		rLoc = 4431;
+		rLoc = 4706;
 		rType = 0;
-		vrLen = 1387;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F827E115BB72400027F28 /* PBXTextBookmark */ = {
@@ -1919,9 +2132,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 170";
 		rLen = 0;
-		rLoc = 4431;
+		rLoc = 4706;
 		rType = 0;
-		vrLen = 1387;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F8290115BB7A200027F28 /* PBXTextBookmark */ = {
@@ -1929,9 +2142,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 172";
 		rLen = 0;
-		rLoc = 4457;
+		rLoc = 4732;
 		rType = 0;
-		vrLen = 1390;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F8291115BB7A200027F28 /* PBXTextBookmark */ = {
@@ -2029,9 +2242,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 177";
 		rLen = 0;
-		rLoc = 4634;
+		rLoc = 5062;
 		rType = 0;
-		vrLen = 1401;
+		vrLen = 1040;
 		vrLoc = 3601;
 	};
 	E00F82A1115BB81D00027F28 /* PBXTextBookmark */ = {
@@ -2039,9 +2252,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 168";
 		rLen = 0;
-		rLoc = 4630;
+		rLoc = 5004;
 		rType = 0;
-		vrLen = 1211;
+		vrLen = 1094;
 		vrLoc = 3547;
 	};
 	E00F82A2115BB81D00027F28 /* PBXTextBookmark */ = {
@@ -2149,9 +2362,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 168";
 		rLen = 0;
-		rLoc = 4630;
+		rLoc = 5004;
 		rType = 0;
-		vrLen = 1211;
+		vrLen = 1094;
 		vrLoc = 3547;
 	};
 	E00F82BB115BB8C800027F28 /* PBXTextBookmark */ = {
@@ -2259,7 +2472,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 168";
 		rLen = 0;
-		rLoc = 4630;
+		rLoc = 5004;
 		rType = 0;
 		vrLen = 1330;
 		vrLoc = 597;
@@ -2309,7 +2522,7 @@
 		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
 		name = "AddPoolerController.h: 22";
 		rLen = 73;
-		rLoc = 516;
+		rLoc = 586;
 		rType = 0;
 		vrLen = 924;
 		vrLoc = 0;
@@ -2739,9 +2952,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 171";
 		rLen = 0;
-		rLoc = 4634;
+		rLoc = 5062;
 		rType = 0;
-		vrLen = 1302;
+		vrLen = 1187;
 		vrLoc = 3454;
 	};
 	E00F830B115BBB0D00027F28 /* PBXTextBookmark */ = {
@@ -2829,9 +3042,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 173";
 		rLen = 0;
-		rLoc = 4630;
+		rLoc = 5004;
 		rType = 0;
-		vrLen = 1197;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F831A115BBBF100027F28 /* PBXTextBookmark */ = {
@@ -2839,9 +3052,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 0;
-		rLoc = 4172;
+		rLoc = 4447;
 		rType = 0;
-		vrLen = 1193;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F831B115BBBF100027F28 /* PBXTextBookmark */ = {
@@ -2919,9 +3132,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 151";
 		rLen = 0;
-		rLoc = 3926;
+		rLoc = 4201;
 		rType = 0;
-		vrLen = 1130;
+		vrLen = 1064;
 		vrLoc = 3577;
 	};
 	E00F8325115BBC1C00027F28 /* PBXTextBookmark */ = {
@@ -2999,9 +3212,9 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
-		vrLen = 1104;
+		vrLen = 1030;
 		vrLoc = 3611;
 	};
 	E00F8330115BBC7800027F28 /* PBXTextBookmark */ = {
@@ -3089,7 +3302,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 0;
@@ -3109,7 +3322,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 77";
 		rLen = 0;
-		rLoc = 2257;
+		rLoc = 2234;
 		rType = 0;
 		vrLen = 2225;
 		vrLoc = 646;
@@ -3119,7 +3332,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 101";
 		rLen = 0;
-		rLoc = 3185;
+		rLoc = 3231;
 		rType = 0;
 		vrLen = 2094;
 		vrLoc = 1073;
@@ -3217,7 +3430,7 @@
 		comments = "Property 'teamSelected' with 'retain' attribute must be of object type";
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		rLen = 1;
-		rLoc = 23;
+		rLoc = 30;
 		rType = 1;
 	};
 	E00F8369115BC0BB00027F28 /* PBXTextBookmark */ = {
@@ -3235,7 +3448,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 21";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 511;
 		vrLoc = 0;
@@ -3255,7 +3468,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 27";
 		rLen = 0;
-		rLoc = 569;
+		rLoc = 611;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 0;
@@ -3265,7 +3478,7 @@
 		comments = "Property 'teamSelected' with 'retain' attribute must be of object type";
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		rLen = 1;
-		rLoc = 23;
+		rLoc = 30;
 		rType = 1;
 	};
 	E00F836E115BC0BB00027F28 /* PBXTextBookmark */ = {
@@ -3273,7 +3486,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 24";
 		rLen = 0;
-		rLoc = 596;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3283,7 +3496,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 14";
 		rLen = 0;
-		rLoc = 296;
+		rLoc = 315;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3303,7 +3516,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -3323,7 +3536,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 15";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 511;
 		vrLoc = 0;
@@ -3333,7 +3546,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 101";
 		rLen = 0;
-		rLoc = 3185;
+		rLoc = 3231;
 		rType = 0;
 		vrLen = 2094;
 		vrLoc = 1073;
@@ -3421,7 +3634,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 24";
 		rLen = 0;
-		rLoc = 596;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3611,7 +3824,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -3621,7 +3834,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3631,7 +3844,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -3680,7 +3893,7 @@
 		isa = PBXTextBookmark;
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		rLen = 1;
-		rLoc = 69;
+		rLoc = 67;
 		rType = 1;
 	};
 	E00F83CB115BC73B00027F28 /* PBXTextBookmark */ = {
@@ -3708,7 +3921,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1738;
+		rLoc = 1685;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 90;
@@ -3778,7 +3991,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -3788,7 +4001,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3798,7 +4011,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -3858,7 +4071,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 24";
 		rLen = 0;
-		rLoc = 596;
+		rLoc = 824;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -3868,7 +4081,7 @@
 		comments = "'TeamList' undeclared (first use in this function)";
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		rLen = 0;
-		rLoc = 38;
+		rLoc = 39;
 		rType = 1;
 	};
 	E00F83E1115BC7BA00027F28 /* PBXTextBookmark */ = {
@@ -3906,7 +4119,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 73";
 		rLen = 0;
-		rLoc = 2157;
+		rLoc = 2134;
 		rType = 0;
 		vrLen = 1691;
 		vrLoc = 1180;
@@ -3916,7 +4129,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1738;
+		rLoc = 1685;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 90;
@@ -3986,7 +4199,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -3996,7 +4209,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4006,7 +4219,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4056,7 +4269,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1419;
 		vrLoc = 990;
@@ -4066,7 +4279,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1738;
+		rLoc = 1685;
 		rType = 0;
 		vrLen = 1857;
 		vrLoc = 90;
@@ -4136,7 +4349,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -4146,7 +4359,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4156,7 +4369,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4226,7 +4439,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 61";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 2166;
 		vrLoc = 643;
@@ -4326,7 +4539,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -4336,7 +4549,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4346,7 +4559,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4486,7 +4699,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -4496,7 +4709,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4506,7 +4719,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4546,7 +4759,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 957;
@@ -4656,7 +4869,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -4666,7 +4879,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4676,7 +4889,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4716,7 +4929,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 63";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 957;
@@ -4816,7 +5029,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -4826,7 +5039,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -4836,7 +5049,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -4876,7 +5089,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 1577;
@@ -4896,7 +5109,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 646;
@@ -4996,7 +5209,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5006,7 +5219,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5016,7 +5229,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5056,7 +5269,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1752;
 		vrLoc = 1577;
@@ -5086,7 +5299,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 2286;
 		vrLoc = 646;
@@ -5156,7 +5369,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5166,7 +5379,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5176,7 +5389,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5216,7 +5429,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 1263;
@@ -5326,7 +5539,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5336,7 +5549,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5346,7 +5559,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5386,7 +5599,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 1099;
@@ -5476,7 +5689,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5486,7 +5699,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5496,7 +5709,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5536,7 +5749,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1894;
+		rLoc = 1871;
 		rType = 0;
 		vrLen = 1397;
 		vrLoc = 1099;
@@ -5546,7 +5759,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1482;
+		rLoc = 1429;
 		rType = 0;
 		vrLen = 2222;
 		vrLoc = 1289;
@@ -5626,7 +5839,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 159";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5636,7 +5849,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5646,7 +5859,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5690,7 +5903,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 87";
 		rLen = 0;
-		rLoc = 2467;
+		rLoc = 2444;
 		rType = 0;
 		vrLen = 1595;
 		vrLoc = 1830;
@@ -5720,7 +5933,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 156";
 		rLen = 0;
-		rLoc = 4140;
+		rLoc = 4415;
 		rType = 0;
 		vrLen = 1006;
 		vrLoc = 3635;
@@ -5730,7 +5943,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 156";
 		rLen = 0;
-		rLoc = 4140;
+		rLoc = 4415;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 3601;
@@ -5750,7 +5963,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1634;
 		vrLoc = 675;
@@ -5760,7 +5973,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 3105;
@@ -5790,7 +6003,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1482;
+		rLoc = 1429;
 		rType = 0;
 		vrLen = 2207;
 		vrLoc = 1228;
@@ -5860,7 +6073,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -5870,7 +6083,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -5910,7 +6123,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 32";
 		rLen = 0;
-		rLoc = 744;
+		rLoc = 773;
 		rType = 0;
 		vrLen = 1307;
 		vrLoc = 191;
@@ -5920,7 +6133,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1482;
+		rLoc = 1429;
 		rType = 0;
 		vrLen = 2207;
 		vrLoc = 1228;
@@ -5930,7 +6143,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 80";
 		rLen = 0;
-		rLoc = 2157;
+		rLoc = 2134;
 		rType = 0;
 		vrLen = 1640;
 		vrLoc = 46;
@@ -5950,7 +6163,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 3105;
@@ -6030,7 +6243,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -6040,7 +6253,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -6080,7 +6293,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 32";
 		rLen = 0;
-		rLoc = 744;
+		rLoc = 773;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 597;
@@ -6090,7 +6303,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 81";
 		rLen = 0;
-		rLoc = 2467;
+		rLoc = 2444;
 		rType = 0;
 		vrLen = 1680;
 		vrLoc = 1008;
@@ -6110,7 +6323,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 55";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 2238;
 		vrLoc = 917;
@@ -6130,7 +6343,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6150,7 +6363,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 3105;
@@ -6220,7 +6433,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -6230,7 +6443,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -6270,7 +6483,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 818;
@@ -6280,7 +6493,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 55";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 2238;
 		vrLoc = 917;
@@ -6290,7 +6503,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 57";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 1967;
 		vrLoc = 626;
@@ -6300,7 +6513,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6320,7 +6533,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 3105;
@@ -6390,7 +6603,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -6400,7 +6613,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -6440,7 +6653,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 32;
@@ -6450,7 +6663,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 906;
 		vrLoc = 32;
@@ -6460,7 +6673,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 57";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 2188;
 		vrLoc = 725;
@@ -6470,7 +6683,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 77";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 2413;
 		vrLoc = 963;
@@ -6500,7 +6713,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6520,7 +6733,7 @@
 		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
 		name = "AddPoolerController.m: 158";
 		rLen = 40;
-		rLoc = 4143;
+		rLoc = 4418;
 		rType = 0;
 		vrLen = 1536;
 		vrLoc = 3105;
@@ -6580,7 +6793,7 @@
 		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
 		name = "Delegate.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 830;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 0;
@@ -6590,7 +6803,7 @@
 		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
 		name = "Delegate.m: 16";
 		rLen = 0;
-		rLoc = 269;
+		rLoc = 311;
 		rType = 0;
 		vrLen = 618;
 		vrLoc = 78;
@@ -6630,7 +6843,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 967;
 		vrLoc = 188;
@@ -6654,7 +6867,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 188;
@@ -6664,7 +6877,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 56";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 645;
@@ -6674,7 +6887,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 44";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 1873;
 		vrLoc = 43;
@@ -6688,7 +6901,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 61";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 2152;
@@ -6708,7 +6921,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6722,7 +6935,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 61";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 2152;
@@ -6752,7 +6965,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -6762,7 +6975,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6772,7 +6985,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 61";
 		rLen = 0;
-		rLoc = 1395;
+		rLoc = 1342;
 		rType = 0;
 		vrLen = 1368;
 		vrLoc = 2152;
@@ -6822,7 +7035,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1876;
 		vrLoc = 456;
@@ -6842,7 +7055,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6881,7 +7094,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 118";
 		rLen = 0;
-		rLoc = 3190;
+		rLoc = 3236;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 1210;
@@ -6911,7 +7124,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -6931,7 +7144,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -6961,7 +7174,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -6981,7 +7194,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7001,7 +7214,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 456;
@@ -7021,7 +7234,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7051,7 +7264,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 118";
 		rLen = 0;
-		rLoc = 3190;
+		rLoc = 3236;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 32;
@@ -7061,7 +7274,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1427;
 		rType = 0;
 		vrLen = 1328;
 		vrLoc = 783;
@@ -7071,7 +7284,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1849;
 		vrLoc = 456;
@@ -7091,7 +7304,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7111,7 +7324,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 66";
 		rLen = 0;
-		rLoc = 1586;
+		rLoc = 1533;
 		rType = 0;
 		vrLen = 1451;
 		vrLoc = 1038;
@@ -7121,7 +7334,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 64";
 		rLen = 0;
-		rLoc = 1480;
+		rLoc = 1427;
 		rType = 0;
 		vrLen = 1425;
 		vrLoc = 1038;
@@ -7131,7 +7344,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1845;
 		vrLoc = 456;
@@ -7151,7 +7364,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7161,7 +7374,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1059;
@@ -7171,7 +7384,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -7191,7 +7404,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7201,7 +7414,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1059;
@@ -7211,7 +7424,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 82";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1805;
 		vrLoc = 456;
@@ -7231,7 +7444,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7251,7 +7464,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 70";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 1061;
@@ -7261,7 +7474,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 69";
 		rLen = 0;
-		rLoc = 1646;
+		rLoc = 1593;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 972;
@@ -7271,7 +7484,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 83";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1863;
 		vrLoc = 456;
@@ -7291,7 +7504,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7311,7 +7524,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7321,7 +7534,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 71";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1468;
 		vrLoc = 1018;
@@ -7331,7 +7544,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 62";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 1385;
 		vrLoc = 1018;
@@ -7361,7 +7574,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7371,7 +7584,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 73";
 		rLen = 0;
-		rLoc = 2002;
+		rLoc = 1979;
 		rType = 0;
 		vrLen = 1364;
 		vrLoc = 988;
@@ -7391,7 +7604,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7501,7 +7714,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 67";
 		rLen = 0;
-		rLoc = 1713;
+		rLoc = 1660;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 988;
@@ -7511,7 +7724,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 58";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1042;
@@ -7531,7 +7744,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7541,7 +7754,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 58";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1386;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1042;
@@ -7581,7 +7794,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7611,7 +7824,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7641,7 +7854,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7671,7 +7884,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7721,7 +7934,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7761,7 +7974,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7771,7 +7984,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 53";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 824;
 		vrLoc = 617;
@@ -7791,7 +8004,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7811,7 +8024,7 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 26";
 		rLen = 0;
-		rLoc = 602;
+		rLoc = 607;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
@@ -7821,7 +8034,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 53";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 950;
 		vrLoc = 617;
@@ -7831,7 +8044,7 @@
 		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
 		name = "SelectPlayerController.m: 53";
 		rLen = 0;
-		rLoc = 1236;
+		rLoc = 1183;
 		rType = 0;
 		vrLen = 949;
 		vrLoc = 0;
@@ -7851,10 +8064,2027 @@
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
 		rLen = 0;
-		rLoc = 484;
+		rLoc = 488;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 0;
+	};
+	E01182DD115BFCD40015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 88";
+		rLen = 0;
+		rLoc = 2442;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 783;
+	};
+	E01182E4115BFD130015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 88";
+		rLen = 0;
+		rLoc = 2442;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 783;
+	};
+	E01182E9115BFD5A0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 88";
+		rLen = 0;
+		rLoc = 2442;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 783;
+	};
+	E01182F6115C00860015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 88";
+		rLen = 0;
+		rLoc = 2442;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 783;
+	};
+	E011833B115C085D0015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+	};
+	E0118349115C0AF70015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+	};
+	E0118359115C0C8F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 88";
+		rLen = 0;
+		rLoc = 2442;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 783;
+	};
+	E011835A115C0C8F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 22";
+		rLen = 0;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
+	};
+	E011835B115C0C8F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011835C115C0C8F0015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'SelectPlayerController'";
+		fRef = C2EEE09F115A4C660057FE0D /* SelectTeamController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	E011835D115C0C8F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE09F115A4C660057FE0D /* SelectTeamController.h */;
+		name = "SelectTeamController.h: 23";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	E0118365115C0CC80015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'SelectTeamController'";
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	E011836B115C0D240015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE09F115A4C660057FE0D /* SelectTeamController.h */;
+		name = "SelectTeamController.h: 23";
+		rLen = 0;
+		rLoc = 510;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	E011836C115C0D240015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 22";
+		rLen = 0;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	E011836D115C0D240015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'SelectTeamController'";
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	E011836E115C0D240015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118374115C0D9F0015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+	};
+	E0118378115C0E400015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */;
+	};
+	E0118379115C0E400015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E05172F6115852F900A38FE7 /* red_cross.png */;
+	};
+	E011837A115C0E400015F2C7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E05172F4115852EF00A38FE7 /* help.png */;
+	};
+	E011837B115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
+		name = "SettingsController.h: 91";
+		rLen = 0;
+		rLoc = 3330;
+		rType = 0;
+		vrLen = 1986;
+		vrLoc = 2161;
+	};
+	E011837C115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 392";
+		rLen = 0;
+		rLoc = 11737;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 10566;
+	};
+	E011837D115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F32A1158404F00ABCBFC /* Skater.m */;
+		name = "Skater.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 667;
+		vrLoc = 0;
+	};
+	E011837E115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3291158404F00ABCBFC /* Skater.h */;
+		name = "Skater.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 0;
+	};
+	E011837F115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3271158404F00ABCBFC /* Player.h */;
+		name = "Player.h: 22";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	E0118380115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3251158404F00ABCBFC /* Goalie.h */;
+		name = "Goalie.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 646;
+		vrLoc = 0;
+	};
+	E0118381115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 192";
+		rLen = 0;
+		rLoc = 10081;
+		rType = 0;
+		vrLen = 1261;
+		vrLoc = 9674;
+	};
+	E0118382115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F32C1158404F00ABCBFC /* Team.m */;
+		name = "Team.m: 14";
+		rLen = 0;
+		rLoc = 235;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 109;
+	};
+	E0118383115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA96F3261158404F00ABCBFC /* Goalie.m */;
+		name = "Goalie.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 658;
+		vrLoc = 0;
+	};
+	E0118384115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 16";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 695;
+		vrLoc = 19;
+	};
+	E0118385115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 14";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 732;
+		vrLoc = 5902;
+	};
+	E0118386115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D3115821DD00F90E0E /* Pooler.h */;
+		name = "Pooler.h: 36";
+		rLen = 0;
+		rLoc = 943;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 19;
+	};
+	E0118387115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2B1145E87D004A4E7D /* Settings.h */;
+		name = "Settings.h: 58";
+		rLen = 0;
+		rLoc = 1680;
+		rType = 0;
+		vrLen = 1419;
+		vrLoc = 256;
+	};
+	E0118388115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Delegate.h */;
+		name = "Delegate.h: 25";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 830;
+		vrLoc = 0;
+	};
+	E0118389115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 15";
+		rLen = 0;
+		rLoc = 310;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 0;
+	};
+	E011838A115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 178";
+		rLen = 0;
+		rLoc = 4915;
+		rType = 0;
+		vrLen = 1095;
+		vrLoc = 3970;
+	};
+	E011838B115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 87";
+		rLen = 0;
+		rLoc = 2440;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 0;
+	};
+	E011838C115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 26";
+		rLen = 0;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E011838D115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 103";
+		rLen = 43;
+		rLoc = 2998;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 1095;
+	};
+	E011838E115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 26";
+		rLen = 0;
+		rLoc = 715;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011838F115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE09F115A4C660057FE0D /* SelectTeamController.h */;
+		name = "SelectTeamController.h: 24";
+		rLen = 0;
+		rLoc = 618;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	E0118390115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
+		name = "Settings.m: 51";
+		rLen = 0;
+		rLoc = 1125;
+		rType = 0;
+		vrLen = 912;
+		vrLoc = 435;
+	};
+	E0118391115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 22";
+		rLen = 0;
+		rLoc = 488;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	E0118392115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 16";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 3;
+	};
+	E0118393115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 65";
+		rLen = 0;
+		rLoc = 1660;
+		rType = 0;
+		vrLen = 1036;
+		vrLoc = 257;
+	};
+	E0118394115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 28";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	E0118395115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 11";
+		rLen = 0;
+		rLoc = 220;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	E0118398115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 49";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1534;
+		vrLoc = 0;
+	};
+	E011839B115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 180";
+		rLen = 0;
+		rLoc = 5006;
+		rType = 0;
+		vrLen = 1902;
+		vrLoc = 0;
+	};
+	E011839C115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E011839D115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 819;
+	};
+	E011839E115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E01183A1115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E01183A4115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E01183A5115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E01183A8115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E01183AB115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E01183AE115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 111;
+	};
+	E01183AF115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E01183B2115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 691;
+		vrLoc = 150;
+	};
+	E01183B3115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E01183B6115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 91";
+		rLen = 75;
+		rLoc = 4460;
+		rType = 0;
+		vrLen = 3089;
+		vrLoc = 2870;
+	};
+	E01183B7115C0E400015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E01183BA115C0E7D0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E01183BB115C0E7D0015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'AddPoolerController'";
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 22;
+		rType = 1;
+	};
+	E01183BC115C0E7D0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 21";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	E01183D3115C0F600015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'AddPoolerController'";
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	E01183D4115C0F600015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 16";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
+	};
+	E01183D6115C0F750015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'AddPoolerController'";
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	E01183D7115C0F750015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 16";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
+	};
+	E01183DA115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE09F115A4C660057FE0D /* SelectTeamController.h */;
+		name = "SelectTeamController.h: 11";
+		rLen = 0;
+		rLoc = 196;
+		rType = 0;
+		vrLen = 703;
+		vrLoc = 0;
+	};
+	E01183DB115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E01183DC115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 26";
+		rLen = 0;
+		rLoc = 671;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E01183DD115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 28";
+		rLen = 0;
+		rLoc = 606;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	E01183DE115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 17";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 1908;
+	};
+	E01183DF115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 16";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 1889;
+	};
+	E01183E0115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E01183E1115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E01183E2115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E01183E3115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E01183E4115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E01183E5115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E01183E6115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E01183E7115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E01183E8115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E01183E9115C0FA50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E01183EE115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 86";
+		rLen = 0;
+		rLoc = 2449;
+		rType = 0;
+		vrLen = 1421;
+		vrLoc = 1889;
+	};
+	E01183EF115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E01183F0115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E01183F1115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E01183F2115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E01183F3115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E01183F4115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E01183F5115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E01183F6115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E01183F7115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E01183F8115C10470015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E01183FD115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 88";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 1889;
+	};
+	E01183FE115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E01183FF115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E0118400115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118401115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118402115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118403115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118404115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118405115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118406115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E0118407115C10710015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E0118408115C10870015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 15";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	E011840D115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1357;
+		vrLoc = 2008;
+	};
+	E011840E115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E011840F115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E0118410115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118411115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118412115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118413115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118414115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118415115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118416115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E0118417115C112C0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E011841C115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1442;
+		vrLoc = 2008;
+	};
+	E011841D115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E011841E115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E011841F115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118420115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118421115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118422115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118423115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118424115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118425115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E0118426115C11880015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E0118429115C11990015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 15";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	E011842C115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 114";
+		rLen = 0;
+		rLoc = 3352;
+		rType = 0;
+		vrLen = 889;
+		vrLoc = 2507;
+	};
+	E011842D115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1447;
+		vrLoc = 2008;
+	};
+	E011842E115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1463;
+		vrLoc = 2007;
+	};
+	E011842F115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E0118430115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E0118431115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118432115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118433115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118434115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118435115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118436115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118437115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E0118438115C11C50015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E011843B115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1463;
+		vrLoc = 2007;
+	};
+	E011843C115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1446;
+		vrLoc = 2007;
+	};
+	E011843D115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E011843E115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E011843F115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118440115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118441115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118442115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118443115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118444115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118445115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 127;
+	};
+	E0118446115C11DD0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E0118449115C11F10015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 15";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 613;
+		vrLoc = 0;
+	};
+	E011844A115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 89";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1448;
+		vrLoc = 2007;
+	};
+	E011844B115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1589;
+		vrLoc = 0;
+	};
+	E011844C115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1573;
+		vrLoc = 3496;
+	};
+	E011844D115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1910;
+		vrLoc = 819;
+	};
+	E011844E115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011844F115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118450115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 27;
+	};
+	E0118451115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 700;
+		vrLoc = 38;
+	};
+	E0118452115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 112;
+	};
+	E0118453115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAA8CE0111529B890041F68D /* TeamList.m */;
+		name = "TeamList.m: 26";
+		rLen = 26;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 127;
+	};
+	E0118454115C11F20015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 2540;
+	};
+	E0118457115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 88";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1173;
+		vrLoc = 2005;
+	};
+	E0118458115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E0118459115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E011845A115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E011845B115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011845C115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E011845D115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E011845E115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E011845F115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118460115C12EC0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E0118465115C139F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 16";
+		rLen = 0;
+		rLoc = 346;
+		rType = 0;
+		vrLen = 645;
+		vrLoc = 0;
+	};
+	E0118466115C139F0015F2C7 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected specifier-qualifier-list before 'SelectTeamController'";
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 15;
+		rType = 1;
+	};
+	E0118467115C139F0015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011846E115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E011846F115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 12";
+		rLen = 0;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 0;
+	};
+	E0118470115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 88";
+		rLen = 0;
+		rLoc = 2517;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 1980;
+	};
+	E0118471115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 87";
+		rLen = 0;
+		rLoc = 2515;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 1980;
+	};
+	E0118472115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E0118473115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E0118474115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118475115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118476115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118477115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118478115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118479115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E011847A115C14D00015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
+	};
+	E011847F115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 87";
+		rLen = 0;
+		rLoc = 2515;
+		rType = 0;
+		vrLen = 1251;
+		vrLoc = 1980;
+	};
+	E0118480115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 87";
+		rLen = 0;
+		rLoc = 2509;
+		rType = 0;
+		vrLen = 1257;
+		vrLoc = 1980;
+	};
+	E0118481115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 50";
+		rLen = 0;
+		rLoc = 1162;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	E0118482115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2923114F12CA00EADD2B /* AddPoolerController.m */;
+		name = "AddPoolerController.m: 176";
+		rLen = 0;
+		rLoc = 4840;
+		rType = 0;
+		vrLen = 1568;
+		vrLoc = 3496;
+	};
+	E0118483115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 100";
+		rLen = 0;
+		rLoc = 2755;
+		rType = 0;
+		vrLen = 1908;
+		vrLoc = 819;
+	};
+	E0118484115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAAA2922114F12CA00EADD2B /* AddPoolerController.h */;
+		name = "AddPoolerController.h: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 0;
+	};
+	E0118485115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2C0F77E27800AB789A /* MainMenuController.h */;
+		name = "MainMenuController.h: 17";
+		rLen = 41;
+		rLoc = 380;
+		rType = 0;
+		vrLen = 867;
+		vrLoc = 0;
+	};
+	E0118486115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */;
+		name = "MainMenuController.m: 15";
+		rLen = 32;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 873;
+		vrLoc = 27;
+	};
+	E0118487115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Delegate.m */;
+		name = "Delegate.m: 33";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 697;
+		vrLoc = 38;
+	};
+	E0118488115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 22";
+		rLen = 0;
+		rLoc = 446;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 112;
+	};
+	E0118489115C15020015F2C7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A90EFE2A0F77E16000AB789A /* SplashScreenController.m */;
+		name = "SplashScreenController.m: 101";
+		rLen = 0;
+		rLoc = 4787;
+		rType = 0;
+		vrLen = 3058;
+		vrLoc = 2540;
 	};
 	E05172961158228B00A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -7879,10 +10109,10 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 142";
 		rLen = 0;
-		rLoc = 2735;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 834;
-		vrLoc = 2010;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E05172AB115822B300A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -7927,7 +10157,7 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 200";
 		rLen = 0;
-		rLoc = 3590;
+		rLoc = 1973;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -7977,7 +10207,7 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 200";
 		rLen = 0;
-		rLoc = 3590;
+		rLoc = 1973;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 0;
@@ -7997,7 +10227,7 @@
 		comments = "Assignment makes pointer from integer without a cast";
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		rLen = 1;
-		rLoc = 340;
+		rLoc = 344;
 		rType = 1;
 	};
 	E05172DA1158449900A38FE7 /* PBXTextBookmark */ = {
@@ -8005,7 +10235,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 317";
 		rLen = 0;
-		rLoc = 9624;
+		rLoc = 9765;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 8427;
@@ -8032,8 +10262,8 @@
 		isa = PBXTextBookmark;
 		comments = "Expected identifier or '(' before '<<' token";
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
-		rLen = 1;
-		rLoc = 147;
+		rLen = 0;
+		rLoc = 105;
 		rType = 1;
 	};
 	E05173251158589600A38FE7 /* PBXTextBookmark */ = {
@@ -8041,17 +10271,17 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 151";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 698;
+		vrLen = 247;
 		vrLoc = 1726;
 	};
 	E05173281158589700A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		comments = "Expected identifier or '(' before '<<' token";
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
-		rLen = 1;
-		rLoc = 147;
+		rLen = 0;
+		rLoc = 105;
 		rType = 1;
 	};
 	E05173291158589700A38FE7 /* PBXTextBookmark */ = {
@@ -8059,10 +10289,10 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 151";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 636;
-		vrLoc = 2277;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E05173321158603900A38FE7 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -8077,9 +10307,9 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 151";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 697;
+		vrLen = 613;
 		vrLoc = 1360;
 	};
 	E05173481158661000A38FE7 /* PBXTextBookmark */ = {
@@ -8147,9 +10377,9 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 151";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 697;
+		vrLen = 613;
 		vrLoc = 1360;
 	};
 	E05173531158662300A38FE7 /* PBXTextBookmark */ = {
@@ -8187,9 +10417,9 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 151";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 697;
+		vrLen = 613;
 		vrLoc = 1360;
 	};
 	E051735B1158664F00A38FE7 /* PBXTextBookmark */ = {
@@ -8247,7 +10477,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 324";
 		rLen = 0;
-		rLoc = 9719;
+		rLoc = 9860;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 6763;
@@ -8337,10 +10567,10 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 202";
 		rLen = 0;
-		rLoc = 3601;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 761;
-		vrLoc = 2424;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E0517371115868DF00A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -8367,9 +10597,9 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 148";
 		rLen = 0;
-		rLoc = 2552;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 554;
+		vrLen = 524;
 		vrLoc = 1449;
 	};
 	E051737711586ADA00A38FE7 /* PBXTextBookmark */ = {
@@ -8377,7 +10607,7 @@
 		comments = "'txtFieldPointPerPts' undeclared (first use in this function)";
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		rLen = 0;
-		rLoc = 305;
+		rLoc = 307;
 		rType = 1;
 	};
 	E051737811586ADA00A38FE7 /* PBXTextBookmark */ = {
@@ -8385,7 +10615,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 285";
 		rLen = 0;
-		rLoc = 8484;
+		rLoc = 8555;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 6807;
@@ -8395,17 +10625,17 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 202";
 		rLen = 0;
-		rLoc = 3601;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 761;
-		vrLoc = 2424;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E051737E11586B7D00A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 295";
 		rLen = 0;
-		rLoc = 9620;
+		rLoc = 9761;
 		rType = 0;
 		vrLen = 1571;
 		vrLoc = 2186;
@@ -8425,7 +10655,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 68";
 		rLen = 12;
-		rLoc = 4105;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 2071;
 		vrLoc = 1593;
@@ -8455,7 +10685,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 64";
 		rLen = 12;
-		rLoc = 3843;
+		rLoc = 3931;
 		rType = 0;
 		vrLen = 2013;
 		vrLoc = 1647;
@@ -8485,7 +10715,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 97";
 		rLen = 0;
-		rLoc = 5416;
+		rLoc = 5504;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 1642;
@@ -8495,7 +10725,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 295";
 		rLen = 0;
-		rLoc = 9620;
+		rLoc = 9761;
 		rType = 0;
 		vrLen = 1643;
 		vrLoc = 2184;
@@ -8505,7 +10735,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10715;
+		rLoc = 10856;
 		rType = 0;
 		vrLen = 1727;
 		vrLoc = 8026;
@@ -8535,7 +10765,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 333";
 		rLen = 0;
-		rLoc = 11671;
+		rLoc = 11812;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7832;
@@ -8545,7 +10775,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10715;
+		rLoc = 10856;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 5579;
@@ -8575,10 +10805,10 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 218";
 		rLen = 0;
-		rLoc = 3898;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 794;
-		vrLoc = 3185;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E05173B011586E1500A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -8595,7 +10825,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10715;
+		rLoc = 10856;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 5579;
@@ -8605,7 +10835,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10715;
+		rLoc = 10856;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1921;
@@ -8675,10 +10905,10 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 218";
 		rLen = 0;
-		rLoc = 3898;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 690;
-		vrLoc = 2144;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E05173BE11586EE500A38FE7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -8765,7 +10995,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 334";
 		rLen = 0;
-		rLoc = 11671;
+		rLoc = 11812;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7834;
@@ -8845,7 +11075,7 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 218";
 		rLen = 0;
-		rLoc = 3898;
+		rLoc = 1973;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 0;
@@ -8895,7 +11125,7 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 218";
 		rLen = 0;
-		rLoc = 3898;
+		rLoc = 1973;
 		rType = 0;
 		vrLen = 849;
 		vrLoc = 0;
@@ -8955,7 +11185,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 97";
 		rLen = 0;
-		rLoc = 5416;
+		rLoc = 5504;
 		rType = 0;
 		vrLen = 2008;
 		vrLoc = 1642;
@@ -8965,7 +11195,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 332";
 		rLen = 0;
-		rLoc = 11406;
+		rLoc = 11547;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 8039;
@@ -8995,7 +11225,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 338";
 		rLen = 0;
-		rLoc = 11671;
+		rLoc = 11812;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7845;
@@ -9021,7 +11251,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 338";
 		rLen = 0;
-		rLoc = 11671;
+		rLoc = 11812;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7845;
@@ -9049,7 +11279,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 334";
 		rLen = 0;
-		rLoc = 11663;
+		rLoc = 11804;
 		rType = 0;
 		vrLen = 1766;
 		vrLoc = 8134;
@@ -9326,7 +11556,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8026;
+		rLoc = 8097;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 6364;
@@ -9336,7 +11566,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8026;
+		rLoc = 8097;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 6890;
@@ -9356,7 +11586,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8026;
+		rLoc = 8097;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 6890;
@@ -9376,7 +11606,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 339";
 		rLen = 0;
-		rLoc = 9619;
+		rLoc = 9690;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 8412;
@@ -9436,7 +11666,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 388";
 		rLen = 0;
-		rLoc = 11663;
+		rLoc = 11804;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 9873;
@@ -9456,7 +11686,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 390";
 		rLen = 0;
-		rLoc = 11600;
+		rLoc = 11741;
 		rType = 0;
 		vrLen = 1440;
 		vrLoc = 10193;
@@ -9496,7 +11726,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11600;
+		rLoc = 11741;
 		rType = 0;
 		vrLen = 731;
 		vrLoc = 10938;
@@ -9516,7 +11746,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11600;
+		rLoc = 11741;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 10799;
@@ -9536,7 +11766,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 342";
 		rLen = 0;
-		rLoc = 11541;
+		rLoc = 11682;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 9413;
@@ -9566,7 +11796,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 342";
 		rLen = 0;
-		rLoc = 11541;
+		rLoc = 11682;
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 9554;
@@ -9596,7 +11826,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 290";
 		rLen = 0;
-		rLoc = 8026;
+		rLoc = 8097;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 7062;
@@ -9616,7 +11846,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 129";
 		rLen = 51;
-		rLoc = 5234;
+		rLoc = 5322;
 		rType = 0;
 		vrLen = 1945;
 		vrLoc = 3467;
@@ -9626,7 +11856,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 290";
 		rLen = 0;
-		rLoc = 8026;
+		rLoc = 8097;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 4650;
@@ -9636,7 +11866,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 397";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11800;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 10753;
@@ -9666,7 +11896,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 393";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11798;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -9696,7 +11926,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 393";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11798;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -9726,7 +11956,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11798;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 10753;
@@ -9756,7 +11986,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 392";
 		rLen = 24;
-		rLoc = 11619;
+		rLoc = 11760;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 10713;
@@ -9776,7 +12006,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 371";
 		rLen = 0;
-		rLoc = 11142;
+		rLoc = 11283;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 10140;
@@ -9796,7 +12026,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11800;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -9816,7 +12046,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 136";
 		rLen = 0;
-		rLoc = 5416;
+		rLoc = 5504;
 		rType = 0;
 		vrLen = 1735;
 		vrLoc = 1512;
@@ -9826,7 +12056,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11800;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -9846,7 +12076,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 136";
 		rLen = 0;
-		rLoc = 5416;
+		rLoc = 5504;
 		rType = 0;
 		vrLen = 1881;
 		vrLoc = 3535;
@@ -9856,7 +12086,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11800;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 10609;
@@ -9866,7 +12096,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11802;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -9886,7 +12116,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11802;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -9896,7 +12126,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 102";
 		rLen = 0;
-		rLoc = 3806;
+		rLoc = 3894;
 		rType = 0;
 		vrLen = 1949;
 		vrLoc = 3467;
@@ -9916,7 +12146,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 136";
 		rLen = 0;
-		rLoc = 5416;
+		rLoc = 5504;
 		rType = 0;
 		vrLen = 1934;
 		vrLoc = 1923;
@@ -9926,7 +12156,7 @@
 		fRef = FAD4E453114EFFA5003A1BB5 /* SettingsController.h */;
 		name = "SettingsController.h: 102";
 		rLen = 0;
-		rLoc = 3806;
+		rLoc = 3894;
 		rType = 0;
 		vrLen = 1949;
 		vrLoc = 3467;
@@ -9936,7 +12166,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11802;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -9956,7 +12186,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11802;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 10465;
@@ -9976,20 +12206,20 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 138";
 		rLen = 0;
-		rLoc = 2735;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 832;
-		vrLoc = 1990;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E098490B114F14D100F66C58 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 138";
 		rLen = 0;
-		rLoc = 2735;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 831;
-		vrLoc = 1990;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	E0B60AB6114F063B005F222D /* ViewStatisticsController.h */ = {
 		uiCtxt = {
@@ -10192,28 +12422,29 @@
 		fRef = C2858C2C1145E87D004A4E7D /* Settings.m */;
 		name = "Settings.m: 136";
 		rLen = 0;
-		rLoc = 2735;
+		rLoc = 1973;
 		rType = 0;
-		vrLen = 858;
-		vrLoc = 2013;
+		vrLen = 0;
+		vrLoc = 1973;
 	};
 	FA96F3251158404F00ABCBFC /* Goalie.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 494}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 646}";
 		};
 	};
 	FA96F3261158404F00ABCBFC /* Goalie.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 533}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 533}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 661}";
+			sepNavVisRange = "{0, 658}";
+			sepNavWindowFrame = "{{15, 91}, {1653, 937}}";
 		};
 	};
 	FA96F3271158404F00ABCBFC /* Player.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 517}}";
 			sepNavSelRange = "{463, 0}";
 			sepNavVisRange = "{0, 485}";
 		};
@@ -10227,9 +12458,16 @@
 	};
 	FA96F3291158404F00ABCBFC /* Skater.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 517}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 517}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 659}";
+		};
+	};
+	FA96F32A1158404F00ABCBFC /* Skater.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 611}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 667}";
 		};
 	};
 	FA96F32B1158404F00ABCBFC /* Team.h */ = {
@@ -10242,9 +12480,9 @@
 	};
 	FA96F32C1158404F00ABCBFC /* Team.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 1677}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 765}";
+			sepNavIntBoundsRect = "{{0, 0}, {1271, 1573}}";
+			sepNavSelRange = "{235, 0}";
+			sepNavVisRange = "{109, 871}";
 			sepNavWindowFrame = "{{107, 381}, {750, 558}}";
 		};
 	};
@@ -10259,38 +12497,39 @@
 	FAA8CE0111529B890041F68D /* TeamList.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {691, 3575}}";
-			sepNavSelRange = "{226, 0}";
-			sepNavVisRange = "{149, 632}";
+			sepNavSelRange = "{391, 26}";
+			sepNavVisRange = "{127, 619}";
 			sepNavWindowFrame = "{{147, 414}, {750, 558}}";
 		};
 	};
 	FAAA2922114F12CA00EADD2B /* AddPoolerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1280, 524}}";
-			sepNavSelRange = "{516, 73}";
-			sepNavVisRange = "{0, 924}";
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 786}}";
+			sepNavSelRange = "{359, 0}";
+			sepNavVisRange = "{0, 1117}";
+			sepNavWindowFrame = "{{15, 91}, {1653, 937}}";
 		};
 	};
 	FAAA2923114F12CA00EADD2B /* AddPoolerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {817, 2223}}";
-			sepNavSelRange = "{4143, 40}";
-			sepNavVisRange = "{3105, 1536}";
+			sepNavIntBoundsRect = "{{0, 0}, {1594, 2457}}";
+			sepNavSelRange = "{4840, 0}";
+			sepNavVisRange = "{3496, 1568}";
 			sepNavWindowFrame = "{{258, -12}, {750, 937}}";
 		};
 	};
 	FAD4E453114EFFA5003A1BB5 /* SettingsController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1313, 1859}}";
-			sepNavSelRange = "{5416, 0}";
-			sepNavVisRange = "{1923, 1934}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 1807}}";
+			sepNavSelRange = "{3330, 0}";
+			sepNavVisRange = "{2161, 1986}";
 		};
 	};
 	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1262, 5473}}";
-			sepNavSelRange = "{1279, 0}";
-			sepNavVisRange = "{846, 1231}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 5070}}";
+			sepNavSelRange = "{11737, 0}";
+			sepNavVisRange = "{10566, 1246}";
 			sepNavWindowFrame = "{{15, 91}, {750, 937}}";
 		};
 	};

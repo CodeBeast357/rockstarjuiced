@@ -14,11 +14,10 @@
 @synthesize
 	selectTeamController,
 	tablePooler,
-	offencePlayers,
-	defencePlayers,
-	goalies,
 	imgValidPoolName,
-    imgInvalidPoolName;
+    imgInvalidPoolName,
+	imgHelpPoolName,
+    pooler;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -35,6 +34,8 @@
 	
 	self.title = @"Add Pooler";
 	
+	mainDelegate.poolerTmp = [[Pooler alloc] init];
+	
 	//Création des boutons Save et Cancel
 	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
 											  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
@@ -47,17 +48,21 @@
 											   action:@selector(done:)] autorelease]; 
 	//Initialisation des tables de joueurs
 	Settings* config = [Settings getInstance];
-	offencePlayers = [[NSMutableArray alloc] init];
+
 	for (int n=0; n<config.offencePlayerTotal; ++n) {
-		[offencePlayers addObject:@"Choose a forward player"];
+		Skater *aSkater= [[Skater alloc] init]; 
+		aSkater.firstName=@"Choose a forward player";
+		[mainDelegate.poolerTmp addForward:aSkater];
 	}
-	defencePlayers = [[NSMutableArray alloc] init];
 	for (int n=0; n<config.defencePlayerTotal; ++n) {
-		[defencePlayers addObject:@"Choose a defence player"];
+		Skater *aSkater= [[Skater alloc] init]; 
+		aSkater.firstName=@"Choose a defense player";
+		[mainDelegate.poolerTmp addDefenceman:aSkater];
 	}
-	goalies = [[NSMutableArray alloc] init];
 	for (int n=0; n<config.goaliePlayerTotal; ++n) {
-		[goalies addObject:@"Choose a goalie"];
+		Goalie *aGoalie= [[Goalie alloc] init]; 
+		aGoalie.firstName=@"Choose a goalie";
+		[mainDelegate.poolerTmp addGoalie:aGoalie];
 	}
 	
 }
@@ -70,10 +75,7 @@
 
 
 - (void)dealloc {
-	[tablePooler release];
-	[offencePlayers release];
-	[defencePlayers release];
-	[goalies release];
+	
     [super dealloc];
 }
 
@@ -101,13 +103,13 @@
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	switch (indexPath.section) {
 		case 0:
-			cell.textLabel.text = [offencePlayers objectAtIndex:indexPath.row];
+			cell.textLabel.text = [[mainDelegate.poolerTmp.forwardsList objectAtIndex:indexPath.row] firstName];
 			break;
 		case 1:
-			cell.textLabel.text = [defencePlayers objectAtIndex:indexPath.row];
+			cell.textLabel.text = [[mainDelegate.poolerTmp.defencemenList objectAtIndex:indexPath.row] firstName];
 			break;
 		case 2:
-			cell.textLabel.text = [goalies objectAtIndex:indexPath.row];
+			cell.textLabel.text = [[mainDelegate.poolerTmp.goaliesList objectAtIndex:indexPath.row] firstName];
 			break;
 		default:
 			break;
@@ -118,11 +120,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	switch (section) {
 		case 0:
-			return [offencePlayers count];
+			return [mainDelegate.poolerTmp.forwardsList count];
 		case 1:
-			return [defencePlayers count];
+			return [mainDelegate.poolerTmp.defencemenList count];
 		case 2:
-			return [goalies count];
+			return [mainDelegate.poolerTmp.goaliesList count];
 		default:
 			return 0;
 	}
@@ -169,6 +171,9 @@
 	[selectTeam release];
 		
 	}
+	
+	mainDelegate.playerTypeTmp= indexPath.section;
+	mainDelegate.playerIndexTmp= indexPath.section;
 	
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectTeamController  animated:YES];

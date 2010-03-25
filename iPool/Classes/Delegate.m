@@ -12,7 +12,7 @@
 
 @synthesize window;
 @synthesize navigationController;
-@synthesize teamSelected;
+@synthesize teamSelected, poolerTmp, playerTypeTmp, playerIndexTmp;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
