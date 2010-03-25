@@ -46,9 +46,11 @@
 }
 
 - (void)dealloc {
+	/*
 	[tablePlayers dealloc];
 	[players dealloc];
     [super dealloc];
+	 */
 }
 
 

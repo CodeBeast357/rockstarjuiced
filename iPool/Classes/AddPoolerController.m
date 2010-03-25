@@ -16,7 +16,9 @@
 	tablePooler,
 	offencePlayers,
 	defencePlayers,
-	goalies;
+	goalies,
+	imgValidPoolName,
+    imgInvalidPoolName;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -171,6 +173,9 @@
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectTeamController  animated:YES];
 	
+}
+
+- (IBAction) txtFieldPoolNameEditing: (id) sender{
 }
 
 @end

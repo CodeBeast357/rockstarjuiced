@@ -17,6 +17,10 @@
 	NSMutableArray* offencePlayers;
 	NSMutableArray* defencePlayers;
 	NSMutableArray* goalies;
+	
+	IBOutlet UIImageView* imgValidPoolName;
+	IBOutlet UIImageView* imgInvalidPoolName;
+	IBOutlet UIImageView* imgHelpPoolName;
 }
 
 @property (nonatomic, retain) SelectTeamController* selectTeamController;
@@ -24,9 +28,13 @@
 @property (nonatomic, retain) NSArray* offencePlayers;
 @property (nonatomic, retain) NSArray* defencePlayers;
 @property (nonatomic, retain) NSArray* goalies;
+@property (nonatomic, retain) UIImageView* imgValidPoolName;
+@property (nonatomic, retain) UIImageView* imgInvalidPoolName;
+@property (nonatomic, retain) UIImageView* imgHelpPoolName;
 
 - (IBAction) done: (id) sender;
 - (IBAction) cancel: (id) sender;
 - (IBAction) txtFieldDoneEditing: (id) sender;
+- (IBAction) txtFieldPoolNameEditing: (id) sender;
 
 @end

@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E0118223115BEA290015F2C7</string>
+						<string>E011826F115BEE3B0015F2C7</string>
 						<key>history</key>
 						<array>
 							<string>E01181F9115BE78E0015F2C7</string>
@@ -256,7 +256,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E0118224115BEA290015F2C7</string>
+						<string>E0118270115BEE3B0015F2C7</string>
 						<key>history</key>
 						<array>
 							<string>E00F85A5115BDD5A00027F28</string>
@@ -310,6 +310,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -391,8 +393,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -410,7 +410,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E0118222115BEA290015F2C7</string>
+										<string>E011826E115BEE3B0015F2C7</string>
 										<key>history</key>
 										<array>
 											<string>E0BBCF5C1117A5D000C1195B</string>
@@ -439,9 +439,7 @@
 											<string>E00F85A0115BDD5A00027F28</string>
 											<string>E011818A115BE1B30015F2C7</string>
 											<string>E01181B4115BE4880015F2C7</string>
-											<string>E01181F6115BE78E0015F2C7</string>
 											<string>E0118217115BEA290015F2C7</string>
-											<string>E0118218115BEA290015F2C7</string>
 											<string>E0118219115BEA290015F2C7</string>
 											<string>E011821A115BEA290015F2C7</string>
 											<string>E011821B115BEA290015F2C7</string>
@@ -449,8 +447,10 @@
 											<string>E011821D115BEA290015F2C7</string>
 											<string>E011821E115BEA290015F2C7</string>
 											<string>E011821F115BEA290015F2C7</string>
-											<string>E0118220115BEA290015F2C7</string>
-											<string>E0118221115BEA290015F2C7</string>
+											<string>E011825F115BEC3F0015F2C7</string>
+											<string>E0118260115BEC3F0015F2C7</string>
+											<string>E011826C115BEE3B0015F2C7</string>
+											<string>E011826D115BEE3B0015F2C7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -649,11 +649,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>E0DBF56B1145D00F0073D2E6</string>
 		<string>E0BBCEED11179E1300C1195B</string>
 		<string>E00F8584115BD95C00027F28</string>
 		<string>E00F8592115BDB1000027F28</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ah25730/Desktop/iPool/NavApp.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -1030,7 +1030,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
