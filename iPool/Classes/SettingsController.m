@@ -70,6 +70,7 @@
 											   initWithBarButtonSystemItem:UIBarButtonSystemItemSave 
 											   target:self 
 											   action:@selector(save:)] autorelease];
+	
 	settings = [Settings getInstance];
 	
 	//Initialize text fields

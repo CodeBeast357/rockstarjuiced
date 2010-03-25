@@ -80,7 +80,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					1102,
+					1084,
 					20,
 					48,
 					43,
@@ -674,6 +674,14 @@
 			E00F8595115BDB1000027F28 /* PBXTextBookmark */ = E00F8595115BDB1000027F28 /* PBXTextBookmark */;
 			E00F8596115BDB1000027F28 /* PBXTextBookmark */ = E00F8596115BDB1000027F28 /* PBXTextBookmark */;
 			E00F8597115BDB1000027F28 /* PBXTextBookmark */ = E00F8597115BDB1000027F28 /* PBXTextBookmark */;
+			E00F859E115BDD5A00027F28 /* PBXTextBookmark */ = E00F859E115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F859F115BDD5A00027F28 /* PBXTextBookmark */ = E00F859F115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A0115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A0115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A1115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A1115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A2115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A2115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A3115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A3115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A4115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A4115BDD5A00027F28 /* PBXTextBookmark */;
+			E00F85A5115BDD5A00027F28 /* PBXTextBookmark */ = E00F85A5115BDD5A00027F28 /* PBXTextBookmark */;
 			E05172961158228B00A38FE7 = E05172961158228B00A38FE7 /* PBXTextBookmark */;
 			E05172971158228B00A38FE7 = E05172971158228B00A38FE7 /* PBXTextBookmark */;
 			E05172AA115822B300A38FE7 = E05172AA115822B300A38FE7 /* PBXTextBookmark */;
@@ -925,6 +933,13 @@
 			sepNavVisRange = "{0, 181}";
 		};
 	};
+	65B637D4115821DD00F90E0E /* Pooler.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 3328}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 544}";
+		};
+	};
 	A90EFE2A0F77E16000AB789A /* SplashScreenController.m */ = {
 		isa = PBXFileReference;
 		fileEncoding = 4;
@@ -982,14 +997,14 @@
 	C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {817, 1261}}";
-			sepNavSelRange = "{2765, 0}";
-			sepNavVisRange = "{783, 1995}";
+			sepNavSelRange = "{2730, 0}";
+			sepNavVisRange = "{783, 1960}";
 			sepNavWindowFrame = "{{223, 17}, {750, 937}}";
 		};
 	};
 	C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {705, 786}}";
+			sepNavIntBoundsRect = "{{0, 0}, {705, 809}}";
 			sepNavSelRange = "{484, 0}";
 			sepNavVisRange = "{0, 609}";
 			sepNavWindowFrame = "{{553, 65}, {750, 937}}";
@@ -999,7 +1014,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1300, 1560}}";
 			sepNavSelRange = "{2331, 0}";
-			sepNavVisRange = "{456, 1805}";
+			sepNavVisRange = "{456, 1876}";
 			sepNavWindowFrame = "{{852, 46}, {750, 937}}";
 		};
 	};
@@ -1043,7 +1058,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 386";
 		rLen = 0;
-		rLoc = 11590;
+		rLoc = 11592;
 		rType = 0;
 		vrLen = 1379;
 		vrLoc = 7299;
@@ -6619,7 +6634,7 @@
 		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
 		name = "SelectTeamController.m: 91";
 		rLen = 0;
-		rLoc = 2765;
+		rLoc = 2730;
 		rType = 0;
 		vrLen = 1995;
 		vrLoc = 783;
@@ -6645,6 +6660,86 @@
 		vrLoc = 456;
 	};
 	E00F8597115BDB1000027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
+		name = "SelectPlayerController.h: 20";
+		rLen = 0;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 0;
+	};
+	E00F859E115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 61";
+		rLen = 0;
+		rLoc = 1439;
+		rType = 0;
+		vrLen = 1368;
+		vrLoc = 2152;
+	};
+	E00F859F115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 65B637D4115821DD00F90E0E /* Pooler.m */;
+		name = "Pooler.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	E00F85A0115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
+		name = "SettingsController.m: 58";
+		rLen = 0;
+		rLoc = 1279;
+		rType = 0;
+		vrLen = 1231;
+		vrLoc = 846;
+	};
+	E00F85A1115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 84";
+		rLen = 0;
+		rLoc = 2496;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 641;
+	};
+	E00F85A2115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 34";
+		rLen = 0;
+		rLoc = 754;
+		rType = 0;
+		vrLen = 1172;
+		vrLoc = 641;
+	};
+	E00F85A3115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */;
+		name = "SelectPlayerController.m: 82";
+		rLen = 0;
+		rLoc = 2331;
+		rType = 0;
+		vrLen = 1876;
+		vrLoc = 456;
+	};
+	E00F85A4115BDD5A00027F28 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */;
+		name = "SelectTeamController.m: 91";
+		rLen = 0;
+		rLoc = 2730;
+		rType = 0;
+		vrLen = 1960;
+		vrLoc = 783;
+	};
+	E00F85A5115BDD5A00027F28 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */;
 		name = "SelectPlayerController.h: 20";
@@ -6795,7 +6890,7 @@
 		comments = "Assignment makes pointer from integer without a cast";
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		rLen = 1;
-		rLoc = 339;
+		rLoc = 340;
 		rType = 1;
 	};
 	E05172DA1158449900A38FE7 /* PBXTextBookmark */ = {
@@ -6803,7 +6898,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 317";
 		rLen = 0;
-		rLoc = 9622;
+		rLoc = 9624;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 8427;
@@ -7045,7 +7140,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 324";
 		rLen = 0;
-		rLoc = 9717;
+		rLoc = 9719;
 		rType = 0;
 		vrLen = 1296;
 		vrLoc = 6763;
@@ -7175,7 +7270,7 @@
 		comments = "'txtFieldPointPerPts' undeclared (first use in this function)";
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		rLen = 0;
-		rLoc = 304;
+		rLoc = 305;
 		rType = 1;
 	};
 	E051737811586ADA00A38FE7 /* PBXTextBookmark */ = {
@@ -7183,7 +7278,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 285";
 		rLen = 0;
-		rLoc = 8482;
+		rLoc = 8484;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 6807;
@@ -7203,7 +7298,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 295";
 		rLen = 0;
-		rLoc = 9618;
+		rLoc = 9620;
 		rType = 0;
 		vrLen = 1571;
 		vrLoc = 2186;
@@ -7293,7 +7388,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 295";
 		rLen = 0;
-		rLoc = 9618;
+		rLoc = 9620;
 		rType = 0;
 		vrLen = 1643;
 		vrLoc = 2184;
@@ -7303,7 +7398,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10713;
+		rLoc = 10715;
 		rType = 0;
 		vrLen = 1727;
 		vrLoc = 8026;
@@ -7333,7 +7428,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 333";
 		rLen = 0;
-		rLoc = 11669;
+		rLoc = 11671;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7832;
@@ -7343,7 +7438,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10713;
+		rLoc = 10715;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 5579;
@@ -7393,7 +7488,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10713;
+		rLoc = 10715;
 		rType = 0;
 		vrLen = 1044;
 		vrLoc = 5579;
@@ -7403,7 +7498,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 319";
 		rLen = 0;
-		rLoc = 10713;
+		rLoc = 10715;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1921;
@@ -7433,7 +7528,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 98";
 		rLen = 0;
-		rLoc = 2633;
+		rLoc = 2635;
 		rType = 0;
 		vrLen = 1557;
 		vrLoc = 1950;
@@ -7483,7 +7578,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 102";
 		rLen = 0;
-		rLoc = 2929;
+		rLoc = 2931;
 		rType = 0;
 		vrLen = 1642;
 		vrLoc = 1950;
@@ -7493,7 +7588,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 108";
 		rLen = 0;
-		rLoc = 3231;
+		rLoc = 3233;
 		rType = 0;
 		vrLen = 1489;
 		vrLoc = 2142;
@@ -7523,7 +7618,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 107";
 		rLen = 0;
-		rLoc = 3231;
+		rLoc = 3233;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 2142;
@@ -7533,7 +7628,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 107";
 		rLen = 0;
-		rLoc = 3231;
+		rLoc = 3233;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 2142;
@@ -7563,7 +7658,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 334";
 		rLen = 0;
-		rLoc = 11669;
+		rLoc = 11671;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7834;
@@ -7573,7 +7668,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 108";
 		rLen = 0;
-		rLoc = 3248;
+		rLoc = 3250;
 		rType = 0;
 		vrLen = 1436;
 		vrLoc = 2139;
@@ -7603,7 +7698,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 108";
 		rLen = 0;
-		rLoc = 3248;
+		rLoc = 3250;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 2139;
@@ -7633,7 +7728,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 108";
 		rLen = 0;
-		rLoc = 3248;
+		rLoc = 3250;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 2139;
@@ -7763,7 +7858,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 332";
 		rLen = 0;
-		rLoc = 11404;
+		rLoc = 11406;
 		rType = 0;
 		vrLen = 1852;
 		vrLoc = 8039;
@@ -7793,7 +7888,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 338";
 		rLen = 0;
-		rLoc = 11669;
+		rLoc = 11671;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7845;
@@ -7819,7 +7914,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 338";
 		rLen = 0;
-		rLoc = 11669;
+		rLoc = 11671;
 		rType = 0;
 		vrLen = 1814;
 		vrLoc = 7845;
@@ -7847,7 +7942,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 334";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11663;
 		rType = 0;
 		vrLen = 1766;
 		vrLoc = 8134;
@@ -8124,7 +8219,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8024;
+		rLoc = 8026;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 6364;
@@ -8134,7 +8229,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8024;
+		rLoc = 8026;
 		rType = 0;
 		vrLen = 896;
 		vrLoc = 6890;
@@ -8154,7 +8249,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 268";
 		rLen = 0;
-		rLoc = 8024;
+		rLoc = 8026;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 6890;
@@ -8174,7 +8269,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 339";
 		rLen = 0;
-		rLoc = 9617;
+		rLoc = 9619;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 8412;
@@ -8204,7 +8299,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 243";
 		rLen = 0;
-		rLoc = 6368;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 6259;
@@ -8214,7 +8309,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 243";
 		rLen = 0;
-		rLoc = 6368;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 6259;
@@ -8234,7 +8329,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 388";
 		rLen = 0;
-		rLoc = 11661;
+		rLoc = 11663;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 9873;
@@ -8254,7 +8349,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 390";
 		rLen = 0;
-		rLoc = 11598;
+		rLoc = 11600;
 		rType = 0;
 		vrLen = 1440;
 		vrLoc = 10193;
@@ -8274,7 +8369,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 244";
 		rLen = 0;
-		rLoc = 6368;
+		rLoc = 6370;
 		rType = 0;
 		vrLen = 1302;
 		vrLoc = 6174;
@@ -8294,7 +8389,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11598;
+		rLoc = 11600;
 		rType = 0;
 		vrLen = 731;
 		vrLoc = 10938;
@@ -8314,7 +8409,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11598;
+		rLoc = 11600;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 10799;
@@ -8334,7 +8429,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 342";
 		rLen = 0;
-		rLoc = 11539;
+		rLoc = 11541;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 9413;
@@ -8364,7 +8459,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 342";
 		rLen = 0;
-		rLoc = 11539;
+		rLoc = 11541;
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 9554;
@@ -8394,7 +8489,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 290";
 		rLen = 0;
-		rLoc = 8024;
+		rLoc = 8026;
 		rType = 0;
 		vrLen = 1199;
 		vrLoc = 7062;
@@ -8424,7 +8519,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 290";
 		rLen = 0;
-		rLoc = 8024;
+		rLoc = 8026;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 4650;
@@ -8434,7 +8529,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 397";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11659;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 10753;
@@ -8464,7 +8559,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 393";
 		rLen = 0;
-		rLoc = 11655;
+		rLoc = 11657;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -8494,7 +8589,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 393";
 		rLen = 0;
-		rLoc = 11655;
+		rLoc = 11657;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -8524,7 +8619,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11655;
+		rLoc = 11657;
 		rType = 0;
 		vrLen = 916;
 		vrLoc = 10753;
@@ -8554,7 +8649,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 392";
 		rLen = 24;
-		rLoc = 11617;
+		rLoc = 11619;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 10713;
@@ -8574,7 +8669,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 371";
 		rLen = 0;
-		rLoc = 11140;
+		rLoc = 11142;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 10140;
@@ -8594,7 +8689,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 395";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11659;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -8624,7 +8719,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11659;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 10714;
@@ -8654,7 +8749,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11657;
+		rLoc = 11659;
 		rType = 0;
 		vrLen = 1060;
 		vrLoc = 10609;
@@ -8664,7 +8759,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11661;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -8684,7 +8779,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11661;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -8734,7 +8829,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11661;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 10423;
@@ -8754,7 +8849,7 @@
 		fRef = FAD4E454114EFFA5003A1BB5 /* SettingsController.m */;
 		name = "SettingsController.m: 394";
 		rLen = 0;
-		rLoc = 11659;
+		rLoc = 11661;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 10465;
@@ -9058,9 +9153,9 @@
 	};
 	FAD4E454114EFFA5003A1BB5 /* SettingsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {775, 5187}}";
-			sepNavSelRange = "{11590, 0}";
-			sepNavVisRange = "{0, 1379}";
+			sepNavIntBoundsRect = "{{0, 0}, {1262, 5473}}";
+			sepNavSelRange = "{1279, 0}";
+			sepNavVisRange = "{846, 1231}";
 			sepNavWindowFrame = "{{15, 91}, {750, 937}}";
 		};
 	};

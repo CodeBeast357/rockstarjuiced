@@ -88,7 +88,7 @@
 	NSLog(@"%d", mainDelegate.teamSelected);
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectPlayerController animated:YES];
-	self.selectPlayerController == nil;
+	
 	
 	
 }
