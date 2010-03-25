@@ -80,10 +80,11 @@
 										<int key="NSID">2</int>
 									</object>
 								</object>
-								<bool key="IBUIClearsOnBeginEditing">YES</bool>
 								<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 								<float key="IBUIMinimumFontSize">17</float>
-								<object class="IBUITextInputTraits" key="IBUITextInputTraits"/>
+								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
+									<int key="IBUIReturnKeyType">9</int>
+								</object>
 							</object>
 							<object class="IBUITableView" id="590390747">
 								<reference key="NSNextResponder" ref="131222659"/>
@@ -103,7 +104,7 @@
 								<float key="IBUISectionHeaderHeight">10</float>
 								<float key="IBUISectionFooterHeight">10</float>
 							</object>
-							<object class="IBUIImageView" id="336957129">
+							<object class="IBUIImageView" id="671009065">
 								<reference key="NSNextResponder" ref="131222659"/>
 								<int key="NSvFlags">-2147483392</int>
 								<string key="NSFrame">{{289, 20}, {23, 20}}</string>
@@ -117,7 +118,7 @@
 									<string key="NSResourceName">green_tick.png</string>
 								</object>
 							</object>
-							<object class="IBUIImageView" id="878847026">
+							<object class="IBUIImageView" id="765960152">
 								<reference key="NSNextResponder" ref="131222659"/>
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{288, 22}, {24, 19}}</string>
@@ -131,7 +132,7 @@
 									<string key="NSResourceName">red_cross.png</string>
 								</object>
 							</object>
-							<object class="IBUIImageView" id="938632434">
+							<object class="IBUIImageView" id="275236217">
 								<reference key="NSNextResponder" ref="131222659"/>
 								<int key="NSvFlags">256</int>
 								<string key="NSFrame">{{-6, 20}, {39, 21}}</string>
@@ -215,7 +216,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imgValidPoolName</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="336957129"/>
+						<reference key="destination" ref="671009065"/>
 					</object>
 					<int key="connectionID">21</int>
 				</object>
@@ -232,7 +233,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imgInvalidPoolName</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="878847026"/>
+						<reference key="destination" ref="765960152"/>
 					</object>
 					<int key="connectionID">25</int>
 				</object>
@@ -240,7 +241,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">imgHelpPoolName</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="938632434"/>
+						<reference key="destination" ref="275236217"/>
 					</object>
 					<int key="connectionID">27</int>
 				</object>
@@ -281,9 +282,9 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="590390747"/>
 							<reference ref="648909428"/>
-							<reference ref="336957129"/>
-							<reference ref="878847026"/>
-							<reference ref="938632434"/>
+							<reference ref="671009065"/>
+							<reference ref="765960152"/>
+							<reference ref="275236217"/>
 							<reference ref="531226775"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
@@ -308,17 +309,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">20</int>
-						<reference key="object" ref="336957129"/>
+						<reference key="object" ref="671009065"/>
 						<reference key="parent" ref="131222659"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">24</int>
-						<reference key="object" ref="878847026"/>
+						<reference key="object" ref="765960152"/>
 						<reference key="parent" ref="131222659"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">26</int>
-						<reference key="object" ref="938632434"/>
+						<reference key="object" ref="275236217"/>
 						<reference key="parent" ref="131222659"/>
 					</object>
 				</object>

@@ -1700,6 +1700,22 @@
 					</object>
 					<int key="connectionID">212</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPLusMinusDef</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="815440129"/>
+					</object>
+					<int key="connectionID">215</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">imgHelpPLusMinusFwd</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="1050701281"/>
+					</object>
+					<int key="connectionID">216</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -1801,8 +1817,8 @@
 							<reference ref="678285503"/>
 							<reference ref="950976881"/>
 							<reference ref="803036704"/>
-							<reference ref="515392326"/>
 							<reference ref="510370964"/>
+							<reference ref="515392326"/>
 						</object>
 						<reference key="parent" ref="191373211"/>
 					</object>
@@ -2191,7 +2207,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>SettingsController</string>
 					<string>UIResponder</string>
-					<string>{{902, 248}, {320, 480}}</string>
+					<string>{{633, 293}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -2241,7 +2257,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">212</int>
+			<int key="maxID">216</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2276,6 +2292,8 @@
 							<string>imgHelpNumberOfFwd</string>
 							<string>imgHelpNumberOfGoalie</string>
 							<string>imgHelpNumberOfPlayers</string>
+							<string>imgHelpPLusMinusDef</string>
+							<string>imgHelpPLusMinusFwd</string>
 							<string>imgHelpPointPerAssistDef</string>
 							<string>imgHelpPointPerAssistFwd</string>
 							<string>imgHelpPointPerGoalDef</string>
@@ -2340,6 +2358,8 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIImageView</string>
+							<string>UIImageView</string>
 							<string>UIImageView</string>
 							<string>UIImageView</string>
 							<string>UIImageView</string>

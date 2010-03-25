@@ -87,6 +87,8 @@
 	IBOutlet UIImageView* imgValidPointPerShoutout;
 	IBOutlet UIImageView* imgInvalidPointPerShoutout;
 	IBOutlet UIImageView* imgHelpPointPerShoutout;
+	IBOutlet UIImageView* imgHelpPLusMinusFwd;
+	IBOutlet UIImageView* imgHelpPLusMinusDef;
 
 }
 

@@ -286,6 +286,8 @@
 		imgHelpPointPerOT.hidden = YES;
 		imgValidPointPerShoutout.hidden = YES;
 		imgHelpPointPerShoutout.hidden = YES;
+		imgHelpPLusMinusDef.hidden = YES;
+		imgHelpPLusMinusFwd.hidden= YES;
 		
 		
 		switchShowAdvanced = NO;
@@ -337,6 +339,8 @@
 		imgHelpPointPerOT.hidden = NO;
 		imgValidPointPerShoutout.hidden = NO;
 		imgHelpPointPerShoutout.hidden = NO;
+		imgHelpPLusMinusDef.hidden = NO;
+		imgHelpPLusMinusFwd.hidden = NO;
 		
 		switchShowAdvanced = YES;
 	}
