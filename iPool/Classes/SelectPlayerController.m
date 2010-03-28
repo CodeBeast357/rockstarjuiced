@@ -12,8 +12,7 @@
 @implementation SelectPlayerController
 
 @synthesize
-	tablePlayers,
-players;
+	tablePlayers, players;
 
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
@@ -21,6 +20,8 @@ players;
     if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
         
 		mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+		players = [[NSMutableArray alloc] init];
+		NSLog(@"nombre de joueur ajoute: %d",[players count]);
 		
     }
     return self;
@@ -36,7 +37,33 @@ players;
 	teams= [teamList listOfTeam];
 	teamSelected= mainDelegate.teamSelected;
 	team= [teams objectAtIndex:teamSelected];
-	players = team.skaterList;
+	
+	switch (mainDelegate.playerTypeTmp) {
+		case 0:
+			pos=@"f";
+			for(Skater *player in team.skaterList){
+				if([player.position isEqualToString:pos]){
+						NSLog(@"dans forward");
+						[players addObject:player];
+						NSLog(@"nombre de joueur ajoute: %d",[players count]);
+				}
+			}
+			break;
+		case 1:
+			pos=@"d";
+			for(Skater *player in team.skaterList){
+				if([player.position isEqualToString:pos]){
+					NSLog(@"dans defence");
+					[players addObject: player];
+				}
+			}
+			break;
+		case 2:
+			players = team.goalieList;
+			break;
+		default:
+			break;
+	}
 	
 }
 
@@ -54,9 +81,6 @@ players;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	NSLog(@"number of player:%d",[players count]);
-	NSLog(@"Team selected:%@", team.teamName);
-
 	static NSString* identifier = @"origin";
 	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
 	if (cell == nil) {
@@ -65,7 +89,7 @@ players;
 	
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	cell.textLabel.text = [[[[players objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[players objectAtIndex:indexPath.row] lastName]];
-	//NSLog(cell.textLabel.text);
+	
 	return cell;
 }
 
@@ -83,28 +107,9 @@ players;
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	 
-	[self.navigationController popToRootViewControllerAnimated:YES];
-	/*
-	// Creation du controlleur pour la vue et de la bar de navigation
-	SelectTeamController *selectPlayer = [[SelectPlayerController alloc]
-										  initWithNibName:@"SelectPlayer" bundle:[NSBundle mainBundle]];
-	self.selectPlayerController = selectPlayer;
-	
-	UINavigationController *navController = [[UINavigationController alloc] 
-											 initWithRootViewController:selectPlayer];
-	
-	//Change le style de la bar de navigation
-	navController.navigationBar.barStyle = UIBarStyleBlack;
-	
-	//Affichage de la vue sous la forme d une modalView
-	[self.navigationController presentModalViewController:navController animated:YES];
-	
-	//On libère la mémoire
-	[selectPlayer release];
-	[navController release];
-	 */
-	
+	[[NSNotificationCenter defaultCenter] postNotificationName:@"playerChanged" object:[players objectAtIndex:indexPath.row]];
+	  
+	[self.navigationController popToRootViewControllerAnimated:YES];	
 	
 }
 

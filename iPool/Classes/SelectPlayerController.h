@@ -20,6 +20,7 @@
 	TeamList *teamList;
 	NSMutableArray *teams;
 	Team *team;
+	NSString *pos;
 	
 	
 }

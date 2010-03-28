@@ -10,6 +10,7 @@
 #import "Delegate.h"
 #import "SelectTeamController.h"
 #import "Pooler.h"
+#import "PoolerList.h"
 
 @interface AddPoolerController : UIViewController <UITableViewDataSource, UITableViewDelegate>  {
 	Delegate *mainDelegate;
@@ -20,6 +21,7 @@
 	IBOutlet UIImageView* imgValidPoolName;
 	IBOutlet UIImageView* imgInvalidPoolName;
 	IBOutlet UIImageView* imgHelpPoolName;
+	IBOutlet UITextField* poolerName;
 }
 
 @property (nonatomic, retain) SelectTeamController* selectTeamController;
@@ -27,7 +29,7 @@
 @property (nonatomic, retain) UIImageView* imgValidPoolName;
 @property (nonatomic, retain) UIImageView* imgInvalidPoolName;
 @property (nonatomic, retain) UIImageView* imgHelpPoolName;
-@property (nonatomic, retain) Pooler* pooler;
+@property (nonatomic, retain) UITextField* poolerName;
 
 - (IBAction) done: (id) sender;
 - (IBAction) cancel: (id) sender;

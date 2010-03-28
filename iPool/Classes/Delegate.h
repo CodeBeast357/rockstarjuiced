@@ -27,6 +27,8 @@
 @property (nonatomic, assign) int playerIndexTmp;
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
+- (int)validateNumericInput:(NSString*) input;
+- (int)validateMessageInput:(NSString*) input; 
 
 @end
 

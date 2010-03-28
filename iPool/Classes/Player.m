@@ -14,9 +14,9 @@
 {
     if ( self = [super init] )
     {
-        self.lastName=@"Ovechkin";
-		self.firstName=@"Alexander";
-        self.position=@"LW";
+        self.lastName=@"";
+		self.firstName=@"";
+        self.position=@"";
 		self.gamePlay=0;
     }
 	

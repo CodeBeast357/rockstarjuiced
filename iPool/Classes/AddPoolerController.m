@@ -17,7 +17,7 @@
 	imgValidPoolName,
     imgInvalidPoolName,
 	imgHelpPoolName,
-    pooler;
+	poolerName;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -35,6 +35,9 @@
 	self.title = @"Add Pooler";
 	
 	mainDelegate.poolerTmp = [[Pooler alloc] init];
+	
+	//sinscrire pour recevoir changement de la page selectPlayer
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changePlayer:) name:@"playerChanged" object: nil];
 	
 	//Création des boutons Save et Cancel
 	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
@@ -80,11 +83,64 @@
 }
 
 - (IBAction) done: (id) sender{
+	int validPlayer= 1;
+	int validPoolerName= 1;
 	
-	[self dismissModalViewControllerAnimated:YES];
+	for(Player *player in mainDelegate.poolerTmp.forwardsList ){
+		if([player.lastName isEqualToString:@""]){
+			validPlayer=0;
+		}
+	}
+	
+	for(Player *player in mainDelegate.poolerTmp.defencemenList ){
+		if([player.lastName isEqualToString:@""]){
+			validPlayer=0;
+		}
+	}
+	
+	for(Player *player in mainDelegate.poolerTmp.goaliesList ){
+		if([player.lastName isEqualToString:@""]){
+			validPlayer=0;
+		}
+	}
+	
+	if(imgValidPoolName.hidden==YES){
+		validPoolerName= 0;
+	}
+	
+	if(validPlayer==1 && validPoolerName==1 ){
+		[[PoolerList getInstance] addPooler:mainDelegate.poolerTmp];
+		[mainDelegate.poolerTmp release];
+		[self dismissModalViewControllerAnimated:YES];
+		
+	}
+	else{
+		
+		if(validPlayer==0){
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"iPool" 
+															message:@"Players selection is incomplete."														   delegate:nil 
+												  cancelButtonTitle:@"OK" 
+												  otherButtonTitles: nil];
+			[alert show];
+			[alert release];
+		}
+		
+		else{
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"iPool" 
+															message:@"Pooler Name is invalid."														   
+														   delegate:nil 
+												  cancelButtonTitle:@"OK" 
+												  otherButtonTitles: nil];
+			[alert show];
+			[alert release];
+		}
+		
+	}
+
 }
 
 - (IBAction) cancel: (id) sender{
+	[mainDelegate.poolerTmp release];
 	
 	[self dismissModalViewControllerAnimated:YES];
 }
@@ -103,13 +159,13 @@
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	switch (indexPath.section) {
 		case 0:
-			cell.textLabel.text = [[mainDelegate.poolerTmp.forwardsList objectAtIndex:indexPath.row] firstName];
+			cell.textLabel.text = [[[[mainDelegate.poolerTmp.forwardsList objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[mainDelegate.poolerTmp.forwardsList objectAtIndex:indexPath.row] lastName]];
 			break;
 		case 1:
-			cell.textLabel.text = [[mainDelegate.poolerTmp.defencemenList objectAtIndex:indexPath.row] firstName];
+			cell.textLabel.text = [[[[mainDelegate.poolerTmp.defencemenList objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[mainDelegate.poolerTmp.defencemenList objectAtIndex:indexPath.row] lastName]];
 			break;
 		case 2:
-			cell.textLabel.text = [[mainDelegate.poolerTmp.goaliesList objectAtIndex:indexPath.row] firstName];
+			cell.textLabel.text = [[[[mainDelegate.poolerTmp.goaliesList objectAtIndex:indexPath.row] firstName] stringByAppendingString:@" "] stringByAppendingString:[[mainDelegate.poolerTmp.goaliesList objectAtIndex:indexPath.row] lastName]];
 			break;
 		default:
 			break;
@@ -173,14 +229,42 @@
 	}
 	
 	mainDelegate.playerTypeTmp= indexPath.section;
-	mainDelegate.playerIndexTmp= indexPath.section;
+	mainDelegate.playerIndexTmp= indexPath.row;
 	
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectTeamController  animated:YES];
 	
 }
 
+- (void) changePlayer:(NSNotification *)notify {
+	switch (mainDelegate.playerTypeTmp) {
+		case 0:
+			[mainDelegate.poolerTmp.forwardsList replaceObjectAtIndex:mainDelegate.playerIndexTmp withObject:[notify object]];
+			break;
+		case 1:
+			[mainDelegate.poolerTmp.defencemenList replaceObjectAtIndex:mainDelegate.playerIndexTmp withObject:[notify object]];
+			break;
+		case 2:
+			[mainDelegate.poolerTmp.goaliesList replaceObjectAtIndex:mainDelegate.playerIndexTmp withObject:[notify object]];
+			break;
+		default:
+			break;
+	}
+			
+			[tablePooler reloadData];
+}
+
 - (IBAction) txtFieldPoolNameEditing: (id) sender{
+	int valid= [mainDelegate validateMessageInput:poolerName.text];
+	if (valid==1) {
+		imgValidPoolName.hidden= NO;
+		imgInvalidPoolName.hidden= YES;
+	}
+	else {
+		imgValidPoolName.hidden= YES;
+		imgInvalidPoolName.hidden= NO;
+	}
+
 }
 
 @end

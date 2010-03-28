@@ -80,18 +80,12 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
-	//if(self.selectPlayerController == nil)
-	//{
-	// Creation du controlleur pour la vue et de la bar de navigation
 	SelectPlayerController *selectPlayer = [[SelectPlayerController alloc]
 										initWithNibName:@"SelectPlayer" bundle:[NSBundle mainBundle]];
 	self.selectPlayerController = selectPlayer;
-	
-	
-	//}
+
 	
 	mainDelegate.teamSelected=indexPath.row;
-	NSLog(@"%d", mainDelegate.teamSelected);
 	
 	//Affichage de la vue sous la forme d une modalView
 	[self.navigationController pushViewController:self.selectPlayerController animated:YES];

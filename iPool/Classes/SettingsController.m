@@ -199,7 +199,7 @@ lblPointPerShoutout;
 	
 	[super viewWillAppear:animated];
 	
-	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:)
+	[[NSNotificationCenter defaultCenter] :self selector:@selector(keyboardDidShow:)
 												 name:UIKeyboardDidShowNotification object:nil];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:)
