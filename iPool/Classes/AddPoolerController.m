@@ -109,7 +109,9 @@
 	}
 	
 	if(validPlayer==1 && validPoolerName==1 ){
-		[[PoolerList getInstance] addPooler:mainDelegate.poolerTmp];
+		PoolerList *poolerList =[PoolerList getInstance]; 
+		mainDelegate.poolerTmp.poolerName= poolerName.text;
+		[poolerList addPooler:mainDelegate.poolerTmp];
 		[mainDelegate.poolerTmp release];
 		[self dismissModalViewControllerAnimated:YES];
 		

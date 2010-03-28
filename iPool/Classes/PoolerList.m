@@ -22,6 +22,14 @@ static PoolerList *instance = nil;
         }
         return instance;
 }
+- (PoolerList*)init {
+	if (self = [super init]) {
+		
+		poolerList = [[NSMutableArray alloc] init];
+		
+	}
+	return self;
+}
 
 - (NSMutableArray*) poolerList {
         return poolerList;
@@ -30,6 +38,15 @@ static PoolerList *instance = nil;
 - (void) addPooler: (Pooler*) input
 {
         [poolerList addObject: input];
+}
+
+- (void) sortByTotalPoints 
+{
+	for( Pooler *pooler in poolerList){
+		pooler.totalPoint= [pooler getTotalPoints];
+	}
+	NSSortDescriptor *totalPointsSorter = [[NSSortDescriptor alloc] initWithKey:@"totalPoint" ascending:YES];
+	[poolerList sortUsingDescriptors:[NSArray arrayWithObject:totalPointsSorter]];
 }
 
 @end

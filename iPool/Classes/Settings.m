@@ -60,9 +60,9 @@ static Settings *instance = nil;
 		
 		// Initialisation
 		
-		numberOfPlayers = 10;
+		numberOfPlayers = 2;
 		
-		offencePlayerTotal = 10;
+		offencePlayerTotal = 2;
 		offencePointsPerGoal = 1;
 		offencePointsPerAssist = 1;
 		offenceDifferentialActivated = NO;

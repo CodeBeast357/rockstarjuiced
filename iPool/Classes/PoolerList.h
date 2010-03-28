@@ -17,6 +17,8 @@
 + (PoolerList*)getInstance;
 - (NSMutableArray*) poolerList;
 - (void) addPooler: (Pooler*) input;
+- (void) sortByTotalPoints;
+	
 
 @property (nonatomic, retain)  NSMutableArray* poolerList;
 

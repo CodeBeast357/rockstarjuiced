@@ -21,7 +21,6 @@
         
 		mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 		players = [[NSMutableArray alloc] init];
-		NSLog(@"nombre de joueur ajoute: %d",[players count]);
 		
     }
     return self;
@@ -43,9 +42,7 @@
 			pos=@"f";
 			for(Skater *player in team.skaterList){
 				if([player.position isEqualToString:pos]){
-						NSLog(@"dans forward");
 						[players addObject:player];
-						NSLog(@"nombre de joueur ajoute: %d",[players count]);
 				}
 			}
 			break;
@@ -53,7 +50,6 @@
 			pos=@"d";
 			for(Skater *player in team.skaterList){
 				if([player.position isEqualToString:pos]){
-					NSLog(@"dans defence");
 					[players addObject: player];
 				}
 			}

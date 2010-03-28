@@ -122,6 +122,10 @@
 	
 }
 
+- (void) viewWillAppear:(BOOL)animated{
+	[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationPortrait;
+}
+
 - (void) changeOptionVisible:(NSNotification *)notify {
 	if ([Settings getInstance].saved) {
 		showConfigSettings.titleLabel.text = @"Show Settings";
@@ -130,9 +134,11 @@
 	}
 }
 
+
 - (IBAction) changeSettings:(id)sender {
 	NSLog(@"Allo");
 }
+
 
 
 @end

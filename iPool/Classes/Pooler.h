@@ -15,10 +15,12 @@
 	NSString* poolerName;
 	NSMutableArray *defencemenList;
 	NSMutableArray *forwardsList;
+	int totalPoint;
 	NSMutableArray *goaliesList;
 }
 
 @property (nonatomic, retain) NSString* poolerName;
+@property (nonatomic, assign) int totalPoint;
 @property (nonatomic, retain) NSMutableArray *defencemenList;
 @property (nonatomic, retain) NSMutableArray *forwardsList;
 @property (nonatomic, retain) NSMutableArray *goaliesList;
@@ -51,5 +53,7 @@
 -(int) getPointsForWinGoalie: (Goalie*) g;
 -(int) getPointsForShutoutGoalie: (Goalie*) g;
 -(int) getPointsForOTLossGoalie: (Goalie*) g;
+-(int) getTotalPoints;
+	
 
 @end
