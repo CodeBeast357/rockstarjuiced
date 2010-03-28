@@ -23,7 +23,6 @@
 		C2EEE091115A4ADD0057FE0D /* SelectPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EEE090115A4ADD0057FE0D /* SelectPlayer.xib */; };
 		C2EEE0A1115A4C660057FE0D /* SelectTeamController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */; };
 		C2EEE0A6115A4C8E0057FE0D /* SelectPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */; };
-		E01182C2115BF9290015F2C7 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E01182C1115BF9290015F2C7 /* black.jpg */; };
 		E05172F5115852EF00A38FE7 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F4115852EF00A38FE7 /* help.png */; };
 		E05172F7115852F900A38FE7 /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F6115852F900A38FE7 /* red_cross.png */; };
 		E05172F91158530200A38FE7 /* green_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F81158530200A38FE7 /* green_tick.png */; };
@@ -67,7 +66,6 @@
 		C2EEE0A0115A4C660057FE0D /* SelectTeamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectTeamController.m; path = ../SelectTeamController.m; sourceTree = "<group>"; };
 		C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectPlayerController.h; sourceTree = "<group>"; };
 		C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectPlayerController.m; sourceTree = "<group>"; };
-		E01182C1115BF9290015F2C7 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
 		E05172F4115852EF00A38FE7 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = Media/help.png; sourceTree = "<group>"; };
 		E05172F6115852F900A38FE7 /* red_cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_cross.png; path = Media/red_cross.png; sourceTree = "<group>"; };
 		E05172F81158530200A38FE7 /* green_tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_tick.png; path = Media/green_tick.png; sourceTree = "<group>"; };
@@ -204,7 +202,6 @@
 		FAAA294D114F16EC00EADD2B /* Media */ = {
 			isa = PBXGroup;
 			children = (
-				E01182C1115BF9290015F2C7 /* black.jpg */,
 				E05172F81158530200A38FE7 /* green_tick.png */,
 				E05172F6115852F900A38FE7 /* red_cross.png */,
 				E05172F4115852EF00A38FE7 /* help.png */,
@@ -267,7 +264,6 @@
 				E05172F91158530200A38FE7 /* green_tick.png in Resources */,
 				C2EEE08F115A4AC90057FE0D /* SelectTeam.xib in Resources */,
 				C2EEE091115A4ADD0057FE0D /* SelectPlayer.xib in Resources */,
-				E01182C2115BF9290015F2C7 /* black.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
