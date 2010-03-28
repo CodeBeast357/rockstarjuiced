@@ -8,7 +8,6 @@
 
 
 #import "MainMenuController.h"
-#import "ReadOnlySettingsController.h"
 
 @implementation MainMenuController
 
