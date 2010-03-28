@@ -128,10 +128,13 @@
 - (IBAction) cancel: (id) sender;
 - (IBAction) txtFieldDoneEditing: (id) sender;
 - (IBAction) showAdvancedSettings: (id) sender;
-- (IBAction) txtFieldPoolNameEditting: (id) sender;
+- (IBAction) txtFieldEditing: (id) sender;
 
 - (void)keyboardDidShow: (NSNotification*) notif;
 - (void)keyboardDidHide: (NSNotification*) notif;
 - (void)initTxtFields;
+/*
+- (void)keyboardWillShow:(NSNotification *)note;
+- (void)doneButton:(id)sender;*/
 
 @end

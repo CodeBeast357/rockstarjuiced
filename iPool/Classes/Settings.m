@@ -59,22 +59,22 @@ static Settings *instance = nil;
 		
 		// Initialisation
 		
-		numberOfPlayers = 20;
+		numberOfPlayers = 10;
 		
-		offencePlayerTotal = 12;
+		offencePlayerTotal = 10;
 		offencePointsPerGoal = 1;
 		offencePointsPerAssist = 1;
-		offenceDifferentialActivated = YES;
+		offenceDifferentialActivated = NO;
 		
-		defencePlayerTotal = 6;
-		defencePointsPerGoal = 2;
-		defencePointsPerAssist = 1;
-		defenceDifferentialActivated = YES;
+		defencePlayerTotal = 0;
+		defencePointsPerGoal = 0;
+		defencePointsPerAssist = 0;
+		defenceDifferentialActivated = NO;
 		
-		goaliePlayerTotal = 2;
-		goalerPointsPerWin = 2;
-		goalerPointsPerOTLoss = 1;
-		goalerPointsPerShoutout = 2;
+		goaliePlayerTotal = 0;
+		goalerPointsPerWin = 0;
+		goalerPointsPerOTLoss = 0;
+		goalerPointsPerShoutout = 0;
 
 	}
 	return self;
