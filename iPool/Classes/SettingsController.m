@@ -519,7 +519,7 @@ lblPointPerShoutout;
 - (IBAction) showHelp: (id) sender{
 	NSMutableString* message = [[NSMutableString alloc] init];
 	if (sender == imgHelpPoolName) {
-		[message appendString:@"Name of your pool."];
+		[message appendString:@"Name of your pool. Do not exceed 15 characters."];
 	} else if (sender == imgHelpNumberOfPlayers) {
 		[message appendString:@"Total number of players in your pool. Do not excess 50 players."];
 	} else if (sender == imgHelpNumberOfFwd) {

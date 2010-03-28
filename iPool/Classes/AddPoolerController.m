@@ -267,4 +267,15 @@
 
 }
 
+
+- (IBAction) showHelp: (id) sender{
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Help topic" 
+													message:@"Name of your pooler profile. Do not excee 15 characters."
+												   delegate:nil 
+										  cancelButtonTitle:@"OK" 
+										  otherButtonTitles: nil];
+	[alert show];
+	[alert release];
+}
+
 @end

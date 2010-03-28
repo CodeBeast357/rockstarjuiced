@@ -20,7 +20,7 @@
 	
 	IBOutlet UIImageView* imgValidPoolName;
 	IBOutlet UIImageView* imgInvalidPoolName;
-	IBOutlet UIImageView* imgHelpPoolName;
+	IBOutlet UIButton* imgHelpPoolName;
 	IBOutlet UITextField* poolerName;
 }
 
@@ -28,12 +28,14 @@
 @property (nonatomic, retain) UITableView* tablePooler;
 @property (nonatomic, retain) UIImageView* imgValidPoolName;
 @property (nonatomic, retain) UIImageView* imgInvalidPoolName;
-@property (nonatomic, retain) UIImageView* imgHelpPoolName;
+@property (nonatomic, retain) UIButton* imgHelpPoolName;
 @property (nonatomic, retain) UITextField* poolerName;
 
 - (IBAction) done: (id) sender;
 - (IBAction) cancel: (id) sender;
 - (IBAction) txtFieldDoneEditing: (id) sender;
 - (IBAction) txtFieldPoolNameEditing: (id) sender;
+
+- (IBAction) showHelp: (id) sender;
 
 @end

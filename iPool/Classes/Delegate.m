@@ -178,7 +178,7 @@ exit(0);
 		}
 	}
 	
-	if([input length]==0){
+	if([input length]==0 && [input length] > 15){
 		valid=0;
 	}
 	
