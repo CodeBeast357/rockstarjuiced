@@ -15,6 +15,7 @@
 	Settings *settings;
 	
 	BOOL keyboardVisible;
+	BOOL advancedSettingsHidden;
 	
 	IBOutlet UIView *settingsView;
 	IBOutlet UIScrollView *scrollView;
