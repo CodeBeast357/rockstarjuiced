@@ -37,5 +37,6 @@
 - (IBAction) txtFieldPoolNameEditing: (id) sender;
 
 - (IBAction) showHelp: (id) sender;
+- (void) initPlayerTable:(NSNotification *)notify;
 
 @end

@@ -49,6 +49,8 @@
 											   initWithBarButtonSystemItem:UIBarButtonSystemItemDone
 											   target:self 
 											   action:@selector(done:)] autorelease]; 
+	//sinscrire pour recevoir changement de la page Settings
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(initPlayerTable:) name:@"settingsChanged" object: nil];
 	//Initialisation des tables de joueurs
 	Settings* config = [Settings getInstance];
 
@@ -113,6 +115,7 @@
 		mainDelegate.poolerTmp.poolerName= poolerName.text;
 		[poolerList addPooler:mainDelegate.poolerTmp];
 		[mainDelegate.poolerTmp release];
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"poolerAdded" object:nil];
 		[self dismissModalViewControllerAnimated:YES];
 		
 	}
@@ -279,6 +282,9 @@
 										  otherButtonTitles: nil];
 	[alert show];
 	[alert release];
+}
+
+- (void) initPlayerTable:(NSNotification *)notify {
 }
 
 @end

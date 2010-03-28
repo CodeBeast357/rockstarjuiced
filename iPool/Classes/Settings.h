@@ -36,23 +36,23 @@
 + (Settings*)getInstance;
 
 @property (nonatomic, retain) NSString* poolName;
-@property (nonatomic) int offencePlayerTotal;
-@property (nonatomic) int defencePlayerTotal;
-@property (nonatomic) int goaliePlayerTotal;
-@property (nonatomic) int numberOfPlayers;
-@property (nonatomic) int offencePointsPerGoal;
-@property (nonatomic) int offencePointsPerAssist;
-@property (nonatomic) BOOL offenceDifferentialActivated;
-@property (nonatomic) int offenceDifferentialValue;
-@property (nonatomic) int defencePointsPerGoal;
-@property (nonatomic) int defencePointsPerAssist;
-@property (nonatomic) int defenceDifferentialValue;
-@property (nonatomic) BOOL defenceDifferentialActivated;
-@property (nonatomic) int goalerPointsPerWin;
-@property (nonatomic) int goalerPointsPerShutout;
-@property (nonatomic) int goalerPointsPerShootoutSave;
-@property (nonatomic) int goalerPointsPerOTLoss;
-@property (nonatomic) int goalerPointsPerShoutout;
-@property (nonatomic) BOOL saved;
+@property (nonatomic, assign) int offencePlayerTotal;
+@property (nonatomic, assign) int defencePlayerTotal;
+@property (nonatomic, assign) int goaliePlayerTotal;
+@property (nonatomic, assign) int numberOfPlayers;
+@property (nonatomic, assign) int offencePointsPerGoal;
+@property (nonatomic, assign) int offencePointsPerAssist;
+@property (nonatomic, assign) BOOL offenceDifferentialActivated;
+@property (nonatomic, assign) int offenceDifferentialValue;
+@property (nonatomic, assign) int defencePointsPerGoal;
+@property (nonatomic, assign) int defencePointsPerAssist;
+@property (nonatomic, assign) int defenceDifferentialValue;
+@property (nonatomic, assign) BOOL defenceDifferentialActivated;
+@property (nonatomic, assign) int goalerPointsPerWin;
+@property (nonatomic, assign) int goalerPointsPerShutout;
+@property (nonatomic, assign) int goalerPointsPerShootoutSave;
+@property (nonatomic, assign) int goalerPointsPerOTLoss;
+@property (nonatomic, assign) int goalerPointsPerShoutout;
+@property (nonatomic, assign) BOOL saved;
 
 @end

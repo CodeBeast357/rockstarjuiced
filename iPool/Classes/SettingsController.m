@@ -102,25 +102,25 @@ lblPointPerShoutout;
 		imgInvalidNumberOfGoalie.hidden &&
 		imgInvalidPointPerOT.hidden &&
 		imgInvalidPointPerShoutout.hidden) {
-		[settings setPoolName:txtFieldPoolName.text];
-		[settings setNumberOfPlayers:[txtFieldNumberOfPlayers.text intValue]];
-		[settings setOffencePlayerTotal:[txtFieldNumberOfFwd.text intValue]];
-		[settings setOffencePointsPerGoal:[txtFieldPointPerGoalFwd.text intValue]];
-		[settings setOffencePointsPerAssist:[txtFieldPointPerAssistFwd.text intValue]];
-		[settings setOffenceDifferentialActivated:switchPlusMinusFwd.on];
-		[settings setDefencePlayerTotal:[txtFieldNumberOfDef.text intValue]];
-		[settings setDefencePointsPerGoal:[txtFieldPointPerGoalDef.text intValue]];
-		[settings setDefencePointsPerAssist:[txtFieldPointPerAssistDef.text intValue]];
-		[settings setDefenceDifferentialActivated:switchPlusMinusDef.on];
-		[settings setGoaliePlayerTotal:[txtFieldNumberOfGoalie.text intValue]];
-		[settings setGoalerPointsPerWin:[txtFieldPointPerWin.text intValue]];
-		[settings setGoalerPointsPerOTLoss:[txtFieldPointPerOT.text intValue]];
-		[settings setGoalerPointsPerShoutout:[txtFieldPointPerShoutout.text intValue]];
+		settings.poolName = txtFieldPoolName.text;
+		settings.numberOfPlayers = [txtFieldNumberOfPlayers.text intValue];
+		settings.offencePlayerTotal = [txtFieldNumberOfFwd.text intValue];
+		settings.offencePointsPerGoal = [txtFieldPointPerGoalFwd.text intValue];
+		settings.offencePointsPerAssist = [txtFieldPointPerAssistFwd.text intValue];
+		settings.offenceDifferentialActivated = switchPlusMinusFwd.on;
+		settings.defencePlayerTotal = [txtFieldNumberOfDef.text intValue];
+		settings.defencePointsPerGoal = [txtFieldPointPerGoalDef.text intValue];
+		settings.defencePointsPerAssist = [txtFieldPointPerAssistDef.text intValue];
+		settings.defenceDifferentialActivated = switchPlusMinusDef.on;
+		settings.goaliePlayerTotal = [txtFieldNumberOfGoalie.text intValue];
+		settings.goalerPointsPerWin = [txtFieldPointPerWin.text intValue];
+		settings.goalerPointsPerOTLoss = [txtFieldPointPerOT.text intValue];
+		settings.goalerPointsPerShoutout = [txtFieldPointPerShoutout.text intValue];
 		
-		[settings setSaved:YES];
-		
+		settings.saved = YES;
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsChanged" object:nil];
 		[self dismissModalViewControllerAnimated:YES];
+		NSLog(@"nombre de joueur attaquant:%d",settings.offencePlayerTotal);
 	} else {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Settings error(s)" 
 														message:@"Please verify settings values."
@@ -191,7 +191,7 @@ lblPointPerShoutout;
 	}
 	
 	if (!advancedSettingsHidden) {
-		txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
+		txtFieldNumberOfFwd.text = txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
 	}
 
 	

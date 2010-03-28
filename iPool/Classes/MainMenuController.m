@@ -8,6 +8,7 @@
 
 
 #import "MainMenuController.h"
+#import "ReadOnlySettingsController.h"
 
 @implementation MainMenuController
 
@@ -34,8 +35,10 @@
 		[super viewDidLoad];
 	
 	self.title = @"Main Menu";
-	//sinscrire pour recevoir changement de la page selectPlayer
+	//sinscrire pour recevoir changement de la page Settings
 	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeOptionVisible:) name:@"settingsChanged" object: nil];
+	//sinscrire pour recevoir changement de la page AddPooler
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeAllVisible:) name:@"poolerAdded" object: nil];
 	
 	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     [self.navigationController setNavigationBarHidden:FALSE];
@@ -128,7 +131,9 @@
 
 - (void) changeOptionVisible:(NSNotification *)notify {
 	if ([Settings getInstance].saved) {
-		showConfigSettings.titleLabel.text = @"Show Settings";
+		[showConfigSettings removeTarget:self action:@selector(switchPageSettings:) forControlEvents:UIControlEventTouchUpInside];
+		[showConfigSettings addTarget:self action:@selector(switchViewSettings:) forControlEvents:UIControlEventTouchUpInside];
+		[showConfigSettings setTitle:@"Show Settings" forState:UIControlStateNormal];
 		showAddPooler.hidden = NO;
 		resetSettings.hidden = NO;
 	}
@@ -139,6 +144,11 @@
 	NSLog(@"Allo");
 }
 
+- (IBAction) changeAllVisible:(id)sender {
+	showStats.hidden = NO;
+}
 
+-(IBAction) switchViewSettings:(id)sender {
+}
 
 @end

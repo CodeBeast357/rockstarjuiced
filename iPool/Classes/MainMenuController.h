@@ -36,5 +36,6 @@
 -(IBAction)switchPageViewStatistics:(id)sender;
 - (void) changeOptionVisible:(NSNotification *)notify;
 - (IBAction) changeSettings:(id)sender;
+- (IBAction) changeAllVisible:(id)sender;
 
 @end
