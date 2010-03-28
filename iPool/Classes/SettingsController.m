@@ -189,7 +189,7 @@ lblPointPerShoutout;
 	[sender resignFirstResponder];
 }
 
-/*----The fallowing methods are used to resize the scroll view when the keyboard show up---*/
+/*----The following methods are used to resize the scroll view when the keyboard show up---*/
 
 /*
  *Before the view appear, we register events for
@@ -199,7 +199,7 @@ lblPointPerShoutout;
 	
 	[super viewWillAppear:animated];
 	
-	[[NSNotificationCenter defaultCenter] :self selector:@selector(keyboardDidShow:)
+	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:)
 												 name:UIKeyboardDidShowNotification object:nil];
 	
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:)
