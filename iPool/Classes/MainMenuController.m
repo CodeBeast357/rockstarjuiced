@@ -11,9 +11,14 @@
 
 @implementation MainMenuController
 
-@synthesize settingsController;
-@synthesize addPoolerController;
-@synthesize viewStatisticsController;
+@synthesize
+	settingsController,
+	addPoolerController,
+	viewStatisticsController,
+	showConfigSettings,
+	showAddPooler,
+	showStats,
+	resetSettings;
 
 //Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -29,9 +34,11 @@
 		[super viewDidLoad];
 	
 	self.title = @"Main Menu";
+	//sinscrire pour recevoir changement de la page selectPlayer
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeOptionVisible:) name:@"settingsChanged" object: nil];
+	
 	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     [self.navigationController setNavigationBarHidden:FALSE];
-	
 }
 
 
@@ -67,7 +74,6 @@
 	//On libère la mémoire
 	[settings release];
 	[navController release];
-	
 }
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
@@ -116,7 +122,17 @@
 	
 }
 
+- (void) changeOptionVisible:(NSNotification *)notify {
+	if ([Settings getInstance].saved) {
+		showConfigSettings.titleLabel.text = @"Show Settings";
+		showAddPooler.hidden = NO;
+		resetSettings.hidden = NO;
+	}
+}
 
+- (IBAction) changeSettings:(id)sender {
+	NSLog(@"Allo");
+}
 
 
 @end

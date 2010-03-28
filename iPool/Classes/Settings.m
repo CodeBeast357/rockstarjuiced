@@ -33,7 +33,8 @@ static Settings *instance = nil;
 	goalerPointsPerShutout,
 	goalerPointsPerShootoutSave,
 	goalerPointsPerOTLoss,
-	goalerPointsPerShoutout;
+	goalerPointsPerShoutout,
+	saved;
 
 + (Settings*)getInstance {
 	@synchronized(self) {
@@ -75,6 +76,8 @@ static Settings *instance = nil;
 		goalerPointsPerWin = 0;
 		goalerPointsPerOTLoss = 0;
 		goalerPointsPerShoutout = 0;
+		
+		saved = NO;
 
 	}
 	return self;

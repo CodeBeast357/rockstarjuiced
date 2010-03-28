@@ -17,14 +17,24 @@
 	AddPoolerController *addPoolerController;
 	ViewStatisticsController *viewStatisticsController;
 	Delegate *mainDelegate;
+	IBOutlet UIButton *showConfigSettings;
+	IBOutlet UIButton *showAddPooler;
+	IBOutlet UIButton *showStats;
+	IBOutlet UIButton *resetSettings;
 }
-
--(IBAction)switchPageSettings:(id)sender;
--(IBAction)switchPageAddPooler:(id)sender;
--(IBAction)switchPageViewStatistics:(id)sender;
 
 @property (nonatomic, retain) SettingsController *settingsController;
 @property (nonatomic, retain) AddPoolerController *addPoolerController;
 @property (nonatomic, retain) ViewStatisticsController *viewStatisticsController;
+@property (nonatomic, retain) UIButton *showConfigSettings;
+@property (nonatomic, retain) UIButton *showAddPooler;
+@property (nonatomic, retain) UIButton *showStats;
+@property (nonatomic, retain) UIButton *resetSettings;
+
+-(IBAction)switchPageSettings:(id)sender;
+-(IBAction)switchPageAddPooler:(id)sender;
+-(IBAction)switchPageViewStatistics:(id)sender;
+- (void) changeOptionVisible:(NSNotification *)notify;
+- (IBAction) changeSettings:(id)sender;
 
 @end

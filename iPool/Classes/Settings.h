@@ -29,7 +29,7 @@
 	int goalerPointsPerShootoutSave;
 	int goalerPointsPerOTLoss;
 	int goalerPointsPerShoutout;
-
+	BOOL saved;
 }
 
 
@@ -53,5 +53,6 @@
 @property (nonatomic) int goalerPointsPerShootoutSave;
 @property (nonatomic) int goalerPointsPerOTLoss;
 @property (nonatomic) int goalerPointsPerShoutout;
+@property (nonatomic) BOOL saved;
 
 @end

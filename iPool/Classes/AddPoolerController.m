@@ -117,8 +117,9 @@
 	else{
 		
 		if(validPlayer==0){
-			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"iPool" 
-															message:@"Players selection is incomplete."														   delegate:nil 
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Selection error" 
+															message:@"Players selection is incomplete."
+														   delegate:nil 
 												  cancelButtonTitle:@"OK" 
 												  otherButtonTitles: nil];
 			[alert show];
@@ -126,7 +127,7 @@
 		}
 		
 		else{
-			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"iPool" 
+			UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Invalid name" 
 															message:@"Pooler Name is invalid."														   
 														   delegate:nil 
 												  cancelButtonTitle:@"OK" 
@@ -270,7 +271,7 @@
 
 - (IBAction) showHelp: (id) sender{
 	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Help topic" 
-													message:@"Name of your pooler profile. Do not excee 15 characters."
+													message:@"Name of your pooler profile. Do not exceed 15 characters."
 												   delegate:nil 
 										  cancelButtonTitle:@"OK" 
 										  otherButtonTitles: nil];

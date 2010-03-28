@@ -116,7 +116,10 @@ lblPointPerShoutout;
 		[settings setGoalerPointsPerWin:[txtFieldPointPerWin.text intValue]];
 		[settings setGoalerPointsPerOTLoss:[txtFieldPointPerOT.text intValue]];
 		[settings setGoalerPointsPerShoutout:[txtFieldPointPerShoutout.text intValue]];
-			
+		
+		[settings setSaved:YES];
+		
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsChanged" object:nil];
 		[self dismissModalViewControllerAnimated:YES];
 	} else {
 		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Settings error(s)" 
@@ -189,8 +192,6 @@ lblPointPerShoutout;
 	
 	if (!advancedSettingsHidden) {
 		txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
-	}else {
-		NSLog(@"Advanced settings hidden");
 	}
 
 	
