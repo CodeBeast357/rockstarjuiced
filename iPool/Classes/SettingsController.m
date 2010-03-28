@@ -206,12 +206,6 @@ lblPointPerShoutout;
 												 name:UIKeyboardDidHideNotification object:nil];
 	
 	keyboardVisible = NO;
-	/*
-	//Source: http://www.neoos.ch/news/46-development/54-uikeyboardtypenumberpad-and-the-missing-return-key
-	[[NSNotificationCenter defaultCenter] addObserver:self 
-											 selector:@selector(keyboardWillShow:) 
-												 name:UIKeyboardWillShowNotification 
-											   object:nil];*/
 }
 
 /*
@@ -222,9 +216,6 @@ lblPointPerShoutout;
 	
 	//Will remove every observers we have
 	[[NSNotificationCenter defaultCenter] removeObserver:self];
-	/*
-	//Source: http://www.neoos.ch/news/46-development/54-uikeyboardtypenumberpad-and-the-missing-return-key
-	[[NSNotificationCenter defaultCenter] removeObserver:self];*/
 }
 
 - (void) keyboardDidShow: (NSNotification*) notif{
@@ -263,59 +254,7 @@ lblPointPerShoutout;
 	}
 }
 
-- (IBAction) showAdvancedSettings: (id) sender{/*
-	BOOL hideAdvSettings = [switchShowAdvanced isOn];
-	
-	txtFieldNumberOfPlayers.enabled = !hideAdvSettings;
-	
-	txtFieldNumberOfFwd.hidden = hideAdvSettings;
-	txtFieldPointPerGoalFwd.hidden = hideAdvSettings;
-	txtFieldPointPerAssistFwd.hidden = hideAdvSettings;
-	switchPlusMinusFwd.hidden = hideAdvSettings;
-	txtFieldNumberOfDef.hidden = hideAdvSettings;
-	txtFieldPointPerGoalDef.hidden = hideAdvSettings;
-	txtFieldPointPerAssistDef.hidden = hideAdvSettings;
-	switchPlusMinusDef.hidden = hideAdvSettings;
-	txtFieldNumberOfGoalie.hidden = hideAdvSettings;
-	txtFieldPointPerWin.hidden = hideAdvSettings;
-	txtFieldPointPerOT.hidden = hideAdvSettings;
-	txtFieldPointPerShoutout.hidden = hideAdvSettings;
-	lblNumberOfFwd.hidden = hideAdvSettings;
-	lblPointPerGoalFwd.hidden = hideAdvSettings;
-	lblPointPerAssistFwd.hidden = hideAdvSettings;
-	lblPlusMinusFwd.hidden = hideAdvSettings;
-	lblNumberOfDef.hidden = hideAdvSettings;
-	lblPointPerGoalDef.hidden = hideAdvSettings;
-	lblPointPerAssistDef.hidden = hideAdvSettings;
-	lblPlusMinusDef.hidden = hideAdvSettings;
-	lblNumberOfGoalie.hidden = hideAdvSettings;
-	lblPointPerWin.hidden = hideAdvSettings;
-	lblPointPerOT.hidden = hideAdvSettings;
-	lblPointPerShoutout.hidden = hideAdvSettings;
-	
-	imgValidNumberOfFwd.hidden = hideAdvSettings;
-	imgHelpNumberOfFwd.hidden = hideAdvSettings;
-	imgValidPointPerGoalFwd.hidden = hideAdvSettings;
-	imgHelpPointPerGoalFwd.hidden = hideAdvSettings;
-	imgValidPointPerAssistFwd.hidden = hideAdvSettings;
-	imgHelpPointPerAssistFwd.hidden = hideAdvSettings;
-	imgValidNumberOfDef.hidden = hideAdvSettings;
-	imgHelpNumberOfDef.hidden = hideAdvSettings;
-	imgValidPointPerGoalDef.hidden = hideAdvSettings;
-	imgHelpPointPerGoalDef.hidden = hideAdvSettings;
-	imgValidPointPerAssistDef.hidden = hideAdvSettings;
-	imgHelpPointPerAssistDef.hidden = hideAdvSettings;
-	imgValidNumberOfGoalie.hidden = hideAdvSettings;
-	imgHelpNumberOfGoalie.hidden = hideAdvSettings;
-	imgValidPointPerWin.hidden = hideAdvSettings;
-	imgHelpPointPerWin.hidden = hideAdvSettings;
-	imgValidPointPerOT.hidden = hideAdvSettings;
-	imgHelpPointPerOT.hidden = hideAdvSettings;
-	imgValidPointPerShoutout.hidden = hideAdvSettings;
-	imgHelpPointPerShoutout.hidden = hideAdvSettings;
-	imgHelpPLusMinusDef.hidden = hideAdvSettings;
-	imgHelpPLusMinusFwd.hidden= hideAdvSettings;*/
-	
+- (IBAction) showAdvancedSettings: (id) sender{
 	if(switchShowAdvanced){
 		txtFieldNumberOfPlayers.enabled = YES;
 		
@@ -474,112 +413,148 @@ lblPointPerShoutout;
 }
 
 - (IBAction) txtFieldEditing: (UITextField*) sender{
-	if ([sender.text length] == 0) {
-		if (sender == txtFieldPoolName) {
+	if (sender == txtFieldPoolName) {
+		if ([mainDelegate validateMessageInput:sender.text] == 1) {
 			imgValidPoolName.hidden = YES;
 			imgInvalidPoolName.hidden = NO;
-		} else if (sender == txtFieldNumberOfPlayers) {
-			imgValidNumberOfPlayers.hidden = YES;
-			imgInvalidNumberOfPlayers.hidden = NO;
-		} else if (sender == txtFieldNumberOfFwd) {
-			imgValidNumberOfFwd.hidden = YES;
-			imgInvalidNumberOfFwd.hidden = NO;
-		} else if (sender == txtFieldPointPerGoalFwd) {
-			imgValidPointPerGoalFwd.hidden = YES;
-			imgInvalidPointPerGoalFwd.hidden = NO;
-		} else if (sender == txtFieldPointPerAssistFwd) {
-			imgValidPointPerAssistFwd.hidden = YES;
-			imgInvalidPointPerAssistFwd.hidden = NO;
-		} else if (sender == txtFieldNumberOfDef) {
-			imgValidNumberOfDef.hidden = YES;
-			imgInvalidNumberOfDef.hidden = NO;
-		} else if (sender == txtFieldPointPerGoalDef) {
-			imgValidPointPerGoalDef.hidden = YES;
-			imgInvalidPointPerGoalDef.hidden = NO;
-		} else if (sender == txtFieldPointPerAssistDef) {
-			imgValidPointPerAssistDef.hidden = YES;
-			imgInvalidPointPerAssistDef.hidden = NO;
-		} else if (sender == txtFieldNumberOfGoalie) {
-			imgValidNumberOfGoalie.hidden = YES;
-			imgInvalidNumberOfGoalie.hidden = NO;
-		} else if (sender == txtFieldPointPerWin) {
-			imgValidPointPerWin.hidden = YES;
-			imgInvalidPointPerWin.hidden = NO;
-		} else if (sender == txtFieldPointPerOT) {
-			imgValidPointPerOT.hidden = YES;
-			imgInvalidPointPerOT.hidden = NO;
-		} else if (sender == txtFieldPointPerShoutout) {
-			imgValidPointPerShoutout.hidden = YES;
-			imgInvalidPointPerShoutout.hidden = NO;
-		}
-	} else {
-		if (sender == txtFieldPoolName) {
+		} else {
 			imgInvalidPoolName.hidden = YES;
 			imgValidPoolName.hidden = NO;
-		} else if (sender == txtFieldNumberOfPlayers) {
-			imgInvalidNumberOfPlayers.hidden = YES;
-			imgValidNumberOfPlayers.hidden = NO;
+		}
+
+	} else {
+		int valid = [mainDelegate validateNumericInput:sender.text];
+		if (sender == txtFieldNumberOfPlayers) {
+			if (valid==1) {
+				imgInvalidNumberOfPlayers.hidden = YES;
+				imgValidNumberOfPlayers.hidden = NO;
+			} else {
+				imgValidNumberOfPlayers.hidden = YES;
+				imgInvalidNumberOfPlayers.hidden = NO;
+			}
 		} else if (sender == txtFieldNumberOfFwd) {
-			imgInvalidNumberOfFwd.hidden = YES;
-			imgValidNumberOfFwd.hidden = NO;
+			if (valid==1) {
+				imgInvalidNumberOfFwd.hidden = YES;
+				imgValidNumberOfFwd.hidden = NO;
+			} else {
+				imgValidNumberOfFwd.hidden = YES;
+				imgInvalidNumberOfFwd.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerGoalFwd) {
-			imgInvalidPointPerGoalFwd.hidden = YES;
-			imgValidPointPerGoalFwd.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerGoalFwd.hidden = YES;
+				imgValidPointPerGoalFwd.hidden = NO;
+			} else {
+				imgValidPointPerGoalFwd.hidden = YES;
+				imgInvalidPointPerGoalFwd.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerAssistFwd) {
-			imgInvalidPointPerAssistFwd.hidden = YES;
-			imgValidPointPerAssistFwd.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerAssistFwd.hidden = YES;
+				imgValidPointPerAssistFwd.hidden = NO;
+			} else {
+				imgValidPointPerAssistFwd.hidden = YES;
+				imgInvalidPointPerAssistFwd.hidden = NO;
+			}
 		} else if (sender == txtFieldNumberOfDef) {
-			imgInvalidNumberOfDef.hidden = YES;
-			imgValidNumberOfDef.hidden = NO;
+			if (valid==1) {
+				imgInvalidNumberOfDef.hidden = YES;
+				imgValidNumberOfDef.hidden = NO;
+			} else {
+				imgValidNumberOfDef.hidden = YES;
+				imgInvalidNumberOfDef.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerGoalDef) {
-			imgInvalidPointPerGoalDef.hidden = YES;
-			imgValidPointPerGoalDef.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerGoalDef.hidden = YES;
+				imgValidPointPerGoalDef.hidden = NO;
+			} else {
+				imgValidPointPerGoalDef.hidden = YES;
+				imgInvalidPointPerGoalDef.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerAssistDef) {
-			imgInvalidPointPerAssistDef.hidden = YES;
-			imgValidPointPerAssistDef.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerAssistDef.hidden = YES;
+				imgValidPointPerAssistDef.hidden = NO;
+			} else {
+				imgValidPointPerAssistDef.hidden = YES;
+				imgInvalidPointPerAssistDef.hidden = NO;
+			}
 		} else if (sender == txtFieldNumberOfGoalie) {
-			imgInvalidNumberOfGoalie.hidden = YES;
-			imgValidNumberOfGoalie.hidden = NO;
+			if (valid==1) {
+				imgInvalidNumberOfGoalie.hidden = YES;
+				imgValidNumberOfGoalie.hidden = NO;
+			} else {
+				imgValidNumberOfGoalie.hidden = YES;
+				imgInvalidNumberOfGoalie.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerWin) {
-			imgInvalidPointPerWin.hidden = YES;
-			imgValidPointPerWin.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerWin.hidden = YES;
+				imgValidPointPerWin.hidden = NO;
+			} else {
+				imgValidPointPerWin.hidden = YES;
+				imgInvalidPointPerWin.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerOT) {
-			imgInvalidPointPerOT.hidden = YES;
-			imgValidPointPerOT.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerOT.hidden = YES;
+				imgValidPointPerOT.hidden = NO;
+			} else {
+				imgValidPointPerOT.hidden = YES;
+				imgInvalidPointPerOT.hidden = NO;
+			}
 		} else if (sender == txtFieldPointPerShoutout) {
-			imgInvalidPointPerShoutout.hidden = YES;
-			imgValidPointPerShoutout.hidden = NO;
+			if (valid==1) {
+				imgInvalidPointPerShoutout.hidden = YES;
+				imgValidPointPerShoutout.hidden = NO;
+			} else {
+				imgValidPointPerShoutout.hidden = YES;
+				imgInvalidPointPerShoutout.hidden = NO;
+			}
 		}
 	}
-}/*
-//Source: http://www.neoos.ch/news/46-development/54-uikeyboardtypenumberpad-and-the-missing-return-key
-- (void)keyboardWillShow:(NSNotification *)note {
-    // create custom button
-    UIButton *doneButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    doneButton.frame = CGRectMake(0, 163, 106, 53);
-    doneButton.adjustsImageWhenHighlighted = NO;
-    if ([[[UIDevice currentDevice] systemVersion] hasPrefix:@"3"]) {
-        [doneButton setImage:[UIImage imageNamed:@"DoneUp3.png"] forState:UIControlStateNormal];
-        [doneButton setImage:[UIImage imageNamed:@"DoneDown3.png"] forState:UIControlStateHighlighted];
-    } else {        
-        [doneButton setImage:[UIImage imageNamed:@"DoneUp.png"] forState:UIControlStateNormal];
-        [doneButton setImage:[UIImage imageNamed:@"DoneDown.png"] forState:UIControlStateHighlighted];
-    }
-    [doneButton addTarget:self action:@selector(doneButton:) forControlEvents:UIControlEventTouchUpInside];
-	
-    // locate keyboard view
-    UIWindow* tempWindow = [[[UIApplication sharedApplication] windows] objectAtIndex:1];
-    UIView* keyboard;
-    for(int i=0; i<[tempWindow.subviews count]; i++) {
-        keyboard = [tempWindow.subviews objectAtIndex:i];
-        // keyboard view found; add the custom button to it
-        if([[keyboard description] hasPrefix:@"<UIKeyboard"] == YES)
-            [keyboard addSubview:doneButton];
-    }
 }
 
-- (void)doneButton:(id)sender{
-	[sender resignFirstResponder];
-}*/
+- (IBAction) showHelp: (id) sender{
+	NSMutableString* message = [[NSMutableString alloc] init];
+	if (sender == imgHelpPoolName) {
+		[message appendString:@"Name of your pool."];
+	} else if (sender == imgHelpNumberOfPlayers) {
+		[message appendString:@"Total number of players in your pool. Do not excess 50 players."];
+	} else if (sender == imgHelpNumberOfFwd) {
+		[message appendString:@"Total number of forward players in your pool. Do not excess 50 forward players."];
+	} else if (sender == imgHelpPointPerGoalFwd) {
+		[message appendString:@"Total number of points per goal made by a forward player. Do not excess 50 points."];
+	} else if (sender == imgHelpPointPerAssistFwd) {
+		[message appendString:@"Total number of points per assist made by a forward player. Do not excess 50 points."];
+	} else if (sender == imgHelpPLusMinusFwd) {
+		[message appendString:@"Calculate plus or minus statistics for forward players. Example: If a forward player have a statistic of \"-2\", his total of point will be reduce by 2."];
+	} else if (sender == imgHelpNumberOfDef) {
+		[message appendString:@"Total number of defence players in your pool. Do not excess 50 defence players."];
+	} else if (sender == imgHelpPointPerGoalDef) {
+		[message appendString:@"Total number of points per goal made by a defence player. Do not excess 50 points."];
+	} else if (sender == imgHelpPointPerAssistDef) {
+		[message appendString:@"Total number of points per assist made by a defence player. Do not excess 50 points."];
+	} else if (sender == imgHelpPLusMinusDef) {
+		[message appendString:@"Calculate plus or minus statistics for defence players. Example: If a defence player have a statistic of \"-2\", his total of point will be reduce by 2."];
+	} else if (sender == imgHelpNumberOfGoalie) {
+		[message appendString:@"Total number of goalers in your pool. Do not excess 50 players."];
+	} else if (sender == imgHelpPointPerWin) {
+		[message appendString:@"Total number of points per games won. Do not excess 50 points."];
+	} else if (sender == imgHelpPointPerOT) {
+		[message appendString:@"Total number of points per overtime of games lost. Do not excess 50 points."];
+	} else if (sender == imgHelpPointPerShoutout) {
+		[message appendString:@"Total number of points per shootout. Do not excess 50 points."];
+	}
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Help topic" 
+													message:message
+												   delegate:nil 
+										  cancelButtonTitle:@"OK" 
+										  otherButtonTitles: nil];
+	[alert show];
+	[alert release];
+	[message release];
+}
 
 @end
