@@ -67,25 +67,18 @@ lblPointPerShoutout;
 		txtFieldNumberOfFwd.enabled = NO;
 		txtFieldPointPerGoalFwd.enabled = NO;
 		txtFieldPointPerAssistFwd.enabled = NO;
+		switchPlusMinusFwd.enabled = NO;
 		txtFieldNumberOfDef.enabled = NO;
 		txtFieldPointPerGoalDef.enabled = NO;
 		txtFieldPointPerAssistDef.enabled = NO;
+		switchPlusMinusDef.enabled = NO;
 		txtFieldNumberOfGoalie.enabled = NO;
 		txtFieldPointPerWin.enabled = NO;
 		txtFieldPointPerOT.enabled = NO;
 		txtFieldPointPerShoutout.enabled = NO;
 		
-		imgInvalidNumberOfFwd.hidden = YES;
-		imgInvalidPointPerGoalFwd.hidden = YES;
-		imgInvalidPointPerAssistFwd.hidden = YES;
-		imgInvalidNumberOfDef.hidden = YES;
-		imgInvalidPointPerGoalDef.hidden = YES;
-		imgInvalidPointPerAssistDef.hidden = YES;
-		imgInvalidNumberOfGoalie.hidden = YES;
-		imgInvalidPointPerWin.hidden = YES;
-		imgInvalidPointPerOT.hidden = YES;
-		imgInvalidPointPerShoutout.hidden = YES;
-		
+		imgValidPoolName.hidden = YES;
+		imgValidNumberOfPlayers.hidden = YES;
 		imgValidNumberOfFwd.hidden = YES;
 		imgValidPointPerGoalFwd.hidden = YES;
 		imgValidPointPerAssistFwd.hidden = YES;
@@ -96,6 +89,19 @@ lblPointPerShoutout;
 		imgValidPointPerWin.hidden = YES;
 		imgValidPointPerOT.hidden = YES;
 		imgValidPointPerShoutout.hidden = YES;
+		
+		imgInvalidPoolName.hidden = YES;
+		imgInvalidNumberOfPlayers.hidden = YES;
+		imgInvalidNumberOfFwd.hidden = YES;
+		imgInvalidPointPerGoalFwd.hidden = YES;
+		imgInvalidPointPerAssistFwd.hidden = YES;
+		imgInvalidNumberOfDef.hidden = YES;
+		imgInvalidPointPerGoalDef.hidden = YES;
+		imgInvalidPointPerAssistDef.hidden = YES;
+		imgInvalidNumberOfGoalie.hidden = YES;
+		imgInvalidPointPerWin.hidden = YES;
+		imgInvalidPointPerOT.hidden = YES;
+		imgInvalidPointPerShoutout.hidden = YES;
 	} else {
 		//Création des boutons Save et Cancel
 		self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
@@ -356,20 +362,35 @@ lblPointPerShoutout;
 		imgHelpPLusMinusDef.hidden = YES;
 		imgHelpPLusMinusFwd.hidden= YES;
 		
-		txtFieldNumberOfPlayers.enabled = YES;
+		if (!settings.saved) {
+			txtFieldNumberOfPlayers.enabled = YES;
+		}
 	} else{
-		txtFieldNumberOfPlayers.enabled = NO;
-		
-		txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
-		txtFieldPointPerGoalFwd.text = @"0";
-		txtFieldPointPerAssistFwd.text = @"0";
-		txtFieldNumberOfDef.text = @"0";
-		txtFieldPointPerGoalDef.text = @"0";
-		txtFieldPointPerAssistDef.text = @"0";
-		txtFieldNumberOfGoalie.text = @"0";
-		txtFieldPointPerWin.text = @"0";
-		txtFieldPointPerOT.text = @"0";
-		txtFieldPointPerShoutout.text = @"0";		
+		if (!settings.saved) {
+			txtFieldNumberOfPlayers.enabled = NO;
+			
+			txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
+			txtFieldPointPerGoalFwd.text = @"0";
+			txtFieldPointPerAssistFwd.text = @"0";
+			txtFieldNumberOfDef.text = @"0";
+			txtFieldPointPerGoalDef.text = @"0";
+			txtFieldPointPerAssistDef.text = @"0";
+			txtFieldNumberOfGoalie.text = @"0";
+			txtFieldPointPerWin.text = @"0";
+			txtFieldPointPerOT.text = @"0";
+			txtFieldPointPerShoutout.text = @"0";
+			
+			imgValidNumberOfFwd.hidden = NO;
+			imgValidPointPerGoalFwd.hidden = NO;
+			imgValidPointPerAssistFwd.hidden = NO;
+			imgValidNumberOfDef.hidden = NO;
+			imgValidPointPerGoalDef.hidden = NO;
+			imgValidPointPerAssistDef.hidden = NO;
+			imgValidNumberOfGoalie.hidden = NO;
+			imgValidPointPerWin.hidden = NO;
+			imgValidPointPerOT.hidden = NO;
+			imgValidPointPerShoutout.hidden = NO;
+		}
 		
 		txtFieldNumberOfFwd.hidden = NO;
 		txtFieldPointPerGoalFwd.hidden = NO;
@@ -396,25 +417,15 @@ lblPointPerShoutout;
 		lblPointPerOT.hidden = NO;
 		lblPointPerShoutout.hidden = NO;
 		
-		imgValidNumberOfFwd.hidden = NO;
 		imgHelpNumberOfFwd.hidden = NO;
-		imgValidPointPerGoalFwd.hidden = NO;
 		imgHelpPointPerGoalFwd.hidden = NO;
-		imgValidPointPerAssistFwd.hidden = NO;
 		imgHelpPointPerAssistFwd.hidden = NO;
-		imgValidNumberOfDef.hidden = NO;
 		imgHelpNumberOfDef.hidden = NO;
-		imgValidPointPerGoalDef.hidden = NO;
 		imgHelpPointPerGoalDef.hidden = NO;
-		imgValidPointPerAssistDef.hidden = NO;
 		imgHelpPointPerAssistDef.hidden = NO;
-		imgValidNumberOfGoalie.hidden = NO;
 		imgHelpNumberOfGoalie.hidden = NO;
-		imgValidPointPerWin.hidden = NO;
 		imgHelpPointPerWin.hidden = NO;
-		imgValidPointPerOT.hidden = NO;
 		imgHelpPointPerOT.hidden = NO;
-		imgValidPointPerShoutout.hidden = NO;
 		imgHelpPointPerShoutout.hidden = NO;
 		imgHelpPLusMinusDef.hidden = NO;
 		imgHelpPLusMinusFwd.hidden = NO;

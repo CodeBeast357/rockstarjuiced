@@ -70,8 +70,6 @@
 	
 	if (poolSettings.saved) {
 		[self.navigationController pushViewController:settings animated:YES];
-		//On libère la mémoire
-		[settings release];
 	} else {
 		UINavigationController *navController = [[UINavigationController alloc] 
 												 initWithRootViewController:settings];
@@ -83,9 +81,12 @@
 		[self.navigationController presentModalViewController:navController animated:YES];
 		
 		//On libère la mémoire
-		[settings release];
 		[navController release];
 	}
+	
+	//On libère la mémoire
+	[settings release];
+	
 }
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
