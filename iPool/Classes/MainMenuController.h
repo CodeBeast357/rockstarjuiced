@@ -34,7 +34,6 @@
 -(IBAction)switchPageSettings:(id)sender;
 -(IBAction)switchPageAddPooler:(id)sender;
 -(IBAction)switchPageViewStatistics:(id)sender;
--(IBAction)switchViewSettings:(id)sender;
 - (void) changeOptionVisible:(NSNotification *)notify;
 - (void) showConfirmAlert;
 - (IBAction) resetPool:(id)sender;
