@@ -10,7 +10,7 @@
 #import "Settings.h"
 
 @implementation Pooler
-@synthesize poolerName,defencemenList,forwardsList,goaliesList,totalPoint;
+@synthesize poolerName,defencemenList,forwardsList,goaliesList,totalPoint,sortableTotalPoints;
 
 -(Pooler*) init{
 	if (self = [super init]) {
@@ -225,6 +225,24 @@
 	return  total;
 }
 
+- (NSInteger) getSortableTotalPoints
+{
+	NSInteger total = 0;
+	
+	for(Skater *forward in forwardsList){
+		total+=[self getPointsForGoalForward:forward] +[self getPointsForAssistForward:forward] + [self getPointsForDifferentialForward:forward];
+	}
+	
+	for(Skater *defence in defencemenList){
+		total+=[self getPointsForGoalDefence:defence] +[self getPointsForAssistDefence:defence] + [self getPointsForDifferentialDefence:defence];
+	}
+	
+	for(Goalie *goalie in goaliesList){
+		total+=[self getPointsForWinGoalie:goalie] +[self getPointsForShutoutGoalie:goalie] + [self getPointsForShootoutOTLossGoalie:goalie];
+	}
+	
+	return  total;
+}
 
 - (void) dealloc
 {

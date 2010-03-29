@@ -13,6 +13,7 @@
 
 @interface Pooler: NSObject {
 	NSString* poolerName;
+	NSInteger sortableTotalPoints;
 	NSMutableArray *defencemenList;
 	NSMutableArray *forwardsList;
 	int totalPoint;
@@ -21,10 +22,10 @@
 
 @property (nonatomic, retain) NSString* poolerName;
 @property (nonatomic, assign) int totalPoint;
+@property (nonatomic, assign) NSInteger sortableTotalPoints;
 @property (nonatomic, retain) NSMutableArray *defencemenList;
 @property (nonatomic, retain) NSMutableArray *forwardsList;
 @property (nonatomic, retain) NSMutableArray *goaliesList;
-
 
 -(void) addDefenceman: (Skater*) input;
 -(void) addForward: (Skater*) input;
@@ -44,6 +45,7 @@
 -(void) sortGoaliesByWins;
 -(void) sortGoaliesByOvertimeLosses;
 -(void) sortGoaliesByShutouts;
+-(NSInteger) getSortableTotalPoints;
 -(int) getPointsForGoalForward: (Skater*) s;
 -(int) getPointsForAssistForward: (Skater*) s;
 -(int) getPointsForDifferentialForward: (Skater*) s;

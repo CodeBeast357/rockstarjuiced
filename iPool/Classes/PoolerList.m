@@ -40,10 +40,10 @@ static PoolerList *instance = nil;
         [poolerList addObject: input];
 }
 
-- (void) sortByTotalPoints 
+- (void) sortByTotalPoints
 {
 	for( Pooler *pooler in poolerList){
-		pooler.totalPoint= [pooler getTotalPoints];
+		pooler.sortableTotalPoints = [pooler getSortableTotalPoints];
 	}
 	NSSortDescriptor *totalPointsSorter = [[NSSortDescriptor alloc] initWithKey:@"totalPoint" ascending:YES];
 	[poolerList sortUsingDescriptors:[NSArray arrayWithObject:totalPointsSorter]];

@@ -192,50 +192,39 @@
 	}
 }
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-	int amount = 0;
-	
-	Settings* config = [Settings getInstance];
-	
-	if ( config.offencePlayerTotal > 0 ) {
-		amount++;
-	}
-	if ( config.defencePlayerTotal > 0 ) {
-		amount++;
-	}
-	if ( config.goaliePlayerTotal > 0 ) {
-		amount++;
-	}
-	
-	return amount;
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {	
+	return 3;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-	
+
 	Settings* config = [Settings getInstance];
 	
 	switch (section) {
-		case 0:
+		case 0: {
 			if ( config.offencePlayerTotal > 0 ) {
 				return @"Forwards";
-			}
-			else if ( config.defencePlayerTotal > 0 ) {
-				return @"Defencemen";
-			}
-			else {
-				return @"Goalies";
+			} else {
+				return @"";
 			}
 
-		case 1:
-			if ( config.offencePlayerTotal > 0 && config.defencePlayerTotal > 0 ) {
+		}
+		case 1: {
+			if ( config.defencePlayerTotal > 0 ) {
 				return @"Defencemen";
+			} else {
+				return @"";
 			}
-			else {
+			
+		}
+		case 2: {
+			if ( config.goaliePlayerTotal > 0 ) {
 				return @"Goalies";
+			} else {
+				return @"";
 			}
-
-		case 2:
-			return @"Goalies";
+			
+		}
 		default:
 			return @"Empty";
 	}
