@@ -233,10 +233,17 @@ lblPointPerShoutout;
 	}
 	
 	if (advancedSettingsHidden) {
+		if ([txtFieldNumberOfPlayers.text intValue] == 0) {
+			txtFieldNumberOfPlayers.text = @"1";
+		}
 		txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
 		txtFieldNumberOfDef.text = @"0";
 		txtFieldNumberOfGoalie.text = @"0";
 	} else {
+		if (nbPlayers == 0) {
+			nbPlayers = 1;
+			txtFieldNumberOfFwd.text = [NSString stringWithFormat:@"%d",nbPlayers];
+		}
 		txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
 	}
 
