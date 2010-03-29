@@ -23,4 +23,5 @@
 -(void) addTeam: (Team*) input;
 - (void) addGoalieByTeam: (Goalie*)inputGoalie team:(NSString *)inputTeam;
 - (void) addSkaterByTeam: (Skater*)inputPlayer team:(NSString *)inputTeam;
+- (void) sortByTeamName;
 @end

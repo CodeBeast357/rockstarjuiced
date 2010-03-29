@@ -34,6 +34,7 @@
 	//Initialisation de la table des équipes
 	teamList = [TeamList getInstance];
 	teams= [teamList listOfTeam];
+	[teamList sortByTeamName];
 	
 }
 

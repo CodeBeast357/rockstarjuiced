@@ -271,4 +271,10 @@ static TeamList *instance = nil;
 	[list addObject: input];
 }
 
+- (void) sortByTeamName
+{
+	NSSortDescriptor *teamNameDescriptor = [[NSSortDescriptor alloc] initWithKey:@"teamName" ascending:YES];
+	[list sortUsingDescriptors:[NSArray arrayWithObject:teamNameDescriptor]];
+}
+
 @end
