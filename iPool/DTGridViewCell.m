@@ -26,7 +26,7 @@
 	//[self addSubview:myLabel];
 	
 	button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 100, 100); // position in the parent view and set the size of the button
+    button.frame = CGRectMake(0, 0, 100, 50); // position in the parent view and set the size of the button
     [button setTitle:anIdentifier forState:UIControlStateNormal];
     // add targets and actions
     //[myButton addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
