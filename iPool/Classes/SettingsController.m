@@ -227,7 +227,7 @@ lblPointPerShoutout;
 	}
 	
 	if (advancedSettingsHidden) {
-		txtFieldNumberOfFwd.text = txtFieldNumberOfPlayers.text;
+		txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
 		txtFieldNumberOfDef.text = @"0";
 		txtFieldNumberOfGoalie.text = @"0";
 	} else {
@@ -360,7 +360,7 @@ lblPointPerShoutout;
 	} else{
 		txtFieldNumberOfPlayers.enabled = NO;
 		
-		txtFieldNumberOfFwd.text = txtFieldNumberOfPlayers.text;
+		txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
 		txtFieldPointPerGoalFwd.text = @"0";
 		txtFieldPointPerAssistFwd.text = @"0";
 		txtFieldNumberOfDef.text = @"0";
