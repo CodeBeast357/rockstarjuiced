@@ -73,7 +73,7 @@
 }
 
 - (CGFloat)gridView:(DTGridView *)gridView heightForRow:(NSInteger)rowIndex {
-	return 100.0;
+	return 50.0;
 }
 - (CGFloat)gridView:(DTGridView *)gridView widthForCellAtRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
 	

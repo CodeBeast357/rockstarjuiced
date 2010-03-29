@@ -186,6 +186,26 @@
 			FA4A474F11615CEF0001B54A /* PBXTextBookmark */ = FA4A474F11615CEF0001B54A /* PBXTextBookmark */;
 			FA4A475011615CEF0001B54A /* PBXTextBookmark */ = FA4A475011615CEF0001B54A /* PBXTextBookmark */;
 			FA4A475111615CEF0001B54A /* PBXTextBookmark */ = FA4A475111615CEF0001B54A /* PBXTextBookmark */;
+			FA4A475A11615ED90001B54A /* PBXTextBookmark */ = FA4A475A11615ED90001B54A /* PBXTextBookmark */;
+			FA4A475B11615ED90001B54A /* PBXTextBookmark */ = FA4A475B11615ED90001B54A /* PBXTextBookmark */;
+			FA4A475C11615ED90001B54A /* PBXTextBookmark */ = FA4A475C11615ED90001B54A /* PBXTextBookmark */;
+			FA4A475D11615ED90001B54A /* PBXTextBookmark */ = FA4A475D11615ED90001B54A /* PBXTextBookmark */;
+			FA4A475E11615ED90001B54A /* PBXTextBookmark */ = FA4A475E11615ED90001B54A /* PBXTextBookmark */;
+			FA4A475F11615ED90001B54A /* PBXTextBookmark */ = FA4A475F11615ED90001B54A /* PBXTextBookmark */;
+			FA4A476011615ED90001B54A /* PBXTextBookmark */ = FA4A476011615ED90001B54A /* PBXTextBookmark */;
+			FA4A476111615ED90001B54A /* PBXTextBookmark */ = FA4A476111615ED90001B54A /* PBXTextBookmark */;
+			FA4A476211615ED90001B54A /* PBXTextBookmark */ = FA4A476211615ED90001B54A /* PBXTextBookmark */;
+			FA4A476311615ED90001B54A /* PBXTextBookmark */ = FA4A476311615ED90001B54A /* PBXTextBookmark */;
+			FA4A476411615ED90001B54A /* PBXTextBookmark */ = FA4A476411615ED90001B54A /* PBXTextBookmark */;
+			FA4A476511615ED90001B54A /* PBXTextBookmark */ = FA4A476511615ED90001B54A /* PBXTextBookmark */;
+			FA4A476611615ED90001B54A /* PBXTextBookmark */ = FA4A476611615ED90001B54A /* PBXTextBookmark */;
+			FA4A476711615ED90001B54A /* PBXTextBookmark */ = FA4A476711615ED90001B54A /* PBXTextBookmark */;
+			FA4A476811615ED90001B54A /* PBXTextBookmark */ = FA4A476811615ED90001B54A /* PBXTextBookmark */;
+			FA4A476A11615F140001B54A /* PBXTextBookmark */ = FA4A476A11615F140001B54A /* PBXTextBookmark */;
+			FA4A476B11615F140001B54A /* PBXTextBookmark */ = FA4A476B11615F140001B54A /* PBXTextBookmark */;
+			FA4A476C11615F140001B54A /* PBXTextBookmark */ = FA4A476C11615F140001B54A /* PBXTextBookmark */;
+			FA4A476D11615F140001B54A /* PBXTextBookmark */ = FA4A476D11615F140001B54A /* PBXTextBookmark */;
+			FA4A476E11615F140001B54A /* PBXTextBookmark */ = FA4A476E11615F140001B54A /* PBXTextBookmark */;
 			FA7437B51159CD6400FEBBAB = FA7437B51159CD6400FEBBAB /* PBXTextBookmark */;
 			FA7437B71159CD6400FEBBAB = FA7437B71159CD6400FEBBAB /* PBXTextBookmark */;
 			FA7437B81159CD6400FEBBAB = FA7437B81159CD6400FEBBAB /* PBXTextBookmark */;
@@ -383,8 +403,8 @@
 	E0B60AB7114F063B005F222D /* ViewStatisticsController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1168, 3416}}";
-			sepNavSelRange = "{5163, 0}";
-			sepNavVisRange = "{3860, 1312}";
+			sepNavSelRange = "{5162, 0}";
+			sepNavVisRange = "{3430, 1084}";
 			sepNavWindowFrame = "{{373, 91}, {1227, 687}}";
 		};
 	};
@@ -756,8 +776,8 @@
 	FA4A46A6116150F60001B54A /* DTGridViewCell.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1171, 798}}";
-			sepNavSelRange = "{794, 0}";
-			sepNavVisRange = "{46, 1033}";
+			sepNavSelRange = "{695, 0}";
+			sepNavVisRange = "{46, 1032}";
 		};
 	};
 	FA4A46A7116150F60001B54A /* DTGridViewCellInfoProtocol.h */ = {
@@ -985,7 +1005,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 188";
 		rLen = 0;
-		rLoc = 5202;
+		rLoc = 5201;
 		rType = 0;
 		vrLen = 1046;
 		vrLoc = 3803;
@@ -995,7 +1015,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 184";
 		rLen = 0;
-		rLoc = 5184;
+		rLoc = 5183;
 		rType = 0;
 		vrLen = 1015;
 		vrLoc = 3737;
@@ -1015,7 +1035,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1065,7 +1085,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 180";
 		rLen = 0;
-		rLoc = 5202;
+		rLoc = 5201;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 3691;
@@ -1075,7 +1095,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1115,7 +1135,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 189";
 		rLen = 0;
-		rLoc = 5202;
+		rLoc = 5201;
 		rType = 0;
 		vrLen = 697;
 		vrLoc = 4237;
@@ -1125,7 +1145,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1165,7 +1185,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 202";
 		rLen = 0;
-		rLoc = 5488;
+		rLoc = 5487;
 		rType = 0;
 		vrLen = 656;
 		vrLoc = 4283;
@@ -1175,7 +1195,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 46;
@@ -1215,7 +1235,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 182";
 		rLen = 0;
-		rLoc = 4311;
+		rLoc = 4310;
 		rType = 0;
 		vrLen = 900;
 		vrLoc = 3674;
@@ -1225,7 +1245,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1265,7 +1285,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 194";
 		rLen = 0;
-		rLoc = 4622;
+		rLoc = 4621;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 3737;
@@ -1275,7 +1295,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1325,7 +1345,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1405,7 +1425,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1455,7 +1475,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1485,7 +1505,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 201";
 		rLen = 0;
-		rLoc = 4844;
+		rLoc = 4843;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 3794;
@@ -1495,7 +1515,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 202";
 		rLen = 0;
-		rLoc = 4859;
+		rLoc = 4858;
 		rType = 0;
 		vrLen = 1271;
 		vrLoc = 3860;
@@ -1515,7 +1535,7 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
@@ -1545,7 +1565,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 207";
 		rLen = 0;
-		rLoc = 5163;
+		rLoc = 5162;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 3860;
@@ -1565,12 +1585,212 @@
 		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
 		name = "DTGridViewCell.m: 30";
 		rLen = 0;
-		rLoc = 794;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1033;
 		vrLoc = 46;
 	};
 	FA4A475111615CEF0001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A5116150F60001B54A /* DTGridViewCell.h */;
+		name = "DTGridViewCell.h: 33";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 88;
+	};
+	FA4A475A11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A5116150F60001B54A /* DTGridViewCell.h */;
+		name = "DTGridViewCell.h: 23";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 271;
+	};
+	FA4A475B11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB6114F063B005F222D /* ViewStatisticsController.h */;
+		name = "ViewStatisticsController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	FA4A475C11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A7116150F60001B54A /* DTGridViewCellInfoProtocol.h */;
+		name = "DTGridViewCellInfoProtocol.h: 13";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	FA4A475D11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
+		name = "DTGridViewCell.m: 30";
+		rLen = 0;
+		rLoc = 804;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 204;
+	};
+	FA4A475E11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
+		name = "ViewStatisticsController.m: 27";
+		rLen = 0;
+		rLoc = 630;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 249;
+	};
+	FA4A475F11615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A5116150F60001B54A /* DTGridViewCell.h */;
+		name = "DTGridViewCell.h: 23";
+		rLen = 0;
+		rLoc = 440;
+		rType = 0;
+		vrLen = 574;
+		vrLoc = 271;
+	};
+	FA4A476011615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB6114F063B005F222D /* ViewStatisticsController.h */;
+		name = "ViewStatisticsController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	FA4A476111615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A7116150F60001B54A /* DTGridViewCellInfoProtocol.h */;
+		name = "DTGridViewCellInfoProtocol.h: 13";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 296;
+		vrLoc = 0;
+	};
+	FA4A476211615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
+		name = "DTGridViewCell.m: 30";
+		rLen = 0;
+		rLoc = 804;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 204;
+	};
+	FA4A476311615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
+		name = "ViewStatisticsController.m: 76";
+		rLen = 0;
+		rLoc = 1688;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 1259;
+	};
+	FA4A476411615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
+		name = "DTGridViewCell.m: 30";
+		rLen = 0;
+		rLoc = 793;
+		rType = 0;
+		vrLen = 1035;
+		vrLoc = 46;
+	};
+	FA4A476511615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
+		name = "DTGridViewCell.m: 29";
+		rLen = 0;
+		rLoc = 691;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 46;
+	};
+	FA4A476611615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
+		name = "ViewStatisticsController.m: 207";
+		rLen = 0;
+		rLoc = 5162;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 3430;
+	};
+	FA4A476711615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB6114F063B005F222D /* ViewStatisticsController.h */;
+		name = "ViewStatisticsController.h: 18";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	FA4A476811615ED90001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A5116150F60001B54A /* DTGridViewCell.h */;
+		name = "DTGridViewCell.h: 33";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 751;
+		vrLoc = 88;
+	};
+	FA4A476A11615F140001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
+		name = "ViewStatisticsController.m: 76";
+		rLen = 0;
+		rLoc = 1688;
+		rType = 0;
+		vrLen = 676;
+		vrLoc = 1259;
+	};
+	FA4A476B11615F140001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */;
+		name = "DTGridViewCell.m: 29";
+		rLen = 0;
+		rLoc = 695;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 46;
+	};
+	FA4A476C11615F140001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
+		name = "ViewStatisticsController.m: 207";
+		rLen = 0;
+		rLoc = 5162;
+		rType = 0;
+		vrLen = 1084;
+		vrLoc = 3430;
+	};
+	FA4A476D11615F140001B54A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E0B60AB6114F063B005F222D /* ViewStatisticsController.h */;
+		name = "ViewStatisticsController.h: 18";
+		rLen = 0;
+		rLoc = 476;
+		rType = 0;
+		vrLen = 544;
+		vrLoc = 0;
+	};
+	FA4A476E11615F140001B54A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = FA4A46A5116150F60001B54A /* DTGridViewCell.h */;
 		name = "DTGridViewCell.h: 33";
@@ -2040,7 +2260,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 195";
 		rLen = 0;
-		rLoc = 5586;
+		rLoc = 5585;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 3851;
@@ -2050,7 +2270,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 195";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5555;
 		rType = 0;
 		vrLen = 1018;
 		vrLoc = 3822;
@@ -2090,7 +2310,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 195";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5555;
 		rType = 0;
 		vrLen = 909;
 		vrLoc = 3967;
@@ -2238,7 +2458,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 197";
 		rLen = 27;
-		rLoc = 5560;
+		rLoc = 5559;
 		rType = 0;
 		vrLen = 738;
 		vrLoc = 4143;
@@ -2257,7 +2477,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 195";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5555;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 3938;
@@ -2296,7 +2516,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 197";
 		rLen = 27;
-		rLoc = 5560;
+		rLoc = 5559;
 		rType = 0;
 		vrLen = 738;
 		vrLoc = 4143;
@@ -2306,7 +2526,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 195";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5555;
 		rType = 0;
 		vrLen = 943;
 		vrLoc = 3938;
@@ -2316,7 +2536,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 87";
 		rLen = 0;
-		rLoc = 1693;
+		rLoc = 1692;
 		rType = 0;
 		vrLen = 974;
 		vrLoc = 1682;
@@ -2364,7 +2584,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 196";
 		rLen = 0;
-		rLoc = 5556;
+		rLoc = 5555;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 3822;
@@ -2410,7 +2630,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 190";
 		rLen = 0;
-		rLoc = 5184;
+		rLoc = 5183;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 1416;
@@ -2440,7 +2660,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 183";
 		rLen = 0;
-		rLoc = 3859;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 705;
 		vrLoc = 3822;
@@ -2450,7 +2670,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 99";
 		rLen = 0;
-		rLoc = 2008;
+		rLoc = 2007;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 0;
@@ -2507,7 +2727,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 197";
 		rLen = 27;
-		rLoc = 5560;
+		rLoc = 5559;
 		rType = 0;
 		vrLen = 170;
 		vrLoc = 4591;
@@ -2524,7 +2744,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 197";
 		rLen = 27;
-		rLoc = 5560;
+		rLoc = 5559;
 		rType = 0;
 		vrLen = 170;
 		vrLoc = 4591;
@@ -2543,7 +2763,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 183";
 		rLen = 0;
-		rLoc = 3859;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 3598;
@@ -2610,7 +2830,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 183";
 		rLen = 0;
-		rLoc = 3859;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 3598;
@@ -2686,7 +2906,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 183";
 		rLen = 0;
-		rLoc = 3859;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 3598;
@@ -2700,7 +2920,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 183";
 		rLen = 0;
-		rLoc = 3859;
+		rLoc = 3858;
 		rType = 0;
 		vrLen = 545;
 		vrLoc = 3598;
@@ -2730,7 +2950,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 194";
 		rLen = 0;
-		rLoc = 5550;
+		rLoc = 5549;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 3897;
@@ -2797,7 +3017,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 194";
 		rLen = 0;
-		rLoc = 5550;
+		rLoc = 5549;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 3967;
@@ -2807,7 +3027,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 198";
 		rLen = 0;
-		rLoc = 5343;
+		rLoc = 5342;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 3984;
@@ -2874,7 +3094,7 @@
 		fRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */;
 		name = "ViewStatisticsController.m: 200";
 		rLen = 0;
-		rLoc = 5415;
+		rLoc = 5414;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 4105;
