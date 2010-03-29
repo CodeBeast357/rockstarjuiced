@@ -197,7 +197,168 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FA4A46FB116156510001B54A</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>ViewStatisticsController.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FA4A46FC116156510001B54A</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>ViewStatisticsController.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FA4A474E11615CEF0001B54A</string>
+						<key>history</key>
+						<array>
+							<string>FA4A474711615CBF0001B54A</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1227, 590}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>31 147 1227 631 0 0 1280 778 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FA4A4707116156510001B54A</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>ViewStatisticsController.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FA4A4708116156510001B54A</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>ViewStatisticsController.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FA4A474F11615CEF0001B54A</string>
+						<key>history</key>
+						<array>
+							<string>FA4A473911615A830001B54A</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1227, 590}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>547 40 1227 631 0 0 1280 778 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FA4A46FF116156510001B54A</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>DTGridViewCell.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FA4A4700116156510001B54A</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>DTGridViewCell.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FA4A475011615CEF0001B54A</string>
+						<key>history</key>
+						<array>
+							<string>FA4A4701116156510001B54A</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1230, 527}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>484 178 1230 568 0 0 1280 778 </string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>FA4A4703116156510001B54A</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>DTGridViewCell.h</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>FA4A4704116156510001B54A</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>DTGridViewCell.h</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>FA4A475111615CEF0001B54A</string>
+						<key>history</key>
+						<array>
+							<string>FA4A4705116156510001B54A</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1230, 527}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>463 62 1230 568 0 0 1280 778 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -279,11 +440,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>40</integer>
+									<integer>14</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {282, 573}}</string>
+							<string>{{0, 331}, {282, 573}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,7 +483,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MainMenuController.m</string>
+								<string>DTGridViewCell.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -328,11 +491,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MainMenuController.m</string>
+										<string>DTGridViewCell.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA4A46D41161524E0001B54A</string>
+										<string>FA4A474D11615CEF0001B54A</string>
 										<key>history</key>
 										<array>
 											<string>FA7437B51159CD6400FEBBAB</string>
@@ -353,7 +516,11 @@
 											<string>FA4A46B11161511D0001B54A</string>
 											<string>FA4A46CF1161524E0001B54A</string>
 											<string>FA4A46D01161524E0001B54A</string>
-											<string>FA4A46D11161524E0001B54A</string>
+											<string>FA4A46F0116156510001B54A</string>
+											<string>FA4A46F1116156510001B54A</string>
+											<string>FA4A46F2116156510001B54A</string>
+											<string>FA4A46F3116156510001B54A</string>
+											<string>FA4A46F4116156510001B54A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -376,6 +543,11 @@
 											<string>FA4A46B41161511D0001B54A</string>
 											<string>FA4A46D21161524E0001B54A</string>
 											<string>FA4A46D31161524E0001B54A</string>
+											<string>FA4A46F5116156510001B54A</string>
+											<string>FA4A46F6116156510001B54A</string>
+											<string>FA4A46F7116156510001B54A</string>
+											<string>FA4A46F8116156510001B54A</string>
+											<string>FA4A46F9116156510001B54A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -573,8 +745,12 @@
 		<string>FA4A46D61161524E0001B54A</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA7437A21159CD2D00FEBBAB</string>
+		<string>FA4A4703116156510001B54A</string>
+		<string>FA4A46FF116156510001B54A</string>
+		<string>FA4A4707116156510001B54A</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Volumes/DATA/Iphone SDK project/iPool/NavApp.xcodeproj</string>
+		<string>FA4A46FB116156510001B54A</string>
 	</array>
 	<key>WindowString</key>
 	<string>190 146 1280 632 0 0 1280 778 </string>

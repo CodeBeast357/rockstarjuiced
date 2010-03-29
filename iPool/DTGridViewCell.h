@@ -20,7 +20,7 @@
 
 	NSInteger xPosition, yPosition;
 	NSString *identifier;
-	UIButton *myLabel;
+	UIButton *button;
 	
 	BOOL selected;
 	
@@ -30,6 +30,7 @@
 @property (assign) id delegate;
 @property (copy) NSString *identifier;
 @property (assign) BOOL selected;
+@property (nonatomic, retain)  UIButton *button;
 - (id)initWithReuseIdentifier:(NSString *)identifier;
 - (void)prepareForReuse;
 @end

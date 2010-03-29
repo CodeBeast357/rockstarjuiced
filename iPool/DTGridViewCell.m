@@ -10,7 +10,7 @@
 
 @implementation DTGridViewCell
 
-@synthesize xPosition, yPosition, identifier, delegate, selected;
+@synthesize xPosition, yPosition, identifier, delegate, selected,button;
 
 @dynamic frame;
 
@@ -25,13 +25,13 @@
 	//myLabel.
 	//[self addSubview:myLabel];
 	
-	UIButton *myButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    myButton.frame = CGRectMake(0, 0, 100, 100); // position in the parent view and set the size of the button
-    [myButton setTitle:@"Click Me!" forState:UIControlStateNormal];
+	button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 100, 100); // position in the parent view and set the size of the button
+    [button setTitle:anIdentifier forState:UIControlStateNormal];
     // add targets and actions
     //[myButton addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     // add to a view
-    [self addSubview:myButton];
+    [self addSubview:button];
 	return self;
 }
 

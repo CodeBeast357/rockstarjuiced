@@ -16,7 +16,6 @@
 @interface ViewStatisticsController :DTGridViewController {
 	Delegate *mainDelegate;
 	NSMutableArray *poolerList;
-	NSArray *colours;
 }
 
 @property (nonatomic, retain) NSMutableArray *poolerList;
