@@ -65,19 +65,27 @@
 	SettingsController *settings = [[SettingsController alloc]
 									initWithNibName:@"Settings" bundle:[NSBundle mainBundle]];
 	self.settingsController = settings;
+	
+	Settings* poolSettings = [Settings getInstance];
+	
+	if (poolSettings.saved) {
+		[self.navigationController pushViewController:settings animated:YES];
+		//On libère la mémoire
+		[settings release];
+	} else {
+		UINavigationController *navController = [[UINavigationController alloc] 
+												 initWithRootViewController:settings];
 		
-	UINavigationController *navController = [[UINavigationController alloc] 
-											 initWithRootViewController:settings];
-	
-	//Change le style de la bar de navigation
-	navController.navigationBar.barStyle = UIBarStyleBlack;
-	
-	//Affichage de la vue sous la forme d une modalView
-	[self.navigationController presentModalViewController:navController animated:YES];
-	
-	//On libère la mémoire
-	[settings release];
-	[navController release];
+		//Change le style de la bar de navigation
+		navController.navigationBar.barStyle = UIBarStyleBlack;
+		
+		//Affichage de la vue sous la forme d une modalView
+		[self.navigationController presentModalViewController:navController animated:YES];
+		
+		//On libère la mémoire
+		[settings release];
+		[navController release];
+	}
 }
 
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
@@ -132,8 +140,6 @@
 
 - (void) changeOptionVisible:(NSNotification *)notify {
 	if ([Settings getInstance].saved) {
-		[showConfigSettings removeTarget:self action:@selector(switchPageSettings:) forControlEvents:UIControlEventTouchUpInside];
-		[showConfigSettings addTarget:self action:@selector(switchViewSettings:) forControlEvents:UIControlEventTouchUpInside];
 		[showConfigSettings setTitle:@"Show Settings" forState:UIControlStateNormal];
 		showAddPooler.hidden = NO;
 		resetSettings.hidden = NO;
@@ -173,16 +179,11 @@
 	showStats.hidden = NO;
 }
 
--(IBAction) switchViewSettings:(id)sender {
-}
-
 
 -(void) changeSettingsVisible:(NSNotification *)notify {
 	resetSettings.hidden = YES;
 	showStats.hidden = YES;
 	showAddPooler.hidden =YES;
-	[showConfigSettings removeTarget:self action:@selector(switchViewSettings:) forControlEvents:UIControlEventTouchUpInside];
-	[showConfigSettings addTarget:self action:@selector(switchPageSettings:) forControlEvents:UIControlEventTouchUpInside];
 	[showConfigSettings setTitle:@"Configure Pool Settings" forState:UIControlStateNormal];
 }
 

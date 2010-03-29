@@ -60,19 +60,55 @@ lblPointPerShoutout;
 	scrollView.contentSize = CGSizeMake(320,1150);
 	advancedSettingsHidden = YES;
 	
-	//Création des boutons Save et Cancel
-	self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
-											  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
-											  target:self 
-											  action:@selector(cancel:)] autorelease]; 
-	
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
-											   initWithBarButtonSystemItem:UIBarButtonSystemItemSave 
-											   target:self 
-											   action:@selector(save:)] autorelease];
-	
 	settings = [Settings getInstance];
-	
+	if (settings.saved) {
+		txtFieldPoolName.enabled = NO;
+		txtFieldNumberOfPlayers.enabled = NO;
+		txtFieldNumberOfFwd.enabled = NO;
+		txtFieldPointPerGoalFwd.enabled = NO;
+		txtFieldPointPerAssistFwd.enabled = NO;
+		txtFieldNumberOfDef.enabled = NO;
+		txtFieldPointPerGoalDef.enabled = NO;
+		txtFieldPointPerAssistDef.enabled = NO;
+		txtFieldNumberOfGoalie.enabled = NO;
+		txtFieldPointPerWin.enabled = NO;
+		txtFieldPointPerOT.enabled = NO;
+		txtFieldPointPerShoutout.enabled = NO;
+		
+		imgInvalidNumberOfFwd.hidden = YES;
+		imgInvalidPointPerGoalFwd.hidden = YES;
+		imgInvalidPointPerAssistFwd.hidden = YES;
+		imgInvalidNumberOfDef.hidden = YES;
+		imgInvalidPointPerGoalDef.hidden = YES;
+		imgInvalidPointPerAssistDef.hidden = YES;
+		imgInvalidNumberOfGoalie.hidden = YES;
+		imgInvalidPointPerWin.hidden = YES;
+		imgInvalidPointPerOT.hidden = YES;
+		imgInvalidPointPerShoutout.hidden = YES;
+		
+		imgValidNumberOfFwd.hidden = YES;
+		imgValidPointPerGoalFwd.hidden = YES;
+		imgValidPointPerAssistFwd.hidden = YES;
+		imgValidNumberOfDef.hidden = YES;
+		imgValidPointPerGoalDef.hidden = YES;
+		imgValidPointPerAssistDef.hidden = YES;
+		imgValidNumberOfGoalie.hidden = YES;
+		imgValidPointPerWin.hidden = YES;
+		imgValidPointPerOT.hidden = YES;
+		imgValidPointPerShoutout.hidden = YES;
+	} else {
+		//Création des boutons Save et Cancel
+		self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc]  
+												  initWithBarButtonSystemItem:UIBarButtonSystemItemCancel  
+												  target:self 
+												  action:@selector(cancel:)] autorelease]; 
+		
+		self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc]
+												   initWithBarButtonSystemItem:UIBarButtonSystemItemSave 
+												   target:self 
+												   action:@selector(save:)] autorelease];
+	}
+		
 	//Initialize text fields
 	[self initTxtFields];
 	
@@ -190,9 +226,14 @@ lblPointPerShoutout;
 		txtFieldPointPerShoutout.text = @"0";
 	}
 	
-	if (!advancedSettingsHidden) {
-		txtFieldNumberOfFwd.text = txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
+	if (advancedSettingsHidden) {
+		txtFieldNumberOfFwd.text = txtFieldNumberOfPlayers.text;
+		txtFieldNumberOfDef.text = @"0";
+		txtFieldNumberOfGoalie.text = @"0";
+	} else {
+		txtFieldNumberOfPlayers.text = [NSString stringWithFormat:@"%d",nbPlayers];
 	}
+
 
 	
 	[sender resignFirstResponder];
