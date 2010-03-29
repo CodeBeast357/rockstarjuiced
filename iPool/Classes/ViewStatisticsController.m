@@ -24,18 +24,7 @@
 	[[PoolerList getInstance] sortByTotalPoints];
 	poolerList= [[PoolerList getInstance] poolerList];
 	
-	colours = [[NSArray alloc] initWithObjects:
-			   [UIColor redColor],
-			   [UIColor blueColor],
-			   [UIColor greenColor],
-			   [UIColor magentaColor],
-			   [UIColor yellowColor],
-			   [UIColor whiteColor],
-			   [UIColor grayColor],
-			   [UIColor lightGrayColor],
-			   [UIColor purpleColor],
-			   [UIColor orangeColor],
-			   nil];
+	
 	
 	return self;
 }
@@ -76,10 +65,11 @@
 	return 4;
 }
 - (NSInteger)numberOfRowsInGridView:(DTGridView *)gridView {
-	return 10;
+	NSLog(@"count:%d",[poolerList count]);
+	return [poolerList count]+1;
 }
 - (NSInteger)numberOfColumnsInGridView:(DTGridView *)gridView forRowWithIndex:(NSInteger)index {
-	return 10;
+	return 4;
 }
 
 - (CGFloat)gridView:(DTGridView *)gridView heightForRow:(NSInteger)rowIndex {
@@ -184,23 +174,64 @@
 //- (NSNumber *)gridView:(DTGridView *)gridView heightForRowAtIndex:(NSInteger)index;
 - (DTGridViewCell *)gridView:(DTGridView *)gv viewForRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
 	
-	DTGridViewCell *view = [[gv dequeueReusableCellWithIdentifier:@"cell"] retain];
+	DTGridViewCell *view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"info"];
 	
-	if (!view) {
-		view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"cell"];
+	view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"VIEW"];
+	
+	if(rowIndex==0){
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@""];
+		}
+		else if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"RNK"];
+		}
+		else if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"NAME"];
+		}
+		else if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"TOT PTS"];
+		}
+		
+	}
+	else{
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"View Pooler"];
+		}
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",rowIndex]];
+		}
+		if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[[poolerList objectAtIndex:rowIndex-1] poolerName]];
+		}
+		if(columnIndex==3){
+				view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[poolerList objectAtIndex:rowIndex-1] totalPoint]]];
+		}
 	}
 	
+	
+	//COLOR
 	if(rowIndex==0){
 		view.backgroundColor= [UIColor blackColor];
 	}
 	else if(rowIndex%2==0){
-		view.backgroundColor= [UIColor blueColor];
+		if(columnIndex%2==0){
+			view.backgroundColor= [UIColor blueColor];
+		}
+		else{
+			view.backgroundColor= [UIColor grayColor];
+		}
 	}
 	else{
-		view.backgroundColor= [UIColor grayColor];
+		if(columnIndex%2==0){
+			view.backgroundColor= [UIColor grayColor];
+		}
+		else{
+			view.backgroundColor= [UIColor blueColor];
+		}
 	}
-	//[colours objectAtIndex:(random() % 10)];
-	view.identifier=@"super";
+	 
+	
+	
 	
 	return [view autorelease];
 }
