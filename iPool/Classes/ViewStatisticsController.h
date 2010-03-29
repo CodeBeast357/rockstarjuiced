@@ -7,25 +7,18 @@
 //
 //Source : http://www.iphonesdkarticles.com/2008/08/table-view-tutorial-tableview-cell.html
 
-#import <UIKit/UIKit.h>
 #import "Delegate.h"
 #import "PoolerList.h"
-#import "PoolerStatisticsController.h"
+#import <Foundation/Foundation.h>
+#import "DTGridViewController.h"
 
 
-@interface ViewStatisticsController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
+@interface ViewStatisticsController :DTGridViewController {
 	Delegate *mainDelegate;
-	PoolerStatisticsController* poolerStatisticsController;
-	
-	IBOutlet UITableView* poolersStatitisticsTable;
-	
 	NSMutableArray *poolerList;
+	NSArray *colours;
 }
 
-@property (nonatomic, retain) PoolerStatisticsController* poolerStatisticsController;
-@property (nonatomic, retain) UITableView* poolersStatitisticsTable;
 @property (nonatomic, retain) NSMutableArray *poolerList;
-
--(IBAction)switchPagePoolerStatistics:(id)sender;
 
 @end

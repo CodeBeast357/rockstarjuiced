@@ -12,38 +12,45 @@
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 
 @implementation ViewStatisticsController
-@synthesize poolersStatitisticsTable,poolerList,poolerStatisticsController;
+@synthesize poolerList;
 
 
 
-//Source: http://stackoverflow.com/questions/772182/iphone-uiviewcontroller-init-method-not-being-called
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
-        
-		mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
-		
-    }
-    return self;
+- (id)init {
+	if (![super init])
+		return nil;
+	
+	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
+	[[PoolerList getInstance] sortByTotalPoints];
+	poolerList= [[PoolerList getInstance] poolerList];
+	
+	colours = [[NSArray alloc] initWithObjects:
+			   [UIColor redColor],
+			   [UIColor blueColor],
+			   [UIColor greenColor],
+			   [UIColor magentaColor],
+			   [UIColor yellowColor],
+			   [UIColor whiteColor],
+			   [UIColor grayColor],
+			   [UIColor lightGrayColor],
+			   [UIColor purpleColor],
+			   [UIColor orangeColor],
+			   nil];
+	
+	return self;
 }
+
 
 - (void) viewDidLoad{
 	[super viewDidLoad];
 	
 	self.title = @"Poolers Statistics";
 	
-	[[PoolerList getInstance] sortByTotalPoints];
-	poolerList= [[PoolerList getInstance] poolerList];
-
-	
-	UILabel *headerLabel = [[[UILabel alloc] initWithFrame: CGRectMake(0, 0, 320, 50)] autorelease];
-	headerLabel.font = [UIFont fontWithName:@"Courier New" size:20];
-	headerLabel.backgroundColor = [UIColor blackColor];
-	headerLabel.textColor = [UIColor whiteColor];
-	headerLabel.text = @" RNK Pooler Name   Points";
-	poolersStatitisticsTable.tableHeaderView = headerLabel;
+	self.gridView.gridDelegate = self;
+	self.gridView.dataSource = self;
+	self.gridView.bounces = YES;
 	
 }
-
 
 
 - (void)didReceiveMemoryWarning {
@@ -57,156 +64,153 @@
 }
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation{
-
+	
 	
 	return YES;
 }
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-	static NSString* identifier = @"origin";
-	UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] init] autorelease];
-	}
-	
-	cell.font=[UIFont fontWithName:@"Courier New" size:20];
-	
-	//RANK
-	NSString *rank= [NSString stringWithFormat:@"%d",indexPath.row+1];
-	NSString *shortRank= rank;
-	//minimize
-	if(rank.length > 3){
-		shortRank= [rank substringToIndex:3];
-	}
-	//padding
-	while(shortRank.length!=3){
-		shortRank= [shortRank stringByAppendingString:@" "];
-	}
-	
-	//POOLER NAME
-	Pooler *pooler= [poolerList objectAtIndex:indexPath.row];
-	NSString *poolerName= pooler.poolerName;
-	
-	NSString *shortName= poolerName;
-	//minimize
-	if(poolerName.length > 13){
-		shortName= [poolerName substringToIndex:13];
-	}
-	//padding
-	while(shortName.length!=13){
-		shortName= [shortName stringByAppendingString:@" "];
-	}
-	
-	//TOTAL POINT
-	NSString *totalPoint= [NSString stringWithFormat:@"%d",pooler.totalPoint];
-	NSString *shortTotalPoint= totalPoint;
-	//minimize
-	if(totalPoint.length > 6){
-		shortTotalPoint= [totalPoint substringToIndex:6];
-	}
-	//padding
-	while(shortTotalPoint.length!=6){
-		shortTotalPoint= [shortTotalPoint stringByAppendingString:@" "];
-	}
-	
-	
-	
-	
-	//"%3d Pooler Name   Points";
-	
-	cell.textLabel.text = [NSString stringWithFormat:@"%@ %@ %@",shortRank,shortName,shortTotalPoint];
-	
-	return cell;
-}
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [poolerList count];
+- (NSInteger)spacingBetweenRowsInGridView:(DTGridView *)gridView {
+	return 7;
 }
 
- 
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-	return 1;
+- (NSInteger)spacingBetweenColumnsInGridView:(DTGridView *)gridView {
+	return 4;
+}
+- (NSInteger)numberOfRowsInGridView:(DTGridView *)gridView {
+	return 10;
+}
+- (NSInteger)numberOfColumnsInGridView:(DTGridView *)gridView forRowWithIndex:(NSInteger)index {
+	return 10;
 }
 
-//Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	
-	PoolerStatisticsController *poolerStatistics = [[PoolerStatisticsController alloc]
-													initWithNibName:@"PoolerStatistics" bundle:[NSBundle mainBundle]];
-	self.poolerStatisticsController = poolerStatistics;
-	
-	
-	[poolerStatistics release];
-	
-	
-	[self.navigationController pushViewController:self.poolerStatisticsController animated:YES];
-	
+- (CGFloat)gridView:(DTGridView *)gridView heightForRow:(NSInteger)rowIndex {
+	return 100.0;
 }
-
--(IBAction)switchPagePoolerStatistics:(id)sender{
+- (CGFloat)gridView:(DTGridView *)gridView widthForCellAtRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
 	
+	return 100.0;
 	
-
-	
-	
-}
-
-/*
-//http://www.iphonedevsdk.com/forum/iphone-sdk-development/5172-font-size-color-tableview-header.html									  
-- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-	{
-		// create the parent view that will hold header Label
-		UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 44.0)];
-		
-		// create the button object
-		UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
-		headerLabel.backgroundColor = [UIColor clearColor];
-		headerLabel.opaque = NO;
-		headerLabel.textColor = [UIColor blackColor];
-		headerLabel.highlightedTextColor = [UIColor whiteColor];
-		headerLabel.font = [UIFont boldSystemFontOfSize:20];
-		headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
-		
-		// If you want to align the header text as centered
-		// headerLabel.frame = CGRectMake(150.0, 0.0, 300.0, 44.0);
-		
-		headerLabel.text = @"RNK Pooler Name    -Points";
-		[customView addSubview:headerLabel];
-		
-		return customView;
+	if (rowIndex == 0) {
+		if (columnIndex == 0)
+			return 120.0;
+		else if (columnIndex == 1)
+			return 200.0;
+		else if (columnIndex == 2)
+			return 20.0;
+		else if (columnIndex == 3)
+			return 60.0;
+		else if (columnIndex == 4)
+			return 100.0;
+	} else if (rowIndex == 1){
+		if (columnIndex == 0)
+			return 30.0;
+		else if (columnIndex == 1)
+			return 170.0;
+		else if (columnIndex == 2)
+			return 200.0;
+		else if (columnIndex == 3)
+			return 40.0;
+		else if (columnIndex == 4)
+			return 60.0;
+	} else if (rowIndex == 2){
+		if (columnIndex == 0)
+			return 30.0;
+		else if (columnIndex == 1)
+			return 160.0;
+		else if (columnIndex == 2)
+			return 110.0;
+		else if (columnIndex == 3)
+			return 70.0;
+		else if (columnIndex == 4)
+			return 130.0;
+	} else if (rowIndex == 3) {
+		if (columnIndex == 0)
+			return 100.0;
+		else if (columnIndex == 1)
+			return 100.0;
+		else if (columnIndex == 2)
+			return 100.0;
+		else if (columnIndex == 3)
+			return 100.0;
+		else if (columnIndex == 4)
+			return 100.0;
+	} else if (rowIndex == 4){
+		if (columnIndex == 0)
+			return 100.0;
+		else if (columnIndex == 1)
+			return 100.0;
+		else if (columnIndex == 2)
+			return 100.0;
+		else if (columnIndex == 3)
+			return 100.0;
+		else if (columnIndex == 4)
+			return 100.0;
+	} else if (rowIndex == 5){
+		if (columnIndex == 0)
+			return 100.0;
+		else if (columnIndex == 1)
+			return 100.0;
+		else if (columnIndex == 2)
+			return 100.0;
+		else if (columnIndex == 3)
+			return 100.0;
+		else if (columnIndex == 4)
+			return 100.0;
+	} else if (rowIndex == 6){
+		if (columnIndex == 0)
+			return 100.0;
+		else if (columnIndex == 1)
+			return 100.0;
+		else if (columnIndex == 2)
+			return 100.0;
+		else if (columnIndex == 3)
+			return 100.0;
+		else if (columnIndex == 4)
+			return 100.0;
+	} else if (rowIndex == 7) {
+		if (columnIndex == 0)
+			return 100.0;
+		else if (columnIndex == 1)
+			return 100.0;
+		else if (columnIndex == 2)
+			return 100.0;
+		else if (columnIndex == 3)
+			return 100.0;
+		else if (columnIndex == 4)
+			return 100.0;
 	}
- */
+	return 150.0;
+}
 
-
-//Source: http://stackoverflow.com/questions/356882/how-can-i-display-one-uiview-in-landscape
-/*- (void) viewWillAppear:(BOOL)animated{
+//- (NSNumber *)gridView:(DTGridView *)gridView heightForRowAtIndex:(NSInteger)index;
+- (DTGridViewCell *)gridView:(DTGridView *)gv viewForRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
 	
+	DTGridViewCell *view = [[gv dequeueReusableCellWithIdentifier:@"cell"] retain];
 	
-	[UIView beginAnimations:@"View Flip" context:nil];
-	[UIView setAnimationDuration:1.25];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	      
-	if (self.interfaceOrientation == UIInterfaceOrientationPortrait) {
-		
-		[UIApplication sharedApplication].statusBarOrientation = UIInterfaceOrientationLandscapeRight;
-        self.view.transform = CGAffineTransformIdentity;
-        self.view.transform = CGAffineTransformMakeRotation(degreesToRadian(90));
-        self.view.bounds = CGRectMake(0.0, 0.0, 480, 320);
-		
-		/*
-		self.navigationController.navigationBar.transform = CGAffineTransformIdentity;
-		self.navigationController.navigationBar.transform = CGAffineTransformMakeRotation(degreesToRadian(90));
-		self.navigationController.navigationBar.bounds = CGRectMake(0.0, 0.0, 480, 50);
-		self.navigationController.navigationBar.transform = CGAffineTransformMakeTranslation(150, 100);
-		 */
-
-		
-	//}
-	//[UIView commitAnimations];
+	if (!view) {
+		view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"cell"];
+	}
 	
+	if(rowIndex==0){
+		view.backgroundColor= [UIColor blackColor];
+	}
+	else if(rowIndex%2==0){
+		view.backgroundColor= [UIColor blueColor];
+	}
+	else{
+		view.backgroundColor= [UIColor grayColor];
+	}
+	//[colours objectAtIndex:(random() % 10)];
+	view.identifier=@"super";
+	
+	return [view autorelease];
+}
 
-//}
+- (void)gridView:(DTGridView *)gridView selectionMadeAtRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
+	NSLog(@"%@:%s", self, _cmd);
+}
+
+- (void)gridView:(DTGridView *)gridView scrolledToEdge:(DTGridViewEdge)edge {
+}
 
 
 @end

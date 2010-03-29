@@ -119,17 +119,13 @@
 {
 	
 	
-	//if(self.viewStatisticsController == nil)
-	//{
-		ViewStatisticsController *viewStatistics = [[ViewStatisticsController alloc]
-										initWithNibName:@"ViewStatistics" bundle:[NSBundle mainBundle]];
-		self.viewStatisticsController = viewStatistics;
-		
-		
-		[viewStatistics release];
-		
-	//}
-		
+	
+	ViewStatisticsController *viewStatistics = [[ViewStatisticsController alloc] init];
+	self.viewStatisticsController = viewStatistics;
+	
+	[viewStatistics release];
+	
+	
 	[self.navigationController pushViewController:self.viewStatisticsController animated:YES];
 	
 	
