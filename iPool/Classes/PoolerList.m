@@ -49,4 +49,10 @@ static PoolerList *instance = nil;
 	[poolerList sortUsingDescriptors:[NSArray arrayWithObject:totalPointsSorter]];
 }
 
+- (void) resetList
+{
+	[poolerList removeAllObjects];
+}
+
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "Settings.h"
+#import "PoolerList.h"
 
 /*
  http://stackoverflow.com/questions/145154/what-does-your-objective-c-singleton-look-like/145403#145403
@@ -59,7 +60,7 @@ static Settings *instance = nil;
 	if (self = [super init]) {
 		
 		// Initialisation
-		
+		poolName = @"Default";
 		numberOfPlayers = 2;
 		
 		offencePlayerTotal = 2;
@@ -96,6 +97,15 @@ static Settings *instance = nil;
     return UINT_MAX;  // denotes an object that cannot be released
 }
 
+- (void) resetPool {
+	[self setSaved: NO];
+	
+	// Empty Poolers List
+	PoolerList *poolers = [PoolerList getInstance];
+	[poolers resetList];
+	
+}
+
 - (void)release {
     //do nothing
 }
@@ -112,7 +122,7 @@ static Settings *instance = nil;
 		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsReset" object:nil];
 		
 		// Réinitialisation
-		
+		poolName = @"Default";
 		numberOfPlayers = 2;
 		
 		offencePlayerTotal = 2;

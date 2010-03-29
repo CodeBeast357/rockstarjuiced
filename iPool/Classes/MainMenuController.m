@@ -140,9 +140,33 @@
 	}
 }
 
+- (void)showConfirmAlert
+{
+	UIAlertView *alert = [[UIAlertView alloc] init];
+	[alert setTitle:@"Please confirm"];
+	[alert setMessage:@"Are you sure you want to reset the Pool? This action is irreversible."];
+	[alert setDelegate:self];
+	[alert addButtonWithTitle:@"Yes"];
+	[alert addButtonWithTitle:@"No"];
+	[alert show];
+	[alert release];
+}
 
-- (IBAction) changeSettings:(id)sender {
-	NSLog(@"Allo");
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if (buttonIndex == 0)
+	{
+		Settings *settings = [Settings getInstance];
+		[settings resetPool];
+	}
+	else if (buttonIndex == 1)
+	{
+		// No
+	}
+}
+
+- (IBAction) resetPool:(id)sender {
+	[self showConfirmAlert];
 }
 
 - (void) changeAllVisible:(NSNotification *)notify {
@@ -151,6 +175,7 @@
 
 -(IBAction) switchViewSettings:(id)sender {
 }
+
 
 -(void) changeSettingsVisible:(NSNotification *)notify {
 	resetSettings.hidden = YES;

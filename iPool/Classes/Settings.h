@@ -35,6 +35,8 @@
 
 + (Settings*)getInstance;
 
+- (void) resetPool;
+
 @property (nonatomic, retain) NSString* poolName;
 @property (nonatomic, assign) int offencePlayerTotal;
 @property (nonatomic, assign) int defencePlayerTotal;
@@ -54,5 +56,7 @@
 @property (nonatomic, assign) int goalerPointsPerOTLoss;
 @property (nonatomic, assign) int goalerPointsPerShoutout;
 @property (nonatomic, assign) BOOL saved;
+
+
 
 @end
