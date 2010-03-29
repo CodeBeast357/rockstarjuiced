@@ -10,17 +10,22 @@
 #import <UIKit/UIKit.h>
 #import "Delegate.h"
 #import "PoolerList.h"
+#import "PoolerStatisticsController.h"
 
 
 @interface ViewStatisticsController : UIViewController <UITableViewDataSource, UITableViewDelegate> {
 	Delegate *mainDelegate;
+	PoolerStatisticsController* poolerStatisticsController;
 	
 	IBOutlet UITableView* poolersStatitisticsTable;
 	
 	NSMutableArray *poolerList;
 }
 
+@property (nonatomic, retain) PoolerStatisticsController* poolerStatisticsController;
 @property (nonatomic, retain) UITableView* poolersStatitisticsTable;
 @property (nonatomic, retain) NSMutableArray *poolerList;
+
+-(IBAction)switchPagePoolerStatistics:(id)sender;
 
 @end

@@ -29,6 +29,8 @@
 		E05172F7115852F900A38FE7 /* red_cross.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F6115852F900A38FE7 /* red_cross.png */; };
 		E05172F91158530200A38FE7 /* green_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F81158530200A38FE7 /* green_tick.png */; };
 		E051741B1158774B00A38FE7 /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */; };
+		E05F060E11613EC800E81CB9 /* PoolerStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05F060D11613EC800E81CB9 /* PoolerStatistics.xib */; };
+		E05F061A1161413F00E81CB9 /* PoolerStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E05F06191161413F00E81CB9 /* PoolerStatisticsController.m */; };
 		E0B60AB8114F063B005F222D /* ViewStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */; };
 		FA96F32D1158404F00ABCBFC /* Goalie.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3261158404F00ABCBFC /* Goalie.m */; };
 		FA96F32E1158404F00ABCBFC /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = FA96F3281158404F00ABCBFC /* Player.m */; };
@@ -75,6 +77,9 @@
 		E05172F81158530200A38FE7 /* green_tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_tick.png; path = Media/green_tick.png; sourceTree = "<group>"; };
 		E051741A1158774B00A38FE7 /* SplashScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashScreenController.m; sourceTree = "<group>"; };
 		E051741C1158775300A38FE7 /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
+		E05F060D11613EC800E81CB9 /* PoolerStatistics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoolerStatistics.xib; sourceTree = "<group>"; };
+		E05F06181161413F00E81CB9 /* PoolerStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoolerStatisticsController.h; sourceTree = "<group>"; };
+		E05F06191161413F00E81CB9 /* PoolerStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoolerStatisticsController.m; sourceTree = "<group>"; };
 		E0B60AB6114F063B005F222D /* ViewStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewStatisticsController.h; sourceTree = "<group>"; };
 		E0B60AB7114F063B005F222D /* ViewStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewStatisticsController.m; sourceTree = "<group>"; };
 		FA96F3251158404F00ABCBFC /* Goalie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goalie.h; sourceTree = "<group>"; };
@@ -144,6 +149,8 @@
 				65B637D4115821DD00F90E0E /* Pooler.m */,
 				C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */,
 				C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */,
+				E05F06181161413F00E81CB9 /* PoolerStatisticsController.h */,
+				E05F06191161413F00E81CB9 /* PoolerStatisticsController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -190,6 +197,7 @@
 				A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */,
 				A90EFE310F77E39700AB789A /* MainMenu.xib */,
 				FAD4E478114F01C2003A1BB5 /* Settings.xib */,
+				E05F060D11613EC800E81CB9 /* PoolerStatistics.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -269,6 +277,7 @@
 				C2EEE08F115A4AC90057FE0D /* SelectTeam.xib in Resources */,
 				C2EEE091115A4ADD0057FE0D /* SelectPlayer.xib in Resources */,
 				C22F0BC51161137600D101C8 /* ViewStatistics.xib in Resources */,
+				E05F060E11613EC800E81CB9 /* PoolerStatistics.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +305,7 @@
 				C2EEE0A1115A4C660057FE0D /* SelectTeamController.m in Sources */,
 				C2EEE0A6115A4C8E0057FE0D /* SelectPlayerController.m in Sources */,
 				861B13C9115FB98E00B01E9A /* PoolerList.m in Sources */,
+				E05F061A1161413F00E81CB9 /* PoolerStatisticsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

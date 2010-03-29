@@ -12,7 +12,7 @@
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 
 @implementation ViewStatisticsController
-@synthesize poolersStatitisticsTable,poolerList;
+@synthesize poolersStatitisticsTable,poolerList,poolerStatisticsController;
 
 
 
@@ -37,11 +37,13 @@
 	
 	UILabel *headerLabel = [[[UILabel alloc] initWithFrame: CGRectMake(0, 0, 320, 50)] autorelease];
 	headerLabel.font = [UIFont fontWithName:@"Courier New" size:20];
+	headerLabel.backgroundColor = [UIColor blackColor];
+	headerLabel.textColor = [UIColor whiteColor];
 	headerLabel.text = @" RNK Pooler Name   Points";
 	poolersStatitisticsTable.tableHeaderView = headerLabel;
 	
-	
 }
+
 
 
 - (void)didReceiveMemoryWarning {
@@ -130,6 +132,22 @@
 //Source : http://www.iphonedevsdk.com/forum/iphone-sdk-development/2769-digging-how-pass-values-between-views.html
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
+	PoolerStatisticsController *poolerStatistics = [[PoolerStatisticsController alloc]
+													initWithNibName:@"PoolerStatistics" bundle:[NSBundle mainBundle]];
+	self.poolerStatisticsController = poolerStatistics;
+	
+	
+	[poolerStatistics release];
+	
+	
+	[self.navigationController pushViewController:self.poolerStatisticsController animated:YES];
+	
+}
+
+-(IBAction)switchPagePoolerStatistics:(id)sender{
+	
+	
+
 	
 	
 }
