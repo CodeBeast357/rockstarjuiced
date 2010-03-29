@@ -38,6 +38,8 @@
 	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeOptionVisible:) name:@"settingsChanged" object: nil];
 	//sinscrire pour recevoir changement de la page AddPooler
 	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeAllVisible:) name:@"poolerAdded" object: nil];
+	//sinscrire pour recevoir changement de reset pool
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changeSettingsVisible:) name:@"settingsReset" object: nil];
 	
 	self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     [self.navigationController setNavigationBarHidden:FALSE];
@@ -143,11 +145,20 @@
 	NSLog(@"Allo");
 }
 
-- (IBAction) changeAllVisible:(id)sender {
+- (void) changeAllVisible:(NSNotification *)notify {
 	showStats.hidden = NO;
 }
 
 -(IBAction) switchViewSettings:(id)sender {
+}
+
+-(void) changeSettingsVisible:(NSNotification *)notify {
+	resetSettings.hidden = YES;
+	showStats.hidden = YES;
+	showAddPooler.hidden =YES;
+	[showConfigSettings removeTarget:self action:@selector(switchViewSettings:) forControlEvents:UIControlEventTouchUpInside];
+	[showConfigSettings addTarget:self action:@selector(switchPageSettings:) forControlEvents:UIControlEventTouchUpInside];
+	[showConfigSettings setTitle:@"Configure Pool Settings" forState:UIControlStateNormal];
 }
 
 @end

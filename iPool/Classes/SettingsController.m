@@ -118,7 +118,7 @@ lblPointPerShoutout;
 		settings.goalerPointsPerShoutout = [txtFieldPointPerShoutout.text intValue];
 		
 		settings.saved = YES;
-		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsChanged" object:nil];
+		
 		[self dismissModalViewControllerAnimated:YES];
 		NSLog(@"nombre de joueur attaquant:%d",settings.offencePlayerTotal);
 	} else {

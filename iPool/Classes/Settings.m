@@ -104,4 +104,33 @@ static Settings *instance = nil;
     return self;
 }
 
+- (void)setSaved:(BOOL)value{
+	saved = value;
+	if (saved) {
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsChanged" object:nil];
+	} else {
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"settingsReset" object:nil];
+		
+		// Réinitialisation
+		
+		numberOfPlayers = 2;
+		
+		offencePlayerTotal = 2;
+		offencePointsPerGoal = 1;
+		offencePointsPerAssist = 1;
+		offenceDifferentialActivated = NO;
+		
+		defencePlayerTotal = 0;
+		defencePointsPerGoal = 0;
+		defencePointsPerAssist = 0;
+		defenceDifferentialActivated = NO;
+		
+		goaliePlayerTotal = 0;
+		goalerPointsPerWin = 0;
+		goalerPointsPerOTLoss = 0;
+		goalerPointsPerShoutout = 0;
+	}
+
+}
+
 @end

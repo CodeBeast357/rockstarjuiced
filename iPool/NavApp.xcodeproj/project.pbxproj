@@ -18,6 +18,7 @@
 		A90EFE2E0F77E27800AB789A /* MainMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90EFE2D0F77E27800AB789A /* MainMenuController.m */; };
 		A90EFE300F77E38C00AB789A /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */; };
 		A90EFE320F77E39700AB789A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90EFE310F77E39700AB789A /* MainMenu.xib */; };
+		C22F0BC51161137600D101C8 /* ViewStatistics.xib in Resources */ = {isa = PBXBuildFile; fileRef = C22F0BC41161137600D101C8 /* ViewStatistics.xib */; };
 		C2858C2D1145E87D004A4E7D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = C2858C2C1145E87D004A4E7D /* Settings.m */; };
 		C2B91EB311543C6900BB73ED /* splash_screen_v1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */; };
 		C2EEE08F115A4AC90057FE0D /* SelectTeam.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2EEE08E115A4AC90057FE0D /* SelectTeam.xib */; };
@@ -59,6 +60,7 @@
 		A90EFE2D0F77E27800AB789A /* MainMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuController.m; sourceTree = "<group>"; };
 		A90EFE2F0F77E38C00AB789A /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 		A90EFE310F77E39700AB789A /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C22F0BC41161137600D101C8 /* ViewStatistics.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewStatistics.xib; sourceTree = "<group>"; };
 		C2858C2B1145E87D004A4E7D /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
 		C2858C2C1145E87D004A4E7D /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		C2B91EB211543C6900BB73ED /* splash_screen_v1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = splash_screen_v1.jpg; path = Media/splash_screen_v1.jpg; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C22F0BC41161137600D101C8 /* ViewStatistics.xib */,
 				C2EEE090115A4ADD0057FE0D /* SelectPlayer.xib */,
 				C2EEE08E115A4AC90057FE0D /* SelectTeam.xib */,
 				FAAA291B114F126C00EADD2B /* AddPooler.xib */,
@@ -265,6 +268,7 @@
 				E05172F91158530200A38FE7 /* green_tick.png in Resources */,
 				C2EEE08F115A4AC90057FE0D /* SelectTeam.xib in Resources */,
 				C2EEE091115A4ADD0057FE0D /* SelectPlayer.xib in Resources */,
+				C22F0BC51161137600D101C8 /* ViewStatistics.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
