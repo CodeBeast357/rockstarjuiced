@@ -29,6 +29,7 @@
 		E05172F91158530200A38FE7 /* green_tick.png in Resources */ = {isa = PBXBuildFile; fileRef = E05172F81158530200A38FE7 /* green_tick.png */; };
 		E051741B1158774B00A38FE7 /* SplashScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = E051741A1158774B00A38FE7 /* SplashScreenController.m */; };
 		E0B60AB8114F063B005F222D /* ViewStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B60AB7114F063B005F222D /* ViewStatisticsController.m */; };
+		E0D619CE11616CA000E1C389 /* ViewPoolerStatisticsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D619CD11616CA000E1C389 /* ViewPoolerStatisticsController.m */; };
 		FA4A46AA116150F60001B54A /* DTGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4A46A4116150F60001B54A /* DTGridView.m */; };
 		FA4A46AB116150F60001B54A /* DTGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4A46A6116150F60001B54A /* DTGridViewCell.m */; };
 		FA4A46AC116150F60001B54A /* DTGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4A46A9116150F60001B54A /* DTGridViewController.m */; };
@@ -78,6 +79,8 @@
 		E051741C1158775300A38FE7 /* SplashScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreenController.h; sourceTree = "<group>"; };
 		E0B60AB6114F063B005F222D /* ViewStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewStatisticsController.h; sourceTree = "<group>"; };
 		E0B60AB7114F063B005F222D /* ViewStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewStatisticsController.m; sourceTree = "<group>"; };
+		E0D619CC11616CA000E1C389 /* ViewPoolerStatisticsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPoolerStatisticsController.h; sourceTree = "<group>"; };
+		E0D619CD11616CA000E1C389 /* ViewPoolerStatisticsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPoolerStatisticsController.m; sourceTree = "<group>"; };
 		FA4A46A3116150F60001B54A /* DTGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridView.h; sourceTree = "<group>"; };
 		FA4A46A4116150F60001B54A /* DTGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGridView.m; sourceTree = "<group>"; };
 		FA4A46A5116150F60001B54A /* DTGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGridViewCell.h; sourceTree = "<group>"; };
@@ -152,6 +155,8 @@
 				65B637D4115821DD00F90E0E /* Pooler.m */,
 				C2EEE0A4115A4C8E0057FE0D /* SelectPlayerController.h */,
 				C2EEE0A5115A4C8E0057FE0D /* SelectPlayerController.m */,
+				E0D619CC11616CA000E1C389 /* ViewPoolerStatisticsController.h */,
+				E0D619CD11616CA000E1C389 /* ViewPoolerStatisticsController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				FA4A46AA116150F60001B54A /* DTGridView.m in Sources */,
 				FA4A46AB116150F60001B54A /* DTGridViewCell.m in Sources */,
 				FA4A46AC116150F60001B54A /* DTGridViewController.m in Sources */,
+				E0D619CE11616CA000E1C389 /* ViewPoolerStatisticsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

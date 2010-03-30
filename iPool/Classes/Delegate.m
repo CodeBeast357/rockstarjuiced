@@ -12,7 +12,7 @@
 
 @synthesize window;
 @synthesize navigationController;
-@synthesize teamSelected, poolerTmp, playerTypeTmp, playerIndexTmp;
+@synthesize teamSelected, poolerTmp, playerTypeTmp, playerIndexTmp,row;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
@@ -20,6 +20,8 @@
     // Override point for customization after application launch
 	[window addSubview:[navigationController view]];
     [window makeKeyAndVisible];
+	
+	[[NSNotificationCenter defaultCenter] addObserver:self selector: @selector(changePage:) name:@"changePage" object: nil];
 	
 }
 
@@ -186,6 +188,21 @@ exit(0);
 	}
 	
 	return valid;
+}
+
+
+- (void) changePage:(NSNotification *)notify{
+	
+	ViewPoolerStatisticsController *viewStatistics = [[ViewPoolerStatisticsController alloc] init];
+	//self.viewStatisticsController = viewStatistics;
+
+	row = [[notify object] intValue];
+	
+	[self.navigationController pushViewController:viewStatistics animated:YES];
+	
+	[viewStatistics release];
+	
+	
 }
 
 @end

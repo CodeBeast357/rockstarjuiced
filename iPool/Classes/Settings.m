@@ -69,14 +69,14 @@ static Settings *instance = nil;
 		offenceDifferentialActivated = NO;
 		
 		defencePlayerTotal = 0;
-		defencePointsPerGoal = 0;
-		defencePointsPerAssist = 0;
+		defencePointsPerGoal = 2;
+		defencePointsPerAssist = 1;
 		defenceDifferentialActivated = NO;
 		
 		goaliePlayerTotal = 0;
-		goalerPointsPerWin = 0;
-		goalerPointsPerOTLoss = 0;
-		goalerPointsPerShoutout = 0;
+		goalerPointsPerWin = 2;
+		goalerPointsPerOTLoss = 1;
+		goalerPointsPerShoutout = 2;
 		
 		saved = NO;
 

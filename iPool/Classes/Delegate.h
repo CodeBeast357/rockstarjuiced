@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Pooler.h"
+#import "ViewPoolerStatisticsController.h"
 
 @interface Delegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
@@ -17,8 +18,11 @@
 	int playerTypeTmp;
 	int playerIndexTmp;
 	
+	int row;
+	
 }
 
+@property (nonatomic, assign) int row;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, assign) int teamSelected;
@@ -28,7 +32,8 @@
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex;
 - (int)validateNumericInput:(NSString*) input;
-- (int)validateMessageInput:(NSString*) input; 
+- (int)validateMessageInput:(NSString*) input;
+- (void) changePage:(NSNotification *)notify;
 
 @end
 

@@ -1,28 +1,32 @@
 //
-//  viewStatisticsController.m
+//  ViewPoolerStatisticsController.m
 //  NavApp
 //
-//  Created by Monarque, François on 10-03-15.
+//  Created by Monarque, François on 10-03-29.
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
-//Source : http://www.iphonesdkarticles.com/2008/08/table-view-tutorial-tableview-cell.html
 
-#import "ViewStatisticsController.h"
+#import "ViewPoolerStatisticsController.h"
 
 #define degreesToRadian(x) (M_PI * (x) / 180.0)
 
-@implementation ViewStatisticsController
-@synthesize poolerList;
 
-
+@implementation ViewPoolerStatisticsController
+@synthesize poolerList,forwardsList,defencemenList,goaliesList;
 
 - (id)init {
 	if (![super init])
 		return nil;
 	
-	mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	[[PoolerList getInstance] sortByTotalPoints];
 	poolerList= [[PoolerList getInstance] poolerList];
+	Delegate *delegate= (Delegate *)[[UIApplication sharedApplication] delegate];
+	NSLog(@"pooler:%d", delegate.row);
+	Pooler *pooler= [poolerList objectAtIndex:delegate.row];
+	
+	forwardsList= pooler.forwardsList;
+	defencemenList= pooler.defencemenList;
+	goaliesList= pooler.goaliesList;
 	
 	
 	
@@ -66,7 +70,7 @@
 }
 - (NSInteger)numberOfRowsInGridView:(DTGridView *)gridView {
 	NSLog(@"count:%d",[poolerList count]);
-	return [poolerList count]+1;
+	return [forwardsList count]+1;
 }
 - (NSInteger)numberOfColumnsInGridView:(DTGridView *)gridView forRowWithIndex:(NSInteger)index {
 	return 4;
@@ -180,31 +184,31 @@
 	
 	if(rowIndex==0){
 		if(columnIndex==0){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@""];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"PLAYER"];
 		}
 		else if(columnIndex==1){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"RNK"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GOALS"];
 		}
 		else if(columnIndex==2){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"NAME"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"ASSITS"];
 		}
 		else if(columnIndex==3){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"TOT PTS"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"+/-"];
 		}
 		
 	}
 	else{
 		if(columnIndex==0){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"View Pooler"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[[forwardsList objectAtIndex:rowIndex-1] firstName]];
 		}
 		if(columnIndex==1){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",rowIndex]];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] goals]]];
 		}
 		if(columnIndex==2){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[[poolerList objectAtIndex:rowIndex-1] poolerName]];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] assists]]];
 		}
 		if(columnIndex==3){
-				view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[poolerList objectAtIndex:rowIndex-1] totalPoint]]];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] differential]]];
 		}
 	}
 	
@@ -230,9 +234,6 @@
 		}
 	}
 	
-	view.row = rowIndex;
-	view.column = columnIndex;
-	 
 	
 	
 	

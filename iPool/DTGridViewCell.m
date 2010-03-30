@@ -7,10 +7,11 @@
 //
 
 #import "DTGridViewCell.h"
+#import "ViewPoolerStatisticsController.h"
 
 @implementation DTGridViewCell
 
-@synthesize xPosition, yPosition, identifier, delegate, selected,button;
+@synthesize xPosition, yPosition, identifier, delegate, selected,button,row,column;
 
 @dynamic frame;
 
@@ -18,6 +19,8 @@
 	
 	if (![super initWithFrame:CGRectZero])
 		return nil;
+	
+	//mainDelegate = (Delegate *)[[UIApplication sharedApplication] delegate];
 	
 	identifier = [anIdentifier copy];
 	//myLabel = [[UIButton alloc] initWithFrame:CGRectMake(0, 0,100, 100)];
@@ -29,7 +32,7 @@
     button.frame = CGRectMake(0, 0, 100, 50); // position in the parent view and set the size of the button
     [button setTitle:anIdentifier forState:UIControlStateNormal];
     // add targets and actions
-    //[myButton addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     // add to a view
     [self addSubview:button];
 	return self;
@@ -51,6 +54,15 @@
 - (void)dealloc {
 	[identifier release];
     [super dealloc];
+}
+
+-(void)buttonClicked:(id)sender{
+	
+	if(row != 0 && column == 0){
+		
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"changePage" object:[NSString stringWithFormat:@"%d",row-1]];
+		
+	}
 }
 
 @end
