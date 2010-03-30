@@ -18,11 +18,11 @@
 	int playerTypeTmp;
 	int playerIndexTmp;
 	
-	int row;
+	int cellRow;
 	
 }
 
-@property (nonatomic, assign) int row;
+@property (nonatomic, assign) int cellRow;
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
 @property (nonatomic, assign) int teamSelected;

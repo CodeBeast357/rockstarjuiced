@@ -23,8 +23,8 @@
 	NSInteger xPosition, yPosition;
 	NSString *identifier;
 	UIButton *button;
-	int row;
-	int column;
+	int myRow;
+	int myColumn;
 	
 	BOOL selected;
 	
@@ -33,8 +33,8 @@
 }
 
 
-@property (nonatomic,assign) int row;
-@property (nonatomic,assign) int column;
+@property (nonatomic,assign) int myRow;
+@property (nonatomic,assign) int myColumn;
 @property (assign) id delegate;
 @property (copy) NSString *identifier;
 @property (assign) BOOL selected;

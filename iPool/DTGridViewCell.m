@@ -11,7 +11,7 @@
 
 @implementation DTGridViewCell
 
-@synthesize xPosition, yPosition, identifier, delegate, selected,button,row,column;
+@synthesize xPosition, yPosition, identifier, delegate, selected,button,myRow,myColumn;
 
 @dynamic frame;
 
@@ -31,6 +31,7 @@
 	button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(0, 0, 100, 50); // position in the parent view and set the size of the button
     [button setTitle:anIdentifier forState:UIControlStateNormal];
+	
     // add targets and actions
     [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     // add to a view
@@ -58,9 +59,8 @@
 
 -(void)buttonClicked:(id)sender{
 	
-	if(row != 0 && column == 0){
-		
-		[[NSNotificationCenter defaultCenter] postNotificationName:@"changePage" object:[NSString stringWithFormat:@"%d",row-1]];
+	if(myRow != 0 && myColumn == 0){
+		[[NSNotificationCenter defaultCenter] postNotificationName:@"changePage" object:[NSString stringWithFormat:@"%d",myRow-1]];
 		
 	}
 }

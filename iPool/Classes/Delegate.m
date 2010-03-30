@@ -12,7 +12,7 @@
 
 @synthesize window;
 @synthesize navigationController;
-@synthesize teamSelected, poolerTmp, playerTypeTmp, playerIndexTmp,row;
+@synthesize teamSelected, poolerTmp, playerTypeTmp, playerIndexTmp,cellRow;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
@@ -193,10 +193,11 @@ exit(0);
 
 - (void) changePage:(NSNotification *)notify{
 	
-	ViewPoolerStatisticsController *viewStatistics = [[ViewPoolerStatisticsController alloc] init];
+	
 	//self.viewStatisticsController = viewStatistics;
 
-	row = [[notify object] intValue];
+	cellRow = [[notify object] intValue];
+	ViewPoolerStatisticsController *viewStatistics = [[ViewPoolerStatisticsController alloc] init];
 	
 	[self.navigationController pushViewController:viewStatistics animated:YES];
 	

@@ -21,8 +21,8 @@
 	[[PoolerList getInstance] sortByTotalPoints];
 	poolerList= [[PoolerList getInstance] poolerList];
 	Delegate *delegate= (Delegate *)[[UIApplication sharedApplication] delegate];
-	NSLog(@"pooler:%d", delegate.row);
-	Pooler *pooler= [poolerList objectAtIndex:delegate.row];
+	NSLog(@"pooler:%d", delegate.cellRow);
+	Pooler *pooler= [poolerList objectAtIndex:delegate.cellRow];
 	
 	forwardsList= pooler.forwardsList;
 	defencemenList= pooler.defencemenList;
@@ -69,11 +69,10 @@
 	return 4;
 }
 - (NSInteger)numberOfRowsInGridView:(DTGridView *)gridView {
-	NSLog(@"count:%d",[poolerList count]);
-	return [forwardsList count]+1;
+	return [forwardsList count]+[defencemenList count]+[goaliesList count]+6;
 }
 - (NSInteger)numberOfColumnsInGridView:(DTGridView *)gridView forRowWithIndex:(NSInteger)index {
-	return 4;
+	return 6;
 }
 
 - (CGFloat)gridView:(DTGridView *)gridView heightForRow:(NSInteger)rowIndex {
@@ -178,43 +177,168 @@
 //- (NSNumber *)gridView:(DTGridView *)gridView heightForRowAtIndex:(NSInteger)index;
 - (DTGridViewCell *)gridView:(DTGridView *)gv viewForRow:(NSInteger)rowIndex column:(NSInteger)columnIndex {
 	
-	DTGridViewCell *view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"info"];
+	DTGridViewCell *view = [[DTGridViewCell alloc] initWithReuseIdentifier:@""];
 	
-	view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"VIEW"];
+	view = [[DTGridViewCell alloc] initWithReuseIdentifier:@""];
 	
-	if(rowIndex==0){
+	
+	//TITLE FORWARD
+	if(rowIndex==0 && columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"FORWARD"];
+	}
+
+	//TITLE DEFENSE
+	else if(rowIndex==[forwardsList count]+2 && columnIndex==0){
+		view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"DEFENSE"];
+	}
+	
+	//TITLE GOALIE
+	else if(rowIndex==[forwardsList count]+[defencemenList count]+4 && columnIndex==0){
+		view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GOALIE"];
+	}
+	
+	//LABEL FORWARD
+	else if(rowIndex==1 ){
 		if(columnIndex==0){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"PLAYER"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"FIRST"];
 		}
-		else if(columnIndex==1){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GOALS"];
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"LAST"];
 		}
 		else if(columnIndex==2){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"ASSITS"];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GOALS"];
 		}
 		else if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"ASSITS"];
+		}
+		else if(columnIndex==4){
 			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"+/-"];
+		}
+		else if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GAMEPLAY"];
 		}
 		
 	}
-	else{
+	//LABEL DEFENCE
+	else if(rowIndex==[forwardsList count]+3  ){
 		if(columnIndex==0){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[[forwardsList objectAtIndex:rowIndex-1] firstName]];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"FIRST"];
 		}
 		if(columnIndex==1){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] goals]]];
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"LAST"];
 		}
-		if(columnIndex==2){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] assists]]];
+		else if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GOALS"];
 		}
-		if(columnIndex==3){
-			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-1] differential]]];
+		else if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"ASSITS"];
+		}
+		else if(columnIndex==4){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"+/-"];
+		}
+		else if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GP"];
+		}
+		
+	}
+	
+	//LABEL GOALIE 
+	else if(rowIndex==[forwardsList count]+[defencemenList count]+5){
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"FIRST"];
+		}
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"LAST"];
+		}
+		else if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"WIN"];
+		}
+		else if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"OTL"];
+		}
+		else if(columnIndex==4){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"SO"];
+		}
+		else if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:@"GP"];
 		}
 	}
 	
+	//FORWARD DATA
+	else if(rowIndex>1 && rowIndex<[forwardsList count]+2){
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[forwardsList objectAtIndex:rowIndex-2] firstName]]];
+		}
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[forwardsList objectAtIndex:rowIndex-2] lastName]]];
+		}
+		if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-2] goals]]];
+		}
+		if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-2] assists]]];
+		}
+		if(columnIndex==4){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-2] differential]]];
+		}		
+		if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[forwardsList objectAtIndex:rowIndex-2] gamePlay]]];
+		}
+	}
+			
+	//DEFENCE DATA
+	else if(rowIndex>[forwardsList count]+3 && rowIndex<[forwardsList count]+[defencemenList count]+4){
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4) ] firstName]]];
+		}
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4)] lastName]]];
+		}
+		if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4)] goals]]];
+		}
+		if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4)] assists]]];
+		}
+		if(columnIndex==4){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4)] differential]]];
+		}		
+		if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[defencemenList objectAtIndex:rowIndex-([forwardsList count]+4)] gamePlay]]];
+		}
+	}
+	
+	//GOALIE DATA
+	else if(rowIndex>[forwardsList count]+[defencemenList count]+5){
+		if(columnIndex==0){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] firstName]]];
+		}
+		if(columnIndex==1){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%@",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] lastName]]];
+		}
+		if(columnIndex==2){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] wins]]];
+		}
+		if(columnIndex==3){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] overtimeLosses]]];
+		}
+		if(columnIndex==4){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] shutouts]]];
+		}
+		if(columnIndex==5){
+			view = [[DTGridViewCell alloc] initWithReuseIdentifier:[NSString stringWithFormat:@"%d",[[goaliesList objectAtIndex:rowIndex-([forwardsList count]+[defencemenList count]+6)] gamePlay]]];
+		}
+
+	}
+
+	
 	
 	//COLOR
-	if(rowIndex==0){
+	if((rowIndex==0)|| (rowIndex==[forwardsList count]+2) || (rowIndex==[forwardsList count]+[defencemenList count]+4)){
+		view.button.titleLabel.backgroundColor=[UIColor blueColor];
+		//view.backgroundColor=[UIColor blueColor];
+	}
+	else if((rowIndex==1) || (rowIndex==[forwardsList count]+3) || (rowIndex==[forwardsList count]+[defencemenList count]+5) ){
 		view.backgroundColor= [UIColor blackColor];
 	}
 	else if(rowIndex%2==0){

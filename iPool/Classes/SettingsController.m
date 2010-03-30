@@ -195,8 +195,7 @@ lblPointPerShoutout;
 		txtFieldPointPerAssistFwd.enabled = NO;
 		switchPlusMinusFwd.enabled = NO;
 		
-		txtFieldPointPerGoalFwd.text = @"0";
-		txtFieldPointPerAssistFwd.text = @"0";
+
 	}
 	
 	if([txtFieldNumberOfDef.text intValue] > 0){
@@ -211,8 +210,6 @@ lblPointPerShoutout;
 		txtFieldPointPerAssistDef.enabled = NO;
 		switchPlusMinusDef.enabled = NO;
 		
-		txtFieldPointPerGoalDef.text = @"0";
-		txtFieldPointPerAssistDef.text = @"0";
 	}
 	
 	if([txtFieldNumberOfGoalie.text intValue] > 0){
@@ -227,9 +224,7 @@ lblPointPerShoutout;
 		txtFieldPointPerOT.enabled = NO;
 		txtFieldPointPerShoutout.enabled = NO;
 		
-		txtFieldPointPerWin.text = @"0";
-		txtFieldPointPerOT.text = @"0";
-		txtFieldPointPerShoutout.text = @"0";
+		
 	}
 	
 	if (advancedSettingsHidden) {
@@ -377,15 +372,9 @@ lblPointPerShoutout;
 			txtFieldNumberOfPlayers.enabled = NO;
 			
 			txtFieldNumberOfFwd.text = [txtFieldNumberOfPlayers.text copy];
-			txtFieldPointPerGoalFwd.text = @"0";
-			txtFieldPointPerAssistFwd.text = @"0";
 			txtFieldNumberOfDef.text = @"0";
-			txtFieldPointPerGoalDef.text = @"0";
-			txtFieldPointPerAssistDef.text = @"0";
 			txtFieldNumberOfGoalie.text = @"0";
-			txtFieldPointPerWin.text = @"0";
-			txtFieldPointPerOT.text = @"0";
-			txtFieldPointPerShoutout.text = @"0";
+
 			
 			imgValidNumberOfFwd.hidden = NO;
 			imgValidPointPerGoalFwd.hidden = NO;

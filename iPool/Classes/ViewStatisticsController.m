@@ -230,8 +230,8 @@
 		}
 	}
 	
-	view.row = rowIndex;
-	view.column = columnIndex;
+	view.myRow = rowIndex;
+	view.myColumn = columnIndex;
 	 
 	
 	
